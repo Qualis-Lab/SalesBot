@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="64abd961-30b3-4128-87fa-642fbb73ced9"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ExtraerDatos"
+	namespace="Qualis_Bot_SalesNavigator">
+	</codegen>
+	<variables>
+		<var
+		id="2fe17e89-d564-43eb-832f-8b412e95c8ef"
+		name="index">
+			1
+		</var>
+		<var
+		id="d632adf7-f5b0-48c1-ac01-95fbe977e55c"
+		name="Linkedin">
+			https://www.linkedin.com/sales/lead/ACwAACv7OpIBR6lrL8xDWDOmERx0VY-qID6Ygjw,NAME_SEARCH,-QMv?_ntb=uGcJ1ei%2BRJaDKr0E%2F0TMCw%3D%3D
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8fa82c66-dada-45b3-a44e-889c41ec12ba"
+		sx="1463"
+		sy="-1026"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="598eb009-a6f6-425a-9b4e-6f9cf8757888"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="1450,-1042,28,28"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						SalesQL Browser Extension
+Tiene acceso a este sitio
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						abrir
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						SalesQL Browser Extension
+Tiene acceso a este sitio
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						ButtonMenu
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable, HasPopup
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'Fernando Izquierdo | Sales']/container[@accessiblename&gt;'Fernando Izquierdo | Sales']/container[@accessiblerole='Pane']/container[@accessiblerole='Pane']/container[2]/container[1]/toolbar[@accessiblerole='ToolBar']/container[@accessiblerole='Pane']/button[@accessiblename&gt;'SalesQL Browser Extension']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="ad6ee99e-4b84-4354-842c-cc1e06e1d754">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8a206001-eeb6-44d2-accc-95655bb7326e"
+		sx="2700"
+		sy="255"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b74bdfe0-6def-4c1d-8faf-58e631b4e180"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="2684,236,34,34"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						SalesQL Browser Extension
+Tiene acceso a este sitio web
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						abrir
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						SalesQL Browser Extension
+Tiene acceso a este sitio web
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						ButtonMenu
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable, HasPopup
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@processname='chrome']//button[@accessiblename&gt;'SalesQL Browser Extension']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="5bd97fe3-aa3b-4b63-a270-2082b69a696c">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABCAMwDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDcoqby
+19KPLX0q+ZE2IaKm8tfSjy19KOZBYhqaNdq89TShQOgpaTdxpBRRRUjCiiigAoqjc6rBbTtC6SFl
+xkgDHTPrUX9u2v8Azzm/If41PMjZUKjV0jTorM/t21/55zfkP8aP7dtf+ec35D/Gjnj3H9Xq/wAp
+p0Vmf27a/wDPOb8h/jVyzu47yIyRhgA235h/n1oUk9iZUZwV5InoooqjIKKKKACiiigAooooAKKK
+KAI6KKqXRla6hhjlMYYMSQAemKYi3RVRt1opkmuXdSNvKjAPrxS2FwLi2U7izADccd6Blqiiop7i
+K3UGZ9oPQ4oES0VnfbSLvzTu+yY2btp69c4/SrkFxFcKTC+4DqcUDJg2OtPqOnoeKAM2D/kYbn/r
+mP8A2Wr5Yt0OB6+tZqH/AIn9yPWMD/0GtKoj1N628fRCbF7gH680BFH8K/lVaWUl1dXKoDj/AH6s
+RyrJnbnI6g9RVbq5g7J2vqSBEP8AAv5Vm6CqtZOSoP7w9R7CtFetZ/h//jxf/rof5CpfxI3h/Cl8
+v1NHy0/uL+VGxOwA+nFU7hpX1AQCdoVMeVwo+Y9+tRrpz2scjQ3cgyCx4ByaowNDlepyP5U6oLKX
+z7OKQsGYqN2PXvUqdCPQ4oAdRTSfnX8adQAUUVmS3sqyuomAAYjHkMf1zQBp0Vnm5uH+zJC6bpQ5
+LMhHT2rQGcc9aAI6q3KSi5hmjj8wIGBAIB5x61aopiMttWRpDA1sxYnYVJHXpirVmsqs4aLyYgAE
+TIOPXpVnauc7Rn6UtAwqK4VGt381QyBSSDUtFAjH33o0zZ5D4243bvm6+np2rUt1RbdPKUKhUEAV
+JRQMKcnSmgZqQDAoAyU/5GCc+iD+S1pMMqR6iqEIB8QXIPQxD+S1fPy8N+B9aiPU3rbx9EZ959oi
+MIt4kaVm2Dc3UBSePQnHWprGRbgGZcgD5NrfeBHXd6Gn3H/HzZ/9dj/6LeodRCWsou4pYopiMMkj
+hRMB257jsfw6VUdFYwepeHWs/wAP/wDHi/8A10P8hV+3kWaCOZQQsihhnrgjNUPD/wDx4v8A9dD/
+ACFS/iRvD+FL5fqPupkXU4xPII4413rkfeJyKfNqFo0MgE6ElSB+VXCAeoB+tGxf7o/KqMCrpUCw
+WMe3OXAds+pFWU/iPqaCd3C/ifSnAYGBQA1vvr+NOoooAKrfYx53mfaLj727b5h2/THpVmigDLtb
+a9/tQzXJJjXdtO7jn0HatSiigBNo9KNo9KWigBNo9KNo9KWigBNo9KNo9KWigBNo9KNo9KWigAoo
+ooAypob6LVJbi2hVw6hQWI9B7+1O87Vz/wAukP5j/wCKrToqeXzN/bXSvFMxZk1aQoUt4o2RiylS
+OCVI6bveq32W/t7dmMLhom82OUOrFcjD5yc8jnjvXR1Bff8AHhcf9cm/kaaVupEqif2V/XzMry9b
+/vN/30lWNNsJ4rdllllhO/O1CpB4HPQ1qHpxVWCVgjmV3aRVy0bALt+nTj3yfrSUdblSq3jypJC/
+ZX/5/Lj81/wo+yP3u5z9dh/9lpEvEl2OhwmWDcg9BnqM0i6hC6sVySpAwGU5ycDvj86oxJPs8n/P
+3N+Sf/E0eRJ/z9zfkn/xNITJNKVDvCFAJAALZP1yKSKaRpkRj0DhsDqQQAf1oAd5En/P3N+Sf/E0
+eRJ/z9zfkn/xNJeSMgiw7oGfBKLuOME9MH0oiuDtjVgzsVySAMAA4yff2oAXyJP+fub8k/8AiaPI
+k/5+5vyT/wCJpBdrjLRyICMqWA5Hr14698U43UY3fe+Vip49Bn+hoATyJP8An7m/JP8A4mjyJP8A
+n7m/JP8A4mmvfRpCsjqV3/dBZRkeuc4/WmS6nBFsyJGDqGBVc8UAXKKKKACiiigAooooAKKKKACi
+iigAooooAKgvv+PC4/65N/I0UUATN9w/SqN0SXjyf4F/9DWiihbgxG5ebP8Aff8A9AFXLf5rWPdz
+lBnPfiiijoHUqWny3SqOB5PQezHFFiSRak8kxOSfU5WiimCLM/8Arbf/AK6f+ytVe25J/wB1/wD0
+M0UUmMYhLwW+47s2rE55zwtPtv8Aj7i94M/jmiim9xdAAC6iAowC7ZA7/KDVXV/+Psf7g/maKKcN
+0B//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="80c583b8-14b4-47c5-b1f1-19a0882d7fe2"
+		sx="1443"
+		sy="-855"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5104c1b5-d0b6-40c0-a47f-4aa1b80b1a2f"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="1429,-868,25,25"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						add
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						add
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						hacer clic en principal
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						add
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						StaticText
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title='']/element[@controlid='87567552']/container[@accessiblename='SalesQL']/container[2]/container[5]/container[@accessiblerole='Grouping']/text[@accessiblename='add']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="04fc2b98-6e8f-4211-b3a2-0fc08111eae8">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="5a0a9cdc-a953-430e-bcdc-dfa049f5de65"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d8afebda-fc25-4157-b19b-923391f88001"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='']//container[@accessiblename='SalesQL']//container[@accessiblename~'email' and @accessiblename~'[0-9]' or @accessiblename~'phone ' and @accessiblename~'[0-9]']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="9d275c35-8cc8-43c7-8b04-e9fbf6b6c406"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="90092b64-6619-4290-992b-6865fdad0cec"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='']//container[@accessiblename='SalesQL']//container[@accessiblerole='Grouping']/text[@accessiblename='email']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		classname="ExtraerDatos"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ObtenerValoresEmail"
+		namespace="Qualis_Bot_SalesNavigator"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="4facf17e-c53c-4a6b-aed1-c55f22217d69">
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="c61c696a-2f64-4b1c-b631-fbd4fad679b0"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0f96f12e-43d8-4ca4-bc8e-bcf0358d08e3"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='']//button[@accessiblename='close']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="2782f9a1-4625-48a5-9599-6d3aa14ddc8d"
+		sx="1171"
+		sy="-828"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4c4e20ad-f2d4-4ae4-885b-dd11a724dc7d"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="1192,-836,16,17"
+				role="text"
+				snapElem=""
+				valid="False"
+				visible="True">
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					/form[@title='']//container[@accessiblename='SalesQL']//container[@accessiblerole='Grouping']/text[@accessiblename='phone']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		classname="ExtraerDatos"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ObtenerValoresPhone"
+		namespace="Qualis_Bot_SalesNavigator"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="c990b378-e888-4452-aa7d-523a912d1b73">
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="3f4ed5f0-8f1f-45a2-9129-0fdca1c2f004"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0f96f12e-43d8-4ca4-bc8e-bcf0358d08e3"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='']//button[@accessiblename='close']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="d96fb5c3-d3a8-4a95-889f-66e3feaf5d83"
+	name="Qualis_Bot_SalesNavigatorRepository"
+	relativepath="Qualis_Bot_SalesNavigatorRepository.rxrep">
+		<codegen
+		classname="Qualis_Bot_SalesNavigatorRepository"
+		namespace="Qualis_Bot_SalesNavigator">
+		</codegen>
+		<rootfolder
+		id="881b03a7-de86-41df-bc6e-b74240262674"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ExtraerDatos.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

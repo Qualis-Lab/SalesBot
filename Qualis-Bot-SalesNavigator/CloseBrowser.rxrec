@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7666c5fa-d022-4de7-9a74-5052e2f702ee"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="Qualis_Bot_SalesNavigator">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="1000ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="e8cb5af6-e64e-42f4-9c20-690fd92a7276">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="69f8ea21-5306-4680-8cf8-dd622b013713"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.linkedin.com']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="d96fb5c3-d3a8-4a95-889f-66e3feaf5d83"
+	name="Qualis_Bot_SalesNavigatorRepository"
+	relativepath="Qualis_Bot_SalesNavigatorRepository.rxrep">
+		<codegen
+		classname="Qualis_Bot_SalesNavigatorRepository"
+		namespace="Qualis_Bot_SalesNavigator">
+		</codegen>
+		<rootfolder
+		id="881b03a7-de86-41df-bc6e-b74240262674"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,23 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Qualis_Bot_SalesNavigator.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Qualis_Bot_SalesNavigator.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="Qualis_Bot_SalesNavigator.PagSiguiente.PaginaSiguiente()" />
+      <Element value="Qualis_Bot_SalesNavigator.ObtenerNumeroDeIteraciones.CrearCSV()" />
+      <Element value="Qualis_Bot_SalesNavigator.ValidacionEmpresaEIndustria.validacionEmpresa(String nombreEmpresa)" />
+      <Element value="Qualis_Bot_SalesNavigator.ValidacionEmpresaEIndustria.validacionEmpresa(String encontroEmpresa)" />
+      <Element value="Qualis_Bot_SalesNavigator.ValidacionEmpresaEIndustria.validacionEmpresa()" />
+      <Element value="Qualis_Bot_SalesNavigator.ClickEnGuardarLista.borrarEspacios()" />
+    </Array>
+  </Properties>
+</Properties>

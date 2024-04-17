@@ -1,0 +1,20 @@
+C:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\bin\Debug\Qualis_Bot_SalesNavigator.rxtmg
+C:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\bin\Debug\Qualis_Bot_SalesNavigator.rxtst
+C:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\bin\Debug\Qualis-Bot-SalesNavigator.exe.config
+C:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\bin\Debug\Qualis-Bot-SalesNavigator.xml
+C:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\bin\Debug\Qualis-Bot-SalesNavigator.exe
+C:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\bin\Debug\Qualis-Bot-SalesNavigator.pdb
+C:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\obj\x86\Debug\Qualis-Bot-SalesNavigator.csprojResolveAssemblyReference.cache
+C:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\obj\x86\Debug\Qualis-Bot-SalesNavigator.exe
+C:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\obj\x86\Debug\Qualis-Bot-SalesNavigator.pdb
+C:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\bin\Debug\Qualis_Bot_SalesNavigator.rxtmg
+C:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\bin\Debug\Qualis_Bot_SalesNavigator.rxtst
+C:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\bin\Debug\Qualis-Bot-SalesNavigator.exe.config
+C:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\bin\Debug\Qualis-Bot-SalesNavigator.xml
+C:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\bin\Debug\Qualis-Bot-SalesNavigator.exe
+C:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\bin\Debug\Qualis-Bot-SalesNavigator.pdb
+C:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\obj\x86\Debug\Qualis-Bot-SalesNavigator.csprojResolveAssemblyReference.cache
+C:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\obj\x86\Debug\Qualis-Bot-SalesNavigator.exe
+C:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\obj\x86\Debug\Qualis-Bot-SalesNavigator.pdb

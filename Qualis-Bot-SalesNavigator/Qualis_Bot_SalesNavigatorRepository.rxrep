@@ -1,0 +1,914 @@
+﻿<repository
+id="d96fb5c3-d3a8-4a95-889f-66e3feaf5d83"
+name="Qualis_Bot_SalesNavigatorRepository">
+	<codegen
+	classname="Qualis_Bot_SalesNavigatorRepository"
+	namespace="Qualis_Bot_SalesNavigator">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="881b03a7-de86-41df-bc6e-b74240262674"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="d8482183-938a-4f65-adf9-1f1438f09dc8"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain&gt;'https://www.linkedin.com/sales']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="69f8ea21-5306-4680-8cf8-dd622b013713"
+		isrooted="True"
+		name="InicioSalesNavigator"
+		refimgid="2ab630db-03b3-489d-9009-aa798f7e9555"
+		refpath="/dom[@domain='www.linkedin.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="89f6dd15-8a14-4946-9797-ff1dc94873d1"
+			name="GlobalTypeaheadSearchInput"
+			refimgid="41945475-beb6-45f2-b5d4-ae616d612687"
+			refpath="/dom[@domain='www.linkedin.com']//input[#'global-typeahead-search-input']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//input[#'global-typeahead-search-input']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="svgtag"
+			id="e73b391f-40bc-4e7a-bcb8-378d9bd6403f"
+			name="Ubicacion"
+			refimgid="69381690-6787-4da4-ade4-227813b0aea6"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//main[#'content-main']//fieldset[@title&gt;'Ubicaci&#243;n']/div/button/tag[@tagname='li-icon']/svg
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="d50c92b4-f8dd-476b-a458-01b76fe1a522"
+			name="Industria"
+			refimgid="69381690-6787-4da4-ade4-227813b0aea6"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//fieldset[@title='Industria']//button[@visible='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="c2114fad-5113-4b39-b644-20a726ac75aa"
+			name="TextUbicacion"
+			refimgid="6fbf3b4c-e3f7-4742-ba0f-85ea002f6d97"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//fieldset[@title&gt;'Ubicaci&#243;n']//input[@type='text']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="34055f46-5d04-4986-82c4-624659e166db"
+			name="TextIndustria"
+			refimgid="6fbf3b4c-e3f7-4742-ba0f-85ea002f6d97"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//fieldset[@title='Industria']//input[@type='text']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="divtag"
+			id="803b4053-a5a5-4bcc-b31b-254456958d89"
+			name="IncluirArgentinaEnElFiltroRegion"
+			refimgid="752939c0-298c-411a-bdd8-838c9f9eb3ce"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//main[#'content-main']//div[@title&gt;'Incluir &#171;'+$pais+'&#187; en el']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="4f9c02c7-5506-4d20-b97d-20e22fed6e79"
+			name="IncluirIndustriaEnElFiltroIndustria"
+			refimgid="752939c0-298c-411a-bdd8-838c9f9eb3ce"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//fieldset[@title='Industria']//button[@title&gt;'Incluir &#171;'+$Industria]
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="atag"
+			id="7af6cc06-909f-4092-a6ab-3019e5ed10c5"
+			name="ValidacionNombreEmpresaIndustria"
+			refimgid="7817728f-f8d1-42a9-841c-522ea4e9b1c0"
+			robustPath=""
+			searchtimeout="1000ms">
+				/dom[@domain='www.linkedin.com']//div[#'search-results-container']//a[@innertext=$nombreEmpresa]
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="unknown"
+			id="359c8191-b33a-4913-a502-d135cb214de2"
+			name="ImgValidacionNombreEmpresaIndustria"
+			refimgid="7817728f-f8d1-42a9-841c-522ea4e9b1c0"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'search-results-container']//span[@innertext=$Industria]/../../..//a[@innertext=$nombreEmpresa]/../../../..
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="c1fe81fd-02c1-459a-a7da-6e3054d73c32"
+			name="ResponsablesDeLasDecisiones855"
+			refimgid="481ef385-6884-49c7-b867-8cf3cd5346a8"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'account']//a[@innertext&gt;'Responsables de las decisiones' and @visible='True']
+			</item>
+			<folder
+			capname="unknown"
+			id="5675ae67-f850-438a-9e38-e379467d2f4c"
+			isrooted="False"
+			name="DatosAObtener"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="88fa706c-6948-4715-926e-6dea7b3010e1"
+				name="nombre"
+				refimgid="123d4e1e-fd5a-4950-a3d6-a6fbe28081bb"
+				refpath="/dom[@domain='www.linkedin.com']//div[#'search-results-container']/div/ol/li[1]/div/div/div[2]/div[1]/div[1]/div/div[2]/div[1]/div[1]/a[@innertext='Erico Behmer']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='www.linkedin.com']//div[#'search-results-container']//a[@innertext='Erico Behmer']
+				</item>
+			</folder>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="ef64d75d-1836-47ac-b804-9f631baafa78"
+			name="SpanTag3Resultados"
+			refimgid="a59c5110-a39f-4d93-a09a-1c632dccfe53"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//main[#'content-main']//span[@innertext&lt;'resultados']
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="69632222-0980-4aea-8289-19f8a7f32025"
+			name="LiSegunIndice"
+			refimgid="59a2e95c-561f-4b43-a51e-4793f8abda74"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'search-results-container']//li[$indice]
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="363c7c67-b659-4869-998b-32efb5966640"
+			name="Copy_of_LiSegunIndice"
+			refimgid="59a2e95c-561f-4b43-a51e-4793f8abda74"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'search-results-container']//li[$indice]
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="atag"
+			id="d7922987-6fcf-4b01-8087-09216e57c7c7"
+			name="nombreLi"
+			refimgid="59a2e95c-561f-4b43-a51e-4793f8abda74"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'search-results-container']//ol/li[$indice]//a[@data-anonymize='person-name']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="05ce7102-3234-42f3-9526-c74cf1e82dfe"
+			name="Cuentas"
+			refimgid="42aeac91-25ae-4ceb-b3ef-68dec643297d"
+			refpath="/dom[@domain='www.linkedin.com']//main[#'content-main']/div[1]/div[1]/div[1]/a[@innertext='Cuentas']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//main[#'content-main']//a[@innertext='Cuentas']
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="oltag"
+			id="930cfc8c-4e0f-46c7-bcd4-b057259a71c4"
+			name="LiList"
+			refimgid="8c417587-4064-4995-8083-3e862d16aa0f"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'search-results-container']/?/?/ol
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="dfdcf770-387c-4886-9df4-86689d19ddf5"
+			name="GuardarEnLaLista"
+			refimgid="766170eb-55f5-4e9a-b5f6-3824d167d631"
+			refpath="/dom[@domain='www.linkedin.com']//main[#'content-main']/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/button/span[@innertext='Guardar en la lista']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//main[#'content-main']//span[@innertext='Guardar en la lista']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="11c92ad5-d8d2-46cb-bf77-b937e9bc7c75"
+			name="BOLBanca"
+			refimgid="6f517134-cdc8-499c-a891-4ca7aecf9244"
+			refpath="/dom[@domain='www.linkedin.com']//main[#'content-main']/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div/div/ul/li[2]/ul/li[2]/div/div/div[@innertext='BOL - Banca']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//main[#'content-main']//div[@innertext='BOL - Banca']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="be9f1935-b9cf-4f8a-ad36-6633d220bdcf"
+			name="ArtdecoDropdownContentArtdecoDropdo"
+			refimgid="212e246d-f082-4322-98a5-9dcff90681eb"
+			refpath="/dom[@domain='www.linkedin.com']//main[#'content-main']/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//main[#'content-main']/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div
+			</item>
+			<item
+			addcaps="unknown,webelement,svgtag"
+			capname="spantag"
+			id="8b4ae743-141f-4d07-886d-6623c04d37a1"
+			name="AgregarNuevaLista"
+			refimgid="308fea17-d4f2-4201-8a3b-fffc067a29a5"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div//span[@innertext='Crear Lista']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="spantag"
+			id="95bb1200-13c5-4cb2-aaed-4d73e1c95142"
+			name="SeleccionDeTodosLosPerfiles"
+			refimgid="3cf5abfa-d9f9-4cc6-8ee2-fb2288ee0b13"
+			robustPath=""
+			searchtimeout="15000ms">
+				/dom[@domain='www.linkedin.com']//main[#'content-main']/div//span[@innertext~'eleccion']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="inputtag"
+			id="f720249c-a563-4b89-beb9-5b2c64c20bfc"
+			name="ChekYaEstanSeleccionados"
+			refimgid="3cf5abfa-d9f9-4cc6-8ee2-fb2288ee0b13"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//main[#'content-main']//div//span[@innertext~'eleccion']/../..//input[@type='checkbox']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="button"
+			id="7e6e8108-9048-496c-8889-1009268bd6be"
+			name="Btn_CargoActual"
+			refimgid="3ce1eb76-6275-4ee0-832f-65b5019581ad"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//main[#'content-main']//fieldset[@title='Cargo actual']/div/button
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="bb18b76d-3ffd-43d3-b675-fec7803ed6cb"
+			name="Input_AnadirCargoActual"
+			refimgid="ce1697de-1f7c-439b-bd79-6ba124d31e2f"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//main[#'content-main']//input[@type='text' and @placeholder='Añadir cargos actuales']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="6b4a2d9f-d0a6-4e04-ac27-f396ae4c01a8"
+			name="TextNombreLista"
+			refimgid="823ae88f-27be-4516-a5dd-aa0c1ff7f4fe"
+			refpath="/dom[@domain='www.linkedin.com']//div[#'artdeco-modal-outlet']/div/div/div[2]/div[1]/div[2]/input[@type='text']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'artdeco-modal-outlet']//input[@type='text']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="8a747756-4f25-497a-934a-38b5c76b1ff4"
+			name="ButtonGuardarNuevaLista"
+			refimgid="863d8074-018f-4d3e-856c-0cbdbd6ff3fe"
+			refpath="/dom[@domain='www.linkedin.com']//div[#'artdeco-modal-outlet']/div/div/div[3]/button[2]"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'artdeco-modal-outlet']/div/div/div[3]/button[2]
+			</item>
+			<item
+			capname="button"
+			id="91443328-96d9-47a7-a0c2-c6da21b53035"
+			name="Btn_BorrarCargoActual"
+			robustPath="/dom[@domain='www.linkedin.com']/element"
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//main[#'content-main']//fieldset[@title='Cargo actual']//div[@title=$Keyword]//button[@title&gt;'Eliminar filtro Cargo actual:']
+			</item>
+			<item
+			capname="litag"
+			id="05f58acb-c028-4c77-b0fe-2ff2a9f95b84"
+			name="Li_CargoActual_Opcion1"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//main[#'content-main']//fieldset[@title='Cargo actual']//ul/li[1][@visible='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="d9b67c36-5249-45cf-94b2-bc41d234616a"
+			name="CrearLista"
+			refimgid="435dfd7c-8c37-431d-a25a-99b029c665d6"
+			refpath="/dom[@domain='www.linkedin.com']//div[#'hue-web-menu-outlet']/div[2]/button/span/span[@innertext='Crear lista']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'hue-web-menu-outlet']//span[@innertext='Crear lista']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="7e5c9992-1267-4564-8afb-cccc3ac60f09"
+			name="ArgentinaQualia"
+			refimgid="4f7c32fe-7321-4681-8e7f-759bf2f146c7"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//h2[@innertext='Añadir a la lista']/.//span[@innertext=$pais+'_'+$nombreEmpresa]
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="d53d1b7a-b983-4a65-bf43-c7b1540d784c"
+			name="FlexFullWidthJustifySpaceBetween"
+			refimgid="56661cb1-6ab9-4b17-bd68-f43769e0ef98"
+			refpath="/dom[@domain='www.linkedin.com']//div[#'search-results-container']/div[2]/ol/li[2]/div/div/div[2]"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'search-results-container']/?/?/ol/li[2]/div/div/div[2]
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="b6ace614-db43-4ff4-bb98-c5b40b1baed5"
+			name="ArgentinaQualia1"
+			refimgid="a9df9c1b-634b-4037-b824-89cf79e22dfa"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'hue-web-menu-outlet']//span[@innertext=$pais+'_'+$nombreEmpresa]
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="f20eb293-2228-4674-963e-3e39c52f02cd"
+			name="Copy_of_ArgentinaQualia1"
+			refimgid="a9df9c1b-634b-4037-b824-89cf79e22dfa"
+			robustPath=""
+			searchtimeout="10000ms">
+				/dom[@domain='www.linkedin.com']//span[@innertext&lt;$pais+'_'+$nombreEmpresa]
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="0725dc7b-dd0e-47d1-a0b6-54127ec41558"
+			name="MatiasGimenez"
+			refimgid="9eec78f6-c620-4ee6-bb60-14e0aee68198"
+			refpath="/dom[@domain='www.linkedin.com']//div[#'voyager-feed']/div/div[2]/div/div/main/div[3]/div/div[1]/div[1]/div/div[2]/div/div/div/div[4]/div/div/a[1]/span[1]/span[1]/span[1]/span[@innertext='Matías Giménez']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'voyager-feed']//main/div[3]/div/div[1]/div[1]/div/div[2]/div/div/div/div[4]/div/div/a[1]/span[1]/span[1]/span[1]/span[@innertext='Matías Giménez']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="8e8ce596-a969-45be-a3d0-d2b06b6b0181"
+			name="Itti"
+			refimgid="06fb4c4b-fc23-4800-8ae3-aaa5be240042"
+			refpath="/dom[@domain='www.linkedin.com']//div[#'search-results-container']/div[2]/ol/li/div/div/div[2]/div[1]/div[1]/div/div[2]/div[1]/div/a[@innertext='itti']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'search-results-container']//a[@innertext='itti']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="39a7aa36-c491-4685-bfd4-50ac207ad6c5"
+			name="Cuentas1"
+			refimgid="4e502b73-063f-4f15-a8ae-5e974233489a"
+			refpath="/dom[@domain='www.linkedin.com']/body/header/div[1]/div/div/div/ul/li[2]/a[@innertext='Cuentas']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//a[@innertext='Cuentas']
+			</item>
+			<item
+			addcaps="unknown,webelement,svgtag"
+			capname="svgtag"
+			id="76a243d9-3201-41e7-bbb2-572136493854"
+			name="SomeSvgTag"
+			refimgid="ca14de8a-87e2-4d52-ba3f-bd8faaa0787d"
+			refpath="/dom[@domain='www.linkedin.com']//main[#'content-main']/div[1]/div[1]/div/div[2]/form[@action>'https://www.linkedin.com/sales/search/people?_ntb=ZSfYFrSDRCuaDJSOmkUU9Q%3D%3D&amp;query=(recentSearchParam%3A(id%3A2901818745%2CdoLogHistory%3Atrue)%2Cfilters%3AList((type%3ACURRENT_COMPANY%2Cvalues%3AList((id%3Aurn%253Ali%253Aorganization%253A10914705%2Ctext%3AQ']/div/div[4]/fieldset[2]/div/fieldset[@title='Cargo actual']/div[2]/button/tag[@tagname='li-icon']/svg"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//main[#'content-main']//fieldset[@title='Cargo actual']/div[2]/button/tag[@tagname='li-icon']/svg
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="bb7ff820-0d26-4b0a-9765-e74f50d748a8"
+			name="TodosLosEmpleados"
+			refimgid="94e7e7e8-b974-4384-b70f-c1752850eb1c"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'account']//a[@innertext&gt;'Todos los empleados']
+			</item>
+			<basepath>
+				/dom[@domain='www.linkedin.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="51ba4c9c-11a8-48ba-b3df-b0f8bcc2ce30"
+		isrooted="True"
+		name="ContinueAndFail"
+		searchtimeout="0ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="507a91d0-758d-405c-936c-6c3e49d887ef"
+			name="pais_nombreEmpresa"
+			refimgid="984ce4c6-1454-4758-9e56-1b7060fd6524"
+			robustPath=""
+			searchtimeout="6000ms">
+				/dom[@domain='www.linkedin.com']//main[#'content-main']/div[1]//ul/li[1]/div/div/div[@innertext=$pais+'_'+$nombreEmpresa]
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="spantag"
+			id="fa8ea255-1990-4c7d-9be0-7bc8903b0275"
+			name="ButtonSiguiente"
+			refimgid="6d3b6db8-823c-4286-8fd0-279c65874755"
+			robustPath=""
+			searchtimeout="3000ms">
+				/dom[@domain='www.linkedin.com']//div[#'search-results-container']//button[@enabled='True']/span[@innertext='Siguiente']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="spantag"
+			id="278cab3a-5aca-4ab2-a8fc-8d33b34ad213"
+			name="Li_ExistUnResultado"
+			refimgid="fa620b0a-2b02-4ba9-ab46-c29ed985f7f7"
+			robustPath=""
+			searchtimeout="3000ms">
+				/dom[@domain='www.linkedin.com']//div[#'search-results-container']//li[1]//span[@data-anonymize='person-name']
+			</item>
+			<basepath>
+				/dom[@domain='www.linkedin.com']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,excelapplication"
+		capname="form"
+		id="041cc2f3-9051-467d-80af-d1124ff1688d"
+		isrooted="True"
+		name="OutputEmpresasXlsxExcel"
+		refimgid="0b768600-69b3-49a1-ba5b-89251e625536"
+		refpath="/form[@processname='EXCEL']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="tabpage,uiautomation"
+			capname="tabpage"
+			id="6a77f4d5-6fb1-41c9-8d87-92ce78a1f27e"
+			name="TabData"
+			refimgid="a8c663e9-8441-4008-8776-8e1a14b885a7"
+			refpath="/form[@processname='EXCEL']/element[@controlname='' and @class='EXCEL2' and @instance='0']/container/element/element/container[@automationid='']/container[@name='Ribbon']/tabpagelist/tabpage[@automationid='TabData']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//tabpage[@automationid='TabData']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="9b23601b-506e-4c41-845e-55e48cba4df7"
+			name="RemoveDuplicates"
+			refimgid="56669c72-62ea-4fbc-b557-d8e92895b010"
+			refpath="/form[@processname='EXCEL']/element[@controlname='' and @class='EXCEL2' and @instance='0']/container/element/element/container[@automationid='']/container[@name='Ribbon']/container/container/container[@name='Data Tools']/button[@automationid='RemoveDuplicates']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//button[@automationid='RemoveDuplicates']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="86a977ad-9ae8-47ba-8277-427749106522"
+			name="UnselectAll"
+			refimgid="43961a69-30cb-43b4-a378-068eaea9e217"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//container[@controlname='Remove Duplicates']//button[@name='Unselect All']
+			</item>
+			<item
+			addcaps="checkbox,uiautomation,uiautomationtoggle"
+			capname="checkbox"
+			id="03547421-a84f-4dfd-b381-0413facf7190"
+			name="NombreCompleto"
+			refimgid="1af76c4a-4ce0-4768-b552-2600ce215c14"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//container[@controlname='Remove Duplicates']//checkbox[@name='Nombre Completo']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="2a370f4a-c73c-49bb-8103-ad03db14fb01"
+			name="Button_NameOK"
+			refimgid="738c924f-1f18-4c7a-b7c7-553d33d3d769"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//container[@controlname='Remove Duplicates']//button[@name='OK']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="d7359b6d-3a88-4d7b-9546-68b054ad8ae5"
+			name="Button_TextOK"
+			refimgid="738c924f-1f18-4c7a-b7c7-553d33d3d769"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@processname='EXCEL']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAD4SURBVDhPY0AGiovT3gPxf2zY+EgjNvweqhUC
+sGmEYSyawRiqFQKwaYRhbJpBmEGg2vG9QI3jf3xYsM4Zq2YQZsCmARsWDDPD6jK4AZVbp/wHgay1
+Hf9tp6aC2R37FiAMCTTGbwAIP3z/HIwP37sAppHliDLAZ24h2GYQALGR5YgyIHppDVT7fzAbWY7D
+TgGFD8NwA+RbfOHOh3kBJAaTJ2jAtGNrwDbr9UTCvYIciAQNAIU8COPi4zaAiIQkUG7/n0dP+r9E
+jDkGhiZiCOB1Uv2PDYM0C7lqEjZANNDgPzYsHmmKVTMIQ7VCgHi0+XtsinBh8Wjz9wCUDun8tlsj
+LwAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="6f3b421b-86e1-4ef2-bbc7-d7ddfe587996"
+		isrooted="True"
+		name="Chrome"
+		refimgid="60c423d1-fafb-46c0-b601-79bcde0f2bdf"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="a97df680-f8f0-4dee-815e-c2c425117cb2"
+			name="AbrirWaalaxy"
+			refimgid="5e97730b-00f3-46a3-b391-257bcb87170e"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='chrome']/element[@controlid='301008320']/container[@accessiblename='React App']/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[2]/button[@accessiblename='Abrir Waalaxy']/text[@accessiblename='Abrir Waalaxy']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="d88bace6-94fe-4067-9b3a-e311abfb65ce"
+			name="Grouping"
+			refimgid="d6840d0f-c379-4494-bf5d-268472976ecb"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='chrome']/element[@controlid='87567552']/container[@accessiblename='SalesQL']/container[2]
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="5104c1b5-d0b6-40c0-a47f-4aa1b80b1a2f"
+			name="TextAdd"
+			refimgid="898349ec-1903-4006-a551-d629648474d1"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='chrome']/container[@accessiblerole='Pane']/container[@accessiblerole='Pane']//container[@accessiblename='SalesQL']//container[@accessiblerole='Grouping']/text[@accessiblename='add']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="f5f2a3e8-a7cf-40f6-8b3a-3bef05a2007f"
+			name="Grouping1"
+			refimgid="c57bd9fd-4073-4937-8ff2-85c57a45859a"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='chrome']/element[@controlid='87567552']/container[@accessiblename='SalesQL']/container[3]
+			</item>
+			<item
+			capname="form"
+			id="392c212c-7165-4dfd-8339-1d244a49b282"
+			name="PadrePhone"
+			robustPath="/form[@title='']/element"
+			searchtimeout="30000ms">
+				/form[@processname='chrome']/container[@accessiblerole='Pane']/container[@accessiblerole='Pane']//container[@accessiblename='SalesQL']//form[@accessiblename='dialog']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="b74bdfe0-6def-4c1d-8faf-58e631b4e180"
+			name="SalesQLBrowserExtensionTieneAccesoA"
+			refimgid="9e70ade8-8626-48a6-b42b-f78714264a62"
+			refpath="/form[@title>'ZAPADA EN RED HOUSE STUDIOS:']/container/container/container/container[2]/container[1]/toolbar[1]/container[3]/container[2]/button[@accessiblename>'SalesQL Browser Extension']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='chrome']//button[@accessiblename&gt;'SalesQL Browser Extension']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="2b46c24c-4c12-45b9-b121-dedaf17d494b"
+			name="Grouping2"
+			refimgid="ba7aa39b-e41b-4f55-8362-6a94ae4e1a62"
+			refpath="/form[@title='Reunión | Microsoft Teams - Google Chrome']/element[@automationid='172792320']/container[@accessiblename='Reunión | Microsoft Teams']/container[@accessiblerole='Grouping']/container[1]/container[1]/container[3]/container[@accessiblerole='Grouping']/container[2]/container[1]/container[@accessiblerole='Grouping']/container[@accessiblename='Vista de contenido compartido']/container[2]/contextmenu[@accessiblerole='MenuPopup']/menuitem[@accessiblename='Contenido compartido por Jorge Alfonso Gonzalez Meza']/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='chrome']//menuitem[@accessiblename&gt;'Contenido compartido por Jorge']/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']
+			</item>
+			<basepath>
+				/form[@processname='chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKpSURBVDhPZdPJTxNxFAfwOUmCURDjgkGoIMjW
+TqFqCJZ2CiogIEQ9mYiJ0XjyD1BBr16kBSSVRYp7TDh6MCIWkDUmjJ64WVO6EZYW0LjM8Pv65tcR
+QV7yyfc3nfdemulU+L/m7RYp7LC45sotvrnyoyCMruWIZPGE7aJBb9taPruYHJYszojDAg2dWVgq
+pvwnZCe2IqfWq4/FS/sgJBXL1MCH6EzNRQjaihjPMjMLbDBrNcmbloRsZic1aY3rAlai5+wJEyOY
+tYramfOXmpx8WHxZb3h8tSx+0yoyP90MX6jCz+mPCMzGsPKDgUW9WJProEwWM5UrAmHKhCgJ5ucN
+nkp3LWYcIm01Ini+kg9e93zDsbsx7qJ7FcGFGNTpKigTRqgTJijjRqaMF7oE05OzsvlpPe7dKMPX
+kgJ8Hx5Ebcsyiu/ESHTdtd5VsNgU1PF8ThnLY8QnGPvqYOyrZSWdZzBZISIYXYPYvMSZm6NEy/h1
+YD5KgzlQRrNpOFtLCIW9NSjQXWmSmN8fhbFpCcbbi4RSO/PrJf481NFM3SFOyO+u9uX3VLO8nmpQ
+Yir0GZe7l5F/a3FdATnXHgNbeAP1Q7ruIJSRNFnI66x05nZVIreriit/0YiZyDIa2qPIvbnANdLC
+mcgKlKnjUIYPkFSoI6m0INUjHHFXSDnuU8h5eBp/0/HsEga+jPGvrC2bDH5C6+saGtwLlShDezh4
+98Vf7ayOCidhhztOaqDJelDBNNrZ1kW/0Nv9UId202AKFG8K1oZ2xV8krTKc9uTMNoec2V6OLKIl
+1+bg+aifnvj7JKZ4d1KSwR0yvEmb/w/akoxWu8vgkmBo1bkkZnWX0tB2XSINJ7q2DG8sWmQgfekt
+Njn9vo296k/D73fbfL8GElzKQIKkt+klCH8ARJYkm8QxdZEAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="dc0e2b21-8ce1-4533-9f6a-9a4c5f7457dd"
+		isrooted="True"
+		name="SalesQL"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="4fc075cf-db1e-445b-9f67-ec45e9c215dc"
+			name="WaalaxyProspeccionLinkedInAutomatiz"
+			refimgid="cb925525-b53a-4b5b-b19b-b5de8268bcea"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title~'| Sales']/container[@accessiblename&gt;'Fernando Izquierdo | Sales']/container[@accessiblerole='Pane']/container[@accessiblerole='Pane']/container[2]/container[1]/toolbar[@accessiblerole='ToolBar']/container[@accessiblerole='Pane']/button[@accessiblename&gt;'Waalaxy - Prospecci&#243;n LinkedIn']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="598eb009-a6f6-425a-9b4e-6f9cf8757888"
+			name="SalesQLBrowserExtensionTieneAccesoA"
+			refimgid="18dd336b-f81a-4b66-8175-13d4807f2f8a"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title~'| Sales']//container[@accessiblerole='Pane']/container[@accessiblerole='Pane']//toolbar[@accessiblerole='ToolBar']/container[@accessiblerole='Pane']/button[@accessiblename&gt;'SalesQL Browser Extension']
+			</item>
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="1a5c7a62-a3e6-49aa-a093-12184531b7cf"
+			name="ListItem34FeedLinkedInGoogleCh"
+			refimgid="1f7db7d9-4dce-486e-a378-859a923c8c39"
+			refpath="/form[@title='']/list/listitem[@accessiblename>'(34) Feed | LinkedIn - Google']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title~'| Sales']/?/?/listitem[@accessiblename&gt;'(34) Feed | LinkedIn - Google']
+			</item>
+			<basepath>
+				/form[@title~'| Sales']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKpSURBVDhPZdPJTxNxFAfwOUmCURDjgkGoIMjW
+TqFqCJZ2CiogIEQ9mYiJ0XjyD1BBr16kBSSVRYp7TDh6MCIWkDUmjJ64WVO6EZYW0LjM8Pv65tcR
+QV7yyfc3nfdemulU+L/m7RYp7LC45sotvrnyoyCMruWIZPGE7aJBb9taPruYHJYszojDAg2dWVgq
+pvwnZCe2IqfWq4/FS/sgJBXL1MCH6EzNRQjaihjPMjMLbDBrNcmbloRsZic1aY3rAlai5+wJEyOY
+tYramfOXmpx8WHxZb3h8tSx+0yoyP90MX6jCz+mPCMzGsPKDgUW9WJProEwWM5UrAmHKhCgJ5ucN
+nkp3LWYcIm01Ini+kg9e93zDsbsx7qJ7FcGFGNTpKigTRqgTJijjRqaMF7oE05OzsvlpPe7dKMPX
+kgJ8Hx5Ebcsyiu/ESHTdtd5VsNgU1PF8ThnLY8QnGPvqYOyrZSWdZzBZISIYXYPYvMSZm6NEy/h1
+YD5KgzlQRrNpOFtLCIW9NSjQXWmSmN8fhbFpCcbbi4RSO/PrJf481NFM3SFOyO+u9uX3VLO8nmpQ
+Yir0GZe7l5F/a3FdATnXHgNbeAP1Q7ruIJSRNFnI66x05nZVIreriit/0YiZyDIa2qPIvbnANdLC
+mcgKlKnjUIYPkFSoI6m0INUjHHFXSDnuU8h5eBp/0/HsEga+jPGvrC2bDH5C6+saGtwLlShDezh4
+98Vf7ayOCidhhztOaqDJelDBNNrZ1kW/0Nv9UId202AKFG8K1oZ2xV8krTKc9uTMNoec2V6OLKIl
+1+bg+aifnvj7JKZ4d1KSwR0yvEmb/w/akoxWu8vgkmBo1bkkZnWX0tB2XSINJ7q2DG8sWmQgfekt
+Njn9vo296k/D73fbfL8GElzKQIKkt+klCH8ARJYkm8QxdZEAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="29d6aa49-1a0a-40e2-9254-b03910dce2bf"
+		isrooted="True"
+		name="ContAndFail_Chrome"
+		searchtimeout="0ms"
+		usecache="False">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="7d4520f8-298f-4130-a164-2afa76f2cdce"
+			name="ObtenerEmail"
+			refimgid="8addbbf1-4d24-43b7-9393-9c3abb179ace"
+			robustPath=""
+			searchtimeout="3000ms">
+				/form[@processname='chrome']//container[@accessiblename='SalesQL']//form[@accessiblename='dialog']//container[@accessiblename~'@' and @accessiblename~'.com'][$index]
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="618cae40-1588-411d-ac9b-2aa185cdd3bc"
+			name="ObtenerPhone"
+			refimgid="3b42d559-7007-48cf-8a87-e29cdc286eb8"
+			robustPath=""
+			searchtimeout="3000ms">
+				/form[@processname='chrome']//container[@accessiblename='SalesQL']//form[@accessiblename='dialog']//container[@accessiblename~'[+]' and @accessiblename~'[0-9]'][$Index]
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="button"
+			id="0f96f12e-43d8-4ca4-bc8e-bcf0358d08e3"
+			name="Btn_Close"
+			refimgid="ca56ce60-c5ae-4cd7-be95-e0a34d4fbff0"
+			robustPath=""
+			searchtimeout="3000ms">
+				/form[@processname='chrome']//button[@accessiblename='close']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="container"
+			id="90092b64-6619-4290-992b-6865fdad0cec"
+			name="Email"
+			refimgid="310e8643-5fab-4d44-9911-fa7a2976ad9f"
+			robustPath=""
+			searchtimeout="6000ms">
+				/form[@processname='chrome']//container[@accessiblename='SalesQL']//container[@accessiblename~'email' and @accessiblename~'[1-9]']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="container"
+			id="d8afebda-fc25-4157-b19b-923391f88001"
+			name="WaitFor_DatosEmailPhone"
+			refimgid="310e8643-5fab-4d44-9911-fa7a2976ad9f"
+			robustPath=""
+			searchtimeout="6000ms">
+				/form[@processname='chrome']//container[@accessiblename='SalesQL' or @caption='SalesQL']//container[@accessiblename~'email' and @accessiblename~'[0-9]' or @accessiblename~'phone ' and @accessiblename~'[0-9]']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="container"
+			id="4c4e20ad-f2d4-4ae4-885b-dd11a724dc7d"
+			name="Phone"
+			refimgid="ff313fab-7ff9-439a-953c-28e0a06e8d29"
+			robustPath=""
+			searchtimeout="6000ms">
+				/form[@processname='chrome']//container[@accessiblename='SalesQL']//container[@accessiblename~'phone ' and @accessiblename~'[1-9]']
+			</item>
+			<basepath>
+				/form[@processname='chrome']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="host,nativewindow"
+		capname="host"
+		id="57d8bec6-8978-4106-8676-6eb27caad344"
+		isrooted="True"
+		name="DESKTOPJD9OLAE"
+		refimgid="9c732bc0-6ea2-4790-a05a-2f7d6cbb109e"
+		refpath=""
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="host,nativewindow"
+			capname="host"
+			id="3f21db3e-ade8-44d8-8dcb-a17b64855f64"
+			name="DESKTOPJD9OLAE"
+			refimgid="f78a3625-49b3-4a91-9838-11d394abab42"
+			refpath=""
+			robustPath=""
+			searchtimeout="30000ms">
+			</item>
+			<basepath>
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACtUlEQVQ4T62S6zOUYRiH9w/qYzM1o5moMUyNShmHpISUNhIrHRxW
+DjmXpcah2Ky1TcsSa5ZQ0u62csxxMI4p6URGWFlXz6rGNPu1e+b98sx7Xc/v996v5L/N4OgcPYPT
+WPomaH8zSotpGENbP3UtvVQbutDUWVDVmCjVtlOsaeMPtjNd/VNcfwwyNVwuh4ulEFoMQfchQGHj
+5B0rPlkreN1eRKFsdBQYO8eIroAHz6GgCbLqQa6DqxoIV0JIoV20iU/mCndKDY6CFuMQ4WWgEHCG
+gBOrIKYSpOIsWMCn8n7inbHM0VvzZBfXOwr0rX2cL4H0OkjQQrSoIhU1zooK/nc38MpY4oj8Pe6x
+o6QXPnUUVBk6t1+OewJRKgh78Bu2d7f39kh8h/vVEVwiOki9p3MUqGvN2x2viA94QcCBBeCXu86J
+tG94xM/iFjOES7iFfeeaSVJoHQVlYj2+OWuEihpn8rfwzV7leOoXDsdN4yobwFlqxinkGXtP15KQ
++9hRUFT5HK/07wTk2/DJ/oFn8mcO3ZzENfqtgI04BTeyJ0DHbj8NN7IqHAUKZRNzn6xMza8zPrfG
+yMwqA5M/6B1bobXzI7UvJijWWgjtCkWWpvxXkJLz8KBG/3pTqXtJYWWz2HM9afe0xOeokKWUII0v
+IEiWjd+lFI4Fx+HmL9u8lFAU+QeXSDQNFv7Opm2LNauNpZWfzH+1MikS2dN0iySmwWVae5aoaZvl
+gHfkTgp1nXkbjjXFsm7d4oNhFwuLG8wsWGl8NUjFU6NIped6porYDBUlugH2n4jYEZTXGrGJm6sG
+9AxPLDA7VE579zRNpnFqWkdQN/RTUt2NQt1BziMzmWVG9nlKdwRFmma5eMhT6sVfVo38biXX0suI
+TCok7EYegVGZ+EqTt/u7+8fg7BVhF8glEonkF6m1M1/+IilrAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="d1c3cec8-4516-4321-86e5-c06e33270c07"
+		name="pais">
+			Argentina
+		</var>
+		<var
+		id="48ee2248-30c5-4ed5-82d6-ec3f16680e3a"
+		name="Industria">
+			Servicios financieros
+		</var>
+		<var
+		id="243376d0-5738-43b5-a836-b6324bd9751e"
+		name="nombreEmpresa">
+			Galicia Seguros &#32;
+		</var>
+		<var
+		id="d4f5b272-4496-4d01-b033-67a287531d6d"
+		name="indice">
+		</var>
+		<var
+		id="4602fb31-5ce2-40b7-97a8-9f9049747d36"
+		name="Keyword">
+		</var>
+		<var
+		id="ee8f227b-3f9b-475e-9337-ef7375b389a6"
+		name="idex">
+		</var>
+		<var
+		id="2fe17e89-d564-43eb-832f-8b412e95c8ef"
+		name="index">
+			1
+		</var>
+		<var
+		id="c85d4633-f7db-49b5-83a4-49c44d423d24"
+		name="empresa">
+		</var>
+	</variables>
+</repository>

@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{2C928F60-8EB7-43EB-8A8D-45D400EC33DF}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Qualis_Bot_SalesNavigator</RootNamespace>
+    <AssemblyName>Qualis-Bot-SalesNavigator</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>a64d14ba-046f-4b17-9dea-ba676e89a38f</projectdefaultrepository>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel" />
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbrirExel.cs">
+      <id>cfbb9119-4902-44e0-9206-4b4aa0cce56b</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>13806308-931e-4dfc-9d04-20a6e6752745</id>
+    </Compile>
+    <Compile Include="BorrarCargoActual.cs">
+      <BoundTo>001d7828-1523-4dfd-a59b-bd0a04318194</BoundTo>
+      <DependentUpon>BorrarCargoActual.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>17fac09c-e0f5-4850-a35f-a233b29a5b88</id>
+    </Compile>
+    <Compile Include="BorrarCargoActual.UserCode.cs">
+      <BoundTo>001d7828-1523-4dfd-a59b-bd0a04318194</BoundTo>
+      <DependentUpon>BorrarCargoActual.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>43c2af61-35dc-497a-a4d2-e5e35e9f4dca</id>
+    </Compile>
+    <Compile Include="CalcularCantidadIteraciones.cs">
+      <id>fab83b2c-2019-4c9d-9a4a-6f39643bfccc</id>
+    </Compile>
+    <Compile Include="ExtraerDatos.cs">
+      <BoundTo>eeb2bc19-d726-4788-9d11-0806e3751e85</BoundTo>
+      <DependentUpon>ExtraerDatos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>049ea9bc-d958-43f7-a628-3438b7cbe19c</id>
+    </Compile>
+    <Compile Include="ExtraerDatos.UserCode.cs">
+      <BoundTo>eeb2bc19-d726-4788-9d11-0806e3751e85</BoundTo>
+      <DependentUpon>ExtraerDatos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8345727c-5c86-463b-a112-0ee44d16b0ec</id>
+    </Compile>
+    <Compile Include="IrATodosLosEmpleados.cs">
+      <BoundTo>3e3ddd26-c16d-4875-8745-0b445bd3a1c2</BoundTo>
+      <DependentUpon>IrATodosLosEmpleados.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>72136f14-3bc4-49fd-9770-9fce8df7bcc2</id>
+    </Compile>
+    <Compile Include="IrATodosLosEmpleados.UserCode.cs">
+      <BoundTo>3e3ddd26-c16d-4875-8745-0b445bd3a1c2</BoundTo>
+      <DependentUpon>IrATodosLosEmpleados.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8c45df49-1eb3-4458-9e43-9acc5188e722</id>
+    </Compile>
+    <Compile Include="LimpiaVariable.cs">
+      <id>ecbc2511-a984-4dc6-b4f5-9a1d53836284</id>
+    </Compile>
+    <Compile Include="NoEncontroEmpresa.cs">
+      <BoundTo>82bed94d-3d81-4593-8e86-64156ee60ea1</BoundTo>
+      <DependentUpon>NoEncontroEmpresa.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f39988ab-c157-4452-b019-1187f3345414</id>
+    </Compile>
+    <Compile Include="NoEncontroEmpresa.UserCode.cs">
+      <BoundTo>82bed94d-3d81-4593-8e86-64156ee60ea1</BoundTo>
+      <DependentUpon>NoEncontroEmpresa.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>074e68e2-29ef-4aaa-9366-6626c7bd39d1</id>
+    </Compile>
+    <Compile Include="PagSiguiente1.cs">
+      <id>9b03ad40-3e3b-4bf5-a154-19d281129d4e</id>
+    </Compile>
+    <Compile Include="RemoverDuplicados.cs">
+      <BoundTo>ab4066bf-9c35-482d-817e-97c07c6b1dee</BoundTo>
+      <DependentUpon>RemoverDuplicados.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ec725532-4f70-4809-9e27-b2fe6c4cead1</id>
+    </Compile>
+    <Compile Include="RemoverDuplicados.UserCode.cs">
+      <BoundTo>ab4066bf-9c35-482d-817e-97c07c6b1dee</BoundTo>
+      <DependentUpon>RemoverDuplicados.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3f8c45ce-d2c7-46cb-be6b-ca529851a7c6</id>
+    </Compile>
+    <Compile Include="BusquedaDeDatos.cs">
+      <id>d05a391b-7446-468e-8f88-95df5a16c5e2</id>
+    </Compile>
+    <Compile Include="BusquedaDeDatos2.cs">
+      <id>1f9559e1-b720-447e-91ab-1d975691616c</id>
+    </Compile>
+    <Compile Include="CerrarExcel.cs">
+      <id>6595fb35-1743-4f1b-a12a-8d80466cc91a</id>
+    </Compile>
+    <Compile Include="ClickEnGuardarLista.cs">
+      <BoundTo>0000f638-ce1f-472b-aeeb-f0560baba450</BoundTo>
+      <DependentUpon>ClickEnGuardarLista.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>76cd93cf-18db-464f-ab1d-dd70bc5b99e5</id>
+    </Compile>
+    <Compile Include="ClickEnGuardarLista.UserCode.cs">
+      <BoundTo>0000f638-ce1f-472b-aeeb-f0560baba450</BoundTo>
+      <DependentUpon>ClickEnGuardarLista.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>da680510-b6ca-4fa8-8cf1-4a4587314441</id>
+    </Compile>
+    <Compile Include="CloseBrowser.cs">
+      <BoundTo>a3c359c2-890a-4f15-8823-8a02da8885f0</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>17de5ae0-acda-4668-ba3f-24ef83cd674e</id>
+    </Compile>
+    <Compile Include="CloseBrowser.UserCode.cs">
+      <BoundTo>a3c359c2-890a-4f15-8823-8a02da8885f0</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c9f6a754-a39e-42f3-8b78-9865f9e0c706</id>
+    </Compile>
+    <Compile Include="CrearListaCliente.cs">
+      <BoundTo>a10504cb-34ae-49aa-b91f-24d47c24ccd3</BoundTo>
+      <DependentUpon>CrearListaCliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>55245aa1-23e9-4fbe-b373-1f0f62f2ec11</id>
+    </Compile>
+    <Compile Include="CrearListaCliente.UserCode.cs">
+      <BoundTo>a10504cb-34ae-49aa-b91f-24d47c24ccd3</BoundTo>
+      <DependentUpon>CrearListaCliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ce363c6b-8605-4fe9-8a5b-f42c5c8450a9</id>
+    </Compile>
+    <Compile Include="EliminarDuplicados.cs">
+      <id>32f9b33f-9384-40de-8ec1-2b39cb631198</id>
+    </Compile>
+    <Compile Include="ValidacionEmpresaIndustria.cs">
+      <id>d95cdfa2-1071-4430-86cc-2232a73f80ea</id>
+    </Compile>
+    <Compile Include="xlsWorker.cs">
+      <id>8041f760-6409-4013-9d12-d6fd9e4f493e</id>
+    </Compile>
+    <Compile Include="FiltroPorIndustria.cs">
+      <BoundTo>98bece9f-0e81-42f5-8b4f-70c311ce60ce</BoundTo>
+      <DependentUpon>FiltroPorIndustria.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>313d5c5e-c0e9-407c-9ecd-26856ecd4f36</id>
+    </Compile>
+    <Compile Include="FiltroPorIndustria.UserCode.cs">
+      <BoundTo>98bece9f-0e81-42f5-8b4f-70c311ce60ce</BoundTo>
+      <DependentUpon>FiltroPorIndustria.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>71f4a7d5-43ba-4f88-a775-26124c89b198</id>
+    </Compile>
+    <Compile Include="FiltroPorUbicacion.cs">
+      <BoundTo>36e85dca-1c41-480c-b075-d4151907f1bd</BoundTo>
+      <DependentUpon>FiltroPorUbicacion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>697560b1-790a-489d-9a37-4907ea49077c</id>
+    </Compile>
+    <Compile Include="FiltroPorUbicacion.UserCode.cs">
+      <BoundTo>36e85dca-1c41-480c-b075-d4151907f1bd</BoundTo>
+      <DependentUpon>FiltroPorUbicacion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2997c5d7-ae45-478c-ba40-727c7708daf3</id>
+    </Compile>
+    <Compile Include="IrAResponsablesDeLasDecisiones.cs">
+      <BoundTo>93a6b57c-8257-4382-a2f9-49c5b5ca0ef1</BoundTo>
+      <DependentUpon>IrAResponsablesDeLasDecisiones.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cc20cb02-f223-4a05-af17-5c5e3c54712f</id>
+    </Compile>
+    <Compile Include="IrAResponsablesDeLasDecisiones.UserCode.cs">
+      <BoundTo>93a6b57c-8257-4382-a2f9-49c5b5ca0ef1</BoundTo>
+      <DependentUpon>IrAResponsablesDeLasDecisiones.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9d96145e-f428-485f-b6ff-5b6d897f88de</id>
+    </Compile>
+    <Compile Include="CheckTodos.cs">
+      <BoundTo>1cbdeec1-b411-44fd-ac28-fe12cafd23ad</BoundTo>
+      <DependentUpon>CheckTodos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b5a98d64-c59c-4771-8272-d20f0c8a3008</id>
+    </Compile>
+    <Compile Include="CheckTodos.UserCode.cs">
+      <BoundTo>1cbdeec1-b411-44fd-ac28-fe12cafd23ad</BoundTo>
+      <DependentUpon>CheckTodos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cacb167b-06c3-45fd-a8af-a4f7e83846f8</id>
+    </Compile>
+    <Compile Include="ObtenerNumeroDeIteraciones.cs">
+      <BoundTo>b243485f-b3b8-4e1a-bd7e-1de036f707a9</BoundTo>
+      <DependentUpon>ObtenerNumeroDeIteraciones.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a35aa5e2-3d9f-49d5-afb5-a4553a754eca</id>
+    </Compile>
+    <Compile Include="ObtenerNumeroDeIteraciones.UserCode.cs">
+      <BoundTo>b243485f-b3b8-4e1a-bd7e-1de036f707a9</BoundTo>
+      <DependentUpon>ObtenerNumeroDeIteraciones.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>adf0896f-8153-4413-85c4-cfca7ae07bd4</id>
+    </Compile>
+    <Compile Include="ObtenerPerfiles.cs">
+      <BoundTo>2d97bdd4-c72d-4d4b-9363-b0eb2fb0dca2</BoundTo>
+      <DependentUpon>ObtenerPerfiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5f84a30c-e9d9-454c-bfd0-8802c4baf6e2</id>
+    </Compile>
+    <Compile Include="ObtenerPerfiles.UserCode.cs">
+      <BoundTo>2d97bdd4-c72d-4d4b-9363-b0eb2fb0dca2</BoundTo>
+      <DependentUpon>ObtenerPerfiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c9aa26d3-a2fd-4886-b387-b17b3c00e895</id>
+    </Compile>
+    <Compile Include="OpenBrowser.cs">
+      <BoundTo>bba69a24-281b-4ddd-84c4-a59021348a7d</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>17c6ede3-3e86-4194-bd25-845d0e593e98</id>
+    </Compile>
+    <Compile Include="OpenBrowser.UserCode.cs">
+      <BoundTo>bba69a24-281b-4ddd-84c4-a59021348a7d</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8cbca542-7693-4e00-8331-b00eaa2a0119</id>
+    </Compile>
+    <Compile Include="PagSiguiente.cs">
+      <BoundTo>934ce804-d7c7-42ed-990b-ebf273994969</BoundTo>
+      <DependentUpon>PagSiguiente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7088a0f1-f08d-47a6-a501-2ce8ab76e864</id>
+    </Compile>
+    <Compile Include="PagSiguiente.UserCode.cs">
+      <BoundTo>934ce804-d7c7-42ed-990b-ebf273994969</BoundTo>
+      <DependentUpon>PagSiguiente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>15ae1f1f-7b47-4b1c-835a-7b194cfbe3cb</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>25805b0d-e35c-4a29-9efb-f81beaf50961</id>
+    </Compile>
+    <Compile Include="EscribirEnExcel.cs">
+      <BoundTo>389faf4c-9a3a-45ac-beec-2ce87fb5e182</BoundTo>
+      <DependentUpon>EscribirEnExcel.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>68c3be05-ec58-434e-a8de-ad21d2cd7bde</id>
+    </Compile>
+    <Compile Include="EscribirEnExcel.UserCode.cs">
+      <BoundTo>389faf4c-9a3a-45ac-beec-2ce87fb5e182</BoundTo>
+      <DependentUpon>EscribirEnExcel.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>94c8056f-701e-4dcf-8026-f2bfb775872c</id>
+    </Compile>
+    <Compile Include="Qualis_Bot_SalesNavigatorRepository.cs">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <DependentUpon>Qualis_Bot_SalesNavigatorRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>82b8e89d-b878-49af-83f8-497257bdfaed</id>
+    </Compile>
+    <Compile Include="IngresarNombreEmpresa.cs">
+      <BoundTo>d35956ad-e4f3-4de3-bd3d-3eeb28b6598b</BoundTo>
+      <DependentUpon>IngresarNombreEmpresa.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b8967b08-d70c-4f30-8af3-80d605dffcb6</id>
+    </Compile>
+    <Compile Include="IngresarNombreEmpresa.UserCode.cs">
+      <BoundTo>d35956ad-e4f3-4de3-bd3d-3eeb28b6598b</BoundTo>
+      <DependentUpon>IngresarNombreEmpresa.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6ee6c3f1-fa25-4c5f-9a87-4075e2a5315b</id>
+    </Compile>
+    <Compile Include="RepoVar.cs">
+      <id>f8a14a55-43b9-4e35-9a36-644607445be3</id>
+    </Compile>
+    <Compile Include="SeleccionarCuentas.cs">
+      <BoundTo>91482fc8-c836-4c55-8faf-3c1729bbd3f5</BoundTo>
+      <DependentUpon>SeleccionarCuentas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c3cb4618-ea0c-46bb-bbdb-301f9769ce58</id>
+    </Compile>
+    <Compile Include="SeleccionarCuentas.UserCode.cs">
+      <BoundTo>91482fc8-c836-4c55-8faf-3c1729bbd3f5</BoundTo>
+      <DependentUpon>SeleccionarCuentas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ba596edd-af6a-451d-bf37-4e8f301a69b0</id>
+    </Compile>
+    <Compile Include="SeleccionarLista.cs">
+      <BoundTo>9c37f844-c541-4b18-9b32-c2f8df078bfc</BoundTo>
+      <DependentUpon>SeleccionarLista.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>71423ea8-870f-4200-9457-8a5b5cea1e48</id>
+    </Compile>
+    <Compile Include="SeleccionarLista.UserCode.cs">
+      <BoundTo>9c37f844-c541-4b18-9b32-c2f8df078bfc</BoundTo>
+      <DependentUpon>SeleccionarLista.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>97e70f84-342e-4f22-b6a2-f9e707a567aa</id>
+    </Compile>
+    <Compile Include="ValidacionEmpresaEIndustria2.cs">
+      <BoundTo>900fbf63-23f6-4c91-a739-d62f6b34b6a8</BoundTo>
+      <DependentUpon>ValidacionEmpresaEIndustria2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>26da37d6-36e0-41eb-bcff-d634d6c6e075</id>
+    </Compile>
+    <Compile Include="ValidacionEmpresaEIndustria2.UserCode.cs">
+      <BoundTo>900fbf63-23f6-4c91-a739-d62f6b34b6a8</BoundTo>
+      <DependentUpon>ValidacionEmpresaEIndustria2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6834bd20-9b12-4fa5-ad9f-b3ac494122ef</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>b90fe68f-025a-4130-8286-050ca3b4ca2d</id>
+    </None>
+    <None Include="BorrarCargoActual.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>001d7828-1523-4dfd-a59b-bd0a04318194</id>
+      <recordtableid>a863763b-da19-486c-bf9c-07a1b40f752c</recordtableid>
+    </None>
+    <None Include="ExtraerDatos.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>eeb2bc19-d726-4788-9d11-0806e3751e85</id>
+      <recordtableid>64abd961-30b3-4128-87fa-642fbb73ced9</recordtableid>
+    </None>
+    <None Include="IrATodosLosEmpleados.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>3e3ddd26-c16d-4875-8745-0b445bd3a1c2</id>
+      <recordtableid>fce4b072-3953-4aa8-8cc7-7ef0491bf4f7</recordtableid>
+    </None>
+    <None Include="NoEncontroEmpresa.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>82bed94d-3d81-4593-8e86-64156ee60ea1</id>
+      <recordtableid>28b74fca-3998-4240-b162-a7f65f9da360</recordtableid>
+    </None>
+    <None Include="RemoverDuplicados.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>ab4066bf-9c35-482d-817e-97c07c6b1dee</id>
+      <recordtableid>25f676b1-8a2c-402e-8ca8-618ccc799ac3</recordtableid>
+    </None>
+    <None Include="ClickEnGuardarLista.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>0000f638-ce1f-472b-aeeb-f0560baba450</id>
+      <recordtableid>fe3cad9d-aefb-4c13-8b6b-511a5158c113</recordtableid>
+    </None>
+    <None Include="CloseBrowser.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>a3c359c2-890a-4f15-8823-8a02da8885f0</id>
+      <recordtableid>7666c5fa-d022-4de7-9a74-5052e2f702ee</recordtableid>
+    </None>
+    <None Include="CrearListaCliente.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>a10504cb-34ae-49aa-b91f-24d47c24ccd3</id>
+      <recordtableid>5c0d1a84-20dd-4629-b11b-57c4dbc59f95</recordtableid>
+    </None>
+    <None Include="FiltroPorIndustria.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>98bece9f-0e81-42f5-8b4f-70c311ce60ce</id>
+      <recordtableid>8e2b7bbc-cbf7-4b9c-b2e0-e5616a7085c0</recordtableid>
+    </None>
+    <None Include="FiltroPorUbicacion.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>36e85dca-1c41-480c-b075-d4151907f1bd</id>
+      <recordtableid>9dc64434-3d03-4cc1-a085-3236066587ec</recordtableid>
+    </None>
+    <None Include="IrAResponsablesDeLasDecisiones.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>93a6b57c-8257-4382-a2f9-49c5b5ca0ef1</id>
+      <recordtableid>329f9cc9-690d-4e6f-928a-f6a414c5032f</recordtableid>
+    </None>
+    <None Include="CheckTodos.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>1cbdeec1-b411-44fd-ac28-fe12cafd23ad</id>
+      <recordtableid>381ae2ac-ede7-4c74-99cc-b829a61a140b</recordtableid>
+    </None>
+    <None Include="ObtenerNumeroDeIteraciones.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>b243485f-b3b8-4e1a-bd7e-1de036f707a9</id>
+      <recordtableid>d604b842-80e2-4526-a19e-301b25ceef44</recordtableid>
+    </None>
+    <None Include="ObtenerPerfiles.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>2d97bdd4-c72d-4d4b-9363-b0eb2fb0dca2</id>
+      <recordtableid>d5f4d1d6-5fda-4b8c-91fd-f76789ada543</recordtableid>
+    </None>
+    <None Include="OpenBrowser.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>bba69a24-281b-4ddd-84c4-a59021348a7d</id>
+      <recordtableid>7c8df0a0-c2a9-482e-9581-d9d47179faa5</recordtableid>
+    </None>
+    <None Include="EscribirEnExcel.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>389faf4c-9a3a-45ac-beec-2ce87fb5e182</id>
+      <recordtableid>4e58f63e-7275-4fa3-9be3-92a8a45dda15</recordtableid>
+    </None>
+    <None Include="PagSiguiente.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>934ce804-d7c7-42ed-990b-ebf273994969</id>
+      <recordtableid>92bf9eaa-3698-47c0-8533-5b7c47f7b6c2</recordtableid>
+    </None>
+    <None Include="Qualis_Bot_SalesNavigatorRepository.rximg">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <DependentUpon>Qualis_Bot_SalesNavigatorRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>3eb96d4e-b0b3-4594-82ba-386eebb61d7a</id>
+    </None>
+    <None Include="Qualis_Bot_SalesNavigatorRepository.rxrep">
+      <id>a64d14ba-046f-4b17-9dea-ba676e89a38f</id>
+      <repoid>d96fb5c3-d3a8-4a95-889f-66e3feaf5d83</repoid>
+      <reporootid>881b03a7-de86-41df-bc6e-b74240262674</reporootid>
+    </None>
+    <None Include="IngresarNombreEmpresa.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>d35956ad-e4f3-4de3-bd3d-3eeb28b6598b</id>
+      <recordtableid>a09e430c-629a-4eab-b574-8aee4f166059</recordtableid>
+    </None>
+    <None Include="SeleccionarCuentas.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>91482fc8-c836-4c55-8faf-3c1729bbd3f5</id>
+      <recordtableid>4cb1f3dd-0957-40dc-8103-0867648d0bab</recordtableid>
+    </None>
+    <None Include="SeleccionarLista.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>9c37f844-c541-4b18-9b32-c2f8df078bfc</id>
+      <recordtableid>bcad91d7-5667-42ee-a158-37a481569576</recordtableid>
+    </None>
+    <None Include="ValidacionEmpresaEIndustria2.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>900fbf63-23f6-4c91-a739-d62f6b34b6a8</id>
+      <recordtableid>c167697a-3c37-4cbf-a1cf-93f7b333bd9b</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Qualis_Bot_SalesNavigator.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>7c231a2c-a548-4087-a272-6be1a0d0f0be</id>
+    </Content>
+    <Content Include="Qualis_Bot_SalesNavigator.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>7b80f0a4-594c-46a8-9e14-0fe899503dd7</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>
