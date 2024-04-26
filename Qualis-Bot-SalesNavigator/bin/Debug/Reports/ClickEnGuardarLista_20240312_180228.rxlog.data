@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="40.49s"
+		durationms="40492"
+		type="root"
+		rid="3afe6bc5c746631"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Usuario"
+		rxversion="10.5.3.0"
+		host="DESKTOP-JD9OLAE"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-MX"
+		dtnlanguage="es-AR"
+		screenresolution="3046x1050"
+		timestamp="12/3/2024 18:02:36"
+		timestampiso="2024-03-12T21:02:36"
+		endtime="12/3/2024 18:03:16"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ClickEnGuardarLista">
+		<detail>
+			ClickEnGuardarLista
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.808"
+			timeRelativeToTestModuleStartTime="00:09.808"
+			timeWallClock="18:02:45"
+			time="00:09.808"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>validarPaisNombreEmpresa, pais, nombreEmpresa
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.897"
+			timeRelativeToTestModuleStartTime="00:09.897"
+			timeWallClock="18:02:45"
+			time="00:09.897"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'InicioSalesNavigator.GuardarEnLaLista' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//main[#'content-main']//span[@innertext='Guardar en la lista']"
+				itempath=".//main[#'content-main']//span[@innertext='Guardar en la lista']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.GuardarEnLaLista"
+				id="dfdcf770387c48869df486689d19ddf5"
+				timeout="60000"
+				codefile="C:\Users\Usuario\Downloads\SalesBot-master (1)\SalesBot-master\Qualis-Bot-SalesNavigator\ClickEnGuardarLista.cs"
+				codeline="116"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.211"
+			timeRelativeToTestModuleStartTime="00:19.211"
+			timeWallClock="18:02:55"
+			time="00:19.211"
+			level="Warn"
+			category="WPF">
+			<message>
+				UI elements in your 'WPF' AUT can&#8217;t be identified because it couldn&#8217;t be instrumented automatically. Restart all Ranorex tools and the AUT with the same privileges, preferably as an administrator.
+
+Exception while initializing WPF proxy: System.Runtime.Remoting.RemotingException: Error al procesar la solicitud en el servidor: System.Security.SecurityException: No se puede abrir un token de seguridad de nivel an&#243;nimo.<br/><br/>   en System.Security.Principal.WindowsIdentity.GetCurrentInternal(TokenAccessLevels desiredAccess, Boolean threadOnly)<br/>   en System.Security.Principal.WindowsIdentity.GetCurrent()<br/>   en System.Runtime.Remoting.Channels.Ipc.IpcServerTransportSink.ServiceRequest(Object state)<br/>La zona del ensamblado que gener&#243; el error era:<br/>MyComputer<br/><br/>Server stack trace: <br/>   en System.Runtime.Remoting.Channels.Ipc.IpcServerHandler.ReadToEndOfHeaders(BaseTransportHeaders headers)<br/>   en System.Runtime.Remoting.Channels.Ipc.IpcClientHandler.ReadHeaders()<br/>   en System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders&amp; responseHeaders, Stream&amp; responseStream)<br/>   en System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)<br/><br/>Exception rethrown at [0]: <br/>   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)<br/>   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)<br/>   en Ranorex.Plugin.Wpf.IWpfAutomation.StartCacheSession(Int32 threadId)<br/>   en Ranorex.Plugin.WpfAutomationWrapper.get_Wpf()<br/>   en Ranorex.Plugin.WpfFlavor.InjectWpfAutomation(ProcessInfo proc, IDotNetThingy dnproxy)<br/>Process: 'MP3StudioDownloader' (pid 13732)<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WPF Instrumentation"
+				showInProgressDialog="False"
+				codefile="C:\Users\Usuario\Downloads\SalesBot-master (1)\SalesBot-master\Qualis-Bot-SalesNavigator\ClickEnGuardarLista.cs"
+				codeline="117"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.336"
+			timeRelativeToTestModuleStartTime="00:22.336"
+			timeWallClock="18:02:58"
+			time="00:22.336"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\Usuario\Downloads\SalesBot-master (1)\SalesBot-master\Qualis-Bot-SalesNavigator\ClickEnGuardarLista.cs"
+				codeline="120"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.370"
+			timeRelativeToTestModuleStartTime="00:32.370"
+			timeWallClock="18:03:08"
+			time="00:32.370"
+			level="Info"
+			category="Get Value">
+			<message>
+				(Optional Action)<br/>Getting attribute 'InnerText' from item 'InicioSalesNavigator.ArgentinaQualia' and assigning its value to variable 'validarPaisNombreEmpresa'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//div[#'hue-web-menu-outlet']//span[@innertext='Argentina'+'_'+'Qualia ']"
+				itempath=".//div[#'hue-web-menu-outlet']//span[@innertext=$pais+'_'+$nombreEmpresa]"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.ArgentinaQualia"
+				id="7e5c9992126745648afbcccc3ac60f09"
+				timeout="60000"
+				codefile="C:\Users\Usuario\Downloads\SalesBot-master (1)\SalesBot-master\Qualis-Bot-SalesNavigator\ClickEnGuardarLista.cs"
+				codeline="124"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.479"
+			timeRelativeToTestModuleStartTime="00:34.479"
+			timeWallClock="18:03:10"
+			time="00:34.479"
+			level="Info"
+			category="User">
+			<message>
+				Valor de la variable validarPaisNombreEmpresa+++++
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="C:\Users\Usuario\Downloads\SalesBot-master (1)\SalesBot-master\Qualis-Bot-SalesNavigator\ClickEnGuardarLista.cs"
+				codeline="129"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.479"
+			timeRelativeToTestModuleStartTime="00:34.479"
+			timeWallClock="18:03:10"
+			time="00:34.479"
+			level="Info"
+			category="User">
+			<message>
+				Argentina_Qualia&#32;
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="C:\Users\Usuario\Downloads\SalesBot-master (1)\SalesBot-master\Qualis-Bot-SalesNavigator\ClickEnGuardarLista.cs"
+				codeline="131"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.479"
+			timeRelativeToTestModuleStartTime="00:34.479"
+			timeWallClock="18:03:10"
+			time="00:34.479"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 6s.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="C:\Users\Usuario\Downloads\SalesBot-master (1)\SalesBot-master\Qualis-Bot-SalesNavigator\ClickEnGuardarLista.cs"
+				codeline="133"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

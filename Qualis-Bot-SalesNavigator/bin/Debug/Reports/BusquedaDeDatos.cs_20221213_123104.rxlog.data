@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.74s"
+		durationms="7736"
+		type="root"
+		rid="2a49e757ffed3e0"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="13/12/2022 12:31:06"
+		timestampiso="2022-12-13T15:31:06"
+		endtime="13/12/2022 12:31:14"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="BusquedaDeDatos">
+		<detail>
+			BusquedaDeDatos
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.005"
+			timeRelativeToTestModuleStartTime="00:03.005"
+			timeWallClock="12:31:09"
+			time="00:03.005"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>cantidadDeResultados
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.906"
+			timeRelativeToTestModuleStartTime="00:05.906"
+			timeWallClock="12:31:12"
+			time="00:05.906"
+			level="Info"
+			category="User">
+			<message>
+				Erico Behmer, https://www.linkedin.com/sales/lead/ACwAAAEgom8BDN7JU_Peqc_2BTlod4_8eI6k_-A,NAME_SEARCH,6DDW?_ntb=uLQPbnQnQ1mLI3%2FSuE5Xkg%3D%3D,CIO
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="77"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.833"
+			timeRelativeToTestModuleStartTime="00:06.833"
+			timeWallClock="12:31:13"
+			time="00:06.833"
+			level="Info"
+			category="User">
+			<message>
+				Javier Santolia, https://www.linkedin.com/sales/lead/ACwAAABIYzQB5gX6DUIgfOr6Soy3SHrIMzp0nfE,NAME_SEARCH,Tkk0?_ntb=uLQPbnQnQ1mLI3%2FSuE5Xkg%3D%3D,Head of Engineering - Banking Platform | Data &amp; Analytics
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="77"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.734"
+			timeRelativeToTestModuleStartTime="00:07.734"
+			timeWallClock="12:31:14"
+			time="00:07.734"
+			level="Info"
+			category="User">
+			<message>
+				César López Matienzo, https://www.linkedin.com/sales/lead/ACwAAAEcSC0BtxWP9hc-pKAPuS-3y8fHUmRZ128,NAME_SEARCH,LwgM?_ntb=uLQPbnQnQ1mLI3%2FSuE5Xkg%3D%3D,Gerente de Desarrollo de Sistemas - Banca de Inversión / Mercado de Capitales y Comercio Exterior
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="77"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

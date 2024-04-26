@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="3.91s"
+		durationms="3906"
+		type="root"
+		rid="215ef20163bc86c7"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="14/12/2022 12:38:03"
+		timestampiso="2022-12-14T15:38:03"
+		endtime="14/12/2022 12:38:07"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="PruebaExcel">
+		<detail>
+			PruebaExcel
+		</detail>
+		<varbindings>
+		</varbindings>
+	</activity>
+</report>

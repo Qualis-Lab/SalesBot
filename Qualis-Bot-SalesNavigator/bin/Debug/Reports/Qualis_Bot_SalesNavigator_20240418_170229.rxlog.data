@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="InProgress">
+	<activity
+		result="Success"
+		duration="3.75s"
+		durationms="3752"
+		type="root"
+		rid="3984e6ddd28465c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Juan Cruz Diana"
+		rxversion="11.1.2.0"
+		host="DESKTOP-6E7CPKS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="1366x768"
+		timestamp="18/4/2024 17:02:29"
+		timestampiso="2024-04-18T20:02:29"
+		endtime="18/4/2024 17:02:32"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+	</activity>
+</report>

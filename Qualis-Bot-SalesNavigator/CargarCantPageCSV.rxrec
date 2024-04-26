@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b0b79668-4661-4b70-9ddd-d4059024b65d"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CargarCantPageCSV"
+	namespace="Qualis_Bot_SalesNavigator">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="d96fb5c3-d3a8-4a95-889f-66e3feaf5d83"
+	name="Qualis_Bot_SalesNavigatorRepository"
+	relativepath="Qualis_Bot_SalesNavigatorRepository.rxrep">
+		<codegen
+		classname="Qualis_Bot_SalesNavigatorRepository"
+		namespace="Qualis_Bot_SalesNavigator">
+		</codegen>
+		<rootfolder
+		id="881b03a7-de86-41df-bc6e-b74240262674"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CargarCantPageCSV.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

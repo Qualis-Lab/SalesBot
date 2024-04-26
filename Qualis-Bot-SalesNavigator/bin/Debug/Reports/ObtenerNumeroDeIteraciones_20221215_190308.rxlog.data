@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.17s"
+		durationms="5168"
+		type="root"
+		rid="9ddbb306aea3007"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="15/12/2022 19:03:10"
+		timestampiso="2022-12-15T22:03:10"
+		endtime="15/12/2022 19:03:15"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ObtenerNumeroDeIteraciones">
+		<detail>
+			ObtenerNumeroDeIteraciones
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.877"
+			timeRelativeToTestModuleStartTime="00:02.877"
+			timeWallClock="19:03:13"
+			time="00:02.877"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>cantidadDeResultados, nombrePersona, TodosSeleccionados
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.915"
+			timeRelativeToTestModuleStartTime="00:02.915"
+			timeWallClock="19:03:13"
+			time="00:02.915"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 30s to exist. Associated repository item: 'InicioSalesNavigator.SpanTag3Resultados'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//main[#'content-main']//span[@innertext&lt;'resultados']"
+				itempath=".//main[#'content-main']//span[@innertext&lt;'resultados']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.SpanTag3Resultados"
+				id="ef64d75d183647acb8049f631baafa78"
+				timeout="30000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerNumeroDeIteraciones.cs"
+				codeline="121"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.680"
+			timeRelativeToTestModuleStartTime="00:04.680"
+			timeWallClock="19:03:15"
+			time="00:04.680"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'InnerText' from item 'InicioSalesNavigator.SpanTag3Resultados' and assigning the part of its value captured by '[0-9]{1,}' to variable 'cantidadDeResultados'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//main[#'content-main']//span[@innertext&lt;'resultados']"
+				itempath=".//main[#'content-main']//span[@innertext&lt;'resultados']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.SpanTag3Resultados"
+				id="ef64d75d183647acb8049f631baafa78"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerNumeroDeIteraciones.cs"
+				codeline="124"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.929"
+			timeRelativeToTestModuleStartTime="00:04.929"
+			timeWallClock="19:03:15"
+			time="00:04.929"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'Checked' from item 'InicioSalesNavigator.ContentMain.ChekYaEstanSeleccionados' and assigning its value to variable 'TodosSeleccionados'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//main[#'content-main']//div//span[@innertext~'eleccion']/../..//input[@type='checkbox' and @checked='True']"
+				itempath=".//div//span[@innertext~'eleccion']/../..//input[@type='checkbox' and @checked='True']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.ContentMain.ChekYaEstanSeleccionados"
+				id="f720249ca5634b89beb95b2c64c20bfc"
+				timeout="90000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerNumeroDeIteraciones.cs"
+				codeline="128"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.166"
+			timeRelativeToTestModuleStartTime="00:05.166"
+			timeWallClock="19:03:15"
+			time="00:05.166"
+			level="Info"
+			category="User">
+			<message>
+				True
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerNumeroDeIteraciones.cs"
+				codeline="132"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.166"
+			timeRelativeToTestModuleStartTime="00:05.166"
+			timeWallClock="19:03:15"
+			time="00:05.166"
+			level="Info"
+			category="User">
+			<message>
+				1
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerNumeroDeIteraciones.cs"
+				codeline="134"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

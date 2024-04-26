@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.6m"
+		durationms="98820"
+		type="root"
+		rid="266ef0a29ad4f73"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Juan Cruz Diana"
+		rxversion="11.1.2.0"
+		host="DESKTOP-6E7CPKS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="23/4/2024 17:34:38"
+		timestampiso="2024-04-23T20:34:38"
+		endtime="23/4/2024 17:36:17"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ExtraerDatos">
+		<detail>
+			ExtraerDatos
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.371"
+			timeRelativeToTestModuleStartTime="00:11.371"
+			timeWallClock="17:34:49"
+			time="00:11.371"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Linkedin, index
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.434"
+			timeRelativeToTestModuleStartTime="00:11.434"
+			timeWallClock="17:34:49"
+			time="00:11.434"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="C:\Users\Juan Cruz Diana\Desktop\SalesBot-master\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+				codeline="123"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:38.815"
+			timeRelativeToTestModuleStartTime="01:38.815"
+			timeWallClock="17:36:17"
+			time="01:38.815"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

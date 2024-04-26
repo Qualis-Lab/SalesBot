@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="6.13s"
+		durationms="6128"
+		type="root"
+		rid="b37279016e3161a"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="14/12/2022 12:02:26"
+		timestampiso="2022-12-14T15:02:26"
+		endtime="14/12/2022 12:02:32"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="BusquedaDeDatos">
+		<detail>
+			BusquedaDeDatos
+		</detail>
+		<errormessage>
+			No element found for path './dom[@domain='www.linkedin.com']//div[#'search-results-container']/?/?/ol/li[1]//a[@data-control-name='view_lead_panel_via_search_lead_name']/span' at step 'dom[@domain='www.linkedin.com']' after 1 attempts.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.753"
+			timeRelativeToTestModuleStartTime="00:02.753"
+			timeWallClock="12:02:29"
+			time="00:02.753"
+			level="Warn"
+			category="Data"
+			errimg="images_Busqueda_8b59f035\Busqueda_8b59f035_f5b36a4d_trace.jpg"
+			errthumb="images_Busqueda_8b59f035\Busqueda_8b59f035_f5b36a4d_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>cantidadDeResultados
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.021"
+			timeRelativeToTestModuleStartTime="00:06.021"
+			timeWallClock="12:02:32"
+			time="00:06.021"
+			level="Error"
+			category="Module"
+			errimg="images_Busqueda_8b59f035\Busqueda_8b59f035_0d83e24a_trace.jpg"
+			errthumb="images_Busqueda_8b59f035\Busqueda_8b59f035_0d83e24a_trace_thumb.jpg">
+			<message>
+				No element found for path './dom[@domain='www.linkedin.com']//div[#'search-results-container']/?/?/ol/li[1]//a[@data-control-name='view_lead_panel_via_search_lead_name']/span' at step 'dom[@domain='www.linkedin.com']' after 1 attempts.
+			</message>
+			<metainfo
+				stacktrace="   en Ranorex.Core.Element.FindSingle(RxPath path)
+   en Ranorex.Adapter.FindSingle(RxPath path)
+   en Qualis_Bot_SalesNavigator.BusquedaDeDatos.Ranorex.Core.Testing.ITestModule.Run() en c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs:línea 91
+   en Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="91"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

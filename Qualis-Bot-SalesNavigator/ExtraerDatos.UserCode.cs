@@ -24,93 +24,94 @@ using System.Runtime.InteropServices;
 
 namespace Qualis_Bot_SalesNavigator
 {
-    public partial class ExtraerDatos
+	public partial class ExtraerDatos
+	{
+		/// <summary>
+		/// This method gets called right after the recording has been started.
+		/// It can be used to execute recording specific initialization code.
+		/// </summary>
+		private void Init()
+		{
+			// Your recording specific initialization code goes here.
+		}
+public void ObtenerValoresEmail()
+{
+    int index1 = 1;
+    string Email = "";
+    string ObtenerEmail = "";
+
+    index = index1.ToString();
+    
+    while(repo.ContAndFail_Chrome.ObtenerEmailNewInfo.Exists())
     {
-        /// <summary>
-        /// This method gets called right after the recording has been started.
-        /// It can be used to execute recording specific initialization code.
-        /// </summary>
-        private void Init()
+        ObtenerEmail = repo.ContAndFail_Chrome.ObtenerEmailNew.Element.GetAttributeValue("caption").ToString();
+        if(!Email.Contains(ObtenerEmail))
         {
-            // Your recording specific initialization code goes here.
+            Report.Info("Estoy en el if validando ObtenerEmail: " + ObtenerEmail + ". No está en la lista de Email: " + Email);
+            Email = Email + ObtenerEmail + " , ";
         }
+        
+        index1++;
+        index = index1.ToString();
+        Report.Info("index= " + index);
+        
+        // Verifica si index es igual a 4 y sale del bucle si es así
+        if(index == "4")
+        {
+            break;
+        }
+    }
 
-        public void ObtenerValoresEmail()
-        {
-        	int index1 = 1;
-        	string Email = "";
-        	string ObtenerEmail = "";
-        	
-        	
-        	index = index1.ToString();
-        	
-        	while(repo.ContAndFail_Chrome.ObtenerEmailInfo.Exists()){
-        		
-        		ObtenerEmail = repo.ContAndFail_Chrome.ObtenerEmail.Element.GetAttributeValue("caption").ToString();
-        		
-        		
-        		if(!Email.Contains(ObtenerEmail)){
-        			
-        			Email = Email + ObtenerEmail + ",";
-        			
-        			
-        		}
-        		
-        		
-        		index1++;
-        		index = index1.ToString();
-        	}
-        	
-        	if(Email != ""){
-        		
-        		Report.Info("Email: " + Email);
-        		OpenExcel(Email, "H");
-        		
-        	}else{
-        		Report.Info("No posee ningun Email");
-        	}
-        	
-        	index = "1";
-        }
+    if(Email != "")
+    {
+        Report.Info("Emails encontrados: " + Email);
+        OpenExcel(Email, "G");
+    }
+    else
+    {
+        Report.Info("No se encontraron correos electrónicos.");
+    }
 
-        public void ObtenerValoresPhone()
-        {
-        	int index1 = 1;
-        	string Phone = "";
-        	string ObtenerPhone = "";
-        	
-        	index = index1.ToString();
-        	
-        	while(repo.ContAndFail_Chrome.ObtenerPhoneInfo.Exists()){
-        		
-        		ObtenerPhone = repo.ContAndFail_Chrome.ObtenerPhone.Element.GetAttributeValue("caption").ToString();
-        		
-        		
-        		if(!Phone.Contains(ObtenerPhone)){
-        			
-        			Phone = Phone + ObtenerPhone + ",";
-        			
-        		}
-        		
-        		index1++;
-        		index = index1.ToString();
-        	}
-        	
-        	if(Phone != ""){
-        		
-        		Report.Info("Phone: " + Phone);
-        		OpenExcel(Phone, "G");
-        		
-        	}else{
-        		Report.Info("No posee ningun Phone");
-        	}
-        	
-        	index = "1";
-        }
+			
+			index = "1";
+		}
+
+		public void ObtenerValoresPhone()
+		{
+			int index1 = 1;
+			string Phone = "";
+			string ObtenerPhone = "";
+			
+			index = index1.ToString();
+			
+			while(repo.ContAndFail_Chrome.ObtenerPhoneNewInfo.Exists()){
+				
+				ObtenerPhone = repo.ContAndFail_Chrome.ObtenerPhoneNew.Element.GetAttributeValue("caption").ToString()				
+				if(!Phone.Contains(ObtenerPhone)){
+					 Report.Info("Estoy en el if validando ObtenerPhone: " + ObtenerPhone + ". No está en la lista de Phone: " + Phone);
+					Phone = Phone + ObtenerPhone + " , ";
+					
+				}
+				
+				index1++;
+				index = index1.ToString();
+			}
+			
+			if(Phone != ""){
+				
+				Report.Info("Phone: " + Phone);
+				OpenExcel(Phone, "H");
+				
+			}else{
+				Report.Info("No posee ningun Phone");
+			}
+			
+			index = "1";
+		}
 		
-        private void OpenExcel(string dato, string columna){
-        	
-        	Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
+		private void OpenExcel(string dato, string columna){
+			
+			Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
 			
 			
 			//Abro el archivo excel
@@ -138,6 +139,6 @@ namespace Qualis_Bot_SalesNavigator
 			
 			Report.Info("Excel guardado y cerrado correctamente");
 			
-        }
-    }
+		}
+	}
 }

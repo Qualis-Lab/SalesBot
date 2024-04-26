@@ -54,7 +54,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -77,6 +77,27 @@ mode="Global">
 			</info>
 		</mouseitem>
 		<keysequenceitem
+		KeySequence="{LControlKey down}{Akey}{LControlKey up}{Back}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="da55faf0-2136-4891-a62d-371f079fc726">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="89f6dd15-8a14-4946-9797-ff1dc94873d1"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.linkedin.com']//input[#'global-typeahead-search-input']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
 		KeySequence="yourtext"
 		duration="20ms"
 		enabled="True"
@@ -92,10 +113,10 @@ mode="Global">
 				</binding>
 			</bindings>
 			<info
-			id="bb18b76d-3ffd-43d3-b675-fec7803ed6cb"
+			id="89f6dd15-8a14-4946-9797-ff1dc94873d1"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='www.linkedin.com']//main[#'content-main']//input[@type='text' and @placeholder='Añadir cargos actuales']
+					/dom[@domain='www.linkedin.com']//input[#'global-typeahead-search-input']
 				</path>
 				<robustPath>
 				</robustPath>

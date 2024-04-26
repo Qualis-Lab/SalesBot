@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="fce4b072-3953-4aa8-8cc7-7ef0491bf4f7"
+id="ad68b60c-8516-4ac6-9ac3-df35a24ef674"
 mode="Global">
 	<repeatcount>
 		1
@@ -24,7 +24,7 @@ mode="Global">
 	</codegen>
 	<variables>
 		<var
-		id="02673b5c-a509-4997-b68a-f296c51454ec"
+		id="90b20609-d613-424b-9c4f-132b2c390d55"
 		name="nombreEmpresa">
 			Galicia Seguros &#32;
 		</var>
@@ -67,7 +67,7 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="bb7ff820-0d26-4b0a-9765-e74f50d748a8"
+			id="1fad1f5d-e03e-4455-b75a-15da589af9f6"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, atag"
@@ -153,7 +153,7 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="bb7ff820-0d26-4b0a-9765-e74f50d748a8"
+			id="1fad1f5d-e03e-4455-b75a-15da589af9f6"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, atag"

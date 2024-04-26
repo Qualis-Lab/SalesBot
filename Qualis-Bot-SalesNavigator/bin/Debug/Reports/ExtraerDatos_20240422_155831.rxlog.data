@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.1m"
+		durationms="124336"
+		type="root"
+		rid="1a61c2fda46792e"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Juan Cruz Diana"
+		rxversion="11.1.2.0"
+		host="DESKTOP-6E7CPKS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="1366x768"
+		timestamp="22/4/2024 15:58:36"
+		timestampiso="2024-04-22T18:58:36"
+		endtime="22/4/2024 16:00:40"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ExtraerDatos">
+		<detail>
+			ExtraerDatos
+		</detail>
+		<errormessage>
+			Failed to wait for item to exist.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.270"
+			timeRelativeToTestModuleStartTime="00:11.270"
+			timeWallClock="15:58:47"
+			time="00:11.270"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Linkedin, index
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.324"
+			timeRelativeToTestModuleStartTime="00:11.324"
+			timeWallClock="15:58:47"
+			time="00:11.324"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Chrome.SalesQLBrowserExtensionTieneAccesoA' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='chrome']//button[@accessiblename>'SalesQL Browser Extension']"
+				itempath=".//button[@accessiblename>'SalesQL Browser Extension']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.Chrome.SalesQLBrowserExtensionTieneAccesoA"
+				id="b74bdfe06def4c1d8faf58e631b4e180"
+				timeout="60000"
+				codefile="C:\Users\Juan Cruz Diana\Desktop\SalesBot-master\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+				codeline="106"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.747"
+			timeRelativeToTestModuleStartTime="00:18.747"
+			timeWallClock="15:58:55"
+			time="00:18.747"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\Juan Cruz Diana\Desktop\SalesBot-master\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+				codeline="110"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.754"
+			timeRelativeToTestModuleStartTime="00:23.754"
+			timeWallClock="15:59:00"
+			time="00:23.754"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Chrome.TextAdd' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='chrome']/container[@accessiblerole='Pane']/container[@accessiblerole='Pane']//container[@accessiblename='SalesQL']//container[@accessiblerole='Grouping']/text[@accessiblename='add']"
+				itempath="container[@accessiblerole='Pane']/container[@accessiblerole='Pane']//container[@accessiblename='SalesQL']//container[@accessiblerole='Grouping']/text[@accessiblename='add']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.Chrome.TextAdd"
+				id="5104c1b5d0b640c0a47f4aa1b80b1a2f"
+				timeout="60000"
+				codefile="C:\Users\Juan Cruz Diana\Desktop\SalesBot-master\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+				codeline="113"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:03.584"
+			timeRelativeToTestModuleStartTime="01:03.584"
+			timeWallClock="15:59:39"
+			time="01:03.584"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Qualis_Bot_SalesNavigatorRepository.Chrome.TextAdd' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Qualis_Bot_SalesNavigatorRepository.Chrome'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="C:\Users\Juan Cruz Diana\Desktop\SalesBot-master\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+				codeline="114"
+				loglvl="Warn"
+				id="5104c1b5d0b640c0a47f4aa1b80b1a2f"
+				path="/form[@processname='chrome']/container[@accessiblerole='Pane']/container[@accessiblerole='Pane']//container[@accessiblename='SalesQL']//container[@accessiblerole='Grouping']/text[@accessiblename='add']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.Chrome.TextAdd"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:03.989"
+			timeRelativeToTestModuleStartTime="01:03.989"
+			timeWallClock="15:59:40"
+			time="01:03.989"
+			level="Info"
+			category="Wait"
+			errimg="images_ExtraerD_443d85a9\ExtraerD_443d85a9_881323f0_trace.jpg"
+			errthumb="images_ExtraerD_443d85a9\ExtraerD_443d85a9_881323f0_trace_thumb.jpg">
+			<message>
+				Waiting 30s to exist. Associated repository item: 'ContAndFail_Chrome.WaitFor_DatosEmailPhone'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='chrome']//container[@accessiblename='SalesQL' or @caption='SalesQL']//container[@accessiblename~'email' and @accessiblename~'[0-9]' or @accessiblename~'phone ' and @accessiblename~'[0-9]']"
+				itempath=".//container[@accessiblename='SalesQL' or @caption='SalesQL']//container[@accessiblename~'email' and @accessiblename~'[0-9]' or @accessiblename~'phone ' and @accessiblename~'[0-9]']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.ContAndFail_Chrome.WaitFor_DatosEmailPhone"
+				id="d8afebdafc254157b19b923391f88001"
+				timeout="30000"
+				codefile="C:\Users\Juan Cruz Diana\Desktop\SalesBot-master\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+				codeline="117"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:04.179"
+			timeRelativeToTestModuleStartTime="02:04.179"
+			timeWallClock="16:00:40"
+			time="02:04.179"
+			level="Info"
+			category="User"
+			errimg="images_ExtraerD_443d85a9\ExtraerD_443d85a9_db686c68_trace.jpg"
+			errthumb="images_ExtraerD_443d85a9\ExtraerD_443d85a9_db686c68_trace_thumb.jpg">
+			<message>
+				Backtrace:    en Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)<br/>   en Ranorex.Core.Repository.RepoItemInfo.&lt;&gt;c__DisplayClass81_0`1.&lt;Find&gt;b__0()<br/>   en Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)<br/>   en Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)<br/>   en Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+			</message>
+			<metainfo
+				codefile="C:\Users\Juan Cruz Diana\Desktop\SalesBot-master\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+				codeline="118"
+				loglvl="Info"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:04.198"
+			timeRelativeToTestModuleStartTime="02:04.198"
+			timeWallClock="16:00:40"
+			time="02:04.198"
+			level="Error"
+			category="Module"
+			errimg="images_ExtraerD_443d85a9\ExtraerD_443d85a9_db686c68_trace.jpg"
+			errthumb="images_ExtraerD_443d85a9\ExtraerD_443d85a9_db686c68_trace_thumb.jpg">
+			<message>
+				Failed to wait for item to exist.<br/>Failed to find item 'Qualis_Bot_SalesNavigatorRepository.ContAndFail_Chrome.WaitFor_DatosEmailPhone'.<br/>No element found for path '/form[@processname='chrome']//container[@accessiblename='SalesQL' or @caption='SalesQL']//container[@accessiblename~'email' and @accessiblename~'[0-9]' or @accessiblename~'phone ' and @accessiblename~'[0-9]']' at step '' after 1 attempts within 30s.
+			</message>
+			<metainfo
+				stacktrace="   en Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+   en Qualis_Bot_SalesNavigator.ExtraerDatos.Ranorex.Core.Testing.ITestModule.Run() en C:\Users\Juan Cruz Diana\Desktop\SalesBot-master\Qualis-Bot-SalesNavigator\ExtraerDatos.cs:línea 118
+   en Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Juan Cruz Diana\Desktop\SalesBot-master\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+				codeline="118"
+				loglvl="Error"
+				id="d8afebdafc254157b19b923391f88001"
+				path="/form[@processname='chrome']//container[@accessiblename='SalesQL' or @caption='SalesQL']//container[@accessiblename~'email' and @accessiblename~'[0-9]' or @accessiblename~'phone ' and @accessiblename~'[0-9]']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.ContAndFail_Chrome.WaitFor_DatosEmailPhone"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.38s"
+		durationms="5382"
+		type="root"
+		rid="1b93c596689f2ba8"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="13/12/2022 11:47:28"
+		timestampiso="2022-12-13T14:47:28"
+		endtime="13/12/2022 11:47:33"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ObtenerNombre">
+		<detail>
+			ObtenerNombre
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.211"
+			timeRelativeToTestModuleStartTime="00:03.211"
+			timeWallClock="11:47:31"
+			time="00:03.211"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>cantidadDeResultados, nombrePersona
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.241"
+			timeRelativeToTestModuleStartTime="00:03.241"
+			timeWallClock="11:47:31"
+			time="00:03.241"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'InnerText' from item 'InicioSalesNavigator.SpanTag3Resultados' and assigning the part of its value captured by '[0-9]{1,}' to variable 'cantidadDeResultados'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//main[#'content-main']//span[@innertext&lt;'resultados']"
+				itempath=".//main[#'content-main']//span[@innertext&lt;'resultados']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.SpanTag3Resultados"
+				id="ef64d75d183647acb8049f631baafa78"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerNombre.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.857"
+			timeRelativeToTestModuleStartTime="00:04.857"
+			timeWallClock="11:47:33"
+			time="00:04.857"
+			level="Info"
+			category="User">
+			<message>
+				3
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerNombre.cs"
+				codeline="112"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.037"
+			timeRelativeToTestModuleStartTime="00:05.037"
+			timeWallClock="11:47:33"
+			time="00:05.037"
+			level="Info"
+			category="User">
+			<message>
+				Erico Behmer
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerNombre.UserCode.cs"
+				codeline="53"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.227"
+			timeRelativeToTestModuleStartTime="00:05.227"
+			timeWallClock="11:47:33"
+			time="00:05.227"
+			level="Info"
+			category="User">
+			<message>
+				Javier Santolia
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerNombre.UserCode.cs"
+				codeline="53"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.382"
+			timeRelativeToTestModuleStartTime="00:05.382"
+			timeWallClock="11:47:33"
+			time="00:05.382"
+			level="Info"
+			category="User">
+			<message>
+				César López Matienzo
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerNombre.UserCode.cs"
+				codeline="53"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

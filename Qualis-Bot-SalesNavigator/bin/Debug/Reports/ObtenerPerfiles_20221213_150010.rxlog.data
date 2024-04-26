@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="9.46s"
+		durationms="9463"
+		type="root"
+		rid="220613d8ab262320"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="13/12/2022 15:00:12"
+		timestampiso="2022-12-13T18:00:12"
+		endtime="13/12/2022 15:00:21"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ObtenerPerfiles">
+		<detail>
+			ObtenerPerfiles
+		</detail>
+		<errormessage>
+			WaitForAttributeEqual failed. The attribute 'InnerText' did not equal the specified value 'CIO' before the timeout of 5s. The last value found was ''. Associated repository item: 'Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.GlobalTypeaheadSearchInput'
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.785"
+			timeRelativeToTestModuleStartTime="00:02.785"
+			timeWallClock="15:00:15"
+			time="00:02.785"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Keyword
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.817"
+			timeRelativeToTestModuleStartTime="00:02.817"
+			timeWallClock="15:00:15"
+			time="00:02.817"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 30s to exist. Associated repository item: 'InicioSalesNavigator.GlobalTypeaheadSearchInput'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//input[#'global-typeahead-search-input']"
+				itempath=".//input[#'global-typeahead-search-input']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.GlobalTypeaheadSearchInput"
+				id="89f6dd158a1449469797ff1dc94873d1"
+				timeout="30000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerPerfiles.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.111"
+			timeRelativeToTestModuleStartTime="00:04.111"
+			timeWallClock="15:00:16"
+			time="00:04.111"
+			level="Info"
+			category="Set value"
+			errimg="images_ObtenerP_8885e3f3\ObtenerP_8885e3f3_41365bc1_trace.jpg"
+			errthumb="images_ObtenerP_8885e3f3\ObtenerP_8885e3f3_41365bc1_trace_thumb.jpg">
+			<message>
+				Setting attribute InnerText to '' on item 'InicioSalesNavigator.GlobalTypeaheadSearchInput'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//input[#'global-typeahead-search-input']"
+				itempath=".//input[#'global-typeahead-search-input']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.GlobalTypeaheadSearchInput"
+				id="89f6dd158a1449469797ff1dc94873d1"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerPerfiles.cs"
+				codeline="98"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.203"
+			timeRelativeToTestModuleStartTime="00:04.203"
+			timeWallClock="15:00:16"
+			time="00:04.203"
+			level="Info"
+			category="Wait"
+			errimg="images_ObtenerP_8885e3f3\ObtenerP_8885e3f3_6dfd7b41_trace.jpg"
+			errthumb="images_ObtenerP_8885e3f3\ObtenerP_8885e3f3_6dfd7b41_trace_thumb.jpg">
+			<message>
+				Waiting 5s for the attribute 'InnerText' to equal the specified value $Keyword. Associated repository item: 'InicioSalesNavigator.GlobalTypeaheadSearchInput'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//input[#'global-typeahead-search-input']"
+				itempath=".//input[#'global-typeahead-search-input']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.GlobalTypeaheadSearchInput"
+				id="89f6dd158a1449469797ff1dc94873d1"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerPerfiles.cs"
+				codeline="102"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.323"
+			timeRelativeToTestModuleStartTime="00:09.323"
+			timeWallClock="15:00:21"
+			time="00:09.323"
+			level="Error"
+			category="Module"
+			errimg="images_ObtenerP_8885e3f3\ObtenerP_8885e3f3_9283f488_trace.jpg"
+			errthumb="images_ObtenerP_8885e3f3\ObtenerP_8885e3f3_9283f488_trace_thumb.jpg">
+			<message>
+				WaitForAttributeEqual failed. The attribute 'InnerText' did not equal the specified value 'CIO' before the timeout of 5s. The last value found was ''. Associated repository item: 'Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.GlobalTypeaheadSearchInput'
+			</message>
+			<metainfo
+				stacktrace="   en Ranorex.Core.Repository.RepoItemInfo.WaitForAttributeInternal(Duration waitTimeout, String name, Object value, WaitForAction action)
+   en Ranorex.Core.Repository.RepoItemInfo.WaitForAttributeEqual(Duration waitTimeout, String name, Object value)
+   en Qualis_Bot_SalesNavigator.ObtenerPerfiles.Ranorex.Core.Testing.ITestModule.Run() en c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerPerfiles.cs:línea 103
+   en Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerPerfiles.cs"
+				codeline="103"
+				loglvl="Error"
+				id="89f6dd158a1449469797ff1dc94873d1"
+				path="/dom[@domain='www.linkedin.com']//input[#'global-typeahead-search-input']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.GlobalTypeaheadSearchInput"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

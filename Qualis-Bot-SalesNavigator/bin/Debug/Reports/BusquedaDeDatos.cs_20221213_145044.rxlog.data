@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.8s"
+		durationms="2795"
+		type="root"
+		rid="375e0cd8246be10"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="13/12/2022 14:50:45"
+		timestampiso="2022-12-13T17:50:45"
+		endtime="13/12/2022 14:50:48"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="BusquedaDeDatos">
+		<detail>
+			BusquedaDeDatos
+		</detail>
+		<errormessage>
+			La cadena de entrada no tiene el formato correcto.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.687"
+			timeRelativeToTestModuleStartTime="00:02.687"
+			timeWallClock="14:50:48"
+			time="00:02.687"
+			level="Warn"
+			category="Data"
+			errimg="images_Busqueda_f3ebf7d3\Busqueda_f3ebf7d3_5f53b422_trace.jpg"
+			errthumb="images_Busqueda_f3ebf7d3\Busqueda_f3ebf7d3_5f53b422_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>cantidadDeResultados
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.718"
+			timeRelativeToTestModuleStartTime="00:02.718"
+			timeWallClock="14:50:48"
+			time="00:02.718"
+			level="Error"
+			category="Module"
+			errimg="images_Busqueda_f3ebf7d3\Busqueda_f3ebf7d3_5f53b422_trace.jpg"
+			errthumb="images_Busqueda_f3ebf7d3\Busqueda_f3ebf7d3_5f53b422_trace_thumb.jpg">
+			<message>
+				La cadena de entrada no tiene el formato correcto.
+			</message>
+			<metainfo
+				stacktrace="   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)&#13;&#10;   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)&#13;&#10;   en System.Convert.ToInt32(String value)&#13;&#10;   en Qualis_Bot_SalesNavigator.BusquedaDeDatos.Ranorex.Core.Testing.ITestModule.Run() en c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs:línea 58&#13;&#10;   en Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="58"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

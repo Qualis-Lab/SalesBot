@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="27.67s"
+		durationms="27668"
+		type="root"
+		rid="4a45cac372504"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="9.3.4.0"
+		host="DESKTOP-16RK4EQ"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-ES"
+		dtnlanguage="es-ES"
+		screenresolution="1366x768"
+		timestamp="12/12/2022 17:46:06"
+		timestampiso="2022-12-12T19:46:06"
+		endtime="12/12/2022 17:46:34"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="FiltroPorIndustria">
+		<detail>
+			FiltroPorIndustria
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.225"
+			timeRelativeToTestModuleStartTime="00:08.225"
+			timeWallClock="17:46:14"
+			time="00:08.225"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Industria
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.271"
+			timeRelativeToTestModuleStartTime="00:08.271"
+			timeWallClock="17:46:14"
+			time="00:08.271"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'InicioSalesNavigator.Industria' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//fieldset[@title='Industria']//button[@visible='True']"
+				itempath=".//fieldset[@title='Industria']//button[@visible='True']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.Industria"
+				id="d50c92b4f8dd476ba45801b76fe1a522"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\FiltroPorIndustria.cs"
+				codeline="93"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.006"
+			timeRelativeToTestModuleStartTime="00:16.006"
+			timeWallClock="17:46:22"
+			time="00:16.006"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'InicioSalesNavigator.TextIndustria' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//fieldset[@title='Industria']//input[@type='text']"
+				itempath=".//fieldset[@title='Industria']//input[@type='text']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.TextIndustria"
+				id="34055f465d04498682c4624659e166db"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\FiltroPorIndustria.cs"
+				codeline="97"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.613"
+			timeRelativeToTestModuleStartTime="00:22.613"
+			timeWallClock="17:46:29"
+			time="00:22.613"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Industria'.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\FiltroPorIndustria.cs"
+				codeline="101"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.434"
+			timeRelativeToTestModuleStartTime="00:23.434"
+			timeWallClock="17:46:30"
+			time="00:23.434"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'InicioSalesNavigator.IncluirIndustriaEnElFiltroIndustria' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//fieldset[@title='Industria']//button[@title>'Incluir «'+'Servicios financieros']"
+				itempath=".//fieldset[@title='Industria']//button[@title>'Incluir «'+$Industria]"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.IncluirIndustriaEnElFiltroIndustria"
+				id="4f9c02c755064d20b97d20e22fed6e79"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\FiltroPorIndustria.cs"
+				codeline="105"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

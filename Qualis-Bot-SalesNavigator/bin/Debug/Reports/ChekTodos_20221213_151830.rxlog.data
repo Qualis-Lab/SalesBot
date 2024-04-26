@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="4.36s"
+		durationms="4356"
+		type="root"
+		rid="1f086c7e590fb506"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="13/12/2022 15:18:32"
+		timestampiso="2022-12-13T18:18:32"
+		endtime="13/12/2022 15:18:36"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ChekTodos">
+		<detail>
+			ChekTodos
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.829"
+			timeRelativeToTestModuleStartTime="00:02.829"
+			timeWallClock="15:18:35"
+			time="00:02.829"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'InicioSalesNavigator.SeleccionarTodos' at CenterLeft.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//main[#'content-main']//span[@innertext='Seleccionar todo']"
+				itempath=".//main[#'content-main']//span[@innertext='Seleccionar todo']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.SeleccionarTodos"
+				id="3be7b3edbf594d6e9b7d2424f6f602bd"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ChekTodos.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

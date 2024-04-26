@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="deeb8d1a-551c-4fcd-b435-6980fa3146e8"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="EntrarPerfilLinkedIn"
+	namespace="Qualis_Bot_SalesNavigator">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="15;4"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="50da92be-da8b-43f6-b5b6-9461d76d32f6"
+		sx="483"
+		sy="563"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5f93e09e-66b3-4be6-a6e6-1d51e4762777"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, svgtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="svgtag"
+				rect="468,559,16,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						svg
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-hidden"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-supported-dps"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="fill"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="viewBox"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="xmlns"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='www.linkedin.com']//section[#'profile-card-section']/section[1]/div[2]/section/div[2]/button/span[1]/svg
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="b0a4da01-1d9f-41ac-a610-8e3f6f542864">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAyADIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKj
+nmSCIySNtUdTjNA0m3ZElFUP7Vsz/wAt/wDx1v8ACj+1bL/nt/463+FLmXcv2NT+V/cX6KrW19b3
+LlIpNzAZ+6RxVmmnciUXF2aCiiigQVQ1fnTpvw/mKv1Q1f8A5Bs34fzFKWzNKP8AEj6oLS2t2tYS
+0ERYxqTlBk8U6aKzhgeZreIqiljhBziktIIzDDMQd5hVevbFR31nCulzIAcRozLz3waElYJzlzPU
+r2BB1q4CwmECPGwgDH3fTitodKxpbeVtUllt7hoXeYRH5Qwx5Ybv9KuaZc3E64uVjDGNJFMecYbP
+Bz34oSsFSfO0/Iu0UUUzMKrahbtc2jxRkBmx16dQas0UNXHGTi00ZCW2qRoqLcxBVGAMdvypn2ad
+3kgvbiRXnBEciOSh4wVK9M9+n8q2sCorm2iuYvLkB65VgcFT2IPrSSsXOo5rVL7iWq0WP7SnA7Qx
+j6cvUa/2mkZUi1kYcByzLn3IA/rUtnbG3EjSSebNI25324z6D6D/ABpmZYooooAKKKKACiiigAoo
+ooAKKKKAP//Z
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="133;12"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="631dd492-9d4c-4251-b89c-2ecedcd9f404"
+		sx="362"
+		sy="681"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c0d27101-5bf5-4ac9-aab5-192a6a64cc0f"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="229,669,155,20"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						_text_1xnv7i
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Ver perfil de LinkedIn
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						_text_1xnv7i
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.linkedin.com']//div[#'hue-web-menu-outlet']//div[@innertext='Ver perfil de LinkedIn']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="7ddaf28c-0f25-498e-aac3-33b2233909b2">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="d96fb5c3-d3a8-4a95-889f-66e3feaf5d83"
+	name="Qualis_Bot_SalesNavigatorRepository"
+	relativepath="Qualis_Bot_SalesNavigatorRepository.rxrep">
+		<codegen
+		classname="Qualis_Bot_SalesNavigatorRepository"
+		namespace="Qualis_Bot_SalesNavigator">
+		</codegen>
+		<rootfolder
+		id="881b03a7-de86-41df-bc6e-b74240262674"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		EntrarPerfilLinkedIn.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

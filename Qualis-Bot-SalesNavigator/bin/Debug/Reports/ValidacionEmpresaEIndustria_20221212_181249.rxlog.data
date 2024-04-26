@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="35.46s"
+		durationms="35463"
+		type="root"
+		rid="8f02aa5b840021e"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="9.3.4.0"
+		host="DESKTOP-16RK4EQ"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-ES"
+		dtnlanguage="es-ES"
+		screenresolution="1366x768"
+		timestamp="12/12/2022 18:12:57"
+		timestampiso="2022-12-12T20:12:57"
+		endtime="12/12/2022 18:13:32"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ValidacionEmpresaEIndustria">
+		<detail>
+			ValidacionEmpresaEIndustria
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.936"
+			timeRelativeToTestModuleStartTime="00:15.936"
+			timeWallClock="18:13:13"
+			time="00:15.936"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Industria, nombreEmpresa
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.074"
+			timeRelativeToTestModuleStartTime="00:16.074"
+			timeWallClock="18:13:13"
+			time="00:16.074"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'InicioSalesNavigator.ValidacionNombreEmpresaIndustria'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//div[#'search-results-container']//span[@innertext='Servicios financieros']/../../..//a[@innertext='Banco Galicia']"
+				itempath=".//div[#'search-results-container']//span[@innertext=$Industria]/../../..//a[@innertext=$nombreEmpresa]"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.ValidacionNombreEmpresaIndustria"
+				id="7af6cc06909f4092a6ab3019e5ed10c5"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\ValidacionEmpresaEIndustria.cs"
+				codeline="103"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.569"
+			timeRelativeToTestModuleStartTime="00:29.569"
+			timeWallClock="18:13:26"
+			time="00:29.569"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ValidacionNombreEmpresaIndustria' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//div[#'search-results-container']//span[@innertext='Servicios financieros']/../../..//a[@innertext='Banco Galicia']"
+				itempath=".//div[#'search-results-container']//span[@innertext=$Industria]/../../..//a[@innertext=$nombreEmpresa]"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.ValidacionNombreEmpresaIndustria"
+				id="7af6cc06909f4092a6ab3019e5ed10c5"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\ValidacionEmpresaEIndustria.cs"
+				codeline="104"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.383"
+			timeRelativeToTestModuleStartTime="00:31.383"
+			timeWallClock="18:13:28"
+			time="00:31.383"
+			level="Info"
+			category="User"
+			errimg="images_Validaci_ece880c9\Validaci_b2fb3028_rxlog.jpg"
+			errthumb="images_Validaci_ece880c9\Validaci_b2fb3028_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\ValidacionEmpresaEIndustria.cs"
+				codeline="107"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.386"
+			timeRelativeToTestModuleStartTime="00:31.386"
+			timeWallClock="18:13:28"
+			time="00:31.386"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'InicioSalesNavigator.ValidacionNombreEmpresaIndustria' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//div[#'search-results-container']//span[@innertext='Servicios financieros']/../../..//a[@innertext='Banco Galicia']"
+				itempath=".//div[#'search-results-container']//span[@innertext=$Industria]/../../..//a[@innertext=$nombreEmpresa]"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.ValidacionNombreEmpresaIndustria"
+				id="7af6cc06909f4092a6ab3019e5ed10c5"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\ValidacionEmpresaEIndustria.cs"
+				codeline="109"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

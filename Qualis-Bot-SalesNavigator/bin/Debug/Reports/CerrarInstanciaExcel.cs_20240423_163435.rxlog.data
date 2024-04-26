@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="13.61s"
+		durationms="13610"
+		type="root"
+		rid="27e27147cd8ffdbd"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Juan Cruz Diana"
+		rxversion="11.1.2.0"
+		host="DESKTOP-6E7CPKS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="23/4/2024 16:34:43"
+		timestampiso="2024-04-23T19:34:43"
+		endtime="23/4/2024 16:34:57"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CerrarInstanciaExcel">
+		<detail>
+			CerrarInstanciaExcel
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.528"
+			timeRelativeToTestModuleStartTime="00:12.528"
+			timeWallClock="16:34:55"
+			time="00:12.528"
+			level="Info"
+			category="User">
+			<message>
+				Process killed: EXCEL
+			</message>
+			<metainfo
+				codefile="C:\Users\Juan Cruz Diana\Desktop\SalesBot-master\Qualis-Bot-SalesNavigator\CerrarInstanciaExcel.cs"
+				codeline="61"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="36.41s"
+		durationms="36407"
+		type="root"
+		rid="185fe39fb4d63"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="15/12/2022 11:47:08"
+		timestampiso="2022-12-15T14:47:08"
+		endtime="15/12/2022 11:47:44"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseBrowser">
+		<detail>
+			CloseBrowser
+		</detail>
+		<errormessage>
+			Failed to find item 'Qualis_Bot_SalesNavigatorRepository.ApplicationUnderTest.Self'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.052"
+			timeRelativeToTestModuleStartTime="00:03.052"
+			timeWallClock="11:47:11"
+			time="00:03.052"
+			level="Info"
+			category="Application"
+			errimg="images_CloseBro_66da1dfb\CloseBro_66da1dfb_ce7de047_trace.jpg"
+			errthumb="images_CloseBro_66da1dfb\CloseBro_66da1dfb_ce7de047_trace_thumb.jpg">
+			<message>
+				Closing application containing item 'ApplicationUnderTest'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain>'https://www.linkedin.com/sales']"
+				itempath="/dom[@domain>'https://www.linkedin.com/sales']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.ApplicationUnderTest.Self"
+				id="d8482183938a4f65adf91f1438f09dc8"
+				timeout="30000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\CloseBrowser.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.342"
+			timeRelativeToTestModuleStartTime="00:36.342"
+			timeWallClock="11:47:44"
+			time="00:36.342"
+			level="Error"
+			category="Module"
+			errimg="images_CloseBro_66da1dfb\CloseBro_66da1dfb_21e02f21_trace.jpg"
+			errthumb="images_CloseBro_66da1dfb\CloseBro_66da1dfb_21e02f21_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Qualis_Bot_SalesNavigatorRepository.ApplicationUnderTest.Self'.<br/>No element found for path '/dom[@domain&gt;'https://www.linkedin.com/sales']' at step 'dom[@domain&gt;'https://www.linkedin.com/sales']' after 144 attempts within 30s.
+			</message>
+			<metainfo
+				stacktrace="   en Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   en Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   en Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   en Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   en Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   en Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   en Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ApplicationUnderTestAppFolder.get_Self() en c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\Qualis_Bot_SalesNavigatorRepository.cs:línea 175&#13;&#10;   en Qualis_Bot_SalesNavigator.CloseBrowser.Ranorex.Core.Testing.ITestModule.Run() en c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\CloseBrowser.cs:línea 83&#13;&#10;   en Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\CloseBrowser.cs"
+				codeline="83"
+				type="repoitem"
+				path="/dom[@domain>'https://www.linkedin.com/sales']"
+				itempath="/dom[@domain>'https://www.linkedin.com/sales']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.ApplicationUnderTest.Self"
+				id="d8482183938a4f65adf91f1438f09dc8"
+				timeout="30000"
+				failedStep="dom[@domain>'https://www.linkedin.com/sales']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

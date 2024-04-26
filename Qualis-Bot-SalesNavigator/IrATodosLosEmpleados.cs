@@ -26,7 +26,7 @@ namespace Qualis_Bot_SalesNavigator
     /// <summary>
     ///The IrATodosLosEmpleados recording.
     /// </summary>
-    [TestModule("fce4b072-3953-4aa8-8cc7-7ef0491bf4f7", ModuleType.Recording, 1)]
+    [TestModule("ad68b60c-8516-4ac6-9ac3-df35a24ef674", ModuleType.Recording, 1)]
     public partial class IrATodosLosEmpleados : ITestModule
     {
         /// <summary>
@@ -57,7 +57,7 @@ namespace Qualis_Bot_SalesNavigator
         /// <summary>
         /// Gets or sets the value of variable nombreEmpresa.
         /// </summary>
-        [TestVariable("02673b5c-a509-4997-b68a-f296c51454ec")]
+        [TestVariable("90b20609-d613-424b-9c4f-132b2c390d55")]
         public string nombreEmpresa
         {
             get { return repo.nombreEmpresa; }

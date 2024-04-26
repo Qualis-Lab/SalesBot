@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="5.75s"
+		durationms="5748"
+		type="root"
+		rid="12251651e70dcaf8"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="13/12/2022 11:37:18"
+		timestampiso="2022-12-13T14:37:18"
+		endtime="13/12/2022 11:37:24"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ObtenerNombre">
+		<detail>
+			ObtenerNombre
+		</detail>
+		<errormessage>
+			No element found for path '/li[1]//a[@data-anonymize='person-name']' at step 'li[1]' after 1 attempts.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.278"
+			timeRelativeToTestModuleStartTime="00:03.278"
+			timeWallClock="11:37:21"
+			time="00:03.278"
+			level="Warn"
+			category="Data"
+			errimg="images_ObtenerN_9ca11623\ObtenerN_9ca11623_94ec58d4_trace.jpg"
+			errthumb="images_ObtenerN_9ca11623\ObtenerN_9ca11623_94ec58d4_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>cantidadDeResultados, nombrePersona
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.310"
+			timeRelativeToTestModuleStartTime="00:03.310"
+			timeWallClock="11:37:21"
+			time="00:03.310"
+			level="Info"
+			category="Get Value"
+			errimg="images_ObtenerN_9ca11623\ObtenerN_9ca11623_94ec58d4_trace.jpg"
+			errthumb="images_ObtenerN_9ca11623\ObtenerN_9ca11623_94ec58d4_trace_thumb.jpg">
+			<message>
+				Getting attribute 'InnerText' from item 'InicioSalesNavigator.SpanTag3Resultados' and assigning the part of its value captured by '[0-9]{1,}' to variable 'cantidadDeResultados'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//main[#'content-main']//span[@innertext&lt;'resultados']"
+				itempath=".//main[#'content-main']//span[@innertext&lt;'resultados']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.SpanTag3Resultados"
+				id="ef64d75d183647acb8049f631baafa78"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerNombre.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.159"
+			timeRelativeToTestModuleStartTime="00:05.159"
+			timeWallClock="11:37:23"
+			time="00:05.159"
+			level="Info"
+			category="User"
+			errimg="images_ObtenerN_9ca11623\ObtenerN_9ca11623_1fbc2506_trace.jpg"
+			errthumb="images_ObtenerN_9ca11623\ObtenerN_9ca11623_1fbc2506_trace_thumb.jpg">
+			<message>
+				3
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerNombre.cs"
+				codeline="112"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.602"
+			timeRelativeToTestModuleStartTime="00:05.602"
+			timeWallClock="11:37:23"
+			time="00:05.602"
+			level="Error"
+			category="Module"
+			errimg="images_ObtenerN_9ca11623\ObtenerN_9ca11623_c718224d_trace.jpg"
+			errthumb="images_ObtenerN_9ca11623\ObtenerN_9ca11623_c718224d_trace_thumb.jpg">
+			<message>
+				No element found for path '/li[1]//a[@data-anonymize='person-name']' at step 'li[1]' after 1 attempts.
+			</message>
+			<metainfo
+				stacktrace="   en Ranorex.Core.Element.FindSingle(RxPath path)
+   en Ranorex.Adapter.FindSingle(RxPath path)
+   en Qualis_Bot_SalesNavigator.ObtenerNombre.ObtenerNombrePuestoYLinkSale() en c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerNombre.UserCode.cs:línea 49
+   en Qualis_Bot_SalesNavigator.ObtenerNombre.Ranorex.Core.Testing.ITestModule.Run() en c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerNombre.cs:línea 114
+   en Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ObtenerNombre.UserCode.cs"
+				codeline="49"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

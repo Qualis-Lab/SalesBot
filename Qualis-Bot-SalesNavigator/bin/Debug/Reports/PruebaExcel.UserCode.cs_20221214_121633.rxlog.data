@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="5.65s"
+		durationms="5652"
+		type="root"
+		rid="13da7bec2bb64c29"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="14/12/2022 12:16:35"
+		timestampiso="2022-12-14T15:16:35"
+		endtime="14/12/2022 12:16:41"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="PruebaExcel">
+		<detail>
+			PruebaExcel
+		</detail>
+		<errormessage>
+			Referencia a objeto no establecida como instancia de un objeto.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.464"
+			timeRelativeToTestModuleStartTime="00:05.464"
+			timeWallClock="12:16:41"
+			time="00:05.464"
+			level="Error"
+			category="Module"
+			errimg="images_PruebaEx_a12c9258\PruebaEx_a12c9258_d46a610d_trace.jpg"
+			errthumb="images_PruebaEx_a12c9258\PruebaEx_a12c9258_d46a610d_trace_thumb.jpg">
+			<message>
+				Referencia a objeto no establecida como instancia de un objeto.
+			</message>
+			<metainfo
+				stacktrace="   en Qualis_Bot_SalesNavigator.PruebaExcel.xlsWorker() en c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\PruebaExcel.UserCode.cs:línea 68
+   en Qualis_Bot_SalesNavigator.PruebaExcel.Ranorex.Core.Testing.ITestModule.Run() en c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\PruebaExcel.cs:línea 82
+   en Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\PruebaExcel.UserCode.cs"
+				codeline="68"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

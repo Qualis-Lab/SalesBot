@@ -95,18 +95,22 @@ namespace Qualis_Bot_SalesNavigator
                 repo.ContinueAndFail.Li_ExistUnResultadoInfo.WaitForExists(3000);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'InicioSalesNavigator.Btn_CargoActual' at Center.", repo.InicioSalesNavigator.Btn_CargoActualInfo, new RecordItemIndex(1));
-            repo.InicioSalesNavigator.Btn_CargoActual.Click();
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'InicioSalesNavigator.Btn_CargoActual' at Center.", repo.InicioSalesNavigator.Btn_CargoActualInfo, new RecordItemIndex(1));
+            //repo.InicioSalesNavigator.Btn_CargoActual.Click();
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{Akey}{LControlKey up}{Back}' with focus on 'InicioSalesNavigator.GlobalTypeaheadSearchInput'.", repo.InicioSalesNavigator.GlobalTypeaheadSearchInputInfo, new RecordItemIndex(2));
+            repo.InicioSalesNavigator.GlobalTypeaheadSearchInput.PressKeys("{LControlKey down}{Akey}{LControlKey up}{Back}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Keyword' with focus on 'InicioSalesNavigator.Input_AnadirCargoActual'.", repo.InicioSalesNavigator.Input_AnadirCargoActualInfo, new RecordItemIndex(2));
-            repo.InicioSalesNavigator.Input_AnadirCargoActual.PressKeys(Keyword);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Keyword' with focus on 'InicioSalesNavigator.GlobalTypeaheadSearchInput'.", repo.InicioSalesNavigator.GlobalTypeaheadSearchInputInfo, new RecordItemIndex(3));
+            repo.InicioSalesNavigator.GlobalTypeaheadSearchInput.PressKeys(Keyword);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(4));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(5));
             Keyboard.Press("{Return}");
             Delay.Milliseconds(0);
             

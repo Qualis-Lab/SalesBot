@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.77s"
+		durationms="2767"
+		type="root"
+		rid="878ccd9aae97ba0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="17/12/2022 17:14:23"
+		timestampiso="2022-12-17T20:14:23"
+		endtime="17/12/2022 17:14:28"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.764"
+			timeRelativeToTestModuleStartTime="00:02.764"
+			timeWallClock="17:14:26"
+			time="00:02.764"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<activity
+			result="Failed"
+			duration="906ms"
+			durationms="906"
+			type="test-suite"
+			rid="a770202779d64a4"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="Qualis_Bot_SalesNavigator"
+			headertext="Qualis_Bot_SalesNavigator"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="3ms"
+				durationms="3"
+				type="iteration-container"
+				rid="d0fb8c65bd8a08f"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="TestCase"
+				headertext="TestCase"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="95cbb702-79b4-43b9-b821-3254f33f61af"
+				datasource="Input_Empresas"
+				dataiterationcount="1">
+			</activity>
+			<item
+				timeRelativeToTestSuiteStartTime="00:00.859"
+				timeRelativeToTestModuleStartTime="00:00.859"
+				timeWallClock="17:14:28"
+				time="00:00.859"
+				level="Failure"
+				category="TestSuite">
+				<message>
+					Subproceso anulado.
+				</message>
+				<metainfo
+					stacktrace="   en Ranorex.Core.Data.ColumnCollection.get_Item(String columnName)&#13;&#10;   en Ranorex.Core.Data.Row.GetColIndex(String columnName)&#13;&#10;   en Ranorex.Core.Data.Row.&lt;ToDictionary>b__18_1(Column col)&#13;&#10;   en System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)&#13;&#10;   en Ranorex.Core.Data.Row.ToDictionary()&#13;&#10;   en Ranorex.Core.Data.DataContext.get_CurrentMaskedRowData()&#13;&#10;   en Ranorex.Core.Testing.TestCaseNode.RunWithIterations(Boolean childSkip, IterationExecType executeType)&#13;&#10;   en Ranorex.Core.Testing.TestCaseNode.RunInternal(Boolean childSkip)&#13;&#10;   en Ranorex.Core.Testing.TestCaseNode.Run(DataContext parentDataContext, Boolean childSkip)&#13;&#10;   en Ranorex.Core.Testing.TestSuiteRunner.TryRunTestCase(RunParams rp, TestSuite testSuite)&#13;&#10;   en Ranorex.Core.Testing.TestSuiteRunner.&lt;>c__DisplayClass13_1.&lt;RunInternal>b__4()&#13;&#10;   en Ranorex.Common.Types.OptCombinators.OrElse[T](Opt`1 self, Func`1 defaultInstanceCreator)&#13;&#10;   en Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+					loglvl="Failure">
+				</metainfo>
+			</item>
+		</activity>
+	</activity>
+</report>

@@ -66,16 +66,6 @@ namespace Qualis_Bot_SalesNavigator
             set { _CantidadDeResultados = value; }
         }
 
-        /// <summary>
-        /// Gets or sets the value of variable Keyword.
-        /// </summary>
-        [TestVariable("4602fb31-5ce2-40b7-97a8-9f9049747d36")]
-        public string Keyword
-        {
-            get { return repo.Keyword; }
-            set { repo.Keyword = value; }
-        }
-
 #endregion
 
         /// <summary>
@@ -102,8 +92,12 @@ namespace Qualis_Bot_SalesNavigator
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'InicioSalesNavigator.Btn_BorrarCargoActual' at Center.", repo.InicioSalesNavigator.Btn_BorrarCargoActualInfo, new RecordItemIndex(0));
-            repo.InicioSalesNavigator.Btn_BorrarCargoActual.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'InicioSalesNavigator.GlobalTypeaheadSearchInput' at Center.", repo.InicioSalesNavigator.GlobalTypeaheadSearchInputInfo, new RecordItemIndex(0));
+            repo.InicioSalesNavigator.GlobalTypeaheadSearchInput.DoubleClick();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{Akey}{LControlKey up}{Back}' with focus on 'InicioSalesNavigator.GlobalTypeaheadSearchInput'.", repo.InicioSalesNavigator.GlobalTypeaheadSearchInputInfo, new RecordItemIndex(1));
+            repo.InicioSalesNavigator.GlobalTypeaheadSearchInput.PressKeys("{LControlKey down}{Akey}{LControlKey up}{Back}");
             Delay.Milliseconds(0);
             
             IfCargoActual();

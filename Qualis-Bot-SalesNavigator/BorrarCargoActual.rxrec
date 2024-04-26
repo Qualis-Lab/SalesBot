@@ -30,7 +30,7 @@ mode="Global">
 	</variables>
 	<recorditems>
 		<mouseitem
-		action="Click"
+		action="DoubleClick"
 		button="Left"
 		duration="300ms"
 		enabled="True"
@@ -46,15 +46,36 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="91443328-96d9-47a7-a0c2-c6da21b53035"
+			id="89f6dd15-8a14-4946-9797-ff1dc94873d1"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='www.linkedin.com']//main[#'content-main']//fieldset[@title='Cargo actual']//div[@title=$Keyword]//button[@title&gt;'Eliminar filtro Cargo actual:']
+					/dom[@domain='www.linkedin.com']//input[#'global-typeahead-search-input']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 		</mouseitem>
+		<keysequenceitem
+		KeySequence="{LControlKey down}{Akey}{LControlKey up}{Back}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="5f32fbbb-d661-454d-b609-2c62946adc64">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="89f6dd15-8a14-4946-9797-ff1dc94873d1"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.linkedin.com']//input[#'global-typeahead-search-input']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
 		<userrecorditem
 		classname="BorrarCargoActual"
 		enabled="True"

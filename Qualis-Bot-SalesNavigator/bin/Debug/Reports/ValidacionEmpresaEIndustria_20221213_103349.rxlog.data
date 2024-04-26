@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="4.41s"
+		durationms="4412"
+		type="root"
+		rid="ef94023dd69677c"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="13/12/2022 10:33:50"
+		timestampiso="2022-12-13T13:33:50"
+		endtime="13/12/2022 10:33:55"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ValidacionEmpresaEIndustria">
+		<detail>
+			ValidacionEmpresaEIndustria
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.849"
+			timeRelativeToTestModuleStartTime="00:02.849"
+			timeWallClock="10:33:53"
+			time="00:02.849"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Industria, nombreEmpresa
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.881"
+			timeRelativeToTestModuleStartTime="00:02.881"
+			timeWallClock="10:33:53"
+			time="00:02.881"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item 'InicioSalesNavigator.ValidacionNombreEmpresaIndustria'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//div[#'search-results-container']//span[@innertext='Servicios financieros']/../../..//a[@innertext='Banco Galicia']"
+				itempath=".//div[#'search-results-container']//span[@innertext=$Industria]/../../..//a[@innertext=$nombreEmpresa]"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.ValidacionNombreEmpresaIndustria"
+				id="7af6cc06909f4092a6ab3019e5ed10c5"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ValidacionEmpresaEIndustria.cs"
+				codeline="103"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

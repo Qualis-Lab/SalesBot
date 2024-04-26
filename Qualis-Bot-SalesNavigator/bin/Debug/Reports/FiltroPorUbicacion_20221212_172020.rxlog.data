@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="3.1m"
+		durationms="185585"
+		type="root"
+		rid="131612c9da92cbe5"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="9.3.4.0"
+		host="DESKTOP-16RK4EQ"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-ES"
+		dtnlanguage="es-ES"
+		screenresolution="1366x768"
+		timestamp="12/12/2022 17:20:26"
+		timestampiso="2022-12-12T19:20:26"
+		endtime="12/12/2022 17:23:31"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="FiltroPorUbicacion">
+		<detail>
+			FiltroPorUbicacion
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.884"
+			timeRelativeToTestModuleStartTime="00:08.884"
+			timeWallClock="17:20:35"
+			time="00:08.884"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Pais
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.006"
+			timeRelativeToTestModuleStartTime="00:09.006"
+			timeWallClock="17:20:35"
+			time="00:09.006"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'InicioSalesNavigator.ArtdecoButtonArtdecoButton0Artdeco' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//fieldset[@title='Ubicación']//button[@visible='True']"
+				itempath=".//fieldset[@title='Ubicación']//button[@visible='True']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.ArtdecoButtonArtdecoButton0Artdeco"
+				id="e73b391f40bc4e7abcb8378d9bd6403f"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\FiltroPorUbicacion.cs"
+				codeline="93"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.249"
+			timeRelativeToTestModuleStartTime="00:17.249"
+			timeWallClock="17:20:43"
+			time="00:17.249"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'InicioSalesNavigator.Text' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//main[#'content-main']//form[@action='https://www.linkedin.com/sales/search/people?query=(spellCorrectionEnabled%3Atrue%2Ckeywords%3ABanco%2520Galicia)&amp;sessionId=vy%2B5SvWnSzOYu7uzV7Mwcw%3D%3D']/div/div[5]/fieldset[1]/?/?/fieldset[@title='Ubicación']/div[3]/div[1]//input[@type='text']"
+				itempath=".//main[#'content-main']//form[@action='https://www.linkedin.com/sales/search/people?query=(spellCorrectionEnabled%3Atrue%2Ckeywords%3ABanco%2520Galicia)&amp;sessionId=vy%2B5SvWnSzOYu7uzV7Mwcw%3D%3D']/div/div[5]/fieldset[1]/?/?/fieldset[@title='Ubicación']/div[3]/div[1]//input[@type='text']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.Text"
+				id="c2114fad51134b39b64420a726ac75aa"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\FiltroPorUbicacion.cs"
+				codeline="97"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:05.586"
+			timeRelativeToTestModuleStartTime="03:05.586"
+			timeWallClock="17:23:31"
+			time="03:05.586"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

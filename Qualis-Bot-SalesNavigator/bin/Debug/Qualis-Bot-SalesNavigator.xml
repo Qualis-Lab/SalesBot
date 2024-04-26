@@ -1,0 +1,2419 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Qualis-Bot-SalesNavigator</name>
+    </assembly>
+    <members>
+        <member name="T:Qualis_Bot_SalesNavigator.AbrirExel">
+            <summary>
+            Description of AbrirExel.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.AbrirExel.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.AbrirExel.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.BorrarCargoActual">
+             <summary>
+            The BorrarCargoActual recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.BorrarCargoActual.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.BorrarCargoActual.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.BorrarCargoActual.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.BorrarCargoActual.CantidadDeResultados">
+            <summary>
+            Gets or sets the value of variable CantidadDeResultados.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.BorrarCargoActual.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.BorrarCargoActual.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.BorrarCargoActual.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.BorrarCargoActual.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.CalcularCantidadIteraciones">
+            <summary>
+            Description of CalcularCantidadIteraciones.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CalcularCantidadIteraciones.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CalcularCantidadIteraciones.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.CargarCantPageCSV">
+             <summary>
+            The CargarCantPageCSV recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.CargarCantPageCSV.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CargarCantPageCSV.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.CargarCantPageCSV.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CargarCantPageCSV.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.CargarCantPageCSV.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CargarCantPageCSV.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CargarCantPageCSV.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.EntrarPerfilLinkedIn">
+             <summary>
+            The EntrarPerfilLinkedIn recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.EntrarPerfilLinkedIn.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.EntrarPerfilLinkedIn.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.EntrarPerfilLinkedIn.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.EntrarPerfilLinkedIn.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.EntrarPerfilLinkedIn.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.EntrarPerfilLinkedIn.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.EntrarPerfilLinkedIn.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.ExtraerDatos">
+             <summary>
+            The ExtraerDatos recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.ExtraerDatos.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ExtraerDatos.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.ExtraerDatos.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.ExtraerDatos.Linkedin">
+            <summary>
+            Gets or sets the value of variable Linkedin.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.ExtraerDatos.index">
+            <summary>
+            Gets or sets the value of variable index.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ExtraerDatos.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.ExtraerDatos.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ExtraerDatos.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ExtraerDatos.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.IrATodosLosEmpleados">
+             <summary>
+            The IrATodosLosEmpleados recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.IrATodosLosEmpleados.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.IrATodosLosEmpleados.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.IrATodosLosEmpleados.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.IrATodosLosEmpleados.nombreEmpresa">
+            <summary>
+            Gets or sets the value of variable nombreEmpresa.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.IrATodosLosEmpleados.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.IrATodosLosEmpleados.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.IrATodosLosEmpleados.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.IrATodosLosEmpleados.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.LimpiaVariable">
+            <summary>
+            Description of LimpiaVariable.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.LimpiaVariable.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.LimpiaVariable.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.NoSeEncontroEmpresa">
+             <summary>
+            The NoSeEncontroEmpresa recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.NoSeEncontroEmpresa.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.NoSeEncontroEmpresa.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.NoSeEncontroEmpresa.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.NoSeEncontroEmpresa.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.NoSeEncontroEmpresa.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.NoSeEncontroEmpresa.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.NoSeEncontroEmpresa.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.Recording1.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.RemoverDuplicados">
+             <summary>
+            The RemoverDuplicados recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.RemoverDuplicados.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.RemoverDuplicados.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.RemoverDuplicados.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.RemoverDuplicados.IdExel">
+            <summary>
+            Gets or sets the value of variable IdExel.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.RemoverDuplicados.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.RemoverDuplicados.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.RemoverDuplicados.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.RemoverDuplicados.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.BusquedaDeDatos">
+            <summary>
+            Description of BusquedaDeDatos.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.BusquedaDeDatos.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.BusquedaDeDatos.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.BusquedaDeDatos2">
+            <summary>
+            Description of BusquedaDeDatos2.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.BusquedaDeDatos2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.BusquedaDeDatos2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.CerrarInstanciaExcel">
+            <summary>
+            Description of CerrarExel.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CerrarInstanciaExcel.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CerrarInstanciaExcel.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.ClickEnGuardarLista">
+             <summary>
+            The ClickEnGuardarLista recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.ClickEnGuardarLista.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ClickEnGuardarLista.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.ClickEnGuardarLista.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.ClickEnGuardarLista.validarPaisNombreEmpresa">
+            <summary>
+            Gets or sets the value of variable validarPaisNombreEmpresa.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.ClickEnGuardarLista.paisNombreEmpresa">
+            <summary>
+            Gets or sets the value of variable paisNombreEmpresa.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.ClickEnGuardarLista.pais">
+            <summary>
+            Gets or sets the value of variable pais.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.ClickEnGuardarLista.nombreEmpresa">
+            <summary>
+            Gets or sets the value of variable nombreEmpresa.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ClickEnGuardarLista.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.ClickEnGuardarLista.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ClickEnGuardarLista.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ClickEnGuardarLista.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.CrearListaCliente">
+             <summary>
+            The CrearListaCliente recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.CrearListaCliente.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CrearListaCliente.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.CrearListaCliente.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.CrearListaCliente.pais">
+            <summary>
+            Gets or sets the value of variable pais.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.CrearListaCliente.nombreEmpresa">
+            <summary>
+            Gets or sets the value of variable nombreEmpresa.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CrearListaCliente.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.CrearListaCliente.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CrearListaCliente.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CrearListaCliente.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.EliminarDuplicados">
+            <summary>
+            Description of EliminarDuplicados.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.EliminarDuplicados.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.EliminarDuplicados.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.PagSiguienteCM">
+            <summary>
+            Description of UserCodeModule1.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.PagSiguienteCM.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.PagSiguienteCM.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.ResetEjecutar">
+            <summary>
+            Description of ResetEjecutar.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ResetEjecutar.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ResetEjecutar.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.ValidarEmpresaIndustriaCM">
+            <summary>
+            Description of ValidarEmpresaIndustriaCD.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ValidarEmpresaIndustriaCM.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ValidarEmpresaIndustriaCM.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.XlsWorker">
+            <summary>
+            Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.XlsWorker.getExelInstance">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.XlsWorker.EliminarDuplicados(System.String,System.String)">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.XlsWorker.CerrarExcel">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.FiltroPorIndustria">
+             <summary>
+            The FiltroPorIndustria recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.FiltroPorIndustria.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.FiltroPorIndustria.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.FiltroPorIndustria.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.FiltroPorIndustria.Industria">
+            <summary>
+            Gets or sets the value of variable Industria.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.FiltroPorIndustria.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.FiltroPorIndustria.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.FiltroPorIndustria.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.FiltroPorIndustria.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.FiltroPorUbicacion">
+             <summary>
+            The FiltroPorUbicacion recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.FiltroPorUbicacion.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.FiltroPorUbicacion.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.FiltroPorUbicacion.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.FiltroPorUbicacion.Pais">
+            <summary>
+            Gets or sets the value of variable Pais.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.FiltroPorUbicacion.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.FiltroPorUbicacion.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.FiltroPorUbicacion.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.FiltroPorUbicacion.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.IrAResponsablesDeLasDecisiones">
+             <summary>
+            The IrAResponsablesDeLasDecisiones recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.IrAResponsablesDeLasDecisiones.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.IrAResponsablesDeLasDecisiones.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.IrAResponsablesDeLasDecisiones.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.IrAResponsablesDeLasDecisiones.nombreEmpresa">
+            <summary>
+            Gets or sets the value of variable nombreEmpresa.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.IrAResponsablesDeLasDecisiones.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.IrAResponsablesDeLasDecisiones.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.IrAResponsablesDeLasDecisiones.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.IrAResponsablesDeLasDecisiones.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.ChekTodos">
+             <summary>
+            The ChekTodos recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.ChekTodos.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ChekTodos.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.ChekTodos.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ChekTodos.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.ChekTodos.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ChekTodos.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ChekTodos.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.CrearCantPageCSV">
+             <summary>
+            The CrearCantPageCSV recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.CrearCantPageCSV.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CrearCantPageCSV.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.CrearCantPageCSV.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.CrearCantPageCSV.cantidadDeResultados">
+            <summary>
+            Gets or sets the value of variable cantidadDeResultados.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.CrearCantPageCSV.nombrePersona">
+            <summary>
+            Gets or sets the value of variable nombrePersona.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.CrearCantPageCSV.TodosSeleccionados">
+            <summary>
+            Gets or sets the value of variable TodosSeleccionados.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.CrearCantPageCSV.cantPage">
+            <summary>
+            Gets or sets the value of variable cantPage.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.CrearCantPageCSV.cantidad">
+            <summary>
+            Gets or sets the value of variable cantidad.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CrearCantPageCSV.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.CrearCantPageCSV.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CrearCantPageCSV.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.CrearCantPageCSV.ObtenerNombrePuestoYLinkSale">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.ObtenerPerfiles">
+             <summary>
+            The ObtenerPerfiles recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.ObtenerPerfiles.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ObtenerPerfiles.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.ObtenerPerfiles.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.ObtenerPerfiles.Keyword">
+            <summary>
+            Gets or sets the value of variable Keyword.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ObtenerPerfiles.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.ObtenerPerfiles.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ObtenerPerfiles.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ObtenerPerfiles.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.OpenBrowser.Url">
+            <summary>
+            Gets or sets the value of variable Url.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.PagSiguiente">
+             <summary>
+            The PagSiguiente recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.PagSiguiente.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.PagSiguiente.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.PagSiguiente.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.PagSiguiente.CantPage">
+            <summary>
+            Gets or sets the value of variable CantPage.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.PagSiguiente.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.PagSiguiente.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.PagSiguiente.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.PagSiguiente.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.EscribirEnElExcel">
+             <summary>
+            The EscribirEnExcel recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.EscribirEnElExcel.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.EscribirEnElExcel.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.EscribirEnElExcel.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.EscribirEnElExcel.nombrePersona">
+            <summary>
+            Gets or sets the value of variable nombrePersona.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.EscribirEnElExcel.puestoPersona">
+            <summary>
+            Gets or sets the value of variable puestoPersona.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.EscribirEnElExcel.linkPersona">
+            <summary>
+            Gets or sets the value of variable linkPersona.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.EscribirEnElExcel.Pais">
+            <summary>
+            Gets or sets the value of variable Pais.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.EscribirEnElExcel.Industria">
+            <summary>
+            Gets or sets the value of variable Industria.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.EscribirEnElExcel.NombreEmpresa">
+            <summary>
+            Gets or sets the value of variable NombreEmpresa.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.EscribirEnElExcel.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.EscribirEnElExcel.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.EscribirEnElExcel.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.EscribirEnElExcel.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository">
+            <summary>
+            The class representing the Qualis_Bot_SalesNavigatorRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Qualis_Bot_SalesNavigatorRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.pais">
+            <summary>
+            Gets or sets the value of variable pais.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.Industria">
+            <summary>
+            Gets or sets the value of variable Industria.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.nombreEmpresa">
+            <summary>
+            Gets or sets the value of variable nombreEmpresa.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.indice">
+            <summary>
+            Gets or sets the value of variable indice.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.Keyword">
+            <summary>
+            Gets or sets the value of variable Keyword.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.idex">
+            <summary>
+            Gets or sets the value of variable idex.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.index">
+            <summary>
+            Gets or sets the value of variable index.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.empresa">
+            <summary>
+            Gets or sets the value of variable empresa.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator">
+            <summary>
+            The InicioSalesNavigator folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.ContinueAndFail">
+            <summary>
+            The ContinueAndFail folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.OutputEmpresasXlsxExcel">
+            <summary>
+            The OutputEmpresasXlsxExcel folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.Chrome">
+            <summary>
+            The Chrome folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.SalesQL">
+            <summary>
+            The SalesQL folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.ContAndFail_Chrome">
+            <summary>
+            The ContAndFail_Chrome folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.DESKTOPJD9OLAE">
+            <summary>
+            The DESKTOPJD9OLAE folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.Inicio">
+            <summary>
+            The Inicio folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.MultitaskingViewFrame">
+            <summary>
+            The MultitaskingViewFrame folder.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder">
+            <summary>
+            The InicioSalesNavigatorAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new InicioSalesNavigator  folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.GlobalTypeaheadSearchInput">
+            <summary>
+            The GlobalTypeaheadSearchInput item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.GlobalTypeaheadSearchInputInfo">
+            <summary>
+            The GlobalTypeaheadSearchInput item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Ubicacion">
+            <summary>
+            The Ubicacion item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.UbicacionInfo">
+            <summary>
+            The Ubicacion item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Industria">
+            <summary>
+            The Industria item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.IndustriaInfo">
+            <summary>
+            The Industria item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.TextUbicacion">
+            <summary>
+            The TextUbicacion item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.TextUbicacionInfo">
+            <summary>
+            The TextUbicacion item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.TextIndustria">
+            <summary>
+            The TextIndustria item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.TextIndustriaInfo">
+            <summary>
+            The TextIndustria item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.IncluirArgentinaEnElFiltroRegion">
+            <summary>
+            The IncluirArgentinaEnElFiltroRegion item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.IncluirArgentinaEnElFiltroRegionInfo">
+            <summary>
+            The IncluirArgentinaEnElFiltroRegion item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.IncluirIndustriaEnElFiltroIndustria">
+            <summary>
+            The IncluirIndustriaEnElFiltroIndustria item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.IncluirIndustriaEnElFiltroIndustriaInfo">
+            <summary>
+            The IncluirIndustriaEnElFiltroIndustria item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.ValidacionNombreEmpresaIndustria">
+            <summary>
+            The ValidacionNombreEmpresaIndustria item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.ValidacionNombreEmpresaIndustriaInfo">
+            <summary>
+            The ValidacionNombreEmpresaIndustria item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.ImgValidacionNombreEmpresaIndustria">
+            <summary>
+            The ImgValidacionNombreEmpresaIndustria item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.ImgValidacionNombreEmpresaIndustriaInfo">
+            <summary>
+            The ImgValidacionNombreEmpresaIndustria item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.ResponsablesDeLasDecisiones855">
+            <summary>
+            The ResponsablesDeLasDecisiones855 item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.ResponsablesDeLasDecisiones855Info">
+            <summary>
+            The ResponsablesDeLasDecisiones855 item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.SpanTag3Resultados">
+            <summary>
+            The SpanTag3Resultados item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.SpanTag3ResultadosInfo">
+            <summary>
+            The SpanTag3Resultados item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.LiSegunIndice">
+            <summary>
+            The LiSegunIndice item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.LiSegunIndiceInfo">
+            <summary>
+            The LiSegunIndice item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Copy_of_LiSegunIndice">
+            <summary>
+            The Copy_of_LiSegunIndice item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Copy_of_LiSegunIndiceInfo">
+            <summary>
+            The Copy_of_LiSegunIndice item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.nombreLi">
+            <summary>
+            The nombreLi item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.nombreLiInfo">
+            <summary>
+            The nombreLi item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Cuentas">
+            <summary>
+            The Cuentas item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.CuentasInfo">
+            <summary>
+            The Cuentas item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.LiList">
+            <summary>
+            The LiList item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.LiListInfo">
+            <summary>
+            The LiList item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.GuardarEnLaLista">
+            <summary>
+            The GuardarEnLaLista item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.GuardarEnLaListaInfo">
+            <summary>
+            The GuardarEnLaLista item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.BOLBanca">
+            <summary>
+            The BOLBanca item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.BOLBancaInfo">
+            <summary>
+            The BOLBanca item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.ArtdecoDropdownContentArtdecoDropdo">
+            <summary>
+            The ArtdecoDropdownContentArtdecoDropdo item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.ArtdecoDropdownContentArtdecoDropdoInfo">
+            <summary>
+            The ArtdecoDropdownContentArtdecoDropdo item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.AgregarNuevaLista">
+            <summary>
+            The AgregarNuevaLista item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.AgregarNuevaListaInfo">
+            <summary>
+            The AgregarNuevaLista item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.SeleccionDeTodosLosPerfiles">
+            <summary>
+            The SeleccionDeTodosLosPerfiles item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.SeleccionDeTodosLosPerfilesInfo">
+            <summary>
+            The SeleccionDeTodosLosPerfiles item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.ChekYaEstanSeleccionados">
+            <summary>
+            The ChekYaEstanSeleccionados item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.ChekYaEstanSeleccionadosInfo">
+            <summary>
+            The ChekYaEstanSeleccionados item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Btn_CargoActual">
+            <summary>
+            The Btn_CargoActual item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Btn_CargoActualInfo">
+            <summary>
+            The Btn_CargoActual item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Input_AnadirCargoActual">
+            <summary>
+            The Input_AnadirCargoActual item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Input_AnadirCargoActualInfo">
+            <summary>
+            The Input_AnadirCargoActual item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Copy_of_GlobalTypeaheadSearchInput1">
+            <summary>
+            The Copy_of_GlobalTypeaheadSearchInput1 item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Copy_of_GlobalTypeaheadSearchInput1Info">
+            <summary>
+            The Copy_of_GlobalTypeaheadSearchInput1 item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Copy_of_GlobalTypeaheadSearchInput">
+            <summary>
+            The Copy_of_GlobalTypeaheadSearchInput item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Copy_of_GlobalTypeaheadSearchInputInfo">
+            <summary>
+            The Copy_of_GlobalTypeaheadSearchInput item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.TextNombreLista">
+            <summary>
+            The TextNombreLista item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.TextNombreListaInfo">
+            <summary>
+            The TextNombreLista item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.ButtonGuardarNuevaLista">
+            <summary>
+            The ButtonGuardarNuevaLista item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.ButtonGuardarNuevaListaInfo">
+            <summary>
+            The ButtonGuardarNuevaLista item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Btn_BorrarCargoActual">
+            <summary>
+            The Btn_BorrarCargoActual item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Btn_BorrarCargoActualInfo">
+            <summary>
+            The Btn_BorrarCargoActual item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Li_CargoActual_Opcion1">
+            <summary>
+            The Li_CargoActual_Opcion1 item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Li_CargoActual_Opcion1Info">
+            <summary>
+            The Li_CargoActual_Opcion1 item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.CrearLista">
+            <summary>
+            The CrearLista item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.CrearListaInfo">
+            <summary>
+            The CrearLista item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.ArgentinaQualia">
+            <summary>
+            The ArgentinaQualia item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.ArgentinaQualiaInfo">
+            <summary>
+            The ArgentinaQualia item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.FlexFullWidthJustifySpaceBetween">
+            <summary>
+            The FlexFullWidthJustifySpaceBetween item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.FlexFullWidthJustifySpaceBetweenInfo">
+            <summary>
+            The FlexFullWidthJustifySpaceBetween item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.ArgentinaQualia1">
+            <summary>
+            The ArgentinaQualia1 item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.ArgentinaQualia1Info">
+            <summary>
+            The ArgentinaQualia1 item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Copy_of_ArgentinaQualia1">
+            <summary>
+            The Copy_of_ArgentinaQualia1 item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.Copy_of_ArgentinaQualia1Info">
+            <summary>
+            The Copy_of_ArgentinaQualia1 item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.MatiasGimenez">
+            <summary>
+            The MatiasGimenez item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.MatiasGimenezInfo">
+            <summary>
+            The MatiasGimenez item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.TodosLosEmpleados">
+            <summary>
+            The TodosLosEmpleados item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.TodosLosEmpleadosInfo">
+            <summary>
+            The TodosLosEmpleados item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.GerenteDeEcosistemaYFidelidad">
+            <summary>
+            The GerenteDeEcosistemaYFidelidad item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.GerenteDeEcosistemaYFidelidadInfo">
+            <summary>
+            The GerenteDeEcosistemaYFidelidad item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.SomeSvgTag">
+            <summary>
+            The SomeSvgTag item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.SomeSvgTagInfo">
+            <summary>
+            The SomeSvgTag item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.VerPerfilDeLinkedIn">
+            <summary>
+            The VerPerfilDeLinkedIn item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.VerPerfilDeLinkedInInfo">
+            <summary>
+            The VerPerfilDeLinkedIn item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.SpanTagIconPs32ck">
+            <summary>
+            The SpanTagIconPs32ck item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.SpanTagIconPs32ckInfo">
+            <summary>
+            The SpanTagIconPs32ck item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.DatosAObtener">
+            <summary>
+            The DatosAObtener folder.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.DatosAObtenerFolder">
+            <summary>
+            The DatosAObtenerFolder folder.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.DatosAObtenerFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DatosAObtener  folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.DatosAObtenerFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.DatosAObtenerFolder.nombre">
+            <summary>
+            The nombre item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.DatosAObtenerFolder.nombreInfo">
+            <summary>
+            The nombre item info.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContinueAndFailAppFolder">
+            <summary>
+            The ContinueAndFailAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContinueAndFailAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ContinueAndFail  folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContinueAndFailAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContinueAndFailAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContinueAndFailAppFolder.pais_nombreEmpresa">
+            <summary>
+            The pais_nombreEmpresa item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContinueAndFailAppFolder.pais_nombreEmpresaInfo">
+            <summary>
+            The pais_nombreEmpresa item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContinueAndFailAppFolder.ButtonSiguiente">
+            <summary>
+            The ButtonSiguiente item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContinueAndFailAppFolder.ButtonSiguienteInfo">
+            <summary>
+            The ButtonSiguiente item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContinueAndFailAppFolder.Li_ExistUnResultado">
+            <summary>
+            The Li_ExistUnResultado item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContinueAndFailAppFolder.Li_ExistUnResultadoInfo">
+            <summary>
+            The Li_ExistUnResultado item info.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder">
+            <summary>
+            The OutputEmpresasXlsxExcelAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new OutputEmpresasXlsxExcel  folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder.TabData">
+            <summary>
+            The TabData item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder.TabDataInfo">
+            <summary>
+            The TabData item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder.RemoveDuplicates">
+            <summary>
+            The RemoveDuplicates item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder.RemoveDuplicatesInfo">
+            <summary>
+            The RemoveDuplicates item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder.UnselectAll">
+            <summary>
+            The UnselectAll item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder.UnselectAllInfo">
+            <summary>
+            The UnselectAll item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder.NombreCompleto">
+            <summary>
+            The NombreCompleto item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder.NombreCompletoInfo">
+            <summary>
+            The NombreCompleto item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder.Button_NameOK">
+            <summary>
+            The Button_NameOK item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder.Button_NameOKInfo">
+            <summary>
+            The Button_NameOK item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder.Button_TextOK">
+            <summary>
+            The Button_TextOK item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder.Button_TextOKInfo">
+            <summary>
+            The Button_TextOK item info.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder">
+            <summary>
+            The ChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Chrome  folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.AbrirWaalaxy">
+            <summary>
+            The AbrirWaalaxy item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.AbrirWaalaxyInfo">
+            <summary>
+            The AbrirWaalaxy item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.Grouping">
+            <summary>
+            The Grouping item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.GroupingInfo">
+            <summary>
+            The Grouping item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.Grouping1">
+            <summary>
+            The Grouping1 item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.Grouping1Info">
+            <summary>
+            The Grouping1 item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.PadrePhone">
+            <summary>
+            The PadrePhone item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.PadrePhoneInfo">
+            <summary>
+            The PadrePhone item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.SalesQLBrowserExtensionTieneAccesoA">
+            <summary>
+            The SalesQLBrowserExtensionTieneAccesoA item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.SalesQLBrowserExtensionTieneAccesoAInfo">
+            <summary>
+            The SalesQLBrowserExtensionTieneAccesoA item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.Grouping2">
+            <summary>
+            The Grouping2 item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.Grouping2Info">
+            <summary>
+            The Grouping2 item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.Phones">
+            <summary>
+            The Phones item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.PhonesInfo">
+            <summary>
+            The Phones item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.Profile">
+            <summary>
+            The Profile item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.ProfileInfo">
+            <summary>
+            The Profile item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.MgAtjhuEdu">
+            <summary>
+            The MgAtjhuEdu item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.MgAtjhuEduInfo">
+            <summary>
+            The MgAtjhuEdu item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.Label">
+            <summary>
+            The Label item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.LabelInfo">
+            <summary>
+            The Label item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.N1er_email">
+            <summary>
+            The N1er_email item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.N1er_emailInfo">
+            <summary>
+            The N1er_email item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.SalesQLBrowserExtensionTieneAccesoA1">
+            <summary>
+            The SalesQLBrowserExtensionTieneAccesoA1 item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.SalesQLBrowserExtensionTieneAccesoA1Info">
+            <summary>
+            The SalesQLBrowserExtensionTieneAccesoA1 item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.ChevronRight">
+            <summary>
+            The ChevronRight item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.ChevronRightInfo">
+            <summary>
+            The ChevronRight item info.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder">
+            <summary>
+            The SalesQLAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SalesQL  folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder.WaalaxyProspeccionLinkedInAutomatiz">
+            <summary>
+            The WaalaxyProspeccionLinkedInAutomatiz item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder.WaalaxyProspeccionLinkedInAutomatizInfo">
+            <summary>
+            The WaalaxyProspeccionLinkedInAutomatiz item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder.SalesQLBrowserExtensionTieneAccesoA">
+            <summary>
+            The SalesQLBrowserExtensionTieneAccesoA item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder.SalesQLBrowserExtensionTieneAccesoAInfo">
+            <summary>
+            The SalesQLBrowserExtensionTieneAccesoA item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder.ListItem34FeedLinkedInGoogleCh">
+            <summary>
+            The ListItem34FeedLinkedInGoogleCh item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder.ListItem34FeedLinkedInGoogleChInfo">
+            <summary>
+            The ListItem34FeedLinkedInGoogleCh item info.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder">
+            <summary>
+            The ContAndFail_ChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ContAndFail_Chrome  folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.Btn_Close">
+            <summary>
+            The Btn_Close item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.Btn_CloseInfo">
+            <summary>
+            The Btn_Close item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.WaitFor_DatosEmailPhone">
+            <summary>
+            The WaitFor_DatosEmailPhone item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.WaitFor_DatosEmailPhoneInfo">
+            <summary>
+            The WaitFor_DatosEmailPhone item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.Emails">
+            <summary>
+            The Emails item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.EmailsInfo">
+            <summary>
+            The Emails item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.Phone">
+            <summary>
+            The Phone item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.PhoneInfo">
+            <summary>
+            The Phone item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.ObtenerPhoneNew">
+            <summary>
+            The ObtenerPhoneNew item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.ObtenerPhoneNewInfo">
+            <summary>
+            The ObtenerPhoneNew item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.ObtenerEmailNew">
+            <summary>
+            The ObtenerEmailNew item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.ObtenerEmailNewInfo">
+            <summary>
+            The ObtenerEmailNew item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.TextAdd">
+            <summary>
+            The TextAdd item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.TextAddInfo">
+            <summary>
+            The TextAdd item info.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.DESKTOPJD9OLAEAppFolder">
+            <summary>
+            The DESKTOPJD9OLAEAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.DESKTOPJD9OLAEAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DESKTOPJD9OLAE  folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.DESKTOPJD9OLAEAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.DESKTOPJD9OLAEAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.DESKTOPJD9OLAEAppFolder.DESKTOPJD9OLAE">
+            <summary>
+            The DESKTOPJD9OLAE item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.DESKTOPJD9OLAEAppFolder.DESKTOPJD9OLAEInfo">
+            <summary>
+            The DESKTOPJD9OLAE item info.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioAppFolder">
+            <summary>
+            The InicioAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Inicio  folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.MultitaskingViewFrameAppFolder">
+            <summary>
+            The MultitaskingViewFrameAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.MultitaskingViewFrameAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MultitaskingViewFrame  folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.MultitaskingViewFrameAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.MultitaskingViewFrameAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.IngresarNombreEmpresa">
+             <summary>
+            The IngresarNombreEmpresa recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.IngresarNombreEmpresa.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.IngresarNombreEmpresa.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.IngresarNombreEmpresa.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.IngresarNombreEmpresa.nombreEmpresa">
+            <summary>
+            Gets or sets the value of variable nombreEmpresa.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.IngresarNombreEmpresa.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.IngresarNombreEmpresa.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.IngresarNombreEmpresa.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.IngresarNombreEmpresa.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.RepoVar">
+            <summary>
+            Description of RepoVar.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.SeleccionarCuentas">
+             <summary>
+            The SeleccionarCuentas recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.SeleccionarCuentas.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.SeleccionarCuentas.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.SeleccionarCuentas.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.SeleccionarCuentas.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.SeleccionarCuentas.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.SeleccionarCuentas.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.SeleccionarCuentas.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.SeleccionarLista">
+             <summary>
+            The SeleccionarLista recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.SeleccionarLista.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.SeleccionarLista.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.SeleccionarLista.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.SeleccionarLista.pais">
+            <summary>
+            Gets or sets the value of variable pais.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.SeleccionarLista.nombreEmpresa">
+            <summary>
+            Gets or sets the value of variable nombreEmpresa.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.SeleccionarLista.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.SeleccionarLista.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.SeleccionarLista.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.SeleccionarLista.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.ValidacionEmpresaEIndustria">
+             <summary>
+            The ValidacionEmpresaEIndustria recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.ValidacionEmpresaEIndustria.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ValidacionEmpresaEIndustria.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.ValidacionEmpresaEIndustria.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.ValidacionEmpresaEIndustria.nombreEmpresa">
+            <summary>
+            Gets or sets the value of variable nombreEmpresa.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.ValidacionEmpresaEIndustria.Industria">
+            <summary>
+            Gets or sets the value of variable Industria.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ValidacionEmpresaEIndustria.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.ValidacionEmpresaEIndustria.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ValidacionEmpresaEIndustria.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.ValidacionEmpresaEIndustria.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

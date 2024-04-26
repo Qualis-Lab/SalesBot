@@ -129,7 +129,7 @@ namespace Qualis_Bot_SalesNavigator
 					
 					//if (puestoPersona.Contains(keyword)){
 					//	GuardarExcel(pais, industria, nombreEmpresa, nombrePersona, puestoPersona, linkPersona, "DatosFiltrados");
-						
+					
 					//}
 					while(x < 2){
 						if(Host.Local.TryFindSingle(pathNombre, out elem)){
@@ -139,13 +139,15 @@ namespace Qualis_Bot_SalesNavigator
 							linkPersona = Host.Local.FindSingle("./dom[@domain='www.linkedin.com']//div[#'search-results-container']/?/?/ol/li["+Convert.ToString(indice)+"]//a[@data-control-name='view_lead_panel_via_search_lead_name']").GetAttributeValueText("href");
 							
 							try{
-							puestoPersona= Host.Local.FindSingle("/dom[@domain='www.linkedin.com']//div[#'search-results-container']/?/?/ol/li["+Convert.ToString(indice)+"]//span[@data-anonymize='title']").GetAttributeValueText("InnerText");
-							} catch(Exception){ puestoPersona = "No posee";}
+								puestoPersona= Host.Local.FindSingle("/dom[@domain='www.linkedin.com']//div[#'search-results-container']/?/?/ol/li["+Convert.ToString(indice)+"]//span[@data-anonymize='title']").GetAttributeValueText("InnerText");
+							} 
+							catch(Exception)
+							{ puestoPersona = "No posee";}
 							
 							Report.Info(nombrePersona+", "+linkPersona+","+puestoPersona);
 							
 							Mouse.MoveTo(Host.Local.FindSingle("./dom[@domain='www.linkedin.com']//div[#'search-results-container']/?/?/ol/li["+Convert.ToString(indice)+"]//a[@data-control-name='view_lead_panel_via_search_lead_name']/span"));
-							
+  							
 							GuardarExcel(pais, industria, nombreEmpresa, nombrePersona, puestoPersona, linkPersona, "DatosObtenidos");
 							
 							if (puestoPersona.Contains(keyword)){
@@ -156,12 +158,12 @@ namespace Qualis_Bot_SalesNavigator
 							break;
 						}
 						else{
-							Mouse.ScrollWheel(-210);
+							Mouse.ScrollWheel(-200);
 							x++;
 						}
 					}
 					
-					Mouse.ScrollWheel(-210);
+					Mouse.ScrollWheel(-200);
 					
 				}
 				//setea el valor de cantidadIteraciones por el sobrante del restoResultado
@@ -227,7 +229,5 @@ namespace Qualis_Bot_SalesNavigator
 	}
 	
 }
-
-
 
 

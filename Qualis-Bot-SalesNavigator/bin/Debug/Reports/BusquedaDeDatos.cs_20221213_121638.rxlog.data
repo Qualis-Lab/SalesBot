@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="3.37s"
+		durationms="3370"
+		type="root"
+		rid="2b9f02ecfd1ebd"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="13/12/2022 12:16:40"
+		timestampiso="2022-12-13T15:16:40"
+		endtime="13/12/2022 12:16:43"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="BusquedaDeDatos">
+		<detail>
+			BusquedaDeDatos
+		</detail>
+		<errormessage>
+			FileStream no abre dispositivos Win32 como particiones de disco y unidades de cinta. No utilice &quot;\\.\&quot; en la ruta de acceso.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.275"
+			timeRelativeToTestModuleStartTime="00:03.275"
+			timeWallClock="12:16:43"
+			time="00:03.275"
+			level="Error"
+			category="Module"
+			errimg="images_Busqueda_3ae5ca42\Busqueda_3ae5ca42_3c5efc8f_trace.jpg"
+			errthumb="images_Busqueda_3ae5ca42\Busqueda_3ae5ca42_3c5efc8f_trace_thumb.jpg">
+			<message>
+				FileStream no abre dispositivos Win32 como particiones de disco y unidades de cinta. No utilice &quot;\\.\&quot; en la ruta de acceso.
+			</message>
+			<metainfo
+				stacktrace="   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   en System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+   en System.IO.File.WriteAllText(String path, String contents)
+   en Qualis_Bot_SalesNavigator.BusquedaDeDatos.Ranorex.Core.Testing.ITestModule.Run() en c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs:línea 58
+   en Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="58"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

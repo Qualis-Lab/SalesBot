@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="15.98s"
+		durationms="15979"
+		type="root"
+		rid="1983b2cec2739e9"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="14/12/2022 12:32:42"
+		timestampiso="2022-12-14T15:32:42"
+		endtime="14/12/2022 12:32:58"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="PruebaExcel">
+		<detail>
+			PruebaExcel
+		</detail>
+		<errormessage>
+			Excepción de HRESULT: 0x800A03EC
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.761"
+			timeRelativeToTestModuleStartTime="00:15.761"
+			timeWallClock="12:32:58"
+			time="00:15.761"
+			level="Error"
+			category="Module"
+			errimg="images_PruebaEx_7931f025\PruebaEx_7931f025_cb30afdf_trace.jpg"
+			errthumb="images_PruebaEx_7931f025\PruebaEx_7931f025_cb30afdf_trace_thumb.jpg">
+			<message>
+				Excepción de HRESULT: 0x800A03EC
+			</message>
+			<metainfo
+				stacktrace="   en Microsoft.Office.Interop.Excel.WorkbookClass.Save()
+   en Qualis_Bot_SalesNavigator.PruebaExcel.xlsWorker() en c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\PruebaExcel.UserCode.cs:línea 101
+   en Qualis_Bot_SalesNavigator.PruebaExcel.Ranorex.Core.Testing.ITestModule.Run() en c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\PruebaExcel.cs:línea 82
+   en Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\PruebaExcel.UserCode.cs"
+				codeline="101"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

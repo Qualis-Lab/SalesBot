@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="24.91s"
+		durationms="24913"
+		type="root"
+		rid="22530b9b8b2f9e"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="9.3.4.0"
+		host="DESKTOP-16RK4EQ"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-ES"
+		dtnlanguage="es-ES"
+		screenresolution="1366x768"
+		timestamp="12/12/2022 17:25:53"
+		timestampiso="2022-12-12T19:25:53"
+		endtime="12/12/2022 17:26:18"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="FiltroPorUbicacion">
+		<detail>
+			FiltroPorUbicacion
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.759"
+			timeRelativeToTestModuleStartTime="00:07.759"
+			timeWallClock="17:26:01"
+			time="00:07.759"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Pais
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.885"
+			timeRelativeToTestModuleStartTime="00:07.885"
+			timeWallClock="17:26:01"
+			time="00:07.885"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'InicioSalesNavigator.ArtdecoButtonArtdecoButton0Artdeco' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//fieldset[@title='Ubicación']//button[@visible='True']"
+				itempath=".//fieldset[@title='Ubicación']//button[@visible='True']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.ArtdecoButtonArtdecoButton0Artdeco"
+				id="e73b391f40bc4e7abcb8378d9bd6403f"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\FiltroPorUbicacion.cs"
+				codeline="93"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.186"
+			timeRelativeToTestModuleStartTime="00:15.186"
+			timeWallClock="17:26:08"
+			time="00:15.186"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'InicioSalesNavigator.Text' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//fieldset[@title='Ubicación']//input[@type='text']"
+				itempath=".//fieldset[@title='Ubicación']//input[@type='text']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.Text"
+				id="c2114fad51134b39b64420a726ac75aa"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\FiltroPorUbicacion.cs"
+				codeline="97"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.191"
+			timeRelativeToTestModuleStartTime="00:20.191"
+			timeWallClock="17:26:13"
+			time="00:20.191"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Pais'.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\FiltroPorUbicacion.cs"
+				codeline="101"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.700"
+			timeRelativeToTestModuleStartTime="00:20.700"
+			timeWallClock="17:26:14"
+			time="00:20.700"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'InicioSalesNavigator.IncluirArgentinaEnElFiltroRegion' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//fieldset[@title='Ubicación']//button[@title>'Incluir «'+'Argentina'+'» en el']"
+				itempath=".//fieldset[@title='Ubicación']//button[@title>'Incluir «'+$pais+'» en el']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.IncluirArgentinaEnElFiltroRegion"
+				id="803b4053a5a54bccb31b254456958d89"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\FiltroPorUbicacion.cs"
+				codeline="105"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

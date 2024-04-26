@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.7m"
+		durationms="164005"
+		type="root"
+		rid="2171981828bfe020"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="9.3.4.0"
+		host="DESKTOP-16RK4EQ"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-ES"
+		dtnlanguage="es-ES"
+		screenresolution="1366x768"
+		timestamp="12/12/2022 17:52:23"
+		timestampiso="2022-12-12T19:52:23"
+		endtime="12/12/2022 17:55:07"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="FiltroPorUbicacion">
+		<detail>
+			FiltroPorUbicacion
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.961"
+			timeRelativeToTestModuleStartTime="00:07.961"
+			timeWallClock="17:52:31"
+			time="00:07.961"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Pais
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.033"
+			timeRelativeToTestModuleStartTime="00:08.033"
+			timeWallClock="17:52:31"
+			time="00:08.033"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'InicioSalesNavigator.Ubicacion' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//fieldset[@title='Ubicación']//button[@visible='True']"
+				itempath=".//fieldset[@title='Ubicación']//button[@visible='True']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.Ubicacion"
+				id="e73b391f40bc4e7abcb8378d9bd6403f"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\FiltroPorUbicacion.cs"
+				codeline="93"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:44.005"
+			timeRelativeToTestModuleStartTime="02:44.005"
+			timeWallClock="17:55:07"
+			time="02:44.005"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

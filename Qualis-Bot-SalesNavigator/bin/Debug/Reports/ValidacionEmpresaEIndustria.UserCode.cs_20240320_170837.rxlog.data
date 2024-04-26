@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="10.36s"
+		durationms="10357"
+		type="root"
+		rid="ea7a69ac603b61"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Usuario"
+		rxversion="10.5.3.0"
+		host="DESKTOP-JD9OLAE"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-MX"
+		dtnlanguage="es-AR"
+		screenresolution="3046x1050"
+		timestamp="20/3/2024 17:08:47"
+		timestampiso="2024-03-20T20:08:47"
+		endtime="20/3/2024 17:08:57"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ValidacionEmpresaEIndustria">
+		<detail>
+			ValidacionEmpresaEIndustria
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.317"
+			timeRelativeToTestModuleStartTime="00:10.317"
+			timeWallClock="17:08:57"
+			time="00:10.317"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Industria, nombreEmpresa
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.353"
+			timeRelativeToTestModuleStartTime="00:10.353"
+			timeWallClock="17:08:57"
+			time="00:10.353"
+			level="Info"
+			category="User">
+			<message>
+				El nombre de la empresa es: Nombre de la Empresa
+			</message>
+			<metainfo
+				codefile="C:\Users\Usuario\Downloads\SalesBot-master (1)\SalesBot-master\Qualis-Bot-SalesNavigator\ValidacionEmpresaEIndustria.UserCode.cs"
+				codeline="46"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

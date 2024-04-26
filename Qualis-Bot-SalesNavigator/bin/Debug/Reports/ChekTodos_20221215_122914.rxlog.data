@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="8.2s"
+		durationms="8197"
+		type="root"
+		rid="aa8dc4d8b398a87"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="15/12/2022 12:29:15"
+		timestampiso="2022-12-15T15:29:15"
+		endtime="15/12/2022 12:29:24"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ChekTodos">
+		<detail>
+			ChekTodos
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.032"
+			timeRelativeToTestModuleStartTime="00:03.032"
+			timeWallClock="12:29:19"
+			time="00:03.032"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>validarPaisNombreEmpresa, pais, nombreEmpresa
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.066"
+			timeRelativeToTestModuleStartTime="00:03.066"
+			timeWallClock="12:29:19"
+			time="00:03.066"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'InicioSalesNavigator.ContentMain.SeleccionDeTodosLosPerfiles' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//main[#'content-main']/div//span[@innertext~'seleccion']"
+				itempath="div//span[@innertext~'seleccion']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.ContentMain.SeleccionDeTodosLosPerfiles"
+				id="95bb120013c54cb2aaed4d73e1c95142"
+				timeout="90000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ChekTodos.cs"
+				codeline="115"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.463"
+			timeRelativeToTestModuleStartTime="00:05.463"
+			timeWallClock="12:29:21"
+			time="00:05.463"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'InicioSalesNavigator.GuardarEnLaLista' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//main[#'content-main']//span[@innertext='Guardar en la lista']"
+				itempath=".//main[#'content-main']//span[@innertext='Guardar en la lista']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.GuardarEnLaLista"
+				id="dfdcf770387c48869df486689d19ddf5"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ChekTodos.cs"
+				codeline="119"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.200"
+			timeRelativeToTestModuleStartTime="00:06.200"
+			timeWallClock="12:29:22"
+			time="00:06.200"
+			level="Info"
+			category="Get Value">
+			<message>
+				(Optional Action)<br/>Getting attribute 'InnerText' from item 'ContinueAndFail.pais_nombreEmpresa' and assigning its value to variable 'validarPaisNombreEmpresa'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//main[#'content-main']/div[1]//ul/li[1]/div/div/div[@innertext='Argentina'+'_'+'Banco Galicia']"
+				itempath=".//main[#'content-main']/div[1]//ul/li[1]/div/div/div[@innertext=$pais+'_'+$nombreEmpresa]"
+				fullname="Qualis_Bot_SalesNavigatorRepository.ContinueAndFail.pais_nombreEmpresa"
+				id="507a91d0758d405c936c6c3e49d887ef"
+				timeout="6000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\ChekTodos.cs"
+				codeline="124"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

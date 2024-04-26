@@ -153,7 +153,31 @@
       <id>43c2af61-35dc-497a-a4d2-e5e35e9f4dca</id>
     </Compile>
     <Compile Include="CalcularCantidadIteraciones.cs">
-      <id>fab83b2c-2019-4c9d-9a4a-6f39643bfccc</id>
+      <id>0fc88f67-2922-402d-b217-3f2e8834de84</id>
+    </Compile>
+    <Compile Include="CargarCantPageCSV.cs">
+      <BoundTo>90305847-7de1-427b-bb78-bf8d39a8ae6d</BoundTo>
+      <DependentUpon>CargarCantPageCSV.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ac7aa79c-cf88-473c-bdba-1c69a095c954</id>
+    </Compile>
+    <Compile Include="CargarCantPageCSV.UserCode.cs">
+      <BoundTo>90305847-7de1-427b-bb78-bf8d39a8ae6d</BoundTo>
+      <DependentUpon>CargarCantPageCSV.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dca41340-b260-4d79-9d7b-364664e9fec8</id>
+    </Compile>
+    <Compile Include="EntrarPerfilLinkedIn.cs">
+      <BoundTo>0cc7b664-3993-4ee4-9463-643efe50e413</BoundTo>
+      <DependentUpon>EntrarPerfilLinkedIn.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>09b48737-27d1-4c7c-a1b5-7290f90bcca2</id>
+    </Compile>
+    <Compile Include="EntrarPerfilLinkedIn.UserCode.cs">
+      <BoundTo>0cc7b664-3993-4ee4-9463-643efe50e413</BoundTo>
+      <DependentUpon>EntrarPerfilLinkedIn.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>70401723-e385-482b-8ac0-4d91fd5279d5</id>
     </Compile>
     <Compile Include="ExtraerDatos.cs">
       <BoundTo>eeb2bc19-d726-4788-9d11-0806e3751e85</BoundTo>
@@ -168,34 +192,43 @@
       <id>8345727c-5c86-463b-a112-0ee44d16b0ec</id>
     </Compile>
     <Compile Include="IrATodosLosEmpleados.cs">
-      <BoundTo>3e3ddd26-c16d-4875-8745-0b445bd3a1c2</BoundTo>
+      <BoundTo>8e5fcbe0-e1e1-40c8-aa05-081f90743681</BoundTo>
       <DependentUpon>IrATodosLosEmpleados.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>72136f14-3bc4-49fd-9770-9fce8df7bcc2</id>
+      <id>af99c0f1-a58f-47c9-9283-cbd2f66a1481</id>
     </Compile>
     <Compile Include="IrATodosLosEmpleados.UserCode.cs">
-      <BoundTo>3e3ddd26-c16d-4875-8745-0b445bd3a1c2</BoundTo>
+      <BoundTo>8e5fcbe0-e1e1-40c8-aa05-081f90743681</BoundTo>
       <DependentUpon>IrATodosLosEmpleados.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>8c45df49-1eb3-4458-9e43-9acc5188e722</id>
+      <id>d96a21ee-8f45-417a-884f-fac66f0dc303</id>
     </Compile>
     <Compile Include="LimpiaVariable.cs">
       <id>ecbc2511-a984-4dc6-b4f5-9a1d53836284</id>
     </Compile>
-    <Compile Include="NoEncontroEmpresa.cs">
-      <BoundTo>82bed94d-3d81-4593-8e86-64156ee60ea1</BoundTo>
-      <DependentUpon>NoEncontroEmpresa.rxrec</DependentUpon>
+    <Compile Include="NoSeEncontroEmpresa.cs">
+      <BoundTo>5852e14b-bce2-4f5a-bda6-be0a45f52b2e</BoundTo>
+      <DependentUpon>NoSeEncontroEmpresa.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>f39988ab-c157-4452-b019-1187f3345414</id>
+      <id>2f251178-2ea0-4b3f-8155-58d4e71bad40</id>
     </Compile>
-    <Compile Include="NoEncontroEmpresa.UserCode.cs">
-      <BoundTo>82bed94d-3d81-4593-8e86-64156ee60ea1</BoundTo>
-      <DependentUpon>NoEncontroEmpresa.rxrec</DependentUpon>
+    <Compile Include="NoSeEncontroEmpresa.UserCode.cs">
+      <BoundTo>5852e14b-bce2-4f5a-bda6-be0a45f52b2e</BoundTo>
+      <DependentUpon>NoSeEncontroEmpresa.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>074e68e2-29ef-4aaa-9366-6626c7bd39d1</id>
+      <id>5831f69e-c9bc-444a-aabf-182de0f7ae45</id>
     </Compile>
-    <Compile Include="PagSiguiente1.cs">
-      <id>9b03ad40-3e3b-4bf5-a154-19d281129d4e</id>
+    <Compile Include="Recording1.cs">
+      <BoundTo>9969dc76-6997-46fe-840a-8c7e3348d15b</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d1896c0e-b346-4e69-9c7a-d17b49a36c44</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>9969dc76-6997-46fe-840a-8c7e3348d15b</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>da8d5ab7-0853-4da4-8fbe-7eeac6b0a834</id>
     </Compile>
     <Compile Include="RemoverDuplicados.cs">
       <BoundTo>ab4066bf-9c35-482d-817e-97c07c6b1dee</BoundTo>
@@ -215,7 +248,7 @@
     <Compile Include="BusquedaDeDatos2.cs">
       <id>1f9559e1-b720-447e-91ab-1d975691616c</id>
     </Compile>
-    <Compile Include="CerrarExcel.cs">
+    <Compile Include="CerrarInstanciaExcel.cs">
       <id>6595fb35-1743-4f1b-a12a-8d80466cc91a</id>
     </Compile>
     <Compile Include="ClickEnGuardarLista.cs">
@@ -257,8 +290,14 @@
     <Compile Include="EliminarDuplicados.cs">
       <id>32f9b33f-9384-40de-8ec1-2b39cb631198</id>
     </Compile>
-    <Compile Include="ValidacionEmpresaIndustria.cs">
-      <id>d95cdfa2-1071-4430-86cc-2232a73f80ea</id>
+    <Compile Include="PagSiguienteCM.cs">
+      <id>4b5fa377-c398-4d4b-b076-8b833ddb333a</id>
+    </Compile>
+    <Compile Include="ResetEjecutar.cs">
+      <id>60e21c9b-c1ab-4da9-b0fb-38d0cbf627b7</id>
+    </Compile>
+    <Compile Include="ValidarEmpresaIndustriaCM.cs">
+      <id>05d68911-420b-40c1-9579-728b234dd3a8</id>
     </Compile>
     <Compile Include="xlsWorker.cs">
       <id>8041f760-6409-4013-9d12-d6fd9e4f493e</id>
@@ -299,27 +338,27 @@
       <UserCode>true</UserCode>
       <id>9d96145e-f428-485f-b6ff-5b6d897f88de</id>
     </Compile>
-    <Compile Include="CheckTodos.cs">
+    <Compile Include="ChekTodos.cs">
       <BoundTo>1cbdeec1-b411-44fd-ac28-fe12cafd23ad</BoundTo>
-      <DependentUpon>CheckTodos.rxrec</DependentUpon>
+      <DependentUpon>ChekTodos.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>b5a98d64-c59c-4771-8272-d20f0c8a3008</id>
     </Compile>
-    <Compile Include="CheckTodos.UserCode.cs">
+    <Compile Include="ChekTodos.UserCode.cs">
       <BoundTo>1cbdeec1-b411-44fd-ac28-fe12cafd23ad</BoundTo>
-      <DependentUpon>CheckTodos.rxrec</DependentUpon>
+      <DependentUpon>ChekTodos.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>cacb167b-06c3-45fd-a8af-a4f7e83846f8</id>
     </Compile>
-    <Compile Include="ObtenerNumeroDeIteraciones.cs">
+    <Compile Include="CrearCantPageCSV.cs">
       <BoundTo>b243485f-b3b8-4e1a-bd7e-1de036f707a9</BoundTo>
-      <DependentUpon>ObtenerNumeroDeIteraciones.rxrec</DependentUpon>
+      <DependentUpon>CrearCantPageCSV.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>a35aa5e2-3d9f-49d5-afb5-a4553a754eca</id>
     </Compile>
-    <Compile Include="ObtenerNumeroDeIteraciones.UserCode.cs">
+    <Compile Include="CrearCantPageCSV.UserCode.cs">
       <BoundTo>b243485f-b3b8-4e1a-bd7e-1de036f707a9</BoundTo>
-      <DependentUpon>ObtenerNumeroDeIteraciones.rxrec</DependentUpon>
+      <DependentUpon>CrearCantPageCSV.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>adf0896f-8153-4413-85c4-cfca7ae07bd4</id>
     </Compile>
@@ -419,15 +458,15 @@
       <UserCode>true</UserCode>
       <id>97e70f84-342e-4f22-b6a2-f9e707a567aa</id>
     </Compile>
-    <Compile Include="ValidacionEmpresaEIndustria2.cs">
+    <Compile Include="ValidacionEmpresaEIndustria.cs">
       <BoundTo>900fbf63-23f6-4c91-a739-d62f6b34b6a8</BoundTo>
-      <DependentUpon>ValidacionEmpresaEIndustria2.rxrec</DependentUpon>
+      <DependentUpon>ValidacionEmpresaEIndustria.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>26da37d6-36e0-41eb-bcff-d634d6c6e075</id>
     </Compile>
-    <Compile Include="ValidacionEmpresaEIndustria2.UserCode.cs">
+    <Compile Include="ValidacionEmpresaEIndustria.UserCode.cs">
       <BoundTo>900fbf63-23f6-4c91-a739-d62f6b34b6a8</BoundTo>
-      <DependentUpon>ValidacionEmpresaEIndustria2.rxrec</DependentUpon>
+      <DependentUpon>ValidacionEmpresaEIndustria.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>6834bd20-9b12-4fa5-ad9f-b3ac494122ef</id>
     </Compile>
@@ -441,6 +480,16 @@
       <id>001d7828-1523-4dfd-a59b-bd0a04318194</id>
       <recordtableid>a863763b-da19-486c-bf9c-07a1b40f752c</recordtableid>
     </None>
+    <None Include="CargarCantPageCSV.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>90305847-7de1-427b-bb78-bf8d39a8ae6d</id>
+      <recordtableid>b0b79668-4661-4b70-9ddd-d4059024b65d</recordtableid>
+    </None>
+    <None Include="EntrarPerfilLinkedIn.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>0cc7b664-3993-4ee4-9463-643efe50e413</id>
+      <recordtableid>deeb8d1a-551c-4fcd-b435-6980fa3146e8</recordtableid>
+    </None>
     <None Include="ExtraerDatos.rxrec">
       <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
       <id>eeb2bc19-d726-4788-9d11-0806e3751e85</id>
@@ -448,13 +497,18 @@
     </None>
     <None Include="IrATodosLosEmpleados.rxrec">
       <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
-      <id>3e3ddd26-c16d-4875-8745-0b445bd3a1c2</id>
-      <recordtableid>fce4b072-3953-4aa8-8cc7-7ef0491bf4f7</recordtableid>
+      <id>8e5fcbe0-e1e1-40c8-aa05-081f90743681</id>
+      <recordtableid>ad68b60c-8516-4ac6-9ac3-df35a24ef674</recordtableid>
     </None>
-    <None Include="NoEncontroEmpresa.rxrec">
+    <None Include="NoSeEncontroEmpresa.rxrec">
       <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
-      <id>82bed94d-3d81-4593-8e86-64156ee60ea1</id>
-      <recordtableid>28b74fca-3998-4240-b162-a7f65f9da360</recordtableid>
+      <id>5852e14b-bce2-4f5a-bda6-be0a45f52b2e</id>
+      <recordtableid>0a8d72c9-33e7-434d-b90e-a7f49bf53e33</recordtableid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>9969dc76-6997-46fe-840a-8c7e3348d15b</id>
+      <recordtableid>669b3ab4-f480-46ba-9e7f-9897d7c67297</recordtableid>
     </None>
     <None Include="RemoverDuplicados.rxrec">
       <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
@@ -491,15 +545,15 @@
       <id>93a6b57c-8257-4382-a2f9-49c5b5ca0ef1</id>
       <recordtableid>329f9cc9-690d-4e6f-928a-f6a414c5032f</recordtableid>
     </None>
-    <None Include="CheckTodos.rxrec">
+    <None Include="ChekTodos.rxrec">
       <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
       <id>1cbdeec1-b411-44fd-ac28-fe12cafd23ad</id>
       <recordtableid>381ae2ac-ede7-4c74-99cc-b829a61a140b</recordtableid>
     </None>
-    <None Include="ObtenerNumeroDeIteraciones.rxrec">
-      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+    <None Include="CrearCantPageCSV.rxrec">
       <id>b243485f-b3b8-4e1a-bd7e-1de036f707a9</id>
       <recordtableid>d604b842-80e2-4526-a19e-301b25ceef44</recordtableid>
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
     </None>
     <None Include="ObtenerPerfiles.rxrec">
       <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
@@ -547,7 +601,7 @@
       <id>9c37f844-c541-4b18-9b32-c2f8df078bfc</id>
       <recordtableid>bcad91d7-5667-42ee-a158-37a481569576</recordtableid>
     </None>
-    <None Include="ValidacionEmpresaEIndustria2.rxrec">
+    <None Include="ValidacionEmpresaEIndustria.rxrec">
       <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
       <id>900fbf63-23f6-4c91-a739-d62f6b34b6a8</id>
       <recordtableid>c167697a-3c37-4cbf-a1cf-93f7b333bd9b</recordtableid>

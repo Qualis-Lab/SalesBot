@@ -127,7 +127,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			name="ValidacionNombreEmpresaIndustria"
 			refimgid="7817728f-f8d1-42a9-841c-522ea4e9b1c0"
 			robustPath=""
-			searchtimeout="1000ms">
+			searchtimeout="30000ms">
 				/dom[@domain='www.linkedin.com']//div[#'search-results-container']//a[@innertext=$nombreEmpresa]
 			</item>
 			<item
@@ -279,7 +279,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			name="SeleccionDeTodosLosPerfiles"
 			refimgid="3cf5abfa-d9f9-4cc6-8ee2-fb2288ee0b13"
 			robustPath=""
-			searchtimeout="15000ms">
+			searchtimeout="30000ms">
 				/dom[@domain='www.linkedin.com']//main[#'content-main']/div//span[@innertext~'eleccion']
 			</item>
 			<item
@@ -294,13 +294,13 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			</item>
 			<item
 			addcaps="button,webelement,buttontag"
-			capname="button"
+			capname="buttontag"
 			id="7e6e8108-9048-496c-8889-1009268bd6be"
 			name="Btn_CargoActual"
 			refimgid="3ce1eb76-6275-4ee0-832f-65b5019581ad"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='www.linkedin.com']//main[#'content-main']//fieldset[@title='Cargo actual']/div/button
+				/dom[@domain='www.linkedin.com']//main[#'content-main']//fieldset[@title='Cargo actual']//span[@innertext='Cargo actual']/../../button
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -311,6 +311,28 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain='www.linkedin.com']//main[#'content-main']//input[@type='text' and @placeholder='Añadir cargos actuales']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f90bfafc-929a-4567-aa0c-fd68dd2cfc64"
+			name="Copy_of_GlobalTypeaheadSearchInput1"
+			refimgid="41945475-beb6-45f2-b5d4-ae616d612687"
+			refpath="/dom[@domain='www.linkedin.com']//input[#'global-typeahead-search-input']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//input[#'global-typeahead-search-input']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="04616272-ff41-4e42-9b40-5b42b2819562"
+			name="Copy_of_GlobalTypeaheadSearchInput"
+			refimgid="41945475-beb6-45f2-b5d4-ae616d612687"
+			refpath="/dom[@domain='www.linkedin.com']//input[#'global-typeahead-search-input']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//input[#'global-typeahead-search-input']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -399,7 +421,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			name="Copy_of_ArgentinaQualia1"
 			refimgid="a9df9c1b-634b-4037-b824-89cf79e22dfa"
 			robustPath=""
-			searchtimeout="10000ms">
+			searchtimeout="30000ms">
 				/dom[@domain='www.linkedin.com']//span[@innertext&lt;$pais+'_'+$nombreEmpresa]
 			</item>
 			<item
@@ -416,45 +438,56 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			<item
 			addcaps="unknown,webelement,atag"
 			capname="atag"
-			id="8e8ce596-a969-45be-a3d0-d2b06b6b0181"
-			name="Itti"
-			refimgid="06fb4c4b-fc23-4800-8ae3-aaa5be240042"
-			refpath="/dom[@domain='www.linkedin.com']//div[#'search-results-container']/div[2]/ol/li/div/div/div[2]/div[1]/div[1]/div/div[2]/div[1]/div/a[@innertext='itti']"
+			id="1fad1f5d-e03e-4455-b75a-15da589af9f6"
+			name="TodosLosEmpleados"
+			refimgid="8584da3f-1e93-4477-b578-1079628c8b6d"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='www.linkedin.com']//div[#'search-results-container']//a[@innertext='itti']
+				/dom[@domain='www.linkedin.com']//div[#'account']//a[@innertext&gt;'Todos los empleados']
 			</item>
 			<item
-			addcaps="unknown,webelement,atag"
-			capname="atag"
-			id="39a7aa36-c491-4685-bfd4-50ac207ad6c5"
-			name="Cuentas1"
-			refimgid="4e502b73-063f-4f15-a8ae-5e974233489a"
-			refpath="/dom[@domain='www.linkedin.com']/body/header/div[1]/div/div/div/ul/li[2]/a[@innertext='Cuentas']"
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="5c1e7c6d-bb1a-448d-b4d7-458a3bcd7135"
+			name="GerenteDeEcosistemaYFidelidad"
+			refimgid="7d5ab833-9eba-419f-b859-71e1f7274b73"
+			refpath="/dom[@domain='www.linkedin.com']//div[#'search-results-container']/div[2]/ol/li[3]/div/div/div[2]/div[1]/div[1]/div/div[2]/div[2]/span[@innertext='Gerente de Ecosistema y Fidelidad']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='www.linkedin.com']//a[@innertext='Cuentas']
+				/dom[@domain='www.linkedin.com']//div[#'search-results-container']//span[@innertext&gt;'Gerente de Ecosistema y F']
 			</item>
 			<item
 			addcaps="unknown,webelement,svgtag"
 			capname="svgtag"
-			id="76a243d9-3201-41e7-bbb2-572136493854"
+			id="5f93e09e-66b3-4be6-a6e6-1d51e4762777"
 			name="SomeSvgTag"
-			refimgid="ca14de8a-87e2-4d52-ba3f-bd8faaa0787d"
-			refpath="/dom[@domain='www.linkedin.com']//main[#'content-main']/div[1]/div[1]/div/div[2]/form[@action>'https://www.linkedin.com/sales/search/people?_ntb=ZSfYFrSDRCuaDJSOmkUU9Q%3D%3D&amp;query=(recentSearchParam%3A(id%3A2901818745%2CdoLogHistory%3Atrue)%2Cfilters%3AList((type%3ACURRENT_COMPANY%2Cvalues%3AList((id%3Aurn%253Ali%253Aorganization%253A10914705%2Ctext%3AQ']/div/div[4]/fieldset[2]/div/fieldset[@title='Cargo actual']/div[2]/button/tag[@tagname='li-icon']/svg"
+			refimgid="cf6cd46a-42ab-4ea0-b8e9-747d1d35746e"
+			refpath="/dom[@domain='www.linkedin.com']//section[#'profile-card-section']/section[1]/div[2]/section/div[2]/button/span[1]/svg"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='www.linkedin.com']//main[#'content-main']//fieldset[@title='Cargo actual']/div[2]/button/tag[@tagname='li-icon']/svg
+				/dom[@domain='www.linkedin.com']//section[#'profile-card-section']/section[1]/div[2]/section/div[2]/button/span[1]/svg
 			</item>
 			<item
-			addcaps="unknown,webelement,atag"
-			capname="atag"
-			id="bb7ff820-0d26-4b0a-9765-e74f50d748a8"
-			name="TodosLosEmpleados"
-			refimgid="94e7e7e8-b974-4384-b70f-c1752850eb1c"
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="c0d27101-5bf5-4ac9-aab5-192a6a64cc0f"
+			name="VerPerfilDeLinkedIn"
+			refimgid="bea6fc7e-2b23-48e7-b8ec-d8fbf167044f"
+			refpath="/dom[@domain='www.linkedin.com']//div[#'hue-web-menu-outlet']/div[2]/ul/li[2]/a/div/div[@innertext='Ver perfil de LinkedIn']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='www.linkedin.com']//div[#'account']//a[@innertext&gt;'Todos los empleados']
+				/dom[@domain='www.linkedin.com']//div[#'hue-web-menu-outlet']//div[@innertext='Ver perfil de LinkedIn']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="6d462923-60f8-44f2-a0d1-a6c1e7e8da60"
+			name="SpanTagIconPs32ck"
+			refimgid="77ce28c6-05f0-46f1-a00d-dcfe62f0775c"
+			refpath="/dom[@domain='www.linkedin.com']//section[#'profile-card-section']/section[1]/div[2]/section/div[2]/button/span[1]"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//section[#'profile-card-section']/section[1]/div[2]/section/div[2]/button/span[1]
 			</item>
 			<basepath>
 				/dom[@domain='www.linkedin.com']
@@ -631,16 +664,6 @@ LwAAAABJRU5ErkJggg==
 				/form[@processname='chrome']/element[@controlid='87567552']/container[@accessiblename='SalesQL']/container[2]
 			</item>
 			<item
-			addcaps="text,accessible"
-			capname="text"
-			id="5104c1b5-d0b6-40c0-a47f-4aa1b80b1a2f"
-			name="TextAdd"
-			refimgid="898349ec-1903-4006-a551-d629648474d1"
-			robustPath=""
-			searchtimeout="30000ms">
-				/form[@processname='chrome']/container[@accessiblerole='Pane']/container[@accessiblerole='Pane']//container[@accessiblename='SalesQL']//container[@accessiblerole='Grouping']/text[@accessiblename='add']
-			</item>
-			<item
 			addcaps="container,accessible"
 			capname="container"
 			id="f5f2a3e8-a7cf-40f6-8b3a-3bef05a2007f"
@@ -679,6 +702,70 @@ LwAAAABJRU5ErkJggg==
 			robustPath=""
 			searchtimeout="30000ms">
 				/form[@processname='chrome']//menuitem[@accessiblename&gt;'Contenido compartido por Jorge']/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="ad9c17f2-19d5-42f2-b344-822dc4447b4c"
+			name="Phones"
+			refimgid="dab282b3-1d9c-40bb-8cc7-2d1914056045"
+			refpath="/form[@title='']/element[@controlid='236664576']/container[@accessiblename='SalesQL']/container[2]/container[7]/container[2]/text[@accessiblename='Phones']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='chrome']//text[@accessiblename='Phones']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="2107f25a-c824-4ef0-8395-33cab6d8a251"
+			name="Profile"
+			refimgid="dab282b3-1d9c-40bb-8cc7-2d1914056045"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='chrome']//button[@accessiblename&gt;'perm_contact_calendar Pro']/text[@accessiblename='Profile']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="13246829-bede-4085-b53a-139659abede9"
+			name="MgAtjhuEdu"
+			refimgid="3f301a17-c710-4c54-9410-43088061e61e"
+			refpath="/form[@title='']/container[@accessiblerole='Pane']/container[@accessiblerole='Pane']/container[2]/container[1]/container[@accessiblename='SalesQL']/container[2]/container[6]/container[@accessiblename='mg@jhu.edu']/text[@accessiblename='mg@jhu.edu']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='chrome']//text[@accessiblename='mg@jhu.edu']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="e88fd105-1705-43b3-8aa5-e4ae4beab275"
+			name="Label"
+			refimgid="5a3396f0-5b77-4236-b979-d01e4c692009"
+			refpath="/form[@title='']/element[@controlid='154748816']/container[@accessiblename='SalesQL']/container[2]/container[@accessiblename='label 0']/container[@accessiblerole='Grouping']/text[@accessiblename='label']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='chrome']//text[@accessiblename='label']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="b163b1cc-7c4b-4b30-af76-e5750465fc8c"
+			name="N1er_email"
+			refimgid="6700f4f6-594e-4dfb-8b65-c07dcf0f6c49"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='chrome']//container[@accessiblename~'@']
+			</item>
+			<item
+			addcaps="menuitem,uiautomation,uiautomationinvoke,uiautomationscrollitem,uiautomationtoggle"
+			capname="menuitem"
+			id="28648ab9-bfe4-430e-915d-523c2afd88d9"
+			name="SalesQLBrowserExtensionTieneAccesoA1"
+			refimgid="799f7f8d-81c6-4487-9b7c-f124d54470c7"
+			refpath="/form[@title='c# - Ranorex XPATH Issue - Stack Overflow - Google Chrome']/container[@iscontrolelement='True']/container[@iscontrolelement='True']/container[2]/container[1]/toolbar[@iscontrolelement='True']/container[3]/container[2]/menuitem[@name='SalesQL Browser ExtensionTiene acceso a este sitio']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='chrome']//menuitem[@name&gt;'SalesQL Browser Extension']
 			</item>
 			<basepath>
 				/form[@processname='chrome']
@@ -768,26 +855,6 @@ Njn9vo296k/D73fbfL8GElzKQIKkt+klCH8ARJYkm8QxdZEAAAAASUVORK5CYII=
 		usecache="False">
 			<item
 			addcaps="container,accessible"
-			capname="container"
-			id="7d4520f8-298f-4130-a164-2afa76f2cdce"
-			name="ObtenerEmail"
-			refimgid="8addbbf1-4d24-43b7-9393-9c3abb179ace"
-			robustPath=""
-			searchtimeout="3000ms">
-				/form[@processname='chrome']//container[@accessiblename='SalesQL']//form[@accessiblename='dialog']//container[@accessiblename~'@' and @accessiblename~'.com'][$index]
-			</item>
-			<item
-			addcaps="container,accessible"
-			capname="container"
-			id="618cae40-1588-411d-ac9b-2aa185cdd3bc"
-			name="ObtenerPhone"
-			refimgid="3b42d559-7007-48cf-8a87-e29cdc286eb8"
-			robustPath=""
-			searchtimeout="3000ms">
-				/form[@processname='chrome']//container[@accessiblename='SalesQL']//form[@accessiblename='dialog']//container[@accessiblename~'[+]' and @accessiblename~'[0-9]'][$Index]
-			</item>
-			<item
-			addcaps="container,accessible"
 			capname="button"
 			id="0f96f12e-43d8-4ca4-bc8e-bcf0358d08e3"
 			name="Btn_Close"
@@ -795,16 +862,6 @@ Njn9vo296k/D73fbfL8GElzKQIKkt+klCH8ARJYkm8QxdZEAAAAASUVORK5CYII=
 			robustPath=""
 			searchtimeout="3000ms">
 				/form[@processname='chrome']//button[@accessiblename='close']
-			</item>
-			<item
-			addcaps="text,accessible"
-			capname="container"
-			id="90092b64-6619-4290-992b-6865fdad0cec"
-			name="Email"
-			refimgid="310e8643-5fab-4d44-9911-fa7a2976ad9f"
-			robustPath=""
-			searchtimeout="6000ms">
-				/form[@processname='chrome']//container[@accessiblename='SalesQL']//container[@accessiblename~'email' and @accessiblename~'[1-9]']
 			</item>
 			<item
 			addcaps="text,accessible"
@@ -818,6 +875,17 @@ Njn9vo296k/D73fbfL8GElzKQIKkt+klCH8ARJYkm8QxdZEAAAAASUVORK5CYII=
 			</item>
 			<item
 			addcaps="text,accessible"
+			capname="text"
+			id="488de95a-7d6e-4b18-8a34-234ccfc2ed3a"
+			name="Emails"
+			refimgid="0b5a7860-5abf-4e92-a2a3-2be985c4acdb"
+			refpath="/form[@title='']/element[@controlid='72824048']/container[@accessiblename='SalesQL']/container[2]/container[4]/container[2]/text[@accessiblename='Emails']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='chrome']//text[@accessiblename='Emails']
+			</item>
+			<item
+			addcaps="text,accessible"
 			capname="container"
 			id="4c4e20ad-f2d4-4ae4-885b-dd11a724dc7d"
 			name="Phone"
@@ -825,6 +893,46 @@ Njn9vo296k/D73fbfL8GElzKQIKkt+klCH8ARJYkm8QxdZEAAAAASUVORK5CYII=
 			robustPath=""
 			searchtimeout="6000ms">
 				/form[@processname='chrome']//container[@accessiblename='SalesQL']//container[@accessiblename~'phone ' and @accessiblename~'[1-9]']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="1719f219-17d8-4d14-b691-985db7e00005"
+			name="ObtenerPhoneNew"
+			refimgid="b7d46f82-b94b-44c4-9ad6-bbb209115a48"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='chrome']//container[@accessiblename='SalesQL']//text[@accessiblename~'\+' and @accessiblename~'[0-9]'][$index]
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="37fe0e26-1529-4081-b805-65ee7e919a9d"
+			name="ObtenerEmailNew"
+			refimgid="8404cae7-e6a4-4c94-8fb9-384ad9b59f18"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='chrome']//container[@accessiblename='SalesQL']//text[@accessiblename~'@' and @accessiblename~'.'][$index]
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="5104c1b5-d0b6-40c0-a47f-4aa1b80b1a2f"
+			name="TextAdd"
+			refimgid="898349ec-1903-4006-a551-d629648474d1"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='chrome']//container[@accessiblename='SalesQL']//text[@accessiblename='add']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="4a50e875-3ff4-43bb-aa45-ebc9b67794e0"
+			name="ChevronRight"
+			refimgid="1d723dad-71a5-4384-9e90-c2cb76edbdbd"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='chrome']//container[@accessiblename='SalesQL']//text[@accessiblename='chevron_right']
 			</item>
 			<basepath>
 				/form[@processname='chrome']
@@ -868,6 +976,54 @@ IEiWjd+lFI4Fx+HmL9u8lFAU+QeXSDQNFv7Opm2LNauNpZWfzH+1MikS2dN0iySmwWVae5aoaZvl
 gHfkTgp1nXkbjjXFsm7d4oNhFwuLG8wsWGl8NUjFU6NIped6porYDBUlugH2n4jYEZTXGrGJm6sG
 9AxPLDA7VE579zRNpnFqWkdQN/RTUt2NQt1BziMzmWVG9nlKdwRFmma5eMhT6sVfVo38biXX0suI
 TCok7EYegVGZ+EqTt/u7+8fg7BVhF8glEonkF6m1M1/+IilrAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow,windowsapp"
+		capname="windowsapp"
+		id="d8d97ac7-149e-4d30-aced-65122ba5e54c"
+		isrooted="True"
+		name="Inicio"
+		refpath="/winapp[@packagename='Microsoft.Windows.StartMenuExperienceHost']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/winapp[@packagename='Microsoft.Windows.StartMenuExperienceHost']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABpSURBVDhPvY5RCsAgDEM9wo7g/S+xj33sWI7K
+GmLJRzthgWdJNMXWjj62kGEFO7I6rxuYyguilgXTFECHjRLn8a3N1ALGM5///8DBHRslzmfhBZ6N
+khciuFtMAXTcfBEWbCHDCjJM08cD1Co8sNecEm0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="f680b6fa-5cf9-4d2a-b924-2834d6fd3e7d"
+		isrooted="True"
+		name="MultitaskingViewFrame"
+		refimgid="d2cec18e-6daf-47f8-a1e5-287215359ae0"
+		refpath="/form"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
 			</icon>
 		</appfolder>
 		<basepath>

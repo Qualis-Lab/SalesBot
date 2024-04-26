@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="4.61s"
+		durationms="4608"
+		type="root"
+		rid="17e0c1a9965f006"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="14/12/2022 12:23:39"
+		timestampiso="2022-12-14T15:23:39"
+		endtime="14/12/2022 12:23:44"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="PruebaExcel">
+		<detail>
+			PruebaExcel
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.578"
+			timeRelativeToTestModuleStartTime="00:04.578"
+			timeWallClock="12:23:44"
+			time="00:04.578"
+			level="Info"
+			category="User">
+			<message>
+				1048576
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\PruebaExcel.UserCode.cs"
+				codeline="68"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

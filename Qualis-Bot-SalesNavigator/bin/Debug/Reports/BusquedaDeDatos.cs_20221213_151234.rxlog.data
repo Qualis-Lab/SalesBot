@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="11.41s"
+		durationms="11414"
+		type="root"
+		rid="b994ffabb5b9300"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="13/12/2022 15:12:36"
+		timestampiso="2022-12-13T18:12:36"
+		endtime="13/12/2022 15:12:47"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="BusquedaDeDatos">
+		<detail>
+			BusquedaDeDatos
+		</detail>
+		<errormessage>
+			No element found for path '/dom[@domain='www.linkedin.com']//div[#'search-results-container']/?/?/ol/li[11]//a[@data-anonymize='person-name']' at step 'descendant-or-self::a[@data-anonymize='person-name']' after 1 attempts.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.739"
+			timeRelativeToTestModuleStartTime="00:02.739"
+			timeWallClock="15:12:39"
+			time="00:02.739"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>cantidadDeResultados
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.393"
+			timeRelativeToTestModuleStartTime="00:03.393"
+			timeWallClock="15:12:39"
+			time="00:03.393"
+			level="Info"
+			category="User">
+			<message>
+				Adriana Catay, https://www.linkedin.com/sales/lead/ACwAAAvLLkABhK9r9_jK13NHTjHlyzxNlF6fBR8,NAME_SEARCH,_iDS?_ntb=YMdTel77Q%2FCjMUCfeuKImA%3D%3D,Oficial ejecutivo de cuentas
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.197"
+			timeRelativeToTestModuleStartTime="00:04.197"
+			timeWallClock="15:12:40"
+			time="00:04.197"
+			level="Info"
+			category="User">
+			<message>
+				julieta ferrari, https://www.linkedin.com/sales/lead/ACwAACBE5Z4BuRwxRU_zLpRPyoCnRv4XHnGu6Sw,NAME_SEARCH,qYXj?_ntb=YMdTel77Q%2FCjMUCfeuKImA%3D%3D,Responsable del servicio al cliente
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.025"
+			timeRelativeToTestModuleStartTime="00:05.025"
+			timeWallClock="15:12:41"
+			time="00:05.025"
+			level="Info"
+			category="User">
+			<message>
+				Facundo Mayorga, https://www.linkedin.com/sales/lead/ACwAAARCeTIBLYT7oXJmPR9skVqgYh0NacxEB_4,NAME_SEARCH,3Niz?_ntb=YMdTel77Q%2FCjMUCfeuKImA%3D%3D,Ejecutivo Agronegocios
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.818"
+			timeRelativeToTestModuleStartTime="00:05.818"
+			timeWallClock="15:12:42"
+			time="00:05.818"
+			level="Info"
+			category="User">
+			<message>
+				Teodoro Chafatinos, https://www.linkedin.com/sales/lead/ACwAACfGDNkBsZbdm1nPl2YFawoyB2xQIrE7fXI,NAME_SEARCH,CIYY?_ntb=YMdTel77Q%2FCjMUCfeuKImA%3D%3D,Ejecutivo de Atencion
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.630"
+			timeRelativeToTestModuleStartTime="00:06.630"
+			timeWallClock="15:12:43"
+			time="00:06.630"
+			level="Info"
+			category="User">
+			<message>
+				Marianela Anyelen Alegre, https://www.linkedin.com/sales/lead/ACwAACwHx3EBG2KWkwj27pRuqZUg7s_42ao_usQ,NAME_SEARCH,WCZ5?_ntb=YMdTel77Q%2FCjMUCfeuKImA%3D%3D,Ejecutiva Eminent
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.456"
+			timeRelativeToTestModuleStartTime="00:07.456"
+			timeWallClock="15:12:43"
+			time="00:07.456"
+			level="Info"
+			category="User">
+			<message>
+				Agustina Miglioli, https://www.linkedin.com/sales/lead/ACwAABT5md8BjLORBN6NSQsFKMfFkIMpVL6Esow,NAME_SEARCH,I-0o?_ntb=YMdTel77Q%2FCjMUCfeuKImA%3D%3D,Ejecutivo de atencion&#32;
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.250"
+			timeRelativeToTestModuleStartTime="00:08.250"
+			timeWallClock="15:12:44"
+			time="00:08.250"
+			level="Info"
+			category="User">
+			<message>
+				Andrea Paizal, https://www.linkedin.com/sales/lead/ACwAAA7i9H4BLQkLcO1F56v1U-QRz5eJ0dQNQlY,NAME_SEARCH,J-Af?_ntb=YMdTel77Q%2FCjMUCfeuKImA%3D%3D,Ejecutivo Eminent
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.031"
+			timeRelativeToTestModuleStartTime="00:09.031"
+			timeWallClock="15:12:45"
+			time="00:09.031"
+			level="Info"
+			category="User">
+			<message>
+				eduardo lopez, https://www.linkedin.com/sales/lead/ACwAABNg3psBs9slAB1Dxd2am9sNvceKh4QssGo,NAME_SEARCH,EkWz?_ntb=YMdTel77Q%2FCjMUCfeuKImA%3D%3D,Jefe de ventas
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.839"
+			timeRelativeToTestModuleStartTime="00:09.839"
+			timeWallClock="15:12:46"
+			time="00:09.839"
+			level="Info"
+			category="User"
+			errimg="images_Busqueda_6756ca42\Busqueda_6756ca42_6708ff62_trace.jpg"
+			errthumb="images_Busqueda_6756ca42\Busqueda_6756ca42_6708ff62_trace_thumb.jpg">
+			<message>
+				Juan Miguel Ruggeri, https://www.linkedin.com/sales/lead/ACwAABnI19IBfQooxcVWe3uoIKDXHqUZUQtyYVE,NAME_SEARCH,sWm5?_ntb=YMdTel77Q%2FCjMUCfeuKImA%3D%3D,Tesorero
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.635"
+			timeRelativeToTestModuleStartTime="00:10.635"
+			timeWallClock="15:12:47"
+			time="00:10.635"
+			level="Info"
+			category="User"
+			errimg="images_Busqueda_6756ca42\Busqueda_6756ca42_3d56c759_trace.jpg"
+			errthumb="images_Busqueda_6756ca42\Busqueda_6756ca42_3d56c759_trace_thumb.jpg">
+			<message>
+				Agustina Maza, https://www.linkedin.com/sales/lead/ACwAABPmafwBJc4yK7I8KYzdknt5zHF3tY20Ve4,NAME_SEARCH,Q-fH?_ntb=YMdTel77Q%2FCjMUCfeuKImA%3D%3D,Ejecutivo Renta Alta Éminent
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.303"
+			timeRelativeToTestModuleStartTime="00:11.303"
+			timeWallClock="15:12:47"
+			time="00:11.303"
+			level="Error"
+			category="Module"
+			errimg="images_Busqueda_6756ca42\Busqueda_6756ca42_0bb60774_trace.jpg"
+			errthumb="images_Busqueda_6756ca42\Busqueda_6756ca42_0bb60774_trace_thumb.jpg">
+			<message>
+				No element found for path '/dom[@domain='www.linkedin.com']//div[#'search-results-container']/?/?/ol/li[11]//a[@data-anonymize='person-name']' at step 'descendant-or-self::a[@data-anonymize='person-name']' after 1 attempts.
+			</message>
+			<metainfo
+				stacktrace="   en Ranorex.Core.Element.FindSingle(RxPath path)
+   en Ranorex.Adapter.FindSingle(RxPath path)
+   en Qualis_Bot_SalesNavigator.BusquedaDeDatos.Ranorex.Core.Testing.ITestModule.Run() en c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs:línea 83
+   en Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="83"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

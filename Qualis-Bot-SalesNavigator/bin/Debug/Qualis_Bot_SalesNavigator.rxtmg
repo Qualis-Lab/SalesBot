@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="9.3">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="32d2f97e-de11-45cf-a307-767d6a9ef565"
+			name="Qualis_Bot_SalesNavigator">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="32d2f97e-de11-45cf-a307-767d6a9ef565"
+			name="Qualis_Bot_SalesNavigator">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>

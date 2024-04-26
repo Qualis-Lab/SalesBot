@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="20.23s"
+		durationms="20227"
+		type="root"
+		rid="21ce1d788cc55e6a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="9.3.4.0"
+		host="DESKTOP-16RK4EQ"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-ES"
+		dtnlanguage="es-ES"
+		screenresolution="1366x768"
+		timestamp="12/12/2022 18:28:46"
+		timestampiso="2022-12-12T20:28:46"
+		endtime="12/12/2022 18:29:06"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="IrAResponsablesDeLasDecisiones">
+		<detail>
+			IrAResponsablesDeLasDecisiones
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.804"
+			timeRelativeToTestModuleStartTime="00:12.804"
+			timeWallClock="18:28:58"
+			time="00:12.804"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 30s to exist. Associated repository item: 'InicioSalesNavigator.ResponsablesDeLasDecisiones855'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//div[#'account']//a[@innertext>'Responsables de las decisiones']"
+				itempath=".//div[#'account']//a[@innertext>'Responsables de las decisiones']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.ResponsablesDeLasDecisiones855"
+				id="c1fe81fd02c1459aa7da6e3054d73c32"
+				timeout="30000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\IrAResponsablesDeLasDecisiones.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.017"
+			timeRelativeToTestModuleStartTime="00:18.017"
+			timeWallClock="18:29:04"
+			time="00:18.017"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'InicioSalesNavigator.ResponsablesDeLasDecisiones855' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//div[#'account']//a[@innertext>'Responsables de las decisiones']"
+				itempath=".//div[#'account']//a[@innertext>'Responsables de las decisiones']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.ResponsablesDeLasDecisiones855"
+				id="c1fe81fd02c1459aa7da6e3054d73c32"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\IrAResponsablesDeLasDecisiones.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

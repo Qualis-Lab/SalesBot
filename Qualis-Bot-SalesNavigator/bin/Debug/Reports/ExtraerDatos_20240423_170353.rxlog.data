@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="47.2s"
+		durationms="47204"
+		type="root"
+		rid="1e02c8f0ab6ccfe0"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Juan Cruz Diana"
+		rxversion="11.1.2.0"
+		host="DESKTOP-6E7CPKS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="23/4/2024 17:04:04"
+		timestampiso="2024-04-23T20:04:04"
+		endtime="23/4/2024 17:04:51"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ExtraerDatos">
+		<detail>
+			ExtraerDatos
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.652"
+			timeRelativeToTestModuleStartTime="00:21.652"
+			timeWallClock="17:04:26"
+			time="00:21.652"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Linkedin, index
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.775"
+			timeRelativeToTestModuleStartTime="00:21.775"
+			timeWallClock="17:04:26"
+			time="00:21.775"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 30s to exist. Associated repository item: 'Chrome.PhonesOrEmail'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='chrome']//text[@accessiblename='Phones']"
+				itempath=".//text[@accessiblename='Phones']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.Chrome.PhonesOrEmail"
+				id="2107f25ac8244ef0839533cab6d8a251"
+				timeout="30000"
+				codefile="C:\Users\Juan Cruz Diana\Desktop\SalesBot-master\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+				codeline="117"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.385"
+			timeRelativeToTestModuleStartTime="00:31.385"
+			timeWallClock="17:04:36"
+			time="00:31.385"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ContAndFail_Chrome.Emails' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='chrome']//text[@accessiblename='Emails']"
+				itempath=".//text[@accessiblename='Emails']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.ContAndFail_Chrome.Emails"
+				id="488de95a7d6e4b188a34234ccfc2ed3a"
+				timeout="30000"
+				codefile="C:\Users\Juan Cruz Diana\Desktop\SalesBot-master\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+				codeline="121"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.194"
+			timeRelativeToTestModuleStartTime="00:47.194"
+			timeWallClock="17:04:51"
+			time="00:47.194"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

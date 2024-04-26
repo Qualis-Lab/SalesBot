@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="5.35s"
+		durationms="5349"
+		type="root"
+		rid="3736d6b40116b88"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="15/12/2022 11:45:43"
+		timestampiso="2022-12-15T14:45:43"
+		endtime="15/12/2022 11:45:48"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseBrowser">
+		<detail>
+			CloseBrowser
+		</detail>
+		<errormessage>
+			Action 'close' failed on element '{WebDocument:Buscar | Sales Navigator}'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.281"
+			timeRelativeToTestModuleStartTime="00:03.281"
+			timeWallClock="11:45:46"
+			time="00:03.281"
+			level="Info"
+			category="Application"
+			errimg="images_CloseBro_3880f067\CloseBro_3880f067_ba68ca1f_trace.jpg"
+			errthumb="images_CloseBro_3880f067\CloseBro_3880f067_ba68ca1f_trace_thumb.jpg">
+			<message>
+				Closing application containing item 'InicioSalesNavigator'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']"
+				itempath="/dom[@domain='www.linkedin.com']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.Self"
+				id="69f8ea21530646808cf8dd622b013713"
+				timeout="30000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\CloseBrowser.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.277"
+			timeRelativeToTestModuleStartTime="00:05.277"
+			timeWallClock="11:45:48"
+			time="00:05.277"
+			level="Error"
+			category="Module"
+			errimg="images_CloseBro_3880f067\CloseBro_3880f067_41479ede_trace.jpg"
+			errthumb="images_CloseBro_3880f067\CloseBro_3880f067_41479ede_trace_thumb.jpg">
+			<message>
+				Action 'close' failed on element '{WebDocument:Buscar | Sales Navigator}'.<br/>Índice fuera de los límites de la matriz.
+			</message>
+			<metainfo
+				stacktrace="   en Ranorex.Core.Element.InvokeAction(String name, Object[] args)
+   en Ranorex.Host.CloseApplication(Element containedElement, Duration gracePeriod)
+   en Qualis_Bot_SalesNavigator.CloseBrowser.Ranorex.Core.Testing.ITestModule.Run() en c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\CloseBrowser.cs:línea 83
+   en Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\CloseBrowser.cs"
+				codeline="83"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

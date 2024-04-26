@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="6.55s"
+		durationms="6554"
+		type="root"
+		rid="10b2bfd41db4dc4"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Juan Cruz Diana"
+		rxversion="11.1.2.0"
+		host="DESKTOP-6E7CPKS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="1366x768"
+		timestamp="22/4/2024 10:26:30"
+		timestampiso="2024-04-22T13:26:30"
+		endtime="22/4/2024 10:26:38"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.542"
+			timeRelativeToTestModuleStartTime="00:06.542"
+			timeWallClock="10:26:37"
+			time="00:06.542"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.396"
+			timeRelativeToTestModuleStartTime="00:08.396"
+			timeWallClock="10:26:38"
+			time="00:08.396"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				Failed to load Excel data. Subproceso anulado.
+			</message>
+			<metainfo
+				stacktrace="   en Ranorex.Core.Data.ExcelDataConnector.LoadDataInternal(Boolean loadRowData, ColumnCollection&amp; columns, RowCollection&amp; rows, Int32&amp; rowCount)&#13;&#10;   en Ranorex.Core.Data.ExcelDataConnector.LoadDataImpl(ColumnCollection&amp; columns, RowCollection&amp; rows)&#13;&#10;   en Ranorex.Core.Data.DataConnector.LoadData(ColumnCollection&amp; columns, RowCollection&amp; rows)&#13;&#10;   en Ranorex.Core.Data.DataCache.LoadInternal()&#13;&#10;   en Ranorex.Core.Testing.TestCaseNode.GetRangedDataRowCount()&#13;&#10;   en Ranorex.Core.Monitoring.TestSuiteMonitor.TestCaseNodesCounter.CollectAncestorsIterations(TestCaseNode testCaseNode)&#13;&#10;   en Ranorex.Core.Monitoring.TestSuiteMonitor.TestCaseNodesCounter.&lt;>c__DisplayClass0_0.&lt;CalculateTestCasesExecCount>b__0(TestCaseNode tcn)&#13;&#10;   en Ranorex.Common.Extensions.EnumerableExtensions.ForAll[T](IEnumerable`1 e, Action`1 action)&#13;&#10;   en Ranorex.Core.Monitoring.TestSuiteMonitor.TestCaseNodesCounter.CalculateTestCasesExecCount(TestSuite testSuite)&#13;&#10;   en Ranorex.Core.Monitoring.TestSuiteMonitor.TestSuiteStarted(TestSuite testSuite)&#13;&#10;   en Ranorex.Core.Testing.TestSuite.Run(String runConfigName, String runLabel, Dictionary`2 parameters)&#13;&#10;   en Ranorex.Core.Testing.TestSuiteRunner.TryRunTestSuite(RunParams rp, TestSuite testSuite)&#13;&#10;   en Ranorex.Core.Testing.TestSuiteRunner.&lt;>c__DisplayClass13_1.&lt;RunInternal>b__6()&#13;&#10;   en Ranorex.Common.Types.OptCombinators.UnwrapOrElse[T](Opt`1 self, Func`1 generator)&#13;&#10;   en Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

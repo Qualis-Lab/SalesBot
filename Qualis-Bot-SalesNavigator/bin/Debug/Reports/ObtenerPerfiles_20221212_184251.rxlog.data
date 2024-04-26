@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="13.97s"
+		durationms="13967"
+		type="root"
+		rid="1aef5a0e1c197e4"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="9.3.4.0"
+		host="DESKTOP-16RK4EQ"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-ES"
+		dtnlanguage="es-ES"
+		screenresolution="1366x768"
+		timestamp="12/12/2022 18:42:56"
+		timestampiso="2022-12-12T20:42:56"
+		endtime="12/12/2022 18:43:10"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ObtenerPerfiles">
+		<detail>
+			ObtenerPerfiles
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.696"
+			timeRelativeToTestModuleStartTime="00:09.696"
+			timeWallClock="18:43:05"
+			time="00:09.696"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Keyword
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.794"
+			timeRelativeToTestModuleStartTime="00:09.794"
+			timeWallClock="18:43:06"
+			time="00:09.794"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '$Keyword' on item 'InicioSalesNavigator.GlobalTypeaheadSearchInput'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//input[#'global-typeahead-search-input']"
+				itempath=".//input[#'global-typeahead-search-input']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.GlobalTypeaheadSearchInput"
+				id="89f6dd158a1449469797ff1dc94873d1"
+				timeout="60000"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\ObtenerPerfiles.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.715"
+			timeRelativeToTestModuleStartTime="00:13.715"
+			timeWallClock="18:43:10"
+			time="00:13.715"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Ranorex\RanorexStudio Projects\Qualis-Bot-SalesNavigator\Qualis-Bot-SalesNavigator\ObtenerPerfiles.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

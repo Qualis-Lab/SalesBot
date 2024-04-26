@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.47s"
+		durationms="1470"
+		type="root"
+		rid="2b535a42e505427a"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Juan Cruz Diana"
+		rxversion="11.1.2.0"
+		host="DESKTOP-6E7CPKS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="23/4/2024 17:59:26"
+		timestampiso="2024-04-23T20:59:26"
+		endtime="23/4/2024 17:59:28"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.454"
+			timeRelativeToTestModuleStartTime="00:01.454"
+			timeWallClock="17:59:27"
+			time="00:01.454"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.001"
+			timeRelativeToTestModuleStartTime="00:02.001"
+			timeWallClock="17:59:28"
+			time="00:02.001"
+			level="Failure"
+			category="Module"
+			errimg="images_ExtraerD_b18d112b\ExtraerD_b18d112b_ddca13d7_trace.jpg"
+			errthumb="images_ExtraerD_b18d112b\ExtraerD_b18d112b_ddca13d7_trace_thumb.jpg">
+			<message>
+				Subproceso anulado.
+			</message>
+			<metainfo
+				stacktrace="   en Ranorex.Keyboard.add_DownInternal(KeyEventHandler value)
+   en Ranorex.Keyboard.set_PauseKey(Keys value)
+   en Ranorex.Keyboard.set_AbortKey(Keys value)
+   en Ranorex.Core.Testing.TestModuleRunner.RunStandalone(ITestModule module, String reportFilename, Boolean generateReport, String standaloneModuleName, CaseInsensitiveString guid)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

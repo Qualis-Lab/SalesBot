@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="65573"
+		type="root"
+		rid="1ade13a2b4eb0da3"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Juan Cruz Diana"
+		rxversion="11.1.2.0"
+		host="DESKTOP-6E7CPKS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="1366x768"
+		timestamp="22/4/2024 16:15:39"
+		timestampiso="2024-04-22T19:15:39"
+		endtime="22/4/2024 16:16:45"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ExtraerDatos">
+		<detail>
+			ExtraerDatos
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.013"
+			timeRelativeToTestModuleStartTime="00:10.013"
+			timeWallClock="16:15:49"
+			time="00:10.013"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Linkedin, index
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.773"
+			timeRelativeToTestModuleStartTime="00:44.773"
+			timeWallClock="16:16:24"
+			time="00:44.773"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Chrome.SalesQLBrowserExtensionTieneAccesoA' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='chrome']//button[@accessiblename>'SalesQL Browser Extension']"
+				itempath=".//button[@accessiblename>'SalesQL Browser Extension']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.Chrome.SalesQLBrowserExtensionTieneAccesoA"
+				id="b74bdfe06def4c1d8faf58e631b4e180"
+				timeout="60000"
+				codefile="C:\Users\Juan Cruz Diana\Desktop\SalesBot-master\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+				codeline="106"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.567"
+			timeRelativeToTestModuleStartTime="01:05.567"
+			timeWallClock="16:16:45"
+			time="01:05.567"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="7.93s"
+		durationms="7927"
+		type="root"
+		rid="392544e273a5ccb2"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ezequiel Rodas"
+		rxversion="10.2.3.0"
+		host="DESKTOP-RK1N5M7"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="13/12/2022 15:13:15"
+		timestampiso="2022-12-13T18:13:15"
+		endtime="13/12/2022 15:13:23"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="BusquedaDeDatos">
+		<detail>
+			BusquedaDeDatos
+		</detail>
+		<errormessage>
+			Failed to move to location 'Center' within element '{ATag:Agustina Miglioli}'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.237"
+			timeRelativeToTestModuleStartTime="00:03.237"
+			timeWallClock="15:13:18"
+			time="00:03.237"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>cantidadDeResultados
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.937"
+			timeRelativeToTestModuleStartTime="00:03.937"
+			timeWallClock="15:13:19"
+			time="00:03.937"
+			level="Info"
+			category="User">
+			<message>
+				Adriana Catay, https://www.linkedin.com/sales/lead/ACwAAAvLLkABhK9r9_jK13NHTjHlyzxNlF6fBR8,NAME_SEARCH,_iDS?_ntb=YMdTel77Q%2FCjMUCfeuKImA%3D%3D,Oficial ejecutivo de cuentas
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.653"
+			timeRelativeToTestModuleStartTime="00:04.653"
+			timeWallClock="15:13:20"
+			time="00:04.653"
+			level="Info"
+			category="User">
+			<message>
+				julieta ferrari, https://www.linkedin.com/sales/lead/ACwAACBE5Z4BuRwxRU_zLpRPyoCnRv4XHnGu6Sw,NAME_SEARCH,qYXj?_ntb=YMdTel77Q%2FCjMUCfeuKImA%3D%3D,Responsable del servicio al cliente
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.359"
+			timeRelativeToTestModuleStartTime="00:05.359"
+			timeWallClock="15:13:21"
+			time="00:05.359"
+			level="Info"
+			category="User">
+			<message>
+				Facundo Mayorga, https://www.linkedin.com/sales/lead/ACwAAARCeTIBLYT7oXJmPR9skVqgYh0NacxEB_4,NAME_SEARCH,3Niz?_ntb=YMdTel77Q%2FCjMUCfeuKImA%3D%3D,Ejecutivo Agronegocios
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.061"
+			timeRelativeToTestModuleStartTime="00:06.061"
+			timeWallClock="15:13:21"
+			time="00:06.061"
+			level="Info"
+			category="User">
+			<message>
+				Teodoro Chafatinos, https://www.linkedin.com/sales/lead/ACwAACfGDNkBsZbdm1nPl2YFawoyB2xQIrE7fXI,NAME_SEARCH,CIYY?_ntb=YMdTel77Q%2FCjMUCfeuKImA%3D%3D,Ejecutivo de Atencion
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.841"
+			timeRelativeToTestModuleStartTime="00:06.841"
+			timeWallClock="15:13:22"
+			time="00:06.841"
+			level="Info"
+			category="User"
+			errimg="images_Busqueda_dbf2ca44\Busqueda_dbf2ca44_5a66ae4f_trace.jpg"
+			errthumb="images_Busqueda_dbf2ca44\Busqueda_dbf2ca44_5a66ae4f_trace_thumb.jpg">
+			<message>
+				Marianela Anyelen Alegre, https://www.linkedin.com/sales/lead/ACwAACwHx3EBG2KWkwj27pRuqZUg7s_42ao_usQ,NAME_SEARCH,WCZ5?_ntb=YMdTel77Q%2FCjMUCfeuKImA%3D%3D,Ejecutiva Eminent
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.602"
+			timeRelativeToTestModuleStartTime="00:07.602"
+			timeWallClock="15:13:23"
+			time="00:07.602"
+			level="Info"
+			category="User"
+			errimg="images_Busqueda_dbf2ca44\Busqueda_dbf2ca44_12a16783_trace.jpg"
+			errthumb="images_Busqueda_dbf2ca44\Busqueda_dbf2ca44_12a16783_trace_thumb.jpg">
+			<message>
+				Agustina Miglioli, https://www.linkedin.com/sales/lead/ACwAABT5md8BjLORBN6NSQsFKMfFkIMpVL6Esow,NAME_SEARCH,I-0o?_ntb=YMdTel77Q%2FCjMUCfeuKImA%3D%3D,Ejecutivo de atencion&#32;
+			</message>
+			<metainfo
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.786"
+			timeRelativeToTestModuleStartTime="00:07.786"
+			timeWallClock="15:13:23"
+			time="00:07.786"
+			level="Error"
+			category="Module"
+			errimg="images_Busqueda_dbf2ca44\Busqueda_dbf2ca44_468b8be1_trace.jpg"
+			errthumb="images_Busqueda_dbf2ca44\Busqueda_dbf2ca44_468b8be1_trace_thumb.jpg">
+			<message>
+				Failed to move to location 'Center' within element '{ATag:Agustina Miglioli}'.<br/>The pointer cannot be moved to point '{X=1893,Y=1156}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   en Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   en Ranorex.Mouse.MoveTo(Element element)
+   en Qualis_Bot_SalesNavigator.BusquedaDeDatos.Ranorex.Core.Testing.ITestModule.Run() en c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs:línea 91
+   en Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Ezequiel Rodas\Documents\Qualis-Bot-salesNavigator\Qualis-Bot-SalesNavigator\BusquedaDeDatos.cs"
+				codeline="91"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
