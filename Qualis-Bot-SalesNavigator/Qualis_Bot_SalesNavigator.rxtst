@@ -46,12 +46,20 @@
 				</description>
 				<databinding>
 					<var
-					dataname="Nombre Empresa "
+					dataname="Empresa"
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
 					variableid="5cc0568a-d014-40af-8772-b27ff8c5a097"
 					variablename="nombreEmpresa">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Nombre Empresa "
+					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
+					variableid="5cc0568a-d014-40af-8772-b27ff8c5a097"
+					variablename="nombreEmpresa">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="1b301e9b-b67f-4a8c-8997-09d3710dfc24"
@@ -63,12 +71,20 @@
 				</description>
 				<databinding>
 					<var
-					dataname="Nombre Empresa "
+					dataname="Empresa"
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
 					variableid="90b20609-d613-424b-9c4f-132b2c390d55"
 					variablename="nombreEmpresa">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Nombre Empresa "
+					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
+					variableid="90b20609-d613-424b-9c4f-132b2c390d55"
+					variablename="nombreEmpresa">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="1b981f0d-9dd6-4f47-a4e8-98fed6b1e5ff"
@@ -276,11 +292,19 @@
 				<databinding>
 					<var
 					dataname="Ejecutar"
-					datasourceid="499e6b14-00bf-4761-a003-8d17fbdfc08f"
+					datasourceid="51e0a822-81c9-485d-a639-c9f358f25d89"
 					variableid="842316f2-1687-44f6-a15b-76e804abb3d0"
 					variablename="Ejecutar">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ejecutar"
+					datasourceid="499e6b14-00bf-4761-a003-8d17fbdfc08f"
+					variableid="842316f2-1687-44f6-a15b-76e804abb3d0"
+					variablename="Ejecutar">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="35dcdc56-51f8-4d45-af0d-b867011186fe"
@@ -319,7 +343,7 @@
 				<description>
 					<![CDATA[Se selecciona la lista $pais_empresa]]>
 				</description>
-				<databinding>
+				<missingdatabinding>
 					<var
 					dataname="País   "
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
@@ -332,7 +356,7 @@
 					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
 					variablename="nombreEmpresa">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="3ea32be4-dd83-41fe-9d65-152ef250aabd"
@@ -485,11 +509,6 @@
 				<parameters>
 					<param
 					mask="False"
-					name="Ejecutar"
-					value="True">
-					</param>
-					<param
-					mask="False"
 					name="IteracionActual"
 					value="1">
 					</param>
@@ -504,7 +523,7 @@
 								<databinding
 								bindingtype="Parameter"
 								dataname="Ejecutar"
-								id="499e6b14-00bf-4761-a003-8d17fbdfc08f">
+								id="51e0a822-81c9-485d-a639-c9f358f25d89">
 								</databinding>
 							</datavaluesource>
 						</leftvalue>
@@ -517,6 +536,7 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testcase
+			datarangeactive="True"
 			datasource="Input_Empresas"
 			errorbehavior="ContinueNextIteration"
 			id="4aa8448c-ebf2-40c4-bf14-0ec99cc1a0fa"
@@ -630,19 +650,28 @@
 				</description>
 				<databinding>
 					<var
-					dataname="País   "
+					dataname="Pais"
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
 					variableid="88fba158-8c8a-49e5-bddf-f1d3cad38c3e"
 					variablename="Pais">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="País   "
+					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
+					variableid="88fba158-8c8a-49e5-bddf-f1d3cad38c3e"
+					variablename="Pais">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
+			datarangeactive="True"
 			datasource="KeyboardInputEmpresa"
 			errorbehavior="ContinueNextIteration"
 			id="51e0a822-81c9-485d-a639-c9f358f25d89"
-			maxrange="5"
-			minrange="0"
+			maxrange="116"
+			minrange="116"
 			name="CriteriosDeFiltros">
 				<parameters>
 					<param
@@ -660,6 +689,11 @@
 					name="cantPage"
 					value="">
 					</param>
+					<param
+					mask="False"
+					name="Ejecutar"
+					value="True">
+					</param>
 				</parameters>
 			</smartfoldernode>
 			<testmodule
@@ -670,14 +704,14 @@
 				<description>
 					<![CDATA[Aplicamos un Filtro por ubicación, obtenida del Input Empresas]]>
 				</description>
-				<databinding>
+				<missingdatabinding>
 					<var
 					dataname="País   "
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
 					variableid="88fba158-8c8a-49e5-bddf-f1d3cad38c3e"
 					variablename="Pais">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="53228b70-77d7-4964-938b-fd45d06f718d"
@@ -710,7 +744,7 @@
 			</testmodule>
 			<testcase
 			datarangeactive="True"
-			datasource="NewConnector"
+			datasource="OutputEmpresas"
 			errorbehavior="ContinueNextIteration"
 			id="56c79ca1-624e-440b-98eb-6e40fc3ef75f"
 			maxrange="0"
@@ -733,14 +767,14 @@
 				<description>
 					<![CDATA[Escribimos el nombre de la empresa que necesitamos en el buscador]]>
 				</description>
-				<databinding>
+				<missingdatabinding>
 					<var
 					dataname="Nombre Empresa "
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
 					variableid="5cc0568a-d014-40af-8772-b27ff8c5a097"
 					variablename="nombreEmpresa">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="5fd18a4f-3544-43be-bfb5-afb240c28fc2"
@@ -764,6 +798,14 @@
 					variablename="cantidadDeResultados">
 					</var>
 					<var
+					dataname="Keyword"
+					datasourceid="0860cff3-b338-4069-9f71-97637931cc1e"
+					variableid="2a3ee7f5-a412-42a4-8543-f1ea657adeeb"
+					variablename="keyword">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
 					dataname="Industria "
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
 					variableid="627d7d90-9373-42aa-adad-bc0a1c21155a"
@@ -781,13 +823,7 @@
 					variableid="bb30c447-9719-41bd-9c4b-b991008f434c"
 					variablename="nombreEmpresa">
 					</var>
-					<var
-					dataname="Keyword"
-					datasourceid="0860cff3-b338-4069-9f71-97637931cc1e"
-					variableid="2a3ee7f5-a412-42a4-8543-f1ea657adeeb"
-					variablename="keyword">
-					</var>
-				</databinding>
+				</missingdatabinding>
 				<missingdatavariablesbinding>
 					<var
 					dataname="nombrePersona"
@@ -923,7 +959,7 @@
 				<description>
 					<![CDATA[Se selecciona la lista $pais_empresa]]>
 				</description>
-				<databinding>
+				<missingdatabinding>
 					<var
 					dataname="País   "
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
@@ -936,24 +972,16 @@
 					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
 					variablename="nombreEmpresa">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="76ac70bf-e4b7-44f9-ad2a-5c25b4dc59ad"
 			name="OpenBrowser"
 			ref="7c8df0a0-c2a9-482e-9581-d9d47179faa5"
 			type="Recording">
-				<databinding>
-					<var
-					dataname="LINKEDIN"
-					datasourceid="ac8ba090-df6e-4a7d-9a33-39d0c80b9c45"
-					variableid="5b1c794c-8aec-44ff-90bf-e8374802a51f"
-					variablename="Url">
-					</var>
-				</databinding>
 				<missingdatabinding>
 					<var
-					dataname="Linkedin "
+					dataname="LINKEDIN"
 					datasourceid="ac8ba090-df6e-4a7d-9a33-39d0c80b9c45"
 					variableid="5b1c794c-8aec-44ff-90bf-e8374802a51f"
 					variablename="Url">
@@ -999,14 +1027,14 @@
 				<description>
 					<![CDATA[Aplicamos un Filtro por ubicación, obtenida del Input Empresas]]>
 				</description>
-				<databinding>
+				<missingdatabinding>
 					<var
 					dataname="País   "
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
 					variableid="88fba158-8c8a-49e5-bddf-f1d3cad38c3e"
 					variablename="Pais">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<setup
 			id="7d75aa21-f9da-42d2-9d33-e3463c620f65"
@@ -1022,12 +1050,20 @@
 				</description>
 				<databinding>
 					<var
-					dataname="País   "
+					dataname="Pais"
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
 					variableid="88fba158-8c8a-49e5-bddf-f1d3cad38c3e"
 					variablename="Pais">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="País   "
+					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
+					variableid="88fba158-8c8a-49e5-bddf-f1d3cad38c3e"
+					variablename="Pais">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="7f27e367-ec0c-4e14-ad95-ec128560ca18"
@@ -1043,7 +1079,7 @@
 				<description>
 					<![CDATA[Se crea la lista si no existe la lista $pais_empresa]]>
 				</description>
-				<databinding>
+				<missingdatabinding>
 					<var
 					dataname="País   "
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
@@ -1056,7 +1092,7 @@
 					variableid="c801a717-0096-443d-b601-edc5fd6cc760"
 					variablename="nombreEmpresa">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<teardown
 			id="8937944b-efd1-4d1b-b7a2-1f76ed0b2295"
@@ -1070,7 +1106,7 @@
 				<description>
 					<![CDATA[Se crea la lista si no existe la lista $pais_empresa]]>
 				</description>
-				<databinding>
+				<missingdatabinding>
 					<var
 					dataname="País   "
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
@@ -1083,7 +1119,7 @@
 					variableid="c801a717-0096-443d-b601-edc5fd6cc760"
 					variablename="nombreEmpresa">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="89491e95-2921-4e95-b3f6-c6a718c14f02"
@@ -1094,18 +1130,6 @@
 					<![CDATA[Abrimos el menu de guardar lista]]>
 				</description>
 				<databinding>
-					<var
-					dataname="País   "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="d1c3cec8-4516-4321-86e5-c06e33270c07"
-					variablename="pais">
-					</var>
-					<var
-					dataname="Nombre Empresa "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
-					variablename="nombreEmpresa">
-					</var>
 					<var
 					dataname="ValidarPaisNombreEmpres"
 					datasourceid="d111dafd-0736-44d1-8148-895b97638d16"
@@ -1120,6 +1144,18 @@
 					variableid="1188c870-a406-4d71-9b1a-8540fafd5727"
 					variablename="validarPaisNombreEmpresa">
 					</var>
+					<var
+					dataname="País   "
+					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
+					variableid="d1c3cec8-4516-4321-86e5-c06e33270c07"
+					variablename="pais">
+					</var>
+					<var
+					dataname="Nombre Empresa "
+					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
+					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
+					variablename="nombreEmpresa">
+					</var>
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
@@ -1130,14 +1166,14 @@
 				<description>
 					<![CDATA[Aplicamos filtros de ubicación]]>
 				</description>
-				<databinding>
+				<missingdatabinding>
 					<var
 					dataname="País   "
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
 					variableid="88fba158-8c8a-49e5-bddf-f1d3cad38c3e"
 					variablename="Pais">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<teardown
 			id="8abaf5e5-1c1f-43dc-b8fc-7e027339b924"
@@ -1162,6 +1198,8 @@
 					variableid="1188c870-a406-4d71-9b1a-8540fafd5727"
 					variablename="validarPaisNombreEmpresa">
 					</var>
+				</databinding>
+				<missingdatabinding>
 					<var
 					dataname="País   "
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
@@ -1174,7 +1212,7 @@
 					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
 					variablename="nombreEmpresa">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="8bff7f3b-c61a-4321-9b2d-f990366365b5"
@@ -1191,6 +1229,14 @@
 					variableid="fa433e03-21e2-455a-bb97-366a08c97969"
 					variablename="cantidadDeResultados">
 					</var>
+					<var
+					dataname="Keyword"
+					datasourceid="0860cff3-b338-4069-9f71-97637931cc1e"
+					variableid="2a3ee7f5-a412-42a4-8543-f1ea657adeeb"
+					variablename="keyword">
+					</var>
+				</databinding>
+				<missingdatabinding>
 					<var
 					dataname="Industria "
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
@@ -1209,13 +1255,7 @@
 					variableid="bb30c447-9719-41bd-9c4b-b991008f434c"
 					variablename="nombreEmpresa">
 					</var>
-					<var
-					dataname="Keyword"
-					datasourceid="0860cff3-b338-4069-9f71-97637931cc1e"
-					variableid="2a3ee7f5-a412-42a4-8543-f1ea657adeeb"
-					variablename="keyword">
-					</var>
-				</databinding>
+				</missingdatabinding>
 				<missingdatavariablesbinding>
 					<var
 					dataname="nombrePersona"
@@ -1260,6 +1300,12 @@
 			minrange="8"
 			name="TestCase_v1">
 			</testcase>
+			<testmodule
+			id="9e502036-7f0e-4113-8014-1f2b7e01d9e0"
+			name="ScrollDown"
+			ref="0fd79404-8e39-4bcf-b19f-73c07c3d9239"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="a061df6b-4313-4af8-b0e2-171b4425486b"
 			name="CheckTodosSeleccionados">
@@ -1297,7 +1343,7 @@
 				<description>
 					<![CDATA[Validamos y seleccionamos la empresa que sea exactamente la que buscamos, en relación al $Nombre_Empresa e $Industria]]>
 				</description>
-				<databinding>
+				<missingdatabinding>
 					<var
 					dataname="Industria "
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
@@ -1310,7 +1356,7 @@
 					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
 					variablename="nombreEmpresa">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			datasource="KeyboardInputEmpresa"
@@ -1386,6 +1432,8 @@
 					variableid="1188c870-a406-4d71-9b1a-8540fafd5727"
 					variablename="validarPaisNombreEmpresa">
 					</var>
+				</databinding>
+				<missingdatabinding>
 					<var
 					dataname="País   "
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
@@ -1398,7 +1446,7 @@
 					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
 					variablename="nombreEmpresa">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="b947c62b-dc66-42a5-b379-7fde19405cf8"
@@ -1422,6 +1470,38 @@
 				</description>
 				<databinding>
 					<var
+					dataname="Keyword"
+					datasourceid="0860cff3-b338-4069-9f71-97637931cc1e"
+					variableid="2a3ee7f5-a412-42a4-8543-f1ea657adeeb"
+					variablename="keyword">
+					</var>
+					<var
+					dataname="CantidadDeResultados"
+					datasourceid="51e0a822-81c9-485d-a639-c9f358f25d89"
+					variableid="fa433e03-21e2-455a-bb97-366a08c97969"
+					variablename="cantidadDeResultados">
+					</var>
+					<var
+					dataname="Pais"
+					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
+					variableid="62f84f30-00b5-4465-b51e-f7702ed031c9"
+					variablename="pais">
+					</var>
+					<var
+					dataname="Industria"
+					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
+					variableid="627d7d90-9373-42aa-adad-bc0a1c21155a"
+					variablename="industria">
+					</var>
+					<var
+					dataname="Empresa"
+					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
+					variableid="bb30c447-9719-41bd-9c4b-b991008f434c"
+					variablename="nombreEmpresa">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
 					dataname="Industria "
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
 					variableid="627d7d90-9373-42aa-adad-bc0a1c21155a"
@@ -1439,19 +1519,7 @@
 					variableid="bb30c447-9719-41bd-9c4b-b991008f434c"
 					variablename="nombreEmpresa">
 					</var>
-					<var
-					dataname="Keyword"
-					datasourceid="0860cff3-b338-4069-9f71-97637931cc1e"
-					variableid="2a3ee7f5-a412-42a4-8543-f1ea657adeeb"
-					variablename="keyword">
-					</var>
-					<var
-					dataname="CantidadDeResultados"
-					datasourceid="51e0a822-81c9-485d-a639-c9f358f25d89"
-					variableid="fa433e03-21e2-455a-bb97-366a08c97969"
-					variablename="cantidadDeResultados">
-					</var>
-				</databinding>
+				</missingdatabinding>
 				<missingdatavariablesbinding>
 					<var
 					dataname="nombrePersona"
@@ -1470,6 +1538,12 @@
 					datasourceid="62d5b63b-a8af-4f2e-8967-c5e77633ad79"
 					variableid="3f147fe6-caee-466e-83b8-d8d7af9edc70"
 					variablename="puestoPersona">
+					</var>
+					<var
+					dataname="pathArchivoOutput"
+					datasourceid="da06e631-eb8e-4890-a623-73bc5b00e041"
+					variableid="14d8b791-7c74-496f-8eba-1104ea8fa3a0"
+					variablename="pathArchivoOutput">
 					</var>
 				</missingdatavariablesbinding>
 			</testmodule>
@@ -1494,7 +1568,7 @@
 				<description>
 					<![CDATA[Validamos y seleccionamos la empresa que sea exactamente la que buscamos, en relación al $Nombre_Empresa e $Industria]]>
 				</description>
-				<databinding>
+				<missingdatabinding>
 					<var
 					dataname="Industria "
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
@@ -1507,7 +1581,7 @@
 					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
 					variablename="nombreEmpresa">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="cd569d5c-9da9-49d4-b1a4-feb5f0b96d31"
@@ -1580,14 +1654,14 @@
 				<description>
 					<![CDATA[Escribimos el nombre de la empresa que necesitamos en el buscador]]>
 				</description>
-				<databinding>
+				<missingdatabinding>
 					<var
 					dataname="Nombre Empresa "
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
 					variableid="5cc0568a-d014-40af-8772-b27ff8c5a097"
 					variablename="nombreEmpresa">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="d56d6c89-5960-473c-9f14-0beb0e855798"
@@ -1598,18 +1672,6 @@
 					<![CDATA[Abrimos el menu de guardar lista]]>
 				</description>
 				<databinding>
-					<var
-					dataname="País   "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="d1c3cec8-4516-4321-86e5-c06e33270c07"
-					variablename="pais">
-					</var>
-					<var
-					dataname="Nombre Empresa "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
-					variablename="nombreEmpresa">
-					</var>
 					<var
 					dataname="ValidarPaisNombreEmpres"
 					datasourceid="d111dafd-0736-44d1-8148-895b97638d16"
@@ -1623,6 +1685,18 @@
 					datasourceid="aa0aeaa0-6a14-44d3-ba5c-7f7ca9c23865"
 					variableid="1188c870-a406-4d71-9b1a-8540fafd5727"
 					variablename="validarPaisNombreEmpresa">
+					</var>
+					<var
+					dataname="País   "
+					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
+					variableid="d1c3cec8-4516-4321-86e5-c06e33270c07"
+					variablename="pais">
+					</var>
+					<var
+					dataname="Nombre Empresa "
+					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
+					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
+					variablename="nombreEmpresa">
 					</var>
 				</missingdatabinding>
 			</testmodule>
@@ -1655,6 +1729,13 @@
 			id="da06e631-eb8e-4890-a623-73bc5b00e041"
 			name="Qualis_Bot_SalesNavigator"
 			reportlevel="Info;20">
+				<parameters>
+					<param
+					mask="False"
+					name="pathArchivoOutput"
+					value="C:\TEMP\OutputEmpresas.xlsx">
+					</param>
+				</parameters>
 			</testcase>
 			<testmodule
 			id="e6751c6b-1792-496e-803d-9d789d6db210"
@@ -1671,16 +1752,10 @@
 					variableid="2fe17e89-d564-43eb-832f-8b412e95c8ef"
 					variablename="index">
 					</var>
-					<var
-					dataname="LINKEDIN"
-					datasourceid="ac8ba090-df6e-4a7d-9a33-39d0c80b9c45"
-					variableid="d632adf7-f5b0-48c1-ac01-95fbe977e55c"
-					variablename="Linkedin">
-					</var>
 				</databinding>
 				<missingdatabinding>
 					<var
-					dataname="Linkedin "
+					dataname="LINKEDIN"
 					datasourceid="ac8ba090-df6e-4a7d-9a33-39d0c80b9c45"
 					variableid="d632adf7-f5b0-48c1-ac01-95fbe977e55c"
 					variablename="Linkedin">
@@ -1724,7 +1799,7 @@
 				</databinding>
 			</testmodule>
 			<testcase
-			datasource="NewConnector"
+			datasource="OutputEmpresas"
 			errorbehavior="ContinueNextIteration"
 			id="f667b1c9-ecd3-4dc0-be01-a6b8f5d2cd5c"
 			maxrange="3"
@@ -1755,6 +1830,20 @@
 					variablename="encontroEmpresa">
 					</var>
 					<var
+					dataname="Industria"
+					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
+					variableid="48077a9d-b51a-4593-ac49-1e8679062432"
+					variablename="industria">
+					</var>
+					<var
+					dataname="Empresa"
+					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
+					variableid="06a280a2-d523-4572-bb21-70befb726500"
+					variablename="nombreEmpresa">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
 					dataname="Industria "
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
 					variableid="48077a9d-b51a-4593-ac49-1e8679062432"
@@ -1766,7 +1855,7 @@
 					variableid="06a280a2-d523-4572-bb21-70befb726500"
 					variablename="nombreEmpresa">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="f8d9cb90-912c-4c51-8edc-431852ed81cd"
@@ -1776,14 +1865,14 @@
 				<description>
 					<![CDATA[Aplicamos filtros de ubicación]]>
 				</description>
-				<databinding>
+				<missingdatabinding>
 					<var
 					dataname="País   "
 					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
 					variableid="88fba158-8c8a-49e5-bddf-f1d3cad38c3e"
 					variablename="Pais">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="fb838795-501c-4f21-b4d2-86f3e9c71a4d"
@@ -1807,16 +1896,16 @@
 					variablename="CantPage">
 					</var>
 					<var
-					dataname="Ejecutar"
-					datasourceid="499e6b14-00bf-4761-a003-8d17fbdfc08f"
-					variableid="f30d2eee-34c3-4f47-b357-c76d0618dbb7"
-					variablename="Ejecutar">
-					</var>
-					<var
 					dataname="IteracionActual"
 					datasourceid="499e6b14-00bf-4761-a003-8d17fbdfc08f"
 					variableid="c8a78dd2-9218-4d73-98ff-1a5b2d39f2a9"
 					variablename="IteracionActual">
+					</var>
+					<var
+					dataname="Ejecutar"
+					datasourceid="51e0a822-81c9-485d-a639-c9f358f25d89"
+					variableid="f30d2eee-34c3-4f47-b357-c76d0618dbb7"
+					variablename="Ejecutar">
 					</var>
 				</databinding>
 			</testmodule>
@@ -2122,6 +2211,10 @@
 								id="499e6b14-00bf-4761-a003-8d17fbdfc08f"
 								name="ConPage">
 									<testmodule
+									id="9e502036-7f0e-4113-8014-1f2b7e01d9e0"
+									name="ScrollDown">
+									</testmodule>
+									<testmodule
 									id="bd8d72e3-5851-4d6b-b2bb-404bef501155"
 									name="BusquedaDeDatos">
 									</testmodule>
@@ -2129,16 +2222,16 @@
 									id="fc41cd92-10f4-4d63-b16d-0f188db09e9b"
 									name="PagSiguienteCM">
 									</testmodule>
-									<testmodule
-									id="34d9e0be-1572-4390-a268-c28c9112cc3e"
-									name="ResetEjecutar">
-									</testmodule>
 								</smartfoldernode>
+								<testmodule
+								id="34d9e0be-1572-4390-a268-c28c9112cc3e"
+								name="ResetEjecutar">
+								</testmodule>
+								<testmodule
+								id="1b981f0d-9dd6-4f47-a4e8-98fed6b1e5ff"
+								name="BorrarCargoActual">
+								</testmodule>
 							</smartfoldernode>
-							<testmodule
-							id="1b981f0d-9dd6-4f47-a4e8-98fed6b1e5ff"
-							name="BorrarCargoActual">
-							</testmodule>
 							<testmodule
 							id="6b3068c1-6506-419f-b572-5e3a0cefe0eb"
 							name="CerrarInstanciaExcel">
@@ -2253,36 +2346,36 @@
 			</file>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\Juan Cruz Diana\Desktop\SalesBot-master\Input\Input Empresas.xlsx"
+		filename="Input Empresas.xlsx"
 		id="87720ed9-8af0-4e65-9f70-f929af03dc83"
-		includefile="Unchecked"
-		lastknownrowcount="3"
+		includefile="Checked"
+		lastknownrowcount="4"
 		name="Input_Empresas"
 		type="Ranorex.Core.Data.ExcelDataConnector"
-		worksheetname="Hoja1"
+		worksheetname="DatosEmpresa"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
 				<column>
-					Pa&#237;s  &#32;
+					Pais
 				</column>
 				<column>
-					Industria&#32;
+					Industria
 				</column>
 				<column>
-					Nombre Empresa&#32;
+					Empresa
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\Juan Cruz Diana\Desktop\SalesBot-master\Input\Input Empresas.xlsx"
+		filename="KeyboardInputEmpresa.xlsx"
 		id="0860cff3-b338-4069-9f71-97637931cc1e"
-		includefile="Unchecked"
-		lastknownrowcount="115"
+		includefile="Checked"
+		lastknownrowcount="117"
 		name="KeyboardInputEmpresa"
 		type="Ranorex.Core.Data.ExcelDataConnector"
-		worksheetname="Hoja2"
+		worksheetname="DatosCandidatos"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
 				<column>
@@ -2296,52 +2389,35 @@
 		filename="C:\TEMP\OutputEmpresas.xlsx"
 		id="ac8ba090-df6e-4a7d-9a33-39d0c80b9c45"
 		includefile="Unchecked"
-		lastknownrowcount="4"
-		name="NewConnector"
+		lastknownrowcount="0"
+		name="OutputEmpresas"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="DatosFiltrados"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
 				<column>
-					PAIS
+					Pais
 				</column>
 				<column>
-					INDUSTRA
+					Industria
 				</column>
 				<column>
-					EMPRESA
+					Empresa
 				</column>
 				<column>
-					NOMBRE Y APELLIDO
+					Nombre y apellido
 				</column>
 				<column>
-					CARGO ACTUAL
+					Cargo actual
 				</column>
 				<column>
-					LINKEDIN
+					LinkedIn
 				</column>
 				<column>
-					EMAILS
+					Email
 				</column>
 				<column>
-					CELULAR
-				</column>
-			</lastknowncolumns>
-			<maskedcolumns>
-			</maskedcolumns>
-		</DataSource>
-		<DataSource
-		filename="C:\TEMP\OutputEmpresas.xlsx"
-		id="df4e724d-2813-4f31-929e-2922ab044593"
-		includefile="Unchecked"
-		lastknownrowcount="0"
-		name="OutputEmpresas"
-		type="Ranorex.Core.Data.ExcelDataConnector"
-		worksheetname="DatosEmpresas"
-		worksheetrange="Auto-Range">
-			<lastknowncolumns>
-				<column>
-					Column1
+					Celular
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
@@ -2353,10 +2429,22 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="da06e631-eb8e-4890-a623-73bc5b00e041">
+			id="3f7a6ec0-2780-4cdb-9454-280223ef2d8d">
 			</testcontainer>
 			<testcontainer
-			id="f667b1c9-ecd3-4dc0-be01-a6b8f5d2cd5c">
+			id="499e6b14-00bf-4761-a003-8d17fbdfc08f">
+			</testcontainer>
+			<testcontainer
+			id="4aa8448c-ebf2-40c4-bf14-0ec99cc1a0fa">
+			</testcontainer>
+			<testcontainer
+			id="51e0a822-81c9-485d-a639-c9f358f25d89">
+			</testcontainer>
+			<testcontainer
+			id="737d8f5f-4f5e-4834-a377-feaa91903c62">
+			</testcontainer>
+			<testcontainer
+			id="da06e631-eb8e-4890-a623-73bc5b00e041">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

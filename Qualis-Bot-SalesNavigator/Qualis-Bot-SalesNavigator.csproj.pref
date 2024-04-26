@@ -1,12 +1,13 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="ExtraerDatos.rxrec" />
+    <Element value="Qualis_Bot_SalesNavigator.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="ExtraerDatos.rxrec" />
     <Element value="ResetEjecutar.cs" />
     <Element value="BusquedaDeDatos.cs" />
+    <Element value="Qualis_Bot_SalesNavigator.rxtst" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

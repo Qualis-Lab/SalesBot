@@ -362,6 +362,7 @@ namespace Qualis_Bot_SalesNavigator
             RepoItemInfo _somesvgtagInfo;
             RepoItemInfo _verperfildelinkedinInfo;
             RepoItemInfo _spantagiconps32ckInfo;
+            RepoItemInfo _searchresultscontainerInfo;
 
             /// <summary>
             /// Creates a new InicioSalesNavigator  folder.
@@ -411,6 +412,7 @@ namespace Qualis_Bot_SalesNavigator
                 _somesvgtagInfo = new RepoItemInfo(this, "SomeSvgTag", ".//section[#'profile-card-section']/section[1]/div[2]/section/div[2]/button/span[1]/svg", "", 30000, null, "5f93e09e-66b3-4be6-a6e6-1d51e4762777");
                 _verperfildelinkedinInfo = new RepoItemInfo(this, "VerPerfilDeLinkedIn", ".//div[#'hue-web-menu-outlet']//div[@innertext='Ver perfil de LinkedIn']", "", 30000, null, "c0d27101-5bf5-4ac9-aab5-192a6a64cc0f");
                 _spantagiconps32ckInfo = new RepoItemInfo(this, "SpanTagIconPs32ck", ".//section[#'profile-card-section']/section[1]/div[2]/section/div[2]/button/span[1]", "", 30000, null, "6d462923-60f8-44f2-a0d1-a6c1e7e8da60");
+                _searchresultscontainerInfo = new RepoItemInfo(this, "SearchResultsContainer", ".//div[#'search-results-container']", "", 30000, null, "8824ab66-2860-4f6d-b81b-bd80ebe1b481");
             }
 
             /// <summary>
@@ -1418,6 +1420,30 @@ namespace Qualis_Bot_SalesNavigator
                 get
                 {
                     return _spantagiconps32ckInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SearchResultsContainer item.
+            /// </summary>
+            [RepositoryItem("8824ab66-2860-4f6d-b81b-bd80ebe1b481")]
+            public virtual Ranorex.DivTag SearchResultsContainer
+            {
+                get
+                {
+                    return _searchresultscontainerInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SearchResultsContainer item info.
+            /// </summary>
+            [RepositoryItemInfo("8824ab66-2860-4f6d-b81b-bd80ebe1b481")]
+            public virtual RepoItemInfo SearchResultsContainerInfo
+            {
+                get
+                {
+                    return _searchresultscontainerInfo;
                 }
             }
 

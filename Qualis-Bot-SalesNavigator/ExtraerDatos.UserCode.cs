@@ -86,7 +86,7 @@ public void ObtenerValoresEmail()
 			
 			while(repo.ContAndFail_Chrome.ObtenerPhoneNewInfo.Exists()){
 				
-				ObtenerPhone = repo.ContAndFail_Chrome.ObtenerPhoneNew.Element.GetAttributeValue("caption").ToString()				
+				ObtenerPhone = repo.ContAndFail_Chrome.ObtenerPhoneNew.Element.GetAttributeValue("caption").ToString();				
 				if(!Phone.Contains(ObtenerPhone)){
 					 Report.Info("Estoy en el if validando ObtenerPhone: " + ObtenerPhone + ". No está en la lista de Phone: " + Phone);
 					Phone = Phone + ObtenerPhone + " , ";

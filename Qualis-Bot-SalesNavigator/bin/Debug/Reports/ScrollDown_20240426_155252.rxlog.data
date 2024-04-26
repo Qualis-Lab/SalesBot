@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="13.4s"
+		durationms="13395"
+		type="root"
+		rid="1972e830dc74fec8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Juan Cruz Diana"
+		rxversion="11.1.2.0"
+		host="DESKTOP-6E7CPKS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="1366x768"
+		timestamp="26/4/2024 15:52:59"
+		timestampiso="2024-04-26T18:52:59"
+		endtime="26/4/2024 15:53:12"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ScrollDown">
+		<detail>
+			ScrollDown
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.017"
+			timeRelativeToTestModuleStartTime="00:09.017"
+			timeWallClock="15:53:08"
+			time="00:09.017"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'InicioSalesNavigator.SearchResultsContainer' at 0;0.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//div[#'search-results-container']"
+				itempath=".//div[#'search-results-container']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.SearchResultsContainer"
+				id="8824ab6628604f6db81bbd80ebe1b481"
+				timeout="60000"
+				codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ScrollDown.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.195"
+			timeRelativeToTestModuleStartTime="00:13.195"
+			timeWallClock="15:53:12"
+			time="00:13.195"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{End}'.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ScrollDown.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

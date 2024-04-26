@@ -296,6 +296,18 @@
     <Compile Include="ResetEjecutar.cs">
       <id>60e21c9b-c1ab-4da9-b0fb-38d0cbf627b7</id>
     </Compile>
+    <Compile Include="ScrollDown.cs">
+      <BoundTo>4bce7a68-4cee-4e38-b3ce-7de14d18bf29</BoundTo>
+      <DependentUpon>ScrollDown.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b114a573-948c-4035-a22d-c49aa54b94e7</id>
+    </Compile>
+    <Compile Include="ScrollDown.UserCode.cs">
+      <BoundTo>4bce7a68-4cee-4e38-b3ce-7de14d18bf29</BoundTo>
+      <DependentUpon>ScrollDown.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0a438d7d-6991-4fbc-844b-e196d2f116ce</id>
+    </Compile>
     <Compile Include="ValidarEmpresaIndustriaCM.cs">
       <id>05d68911-420b-40c1-9579-728b234dd3a8</id>
     </Compile>
@@ -495,11 +507,25 @@
       <id>eeb2bc19-d726-4788-9d11-0806e3751e85</id>
       <recordtableid>64abd961-30b3-4128-87fa-642fbb73ced9</recordtableid>
     </None>
+    <Content Include="Input Empresas.xlsx">
+      <Link>Input Empresas.xlsx</Link>
+      <BoundTo>7b80f0a4-594c-46a8-9e14-0fe899503dd7</BoundTo>
+      <DependentUpon>Qualis_Bot_SalesNavigator.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>0fcc9bca-e1c3-4138-a90f-44672358db9e</id>
+    </Content>
     <None Include="IrATodosLosEmpleados.rxrec">
       <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
       <id>8e5fcbe0-e1e1-40c8-aa05-081f90743681</id>
       <recordtableid>ad68b60c-8516-4ac6-9ac3-df35a24ef674</recordtableid>
     </None>
+    <Content Include="KeyboardInputEmpresa.xlsx">
+      <Link>KeyboardInputEmpresa.xlsx</Link>
+      <BoundTo>7b80f0a4-594c-46a8-9e14-0fe899503dd7</BoundTo>
+      <DependentUpon>Qualis_Bot_SalesNavigator.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>d537e9eb-8fe8-410c-bf4d-0ec1d4815796</id>
+    </Content>
     <None Include="NoSeEncontroEmpresa.rxrec">
       <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
       <id>5852e14b-bce2-4f5a-bda6-be0a45f52b2e</id>
@@ -590,6 +616,11 @@
       <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
       <id>d35956ad-e4f3-4de3-bd3d-3eeb28b6598b</id>
       <recordtableid>a09e430c-629a-4eab-b574-8aee4f166059</recordtableid>
+    </None>
+    <None Include="ScrollDown.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>4bce7a68-4cee-4e38-b3ce-7de14d18bf29</id>
+      <recordtableid>0fd79404-8e39-4bcf-b19f-73c07c3d9239</recordtableid>
     </None>
     <None Include="SeleccionarCuentas.rxrec">
       <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
