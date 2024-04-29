@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="18.05s"
+		durationms="18046"
+		type="root"
+		rid="306652e0d47b64"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="1"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="1"
+		totalmaintenancemodecount="0"
+		user="Juan Cruz Diana"
+		rxversion="11.1.2.0"
+		host="DESKTOP-6E7CPKS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="1366x768"
+		timestamp="29/4/2024 10:40:43"
+		timestampiso="2024-04-29T13:40:43"
+		endtime="29/4/2024 10:41:01"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Ignored"
+			duration="3.47s"
+			durationms="3471"
+			type="test-suite"
+			rid="a68e10b5c40b40e"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="1"
+			childsuccesscount="0"
+			childfailedcount="0"
+			childblockedcount="1"
+			totalsuccesscount="0"
+			totalfailedcount="0"
+			totalblockedcount="1"
+			totalmaintenancemodecount="0"
+			testsuitename="Qualis_Bot_SalesNavigator"
+			headertext="Qualis_Bot_SalesNavigator"
+			runconfigname="TestRun"
+			runlabel=""
+			reportdescription="">
+			<params>
+				<param
+					name="pathArchivoOutput">
+					C:\TEMP\OutputEmpresas.xlsx
+				</param>
+			</params>
+			<activity
+				result="Ignored"
+				duration="2ms"
+				durationms="2"
+				type="test-case"
+				rid="62595a40055c0"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="1"
+				childsuccesscount="0"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="1"
+				totalmaintenancemodecount="0"
+				testcontainername="SalesQL_V2"
+				testcontainerid="f667b1c9-ecd3-4dc0-be01-a6b8f5d2cd5c"
+				headertext="SalesQL_V2"
+				displayName="SalesQL_V2"
+				iteration="0"
+				activity-exectype="execute"
+				conditionstate="none">
+				<params>
+					<param
+						name="index">
+					</param>
+				</params>
+				<errormessage>
+					Warning: The data source is valid but contains zero data rows
+				</errormessage>
+			</activity>
+		</activity>
+	</activity>
+</report>

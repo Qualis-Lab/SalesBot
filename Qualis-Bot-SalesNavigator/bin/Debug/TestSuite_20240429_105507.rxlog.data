@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="4.08s"
+		durationms="4078"
+		type="root"
+		rid="1c41c4251e2540a4"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Juan Cruz Diana"
+		rxversion="11.1.2.0"
+		host="DESKTOP-6E7CPKS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="1366x768"
+		timestamp="29/4/2024 10:55:07"
+		timestampiso="2024-04-29T13:55:07"
+		endtime="29/4/2024 10:55:11"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.013"
+			timeRelativeToTestModuleStartTime="00:04.013"
+			timeWallClock="10:55:11"
+			time="00:04.013"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				TestSuite XML format is invalid. Failed to load default plugins. Please reinstall Ranorex. Failed to load plugins from assembly 'Ranorex.Plugin.ChromeWeb, Version=11.1.2.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a'. Subproceso anulado.
+			</message>
+			<metainfo
+				stacktrace="   en Ranorex.Core.Testing.TestSuite.CreateFromXmlNode(XmlNode node, Boolean captureChangeState)&#13;&#10;   en Ranorex.Core.Testing.TestSuiteRunner.&lt;>c.&lt;RunInternal>b__13_1(String xml)&#13;&#10;   en System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()&#13;&#10;   en System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)&#13;&#10;   en Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

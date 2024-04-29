@@ -19,19 +19,6 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<setup
-			id="0214b5bd-0b39-420d-b116-d1ace42a6246"
-			name="setup">
-			</setup>
-			<testmodule
-			id="0e397a5a-f217-4df4-b6f4-2e8d0d010e9a"
-			name="IrAResponsablesDeLasDecisiones"
-			ref="329f9cc9-690d-4e6f-928a-f6a414c5032f"
-			type="Recording">
-				<description>
-					<![CDATA[Hacemos click en link responsables de las decisiones]]>
-				</description>
-			</testmodule>
 			<teardown
 			id="0fe51374-630e-45f0-a3f6-1a93460e02cc"
 			name="teardown">
@@ -115,31 +102,6 @@
 			id="1dd9d0cc-c259-4b2a-a9e8-3dbdcdf6e319"
 			name="setup">
 			</setup>
-			<smartfoldernode
-			id="1e7c9b95-fbae-4d3a-9acd-0e6df38f4334"
-			name="CheckSinSeleccionar">
-				<conditiongroup
-				comparison="AND"
-				enabled="True">
-					<condition
-					comparison="IsEqual">
-						<leftvalue>
-							<datavaluesource>
-								<databinding
-								bindingtype="Parameter"
-								dataname="chekSeleccionados"
-								id="62d5b63b-a8af-4f2e-8967-c5e77633ad79">
-								</databinding>
-							</datavaluesource>
-						</leftvalue>
-						<rightvalue>
-							<simplevaluesource
-							value="False">
-							</simplevaluesource>
-						</rightvalue>
-					</condition>
-				</conditiongroup>
-			</smartfoldernode>
 			<testmodule
 			id="1edd1403-e637-48cc-a503-85d24fea3cca"
 			name="OpenBrowser"
@@ -153,26 +115,6 @@
 					variablename="Url">
 					</var>
 				</databinding>
-			</testmodule>
-			<testmodule
-			id="204766a3-4bb4-4440-9089-7209e84b8bf1"
-			name="LimpiaVariable"
-			ref="9d1b3fee-ffe6-4777-911b-49b6a1e00d1d"
-			type="UserCode">
-				<databinding>
-					<var
-					dataname="ValidarPaisNombreEmpres"
-					datasourceid="d111dafd-0736-44d1-8148-895b97638d16"
-					variableid="75fb9077-cb8e-4f9f-94ec-699d6ef80eb3"
-					variablename="ValidarPaisNombreEmpresa">
-					</var>
-				</databinding>
-			</testmodule>
-			<testmodule
-			id="2062ca50-f1b7-47eb-8d61-3070fdea2443"
-			name="OpenBrowser"
-			ref="7c8df0a0-c2a9-482e-9581-d9d47179faa5"
-			type="Recording">
 			</testmodule>
 			<testmodule
 			id="21aab14a-0559-4ea7-954f-528f3a30a3bd"
@@ -219,69 +161,6 @@
 				</description>
 			</testmodule>
 			<testmodule
-			id="292060b6-6b68-4cd4-ab66-31824c92a1ef"
-			name="CrearCantPageCSV"
-			ref="d604b842-80e2-4526-a19e-301b25ceef44"
-			type="Recording">
-				<description>
-					<![CDATA[Obtenemos el numero de perfiles que coinciden con los filtros aplicados]]>
-				</description>
-				<databinding>
-					<var
-					dataname="CantidadDeResultados"
-					datasourceid="62d5b63b-a8af-4f2e-8967-c5e77633ad79"
-					variableid="300a0419-f37e-49c1-b6ea-59836912e235"
-					variablename="cantidadDeResultados">
-					</var>
-					<var
-					dataname="chekSeleccionados"
-					datasourceid="62d5b63b-a8af-4f2e-8967-c5e77633ad79"
-					variableid="c1a29866-b832-4a45-8a00-f8105ea19612"
-					variablename="TodosSeleccionados">
-					</var>
-				</databinding>
-			</testmodule>
-			<testmodule
-			id="2d7f8608-ef77-46fb-94f1-4b05cf7e94c2"
-			name="ExtraerDatos"
-			ref="64abd961-30b3-4128-87fa-642fbb73ced9"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="index"
-					datasourceid="56c79ca1-624e-440b-98eb-6e40fc3ef75f"
-					variableid="2fe17e89-d564-43eb-832f-8b412e95c8ef"
-					variablename="index">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Linkedin "
-					datasourceid="ac8ba090-df6e-4a7d-9a33-39d0c80b9c45"
-					variableid="d632adf7-f5b0-48c1-ac01-95fbe977e55c"
-					variablename="Linkedin">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<teardown
-			id="30152b98-1c13-4605-8ab2-4ceb9f93780f"
-			name="teardown">
-			</teardown>
-			<testmodule
-			id="32fa8387-f70a-4377-a862-c6d66f6adf16"
-			name="OpenBrowser"
-			ref="7c8df0a0-c2a9-482e-9581-d9d47179faa5"
-			type="Recording">
-				<missingdatabinding>
-					<var
-					dataname="Linkedin "
-					datasourceid="ac8ba090-df6e-4a7d-9a33-39d0c80b9c45"
-					variableid="5b1c794c-8aec-44ff-90bf-e8374802a51f"
-					variablename="Url">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<testmodule
 			id="34d9e0be-1572-4390-a268-c28c9112cc3e"
 			name="ResetEjecutar"
 			ref="facc1cdb-7ddc-4cf8-a5b5-b4ce299b65a1"
@@ -306,100 +185,6 @@
 					</var>
 				</missingdatabinding>
 			</testmodule>
-			<testmodule
-			id="35dcdc56-51f8-4d45-af0d-b867011186fe"
-			name="ChekTodos"
-			ref="381ae2ac-ede7-4c74-99cc-b829a61a140b"
-			type="Recording">
-				<description>
-					<![CDATA[Hacemos click en Chekbox para seleccionar todos los perfiles]]>
-				</description>
-				<missingdatavariablesbinding>
-					<var
-					dataname="País   "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="d1c3cec8-4516-4321-86e5-c06e33270c07"
-					variablename="pais">
-					</var>
-					<var
-					dataname="Nombre Empresa "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
-					variablename="nombreEmpresa">
-					</var>
-					<var
-					dataname="validarPaisNombreEmpresa"
-					datasourceid="62d5b63b-a8af-4f2e-8967-c5e77633ad79"
-					variableid="556ea0aa-faa2-4b72-a3a7-60683a627611"
-					variablename="validarPaisNombreEmpresa">
-					</var>
-				</missingdatavariablesbinding>
-			</testmodule>
-			<testmodule
-			id="3955ec8b-18ea-4aa4-92db-2d83e4a65a6b"
-			name="SeleccionarLista"
-			ref="bcad91d7-5667-42ee-a158-37a481569576"
-			type="Recording">
-				<description>
-					<![CDATA[Se selecciona la lista $pais_empresa]]>
-				</description>
-				<missingdatabinding>
-					<var
-					dataname="País   "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="d1c3cec8-4516-4321-86e5-c06e33270c07"
-					variablename="pais">
-					</var>
-					<var
-					dataname="Nombre Empresa "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
-					variablename="nombreEmpresa">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<testmodule
-			id="3ea32be4-dd83-41fe-9d65-152ef250aabd"
-			name="ObtenerPerfiles"
-			ref="d5f4d1d6-5fda-4b8c-91fd-f76789ada543"
-			type="Recording">
-				<description>
-					<![CDATA[Aplicamos filtros por $Keyword del datasource]]>
-				</description>
-				<databinding>
-					<var
-					dataname="Keyword"
-					datasourceid="0860cff3-b338-4069-9f71-97637931cc1e"
-					variableid="0fa56b65-017b-4735-9698-502fd43ac7da"
-					variablename="Keyword">
-					</var>
-				</databinding>
-			</testmodule>
-			<smartfoldernode
-			id="3f79e364-cda1-4b70-9386-959f25fdf17f"
-			name="ConResultados">
-				<conditiongroup
-				comparison="AND"
-				enabled="True">
-					<condition
-					comparison="IsNotEqual">
-						<leftvalue>
-							<datavaluesource>
-								<databinding
-								bindingtype="Parameter"
-								dataname="CantidadDeResultados"
-								id="aa0aeaa0-6a14-44d3-ba5c-7f7ca9c23865">
-								</databinding>
-							</datavaluesource>
-						</leftvalue>
-						<rightvalue>
-							<simplevaluesource
-							value="0">
-							</simplevaluesource>
-						</rightvalue>
-					</condition>
-				</conditiongroup>
-			</smartfoldernode>
 			<smartfoldernode
 			id="3f7a6ec0-2780-4cdb-9454-280223ef2d8d"
 			name="ConEmpresaEncontrada">
@@ -459,46 +244,6 @@
 			type="Recording">
 			</testmodule>
 			<smartfoldernode
-			id="46794835-610c-46d8-a599-5e1137f1f4a6"
-			name="ListaCreada">
-				<conditiongroup
-				comparison="AND"
-				enabled="True">
-					<condition
-					comparison="IsNotEqual">
-						<leftvalue>
-							<datavaluesource>
-								<databinding
-								bindingtype="Parameter"
-								dataname="validarPaisNombreEmpresa"
-								id="62d5b63b-a8af-4f2e-8967-c5e77633ad79">
-								</databinding>
-							</datavaluesource>
-						</leftvalue>
-						<rightvalue>
-							<simplevaluesource
-							value="">
-							</simplevaluesource>
-						</rightvalue>
-					</condition>
-				</conditiongroup>
-			</smartfoldernode>
-			<testmodule
-			id="46d9c224-a80c-451f-905f-aa5473d0e1e6"
-			name="CloseBrowser"
-			ref="7666c5fa-d022-4de7-9a74-5052e2f702ee"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="46e3223b-1c29-4c47-bf83-b646b2d053ef"
-			name="SeleccionarCuentas"
-			ref="4cb1f3dd-0957-40dc-8103-0867648d0bab"
-			type="Recording">
-				<description>
-					<![CDATA[Hacemos click en la pestaña Cuentas]]>
-				</description>
-			</testmodule>
-			<smartfoldernode
 			datasource="CantidadPage"
 			id="499e6b14-00bf-4761-a003-8d17fbdfc08f"
 			iterationcount="10"
@@ -542,7 +287,10 @@
 			id="4aa8448c-ebf2-40c4-bf14-0ec99cc1a0fa"
 			maxrange="3"
 			minrange="3"
-			name="TestCase_v3">
+			name="1°Step_SalesNavigator">
+				<description>
+					<![CDATA[<p>Version 4.0</p><p><br></p><p>Juan Cruz Diana</p>]]>
+				</description>
 				<parameters>
 					<param
 					mask="False"
@@ -566,79 +314,6 @@
 					</param>
 				</parameters>
 			</testcase>
-			<testmodule
-			id="4c392509-cea6-4d6e-9f9c-b8c7302b6952"
-			name="ObtenerPerfiles"
-			ref="d5f4d1d6-5fda-4b8c-91fd-f76789ada543"
-			type="Recording">
-				<description>
-					<![CDATA[Aplicamos filtros por $Keyword del datasource]]>
-				</description>
-				<databinding>
-					<var
-					dataname="Keyword"
-					datasourceid="0860cff3-b338-4069-9f71-97637931cc1e"
-					variableid="0fa56b65-017b-4735-9698-502fd43ac7da"
-					variablename="Keyword">
-					</var>
-				</databinding>
-			</testmodule>
-			<smartfoldernode
-			id="4f12ff10-2e77-446a-a952-46230f1994bb"
-			name="ListaCreada">
-				<conditiongroup
-				comparison="AND"
-				enabled="True">
-					<condition
-					comparison="IsNotEqual">
-						<leftvalue>
-							<datavaluesource>
-								<databinding
-								bindingtype="Parameter"
-								dataname="ValidarPaisNombreEmpres"
-								id="d111dafd-0736-44d1-8148-895b97638d16">
-								</databinding>
-							</datavaluesource>
-						</leftvalue>
-						<rightvalue>
-							<simplevaluesource
-							value="">
-							</simplevaluesource>
-						</rightvalue>
-					</condition>
-				</conditiongroup>
-			</smartfoldernode>
-			<testmodule
-			id="50beb32e-c7a6-4b86-ae0c-fb7f56d5219d"
-			name="ChekTodos"
-			ref="381ae2ac-ede7-4c74-99cc-b829a61a140b"
-			type="Recording">
-				<description>
-					<![CDATA[Hacemos click en Chekbox para seleccionar todos los perfiles]]>
-				</description>
-				<missingdatabinding>
-					<var
-					dataname="validarPaisNombreEmpresa"
-					datasourceid="aa0aeaa0-6a14-44d3-ba5c-7f7ca9c23865"
-					variableid="556ea0aa-faa2-4b72-a3a7-60683a627611"
-					variablename="validarPaisNombreEmpresa">
-					</var>
-				</missingdatabinding>
-				<missingdatavariablesbinding>
-					<var
-					dataname="País   "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="d1c3cec8-4516-4321-86e5-c06e33270c07"
-					variablename="pais">
-					</var>
-					<var
-					dataname="Nombre Empresa "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
-					variablename="nombreEmpresa">
-					</var>
-				</missingdatavariablesbinding>
-			</testmodule>
 			<testmodule
 			enabled="False"
 			id="515c3be0-2619-47a4-a111-f6c73ad4352d"
@@ -697,230 +372,6 @@
 				</parameters>
 			</smartfoldernode>
 			<testmodule
-			id="5257415c-bf2e-4e87-b8a4-454508f6cc7e"
-			name="FiltroPorUbicacion"
-			ref="9dc64434-3d03-4cc1-a085-3236066587ec"
-			type="Recording">
-				<description>
-					<![CDATA[Aplicamos un Filtro por ubicación, obtenida del Input Empresas]]>
-				</description>
-				<missingdatabinding>
-					<var
-					dataname="País   "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="88fba158-8c8a-49e5-bddf-f1d3cad38c3e"
-					variablename="Pais">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<testmodule
-			id="53228b70-77d7-4964-938b-fd45d06f718d"
-			name="CrearCantPageCSV"
-			ref="d604b842-80e2-4526-a19e-301b25ceef44"
-			type="Recording">
-				<description>
-					<![CDATA[Obtenemos el numero de perfiles que coinciden con los filtros aplicados y crea un .csv con la cantidad de page en la ruta C:\TEMP\CantidadPage.csv]]>
-				</description>
-				<databinding>
-					<var
-					dataname="CantidadDeResultados"
-					datasourceid="aa0aeaa0-6a14-44d3-ba5c-7f7ca9c23865"
-					variableid="300a0419-f37e-49c1-b6ea-59836912e235"
-					variablename="cantidadDeResultados">
-					</var>
-					<var
-					dataname="chekSeleccionados"
-					datasourceid="aa0aeaa0-6a14-44d3-ba5c-7f7ca9c23865"
-					variableid="c1a29866-b832-4a45-8a00-f8105ea19612"
-					variablename="TodosSeleccionados">
-					</var>
-					<var
-					dataname="CantPage"
-					datasourceid="d111dafd-0736-44d1-8148-895b97638d16"
-					variableid="e8fa0373-7c02-4442-b7d5-178b7a6c521c"
-					variablename="cantPage">
-					</var>
-				</databinding>
-			</testmodule>
-			<testcase
-			datarangeactive="True"
-			datasource="OutputEmpresas"
-			errorbehavior="ContinueNextIteration"
-			id="56c79ca1-624e-440b-98eb-6e40fc3ef75f"
-			maxrange="0"
-			minrange="0"
-			name="SalesQL_V1"
-			retrycount="1">
-				<parameters>
-					<param
-					mask="False"
-					name="index"
-					value="">
-					</param>
-				</parameters>
-			</testcase>
-			<testmodule
-			id="5c15dc9f-8986-4d81-9862-4a35f14672f4"
-			name="IngresarNombreEmpresa"
-			ref="a09e430c-629a-4eab-b574-8aee4f166059"
-			type="Recording">
-				<description>
-					<![CDATA[Escribimos el nombre de la empresa que necesitamos en el buscador]]>
-				</description>
-				<missingdatabinding>
-					<var
-					dataname="Nombre Empresa "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="5cc0568a-d014-40af-8772-b27ff8c5a097"
-					variablename="nombreEmpresa">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<testmodule
-			id="5fd18a4f-3544-43be-bfb5-afb240c28fc2"
-			name="EliminarDuplicados"
-			ref="218d891f-26db-49d2-bc19-80a202d49d44"
-			type="UserCode">
-			</testmodule>
-			<testmodule
-			id="61f7cd61-dc15-49df-9d8c-829ff866cbb1"
-			name="BusquedaDeDatos"
-			ref="64f9cda0-2e81-475e-8e11-b5b9ca41869a"
-			type="UserCode">
-				<description>
-					<![CDATA[Obtenemos @Nombre_completo, @puesto y @link de sales de los perfiles encontrados. Pasamos los datos al Excel OutputEmpresas]]>
-				</description>
-				<databinding>
-					<var
-					dataname="CantidadDeResultados"
-					datasourceid="62d5b63b-a8af-4f2e-8967-c5e77633ad79"
-					variableid="fa433e03-21e2-455a-bb97-366a08c97969"
-					variablename="cantidadDeResultados">
-					</var>
-					<var
-					dataname="Keyword"
-					datasourceid="0860cff3-b338-4069-9f71-97637931cc1e"
-					variableid="2a3ee7f5-a412-42a4-8543-f1ea657adeeb"
-					variablename="keyword">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Industria "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="627d7d90-9373-42aa-adad-bc0a1c21155a"
-					variablename="industria">
-					</var>
-					<var
-					dataname="País   "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="62f84f30-00b5-4465-b51e-f7702ed031c9"
-					variablename="pais">
-					</var>
-					<var
-					dataname="Nombre Empresa "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="bb30c447-9719-41bd-9c4b-b991008f434c"
-					variablename="nombreEmpresa">
-					</var>
-				</missingdatabinding>
-				<missingdatavariablesbinding>
-					<var
-					dataname="nombrePersona"
-					datasourceid="62d5b63b-a8af-4f2e-8967-c5e77633ad79"
-					variableid="36d28cbd-66fd-415a-91fc-f71dd15def0c"
-					variablename="nombrePersona">
-					</var>
-					<var
-					dataname="linkPersona"
-					datasourceid="62d5b63b-a8af-4f2e-8967-c5e77633ad79"
-					variableid="b8b9c671-55a3-4ac6-ab03-314c4bff24c2"
-					variablename="linkPersona">
-					</var>
-					<var
-					dataname="puestoPersona"
-					datasourceid="62d5b63b-a8af-4f2e-8967-c5e77633ad79"
-					variableid="3f147fe6-caee-466e-83b8-d8d7af9edc70"
-					variablename="puestoPersona">
-					</var>
-				</missingdatavariablesbinding>
-			</testmodule>
-			<smartfoldernode
-			datarangeactive="True"
-			datasource="KeyboardInputEmpresa"
-			id="62d5b63b-a8af-4f2e-8967-c5e77633ad79"
-			maxrange="7"
-			minrange="7"
-			name="CriteriosDeFiltros">
-				<parameters>
-					<param
-					mask="False"
-					name="CantidadDeResultados"
-					value="">
-					</param>
-					<param
-					mask="False"
-					name="validarPaisNombreEmpresa"
-					value="">
-					</param>
-					<param
-					mask="False"
-					name="chekSeleccionados"
-					value="">
-					</param>
-				</parameters>
-			</smartfoldernode>
-			<smartfoldernode
-			id="63545dfe-ac35-475b-bdca-61035b07a0f5"
-			name="CheckTodosSeleccionados">
-				<conditiongroup
-				comparison="AND"
-				enabled="True">
-					<condition
-					comparison="IsEqual">
-						<leftvalue>
-							<datavaluesource>
-								<databinding
-								bindingtype="Parameter"
-								dataname="chekSeleccionados"
-								id="aa0aeaa0-6a14-44d3-ba5c-7f7ca9c23865">
-								</databinding>
-							</datavaluesource>
-						</leftvalue>
-						<rightvalue>
-							<simplevaluesource
-							value="True">
-							</simplevaluesource>
-						</rightvalue>
-					</condition>
-				</conditiongroup>
-			</smartfoldernode>
-			<smartfoldernode
-			id="6a5712ae-a75f-421f-8188-7d0e3371df95"
-			name="ConResultados">
-				<conditiongroup
-				comparison="AND"
-				enabled="True">
-					<condition
-					comparison="IsNotEqual">
-						<leftvalue>
-							<datavaluesource>
-								<databinding
-								bindingtype="Parameter"
-								dataname="CantidadDeResultados"
-								id="62d5b63b-a8af-4f2e-8967-c5e77633ad79">
-								</databinding>
-							</datavaluesource>
-						</leftvalue>
-						<rightvalue>
-							<simplevaluesource
-							value="0">
-							</simplevaluesource>
-						</rightvalue>
-					</condition>
-				</conditiongroup>
-			</smartfoldernode>
-			<testmodule
 			id="6b3068c1-6506-419f-b572-5e3a0cefe0eb"
 			name="CerrarInstanciaExcel"
 			ref="fa9286b7-a7e0-45e9-a6bd-3ac2f4472153"
@@ -952,33 +403,18 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
-			id="7562feca-0590-4ae2-bc7d-66a194fcdc1e"
-			name="SeleccionarLista"
-			ref="bcad91d7-5667-42ee-a158-37a481569576"
-			type="Recording">
-				<description>
-					<![CDATA[Se selecciona la lista $pais_empresa]]>
-				</description>
-				<missingdatabinding>
-					<var
-					dataname="País   "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="d1c3cec8-4516-4321-86e5-c06e33270c07"
-					variablename="pais">
-					</var>
-					<var
-					dataname="Nombre Empresa "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
-					variablename="nombreEmpresa">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<testmodule
 			id="76ac70bf-e4b7-44f9-ad2a-5c25b4dc59ad"
 			name="OpenBrowser"
 			ref="7c8df0a0-c2a9-482e-9581-d9d47179faa5"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="LinkedIn"
+					datasourceid="ac8ba090-df6e-4a7d-9a33-39d0c80b9c45"
+					variableid="5b1c794c-8aec-44ff-90bf-e8374802a51f"
+					variablename="Url">
+					</var>
+				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="LINKEDIN"
@@ -1019,23 +455,6 @@
 			reportwriteinterval="30000ms"
 			singlereportpdfdirectory="">
 			</testsuite>
-			<testmodule
-			id="7d26c169-192d-4ed9-b49d-23d13e7a858f"
-			name="FiltroPorUbicacion"
-			ref="9dc64434-3d03-4cc1-a085-3236066587ec"
-			type="Recording">
-				<description>
-					<![CDATA[Aplicamos un Filtro por ubicación, obtenida del Input Empresas]]>
-				</description>
-				<missingdatabinding>
-					<var
-					dataname="País   "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="88fba158-8c8a-49e5-bddf-f1d3cad38c3e"
-					variablename="Pais">
-					</var>
-				</missingdatabinding>
-			</testmodule>
 			<setup
 			id="7d75aa21-f9da-42d2-9d33-e3463c620f65"
 			name="setup">
@@ -1065,218 +484,10 @@
 					</var>
 				</missingdatabinding>
 			</testmodule>
-			<testmodule
-			id="7f27e367-ec0c-4e14-ad95-ec128560ca18"
-			name="OpenBrowser"
-			ref="7c8df0a0-c2a9-482e-9581-d9d47179faa5"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="835f6031-afd4-406c-84fd-4ad649e7513e"
-			name="CrearListaCliente"
-			ref="5c0d1a84-20dd-4629-b11b-57c4dbc59f95"
-			type="Recording">
-				<description>
-					<![CDATA[Se crea la lista si no existe la lista $pais_empresa]]>
-				</description>
-				<missingdatabinding>
-					<var
-					dataname="País   "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="638848e2-0b53-434e-960a-66bdd249bff0"
-					variablename="pais">
-					</var>
-					<var
-					dataname="Nombre Empresa "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="c801a717-0096-443d-b601-edc5fd6cc760"
-					variablename="nombreEmpresa">
-					</var>
-				</missingdatabinding>
-			</testmodule>
 			<teardown
 			id="8937944b-efd1-4d1b-b7a2-1f76ed0b2295"
 			name="teardown">
 			</teardown>
-			<testmodule
-			id="89435db3-0619-46c4-a9b4-a187c670b88e"
-			name="CrearListaCliente"
-			ref="5c0d1a84-20dd-4629-b11b-57c4dbc59f95"
-			type="Recording">
-				<description>
-					<![CDATA[Se crea la lista si no existe la lista $pais_empresa]]>
-				</description>
-				<missingdatabinding>
-					<var
-					dataname="País   "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="638848e2-0b53-434e-960a-66bdd249bff0"
-					variablename="pais">
-					</var>
-					<var
-					dataname="Nombre Empresa "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="c801a717-0096-443d-b601-edc5fd6cc760"
-					variablename="nombreEmpresa">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<testmodule
-			id="89491e95-2921-4e95-b3f6-c6a718c14f02"
-			name="ClickEnGuardarLista"
-			ref="fe3cad9d-aefb-4c13-8b6b-511a5158c113"
-			type="Recording">
-				<description>
-					<![CDATA[Abrimos el menu de guardar lista]]>
-				</description>
-				<databinding>
-					<var
-					dataname="ValidarPaisNombreEmpres"
-					datasourceid="d111dafd-0736-44d1-8148-895b97638d16"
-					variableid="1188c870-a406-4d71-9b1a-8540fafd5727"
-					variablename="validarPaisNombreEmpresa">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="validarPaisNombreEmpresa"
-					datasourceid="aa0aeaa0-6a14-44d3-ba5c-7f7ca9c23865"
-					variableid="1188c870-a406-4d71-9b1a-8540fafd5727"
-					variablename="validarPaisNombreEmpresa">
-					</var>
-					<var
-					dataname="País   "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="d1c3cec8-4516-4321-86e5-c06e33270c07"
-					variablename="pais">
-					</var>
-					<var
-					dataname="Nombre Empresa "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
-					variablename="nombreEmpresa">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<testmodule
-			id="8ab75d7a-4e9a-4e12-9074-3f890838dad6"
-			name="FiltroPorUbicacion"
-			ref="9dc64434-3d03-4cc1-a085-3236066587ec"
-			type="Recording">
-				<description>
-					<![CDATA[Aplicamos filtros de ubicación]]>
-				</description>
-				<missingdatabinding>
-					<var
-					dataname="País   "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="88fba158-8c8a-49e5-bddf-f1d3cad38c3e"
-					variablename="Pais">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<teardown
-			id="8abaf5e5-1c1f-43dc-b8fc-7e027339b924"
-			name="teardown">
-			</teardown>
-			<teardown
-			id="8ad5b839-9e9a-4a16-b1f2-d3d4d9267315"
-			name="teardown">
-			</teardown>
-			<testmodule
-			id="8bc0311c-93df-4dc6-8bd5-f9905c7cbf59"
-			name="ClickEnGuardarLista"
-			ref="fe3cad9d-aefb-4c13-8b6b-511a5158c113"
-			type="Recording">
-				<description>
-					<![CDATA[Abrimos el menu de guardar lista]]>
-				</description>
-				<databinding>
-					<var
-					dataname="validarPaisNombreEmpresa"
-					datasourceid="62d5b63b-a8af-4f2e-8967-c5e77633ad79"
-					variableid="1188c870-a406-4d71-9b1a-8540fafd5727"
-					variablename="validarPaisNombreEmpresa">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="País   "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="d1c3cec8-4516-4321-86e5-c06e33270c07"
-					variablename="pais">
-					</var>
-					<var
-					dataname="Nombre Empresa "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
-					variablename="nombreEmpresa">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<testmodule
-			id="8bff7f3b-c61a-4321-9b2d-f990366365b5"
-			name="BusquedaDeDatos"
-			ref="64f9cda0-2e81-475e-8e11-b5b9ca41869a"
-			type="UserCode">
-				<description>
-					<![CDATA[Obtenemos @Nombre_completo, @puesto y @link de sales de los perfiles encontrados. Pasamos los datos al Excel OutputEmpresas]]>
-				</description>
-				<databinding>
-					<var
-					dataname="CantidadDeResultados"
-					datasourceid="aa0aeaa0-6a14-44d3-ba5c-7f7ca9c23865"
-					variableid="fa433e03-21e2-455a-bb97-366a08c97969"
-					variablename="cantidadDeResultados">
-					</var>
-					<var
-					dataname="Keyword"
-					datasourceid="0860cff3-b338-4069-9f71-97637931cc1e"
-					variableid="2a3ee7f5-a412-42a4-8543-f1ea657adeeb"
-					variablename="keyword">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Industria "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="627d7d90-9373-42aa-adad-bc0a1c21155a"
-					variablename="industria">
-					</var>
-					<var
-					dataname="País   "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="62f84f30-00b5-4465-b51e-f7702ed031c9"
-					variablename="pais">
-					</var>
-					<var
-					dataname="Nombre Empresa "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="bb30c447-9719-41bd-9c4b-b991008f434c"
-					variablename="nombreEmpresa">
-					</var>
-				</missingdatabinding>
-				<missingdatavariablesbinding>
-					<var
-					dataname="nombrePersona"
-					datasourceid="62d5b63b-a8af-4f2e-8967-c5e77633ad79"
-					variableid="36d28cbd-66fd-415a-91fc-f71dd15def0c"
-					variablename="nombrePersona">
-					</var>
-					<var
-					dataname="linkPersona"
-					datasourceid="62d5b63b-a8af-4f2e-8967-c5e77633ad79"
-					variableid="b8b9c671-55a3-4ac6-ab03-314c4bff24c2"
-					variablename="linkPersona">
-					</var>
-					<var
-					dataname="puestoPersona"
-					datasourceid="62d5b63b-a8af-4f2e-8967-c5e77633ad79"
-					variableid="3f147fe6-caee-466e-83b8-d8d7af9edc70"
-					variablename="puestoPersona">
-					</var>
-				</missingdatavariablesbinding>
-			</testmodule>
 			<testmodule
 			id="8de1c146-aa0a-42ad-82e2-9048f312477e"
 			name="EntrarPerfilLinkedIn"
@@ -1287,178 +498,16 @@
 				</description>
 			</testmodule>
 			<testmodule
-			id="92909240-dbe6-47c1-ad55-753d766ffbe0"
-			name="CerrarInstanciaExcel"
-			ref="fa9286b7-a7e0-45e9-a6bd-3ac2f4472153"
-			type="UserCode">
-			</testmodule>
-			<testcase
-			datarangeactive="True"
-			datasource="Input_Empresas"
-			id="95cbb702-79b4-43b9-b821-3254f33f61af"
-			maxrange="8"
-			minrange="8"
-			name="TestCase_v1">
-			</testcase>
-			<testmodule
 			id="9e502036-7f0e-4113-8014-1f2b7e01d9e0"
 			name="ScrollDown"
 			ref="0fd79404-8e39-4bcf-b19f-73c07c3d9239"
 			type="Recording">
-			</testmodule>
-			<smartfoldernode
-			id="a061df6b-4313-4af8-b0e2-171b4425486b"
-			name="CheckTodosSeleccionados">
-				<conditiongroup
-				comparison="AND"
-				enabled="True">
-					<condition
-					comparison="IsEqual">
-						<leftvalue>
-							<datavaluesource>
-								<databinding
-								bindingtype="Parameter"
-								dataname="chekSeleccionados"
-								id="62d5b63b-a8af-4f2e-8967-c5e77633ad79">
-								</databinding>
-							</datavaluesource>
-						</leftvalue>
-						<rightvalue>
-							<simplevaluesource
-							value="True">
-							</simplevaluesource>
-						</rightvalue>
-					</condition>
-				</conditiongroup>
-			</smartfoldernode>
-			<setup
-			id="a0662b3e-443b-425c-8785-ae54d7f2f3d8"
-			name="setup">
-			</setup>
-			<testmodule
-			id="a49b4069-f34b-4651-a195-94795031015f"
-			name="ValidacionEmpresaEIndustria"
-			ref="c167697a-3c37-4cbf-a1cf-93f7b333bd9b"
-			type="Recording">
-				<description>
-					<![CDATA[Validamos y seleccionamos la empresa que sea exactamente la que buscamos, en relación al $Nombre_Empresa e $Industria]]>
-				</description>
-				<missingdatabinding>
-					<var
-					dataname="Industria "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="48ee2248-30c5-4ed5-82d6-ec3f16680e3a"
-					variablename="Industria">
-					</var>
-					<var
-					dataname="Nombre Empresa "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
-					variablename="nombreEmpresa">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<smartfoldernode
-			datasource="KeyboardInputEmpresa"
-			errorbehavior="ContinueNextIteration"
-			id="aa0aeaa0-6a14-44d3-ba5c-7f7ca9c23865"
-			maxrange="1"
-			minrange="1"
-			name="CriteriosDeFiltros">
-				<parameters>
-					<param
-					mask="False"
-					name="CantidadDeResultados"
-					value="">
-					</param>
-					<param
-					mask="False"
-					name="chekSeleccionados"
-					value="">
-					</param>
-				</parameters>
-			</smartfoldernode>
-			<smartfoldernode
-			datasource="CantidadPage"
-			id="acc26683-920a-4cb0-9f02-3641bdee6097"
-			name="ConPage">
-				<description>
-					<![CDATA[La cantidad de rows dependen de la cantidad de page, su data source es dinamico.]]>
-				</description>
-			</smartfoldernode>
-			<testmodule
-			id="ad1230f4-b0e2-47d3-8e25-998a78312041"
-			name="CloseBrowser"
-			ref="7666c5fa-d022-4de7-9a74-5052e2f702ee"
-			type="Recording">
-			</testmodule>
-			<smartfoldernode
-			id="b345fbeb-2ef7-4eac-ac62-b0d7ab46dfb6"
-			name="ListaSinCrear">
-				<conditiongroup
-				comparison="AND"
-				enabled="True">
-					<condition
-					comparison="IsEqual">
-						<leftvalue>
-							<datavaluesource>
-								<databinding
-								bindingtype="Parameter"
-								dataname="validarPaisNombreEmpresa"
-								id="62d5b63b-a8af-4f2e-8967-c5e77633ad79">
-								</databinding>
-							</datavaluesource>
-						</leftvalue>
-						<rightvalue>
-							<simplevaluesource
-							value="">
-							</simplevaluesource>
-						</rightvalue>
-					</condition>
-				</conditiongroup>
-			</smartfoldernode>
-			<testmodule
-			id="b4a554d2-3809-49e6-a1f9-d9e9d82ae559"
-			name="ClickEnGuardarLista"
-			ref="fe3cad9d-aefb-4c13-8b6b-511a5158c113"
-			type="Recording">
-				<description>
-					<![CDATA[Abrimos el menu de guardar lista]]>
-				</description>
-				<databinding>
-					<var
-					dataname="validarPaisNombreEmpresa"
-					datasourceid="62d5b63b-a8af-4f2e-8967-c5e77633ad79"
-					variableid="1188c870-a406-4d71-9b1a-8540fafd5727"
-					variablename="validarPaisNombreEmpresa">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="País   "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="d1c3cec8-4516-4321-86e5-c06e33270c07"
-					variablename="pais">
-					</var>
-					<var
-					dataname="Nombre Empresa "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
-					variablename="nombreEmpresa">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="b947c62b-dc66-42a5-b379-7fde19405cf8"
 			name="CloseBrowser"
 			ref="7666c5fa-d022-4de7-9a74-5052e2f702ee"
 			type="Recording">
-			</testmodule>
-			<testmodule
-			id="bc85c35c-d874-47ee-952c-90b90ae9abb9"
-			name="AbrirExel"
-			ref="05cdce57-a03d-4016-9bb2-37e1a6a30879"
-			type="UserCode">
 			</testmodule>
 			<testmodule
 			id="bd8d72e3-5851-4d6b-b2bb-404bef501155"
@@ -1548,183 +597,11 @@
 				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
-			id="c445afce-d689-4c28-aee1-8843bbf4b3e3"
-			name="CloseBrowser"
-			ref="7666c5fa-d022-4de7-9a74-5052e2f702ee"
-			type="Recording">
-			</testmodule>
-			<testmodule
 			id="c849cc34-9ddb-4758-9ea6-9480e099b505"
 			name="CloseBrowser"
 			ref="7666c5fa-d022-4de7-9a74-5052e2f702ee"
 			type="Recording">
 			</testmodule>
-			<testmodule
-			id="c9328ac6-e3e2-445c-9777-cc7a07e18332"
-			name="ValidacionEmpresaEIndustria"
-			ref="c167697a-3c37-4cbf-a1cf-93f7b333bd9b"
-			type="Recording">
-				<description>
-					<![CDATA[Validamos y seleccionamos la empresa que sea exactamente la que buscamos, en relación al $Nombre_Empresa e $Industria]]>
-				</description>
-				<missingdatabinding>
-					<var
-					dataname="Industria "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="48ee2248-30c5-4ed5-82d6-ec3f16680e3a"
-					variablename="Industria">
-					</var>
-					<var
-					dataname="Nombre Empresa "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
-					variablename="nombreEmpresa">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<smartfoldernode
-			id="cd569d5c-9da9-49d4-b1a4-feb5f0b96d31"
-			name="CheckSinSeleccionar">
-				<conditiongroup
-				comparison="AND"
-				enabled="True">
-					<condition
-					comparison="IsEqual">
-						<leftvalue>
-							<datavaluesource>
-								<databinding
-								bindingtype="Parameter"
-								dataname="chekSeleccionados"
-								id="aa0aeaa0-6a14-44d3-ba5c-7f7ca9c23865">
-								</databinding>
-							</datavaluesource>
-						</leftvalue>
-						<rightvalue>
-							<simplevaluesource
-							value="False">
-							</simplevaluesource>
-						</rightvalue>
-					</condition>
-				</conditiongroup>
-			</smartfoldernode>
-			<testcase
-			datarangeactive="True"
-			datasource="Input_Empresas"
-			errorbehavior="ContinueNextIteration"
-			id="d111dafd-0736-44d1-8148-895b97638d16"
-			maxrange="1"
-			minrange="1"
-			name="TestCase_v2">
-				<parameters>
-					<param
-					mask="False"
-					name="CantPage"
-					value="">
-					</param>
-					<param
-					mask="False"
-					name="ValidarPaisNombreEmpres"
-					value="">
-					</param>
-				</parameters>
-			</testcase>
-			<testmodule
-			id="d45bd12e-ed5d-4730-8603-dd3d0ee00d90"
-			name="PagSiguiente"
-			ref="92bf9eaa-3698-47c0-8533-5b7c47f7b6c2"
-			type="Recording">
-				<description>
-					<![CDATA[Verifica que haya mas de 1 pagina, para hacer clic en siguiente]]>
-				</description>
-				<databinding>
-					<var
-					dataname="CantPage"
-					datasourceid="d111dafd-0736-44d1-8148-895b97638d16"
-					variableid="f43d098c-1e57-40cf-9dc4-ca4cf1db405a"
-					variablename="CantPage">
-					</var>
-				</databinding>
-			</testmodule>
-			<testmodule
-			id="d54fd6f6-b1dc-40a4-b834-c2c467563894"
-			name="IngresarNombreEmpresa"
-			ref="a09e430c-629a-4eab-b574-8aee4f166059"
-			type="Recording">
-				<description>
-					<![CDATA[Escribimos el nombre de la empresa que necesitamos en el buscador]]>
-				</description>
-				<missingdatabinding>
-					<var
-					dataname="Nombre Empresa "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="5cc0568a-d014-40af-8772-b27ff8c5a097"
-					variablename="nombreEmpresa">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<testmodule
-			id="d56d6c89-5960-473c-9f14-0beb0e855798"
-			name="ClickEnGuardarLista"
-			ref="fe3cad9d-aefb-4c13-8b6b-511a5158c113"
-			type="Recording">
-				<description>
-					<![CDATA[Abrimos el menu de guardar lista]]>
-				</description>
-				<databinding>
-					<var
-					dataname="ValidarPaisNombreEmpres"
-					datasourceid="d111dafd-0736-44d1-8148-895b97638d16"
-					variableid="1188c870-a406-4d71-9b1a-8540fafd5727"
-					variablename="validarPaisNombreEmpresa">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="validarPaisNombreEmpresa"
-					datasourceid="aa0aeaa0-6a14-44d3-ba5c-7f7ca9c23865"
-					variableid="1188c870-a406-4d71-9b1a-8540fafd5727"
-					variablename="validarPaisNombreEmpresa">
-					</var>
-					<var
-					dataname="País   "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="d1c3cec8-4516-4321-86e5-c06e33270c07"
-					variablename="pais">
-					</var>
-					<var
-					dataname="Nombre Empresa "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="243376d0-5738-43b5-a836-b6324bd9751e"
-					variablename="nombreEmpresa">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<smartfoldernode
-			id="d96cab6f-287e-448b-8e93-b2999dea6652"
-			name="ListaSinCrear">
-				<conditiongroup
-				comparison="AND"
-				enabled="True">
-					<condition
-					comparison="IsEqual">
-						<leftvalue>
-							<datavaluesource>
-								<databinding
-								bindingtype="Parameter"
-								dataname="ValidarPaisNombreEmpres"
-								id="d111dafd-0736-44d1-8148-895b97638d16">
-								</databinding>
-							</datavaluesource>
-						</leftvalue>
-						<rightvalue>
-							<simplevaluesource
-							value="">
-							</simplevaluesource>
-						</rightvalue>
-					</condition>
-				</conditiongroup>
-			</smartfoldernode>
 			<testcase
 			id="da06e631-eb8e-4890-a623-73bc5b00e041"
 			name="Qualis_Bot_SalesNavigator"
@@ -1752,6 +629,12 @@
 					variableid="2fe17e89-d564-43eb-832f-8b412e95c8ef"
 					variablename="index">
 					</var>
+					<var
+					dataname="LinkedIn"
+					datasourceid="ac8ba090-df6e-4a7d-9a33-39d0c80b9c45"
+					variableid="d632adf7-f5b0-48c1-ac01-95fbe977e55c"
+					variablename="Linkedin">
+					</var>
 				</databinding>
 				<missingdatabinding>
 					<var
@@ -1762,19 +645,6 @@
 					</var>
 				</missingdatabinding>
 			</testmodule>
-			<testmodule
-			id="e6d83c1e-7e39-4f94-9487-1d9021cfca80"
-			name="IrAResponsablesDeLasDecisiones"
-			ref="329f9cc9-690d-4e6f-928a-f6a414c5032f"
-			type="Recording">
-				<description>
-					<![CDATA[Hacemos click en link responsables de las decisiones]]>
-				</description>
-			</testmodule>
-			<setup
-			id="ec4cba17-f95f-4708-b32e-6a8db58bdeb0"
-			name="setup">
-			</setup>
 			<testmodule
 			id="ec8e543c-5523-436c-b3a8-4b48a1c16cae"
 			name="CerrarInstanciaExcel"
@@ -1804,8 +674,11 @@
 			id="f667b1c9-ecd3-4dc0-be01-a6b8f5d2cd5c"
 			maxrange="3"
 			minrange="3"
-			name="SalesQL_V2"
+			name="2°Step_SalesQL"
 			retrycount="1">
+				<description>
+					<![CDATA[<p>Version 2.0</p><p><br></p><p>Juan&nbsp;Cruz Diana</p>]]>
+				</description>
 				<parameters>
 					<param
 					mask="False"
@@ -1858,23 +731,6 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
-			id="f8d9cb90-912c-4c51-8edc-431852ed81cd"
-			name="FiltroPorUbicacion"
-			ref="9dc64434-3d03-4cc1-a085-3236066587ec"
-			type="Recording">
-				<description>
-					<![CDATA[Aplicamos filtros de ubicación]]>
-				</description>
-				<missingdatabinding>
-					<var
-					dataname="País   "
-					datasourceid="87720ed9-8af0-4e65-9f70-f929af03dc83"
-					variableid="88fba158-8c8a-49e5-bddf-f1d3cad38c3e"
-					variablename="Pais">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<testmodule
 			id="fb838795-501c-4f21-b4d2-86f3e9c71a4d"
 			name="NoSeEncontroEmpresa"
 			ref="0a8d72c9-33e7-434d-b90e-a7f49bf53e33"
@@ -1909,15 +765,6 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<testmodule
-			id="fc78aa91-2165-4f38-9021-28dbede77c90"
-			name="SeleccionarCuentas"
-			ref="4cb1f3dd-0957-40dc-8103-0867648d0bab"
-			type="Recording">
-				<description>
-					<![CDATA[Hacemos click en la pestaña Cuentas]]>
-				</description>
-			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -1927,232 +774,8 @@
 				id="da06e631-eb8e-4890-a623-73bc5b00e041"
 				name="Qualis_Bot_SalesNavigator">
 					<testcase
-					id="95cbb702-79b4-43b9-b821-3254f33f61af"
-					name="TestCase_v1">
-						<setup
-						id="0214b5bd-0b39-420d-b116-d1ace42a6246"
-						name="setup">
-							<testmodule
-							id="2062ca50-f1b7-47eb-8d61-3070fdea2443"
-							name="OpenBrowser">
-							</testmodule>
-						</setup>
-						<testmodule
-						id="5c15dc9f-8986-4d81-9862-4a35f14672f4"
-						name="IngresarNombreEmpresa">
-						</testmodule>
-						<testmodule
-						id="fc78aa91-2165-4f38-9021-28dbede77c90"
-						name="SeleccionarCuentas">
-						</testmodule>
-						<testmodule
-						id="7d26c169-192d-4ed9-b49d-23d13e7a858f"
-						name="FiltroPorUbicacion">
-						</testmodule>
-						<testmodule
-						id="c9328ac6-e3e2-445c-9777-cc7a07e18332"
-						name="ValidacionEmpresaEIndustria">
-						</testmodule>
-						<testmodule
-						id="e6d83c1e-7e39-4f94-9487-1d9021cfca80"
-						name="IrAResponsablesDeLasDecisiones">
-						</testmodule>
-						<testmodule
-						id="f8d9cb90-912c-4c51-8edc-431852ed81cd"
-						name="FiltroPorUbicacion">
-						</testmodule>
-						<smartfoldernode
-						id="62d5b63b-a8af-4f2e-8967-c5e77633ad79"
-						name="CriteriosDeFiltros">
-							<testmodule
-							id="3ea32be4-dd83-41fe-9d65-152ef250aabd"
-							name="ObtenerPerfiles">
-							</testmodule>
-							<testmodule
-							id="292060b6-6b68-4cd4-ab66-31824c92a1ef"
-							name="CrearCantPageCSV">
-							</testmodule>
-							<testmodule
-							id="61f7cd61-dc15-49df-9d8c-829ff866cbb1"
-							name="BusquedaDeDatos">
-							</testmodule>
-							<smartfoldernode
-							id="6a5712ae-a75f-421f-8188-7d0e3371df95"
-							name="ConResultados">
-								<smartfoldernode
-								id="a061df6b-4313-4af8-b0e2-171b4425486b"
-								name="CheckTodosSeleccionados">
-									<testmodule
-									id="8bc0311c-93df-4dc6-8bd5-f9905c7cbf59"
-									name="ClickEnGuardarLista">
-									</testmodule>
-								</smartfoldernode>
-								<smartfoldernode
-								id="1e7c9b95-fbae-4d3a-9acd-0e6df38f4334"
-								name="CheckSinSeleccionar">
-									<testmodule
-									id="35dcdc56-51f8-4d45-af0d-b867011186fe"
-									name="ChekTodos">
-									</testmodule>
-									<testmodule
-									id="b4a554d2-3809-49e6-a1f9-d9e9d82ae559"
-									name="ClickEnGuardarLista">
-									</testmodule>
-								</smartfoldernode>
-								<smartfoldernode
-								id="b345fbeb-2ef7-4eac-ac62-b0d7ab46dfb6"
-								name="ListaSinCrear">
-									<testmodule
-									id="835f6031-afd4-406c-84fd-4ad649e7513e"
-									name="CrearListaCliente">
-									</testmodule>
-								</smartfoldernode>
-								<smartfoldernode
-								id="46794835-610c-46d8-a599-5e1137f1f4a6"
-								name="ListaCreada">
-									<testmodule
-									id="3955ec8b-18ea-4aa4-92db-2d83e4a65a6b"
-									name="SeleccionarLista">
-									</testmodule>
-								</smartfoldernode>
-							</smartfoldernode>
-						</smartfoldernode>
-						<teardown
-						id="30152b98-1c13-4605-8ab2-4ceb9f93780f"
-						name="teardown">
-							<testmodule
-							id="46d9c224-a80c-451f-905f-aa5473d0e1e6"
-							name="CloseBrowser">
-							</testmodule>
-						</teardown>
-					</testcase>
-					<testcase
-					id="d111dafd-0736-44d1-8148-895b97638d16"
-					name="TestCase_v2">
-						<setup
-						id="ec4cba17-f95f-4708-b32e-6a8db58bdeb0"
-						name="setup">
-							<testmodule
-							id="7f27e367-ec0c-4e14-ad95-ec128560ca18"
-							name="OpenBrowser">
-							</testmodule>
-						</setup>
-						<testmodule
-						id="d54fd6f6-b1dc-40a4-b834-c2c467563894"
-						name="IngresarNombreEmpresa">
-						</testmodule>
-						<testmodule
-						id="46e3223b-1c29-4c47-bf83-b646b2d053ef"
-						name="SeleccionarCuentas">
-						</testmodule>
-						<testmodule
-						id="5257415c-bf2e-4e87-b8a4-454508f6cc7e"
-						name="FiltroPorUbicacion">
-						</testmodule>
-						<testmodule
-						id="a49b4069-f34b-4651-a195-94795031015f"
-						name="ValidacionEmpresaEIndustria">
-						</testmodule>
-						<testmodule
-						id="0e397a5a-f217-4df4-b6f4-2e8d0d010e9a"
-						name="IrAResponsablesDeLasDecisiones">
-						</testmodule>
-						<testmodule
-						id="8ab75d7a-4e9a-4e12-9074-3f890838dad6"
-						name="FiltroPorUbicacion">
-						</testmodule>
-						<smartfoldernode
-						id="aa0aeaa0-6a14-44d3-ba5c-7f7ca9c23865"
-						name="CriteriosDeFiltros">
-							<testmodule
-							id="bc85c35c-d874-47ee-952c-90b90ae9abb9"
-							name="AbrirExel">
-							</testmodule>
-							<testmodule
-							id="4c392509-cea6-4d6e-9f9c-b8c7302b6952"
-							name="ObtenerPerfiles">
-							</testmodule>
-							<testmodule
-							id="53228b70-77d7-4964-938b-fd45d06f718d"
-							name="CrearCantPageCSV">
-							</testmodule>
-							<smartfoldernode
-							id="acc26683-920a-4cb0-9f02-3641bdee6097"
-							name="ConPage">
-								<testmodule
-								id="8bff7f3b-c61a-4321-9b2d-f990366365b5"
-								name="BusquedaDeDatos">
-								</testmodule>
-								<smartfoldernode
-								id="3f79e364-cda1-4b70-9386-959f25fdf17f"
-								name="ConResultados">
-									<smartfoldernode
-									id="63545dfe-ac35-475b-bdca-61035b07a0f5"
-									name="CheckTodosSeleccionados">
-										<testmodule
-										id="d56d6c89-5960-473c-9f14-0beb0e855798"
-										name="ClickEnGuardarLista">
-										</testmodule>
-									</smartfoldernode>
-									<smartfoldernode
-									id="cd569d5c-9da9-49d4-b1a4-feb5f0b96d31"
-									name="CheckSinSeleccionar">
-										<testmodule
-										id="50beb32e-c7a6-4b86-ae0c-fb7f56d5219d"
-										name="ChekTodos">
-										</testmodule>
-										<testmodule
-										id="89491e95-2921-4e95-b3f6-c6a718c14f02"
-										name="ClickEnGuardarLista">
-										</testmodule>
-									</smartfoldernode>
-									<smartfoldernode
-									id="d96cab6f-287e-448b-8e93-b2999dea6652"
-									name="ListaSinCrear">
-										<testmodule
-										id="89435db3-0619-46c4-a9b4-a187c670b88e"
-										name="CrearListaCliente">
-										</testmodule>
-									</smartfoldernode>
-									<smartfoldernode
-									id="4f12ff10-2e77-446a-a952-46230f1994bb"
-									name="ListaCreada">
-										<testmodule
-										id="7562feca-0590-4ae2-bc7d-66a194fcdc1e"
-										name="SeleccionarLista">
-										</testmodule>
-									</smartfoldernode>
-								</smartfoldernode>
-								<testmodule
-								id="d45bd12e-ed5d-4730-8603-dd3d0ee00d90"
-								name="PagSiguiente">
-								</testmodule>
-							</smartfoldernode>
-						</smartfoldernode>
-						<teardown
-						id="8ad5b839-9e9a-4a16-b1f2-d3d4d9267315"
-						name="teardown">
-							<testmodule
-							id="5fd18a4f-3544-43be-bfb5-afb240c28fc2"
-							name="EliminarDuplicados">
-							</testmodule>
-							<testmodule
-							id="92909240-dbe6-47c1-ad55-753d766ffbe0"
-							name="CerrarInstanciaExcel">
-							</testmodule>
-							<testmodule
-							id="204766a3-4bb4-4440-9089-7209e84b8bf1"
-							name="LimpiaVariable">
-							</testmodule>
-							<testmodule
-							id="c445afce-d689-4c28-aee1-8843bbf4b3e3"
-							name="CloseBrowser">
-							</testmodule>
-						</teardown>
-					</testcase>
-					<testcase
 					id="4aa8448c-ebf2-40c4-bf14-0ec99cc1a0fa"
-					name="TestCase_v3">
+					name="1°Step_SalesNavigator">
 						<setup
 						id="7d75aa21-f9da-42d2-9d33-e3463c620f65"
 						name="setup">
@@ -2267,32 +890,8 @@
 						</teardown>
 					</testcase>
 					<testcase
-					id="56c79ca1-624e-440b-98eb-6e40fc3ef75f"
-					name="SalesQL_V1">
-						<setup
-						id="a0662b3e-443b-425c-8785-ae54d7f2f3d8"
-						name="setup">
-							<testmodule
-							id="32fa8387-f70a-4377-a862-c6d66f6adf16"
-							name="OpenBrowser">
-							</testmodule>
-						</setup>
-						<testmodule
-						id="2d7f8608-ef77-46fb-94f1-4b05cf7e94c2"
-						name="ExtraerDatos">
-						</testmodule>
-						<teardown
-						id="8abaf5e5-1c1f-43dc-b8fc-7e027339b924"
-						name="teardown">
-							<testmodule
-							id="ad1230f4-b0e2-47d3-8e25-998a78312041"
-							name="CloseBrowser">
-							</testmodule>
-						</teardown>
-					</testcase>
-					<testcase
 					id="f667b1c9-ecd3-4dc0-be01-a6b8f5d2cd5c"
-					name="SalesQL_V2">
+					name="2°Step_SalesQL">
 						<setup
 						id="1dd9d0cc-c259-4b2a-a9e8-3dbdcdf6e319"
 						name="setup">
@@ -2389,7 +988,7 @@
 		filename="C:\TEMP\OutputEmpresas.xlsx"
 		id="ac8ba090-df6e-4a7d-9a33-39d0c80b9c45"
 		includefile="Unchecked"
-		lastknownrowcount="0"
+		lastknownrowcount="3"
 		name="OutputEmpresas"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="DatosFiltrados"
@@ -2429,22 +1028,10 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="3f7a6ec0-2780-4cdb-9454-280223ef2d8d">
-			</testcontainer>
-			<testcontainer
-			id="499e6b14-00bf-4761-a003-8d17fbdfc08f">
-			</testcontainer>
-			<testcontainer
-			id="4aa8448c-ebf2-40c4-bf14-0ec99cc1a0fa">
-			</testcontainer>
-			<testcontainer
-			id="51e0a822-81c9-485d-a639-c9f358f25d89">
-			</testcontainer>
-			<testcontainer
-			id="737d8f5f-4f5e-4834-a377-feaa91903c62">
-			</testcontainer>
-			<testcontainer
 			id="da06e631-eb8e-4890-a623-73bc5b00e041">
+			</testcontainer>
+			<testcontainer
+			id="f667b1c9-ecd3-4dc0-be01-a6b8f5d2cd5c">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

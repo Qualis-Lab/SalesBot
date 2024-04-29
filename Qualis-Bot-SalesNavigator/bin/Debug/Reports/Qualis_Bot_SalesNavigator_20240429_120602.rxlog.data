@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="4.3m"
+		durationms="256006"
+		type="root"
+		rid="a972ed75521e9a8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Juan Cruz Diana"
+		rxversion="11.1.2.0"
+		host="DESKTOP-6E7CPKS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="1366x768"
+		timestamp="29/4/2024 12:06:02"
+		timestampiso="2024-04-29T15:06:02"
+		endtime="29/4/2024 12:10:18"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="4.1m"
+			durationms="243424"
+			type="test-suite"
+			rid="bb112bec70e0d44"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="Qualis_Bot_SalesNavigator"
+			headertext="Qualis_Bot_SalesNavigator"
+			runconfigname="TestRun"
+			runlabel=""
+			reportdescription="">
+			<params>
+				<param
+					name="pathArchivoOutput">
+					C:\TEMP\OutputEmpresas.xlsx
+				</param>
+			</params>
+			<activity
+				result="Failed"
+				duration="4m"
+				durationms="240954"
+				type="iteration-container"
+				rid="26b2437cc83b4f84"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="SalesQL_V2"
+				headertext="SalesQL_V2"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="f667b1c9-ecd3-4dc0-be01-a6b8f5d2cd5c"
+				datasource="OutputEmpresas"
+				dataiterationcount="3">
+				<params>
+					<param
+						name="index">
+					</param>
+				</params>
+				<activity
+					result="Failed"
+					duration="4m"
+					durationms="240909"
+					type="test-case"
+					rid="11bd471ea8b7fde0"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="SalesQL_V2"
+					testcontainerid="f667b1c9-ecd3-4dc0-be01-a6b8f5d2cd5c"
+					headertext="SalesQL_V2"
+					displayName="SalesQL_V2"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Pais">
+							Argentina
+						</field>
+						<field
+							name="Industria">
+							Fabricación de productos de cuidado personal
+						</field>
+						<field
+							name="Empresa">
+							L'Oréal
+						</field>
+						<field
+							name="Nombre y apellido">
+							Lucia Duarte
+						</field>
+						<field
+							name="Cargo actual">
+							E-commerce Key Account Manager SR
+						</field>
+						<field
+							name="LinkedIn">
+							https://www.linkedin.com/sales/lead/ACwAAC6AIPkB4dDgrXOFwqiW8bk5JMYucnq6mc4,NAME_SEARCH,d6sV?_ntb=rCE5i%2F4DQcindANuV%2F0f1w%3D%3D
+						</field>
+						<field
+							name="Email">
+							duarte.luuu@gmail.com , lucia.duarte@loreal.com ,&#32;
+						</field>
+						<field
+							name="Celular">
+							+54 ...... , +60 ...... , +33 ...... ,&#32;
+						</field>
+					</datarow>
+					<activity
+						result="Failed"
+						duration="4m"
+						durationms="240831"
+						type="test-module"
+						rid="2e43067115ee598"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="ExtraerDatos"
+						displayName="ExtraerDatos"
+						moduleid="64abd961-30b3-4128-87fa-642fbb73ced9"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<detail>
+							Extraemos los datos del SalesSQL y los ingresamos en la hoja &quot;DatosFiltrados&quot; de OutputEmpresa.xlxs
+						</detail>
+						<varbindings>
+							<varbinding
+								name="index"
+								value="">
+							</varbinding>
+							<varbinding
+								name="Linkedin"
+								value="https://www.linkedin.com/sales/lead/ACwAAC6AIPkB4dDgrXOFwqiW8bk5JMYucnq6mc4,NAME_SEARCH,d6sV?_ntb=rCE5i%2F4DQcindANuV%2F0f1w%3D%3D">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.624"
+							timeRelativeToTestModuleStartTime="00:00.031"
+							timeWallClock="12:06:17"
+							time="00:02.624"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$index = '', $Linkedin = 'https://www.linkedin.com/sales/lead/ACwAAC6AIPkB4dDgrXOFwqiW8bk5JMYucnq6mc4,NAME_SEARCH,d6sV?_ntb=rCE5i%2F4DQcindANuV%2F0f1w%3D%3D'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.756"
+							timeRelativeToTestModuleStartTime="00:00.164"
+							timeWallClock="12:06:17"
+							time="00:02.756"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'Chrome.SalesQLBrowserExtensionButton' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@processname='chrome']//button[@accessiblename>'SalesQL Browser Extension']"
+								itempath=".//button[@accessiblename>'SalesQL Browser Extension']"
+								fullname="Qualis_Bot_SalesNavigatorRepository.Chrome.SalesQLBrowserExtensionButton"
+								id="b74bdfe06def4c1d8faf58e631b4e180"
+								timeout="60000"
+								codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+								codeline="106"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:20.861"
+							timeRelativeToTestModuleStartTime="00:18.268"
+							timeWallClock="12:06:35"
+							time="00:20.861"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 10s.
+							</message>
+							<metainfo
+								itemindex="1"
+								codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+								codeline="110"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:31.172"
+							timeRelativeToTestModuleStartTime="01:28.579"
+							timeWallClock="12:07:45"
+							time="01:31.172"
+							level="Info"
+							category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'ContAndFail_Chrome.NextButton' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@processname='chrome']//container[@accessiblename='SalesQL']//text[@accessiblename='chevron_right']"
+								itempath=".//container[@accessiblename='SalesQL']//text[@accessiblename='chevron_right']"
+								fullname="Qualis_Bot_SalesNavigatorRepository.ContAndFail_Chrome.NextButton"
+								id="4a50e8753ff443bbaa45ebc9b67794e0"
+								timeout="30000"
+								codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.UserCode.cs"
+								codeline="153"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:32.496"
+							timeRelativeToTestModuleStartTime="01:29.903"
+							timeWallClock="12:07:47"
+							time="01:32.496"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 5s.
+							</message>
+							<metainfo
+								itemindex="5"
+								codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+								codeline="128"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:41.912"
+							timeRelativeToTestModuleStartTime="01:39.319"
+							timeWallClock="12:07:56"
+							time="01:41.912"
+							level="Info"
+							category="User">
+							<message>
+								Estoy en el if validando ObtenerEmail: duarte.luuu@gmail.com. No est&#225; en la lista de Email:&#32;
+							</message>
+							<metainfo
+								codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.UserCode.cs"
+								codeline="50"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:41.947"
+							timeRelativeToTestModuleStartTime="01:39.354"
+							timeWallClock="12:07:56"
+							time="01:41.947"
+							level="Info"
+							category="User">
+							<message>
+								index= 2
+							</message>
+							<metainfo
+								codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.UserCode.cs"
+								codeline="56"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:45.637"
+							timeRelativeToTestModuleStartTime="01:43.044"
+							timeWallClock="12:08:00"
+							time="01:45.637"
+							level="Info"
+							category="User">
+							<message>
+								Estoy en el if validando ObtenerEmail: lucia.duarte@loreal.com. No est&#225; en la lista de Email: duarte.luuu@gmail.com ,&#32;
+							</message>
+							<metainfo
+								codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.UserCode.cs"
+								codeline="50"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:45.688"
+							timeRelativeToTestModuleStartTime="01:43.095"
+							timeWallClock="12:08:00"
+							time="01:45.688"
+							level="Info"
+							category="User">
+							<message>
+								index= 3
+							</message>
+							<metainfo
+								codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.UserCode.cs"
+								codeline="56"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:45.820"
+							timeRelativeToTestModuleStartTime="02:43.227"
+							timeWallClock="12:09:00"
+							time="02:45.820"
+							level="Info"
+							category="User">
+							<message>
+								Emails encontrados: duarte.luuu@gmail.com , lucia.duarte@loreal.com ,&#32;
+							</message>
+							<metainfo
+								codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.UserCode.cs"
+								codeline="67"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:48.415"
+							timeRelativeToTestModuleStartTime="02:45.823"
+							timeWallClock="12:09:03"
+							time="02:48.415"
+							level="Info"
+							category="User">
+							<message>
+								Excel guardado y cerrado correctamente
+							</message>
+							<metainfo
+								codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.UserCode.cs"
+								codeline="140"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:57.706"
+							timeRelativeToTestModuleStartTime="02:55.113"
+							timeWallClock="12:09:12"
+							time="02:57.706"
+							level="Info"
+							category="User">
+							<message>
+								Estoy en el if validando ObtenerPhone: +54 ....... No est&#225; en la lista de Phone:&#32;
+							</message>
+							<metainfo
+								codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.UserCode.cs"
+								codeline="91"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:04.099"
+							timeRelativeToTestModuleStartTime="03:01.506"
+							timeWallClock="12:09:18"
+							time="03:04.099"
+							level="Info"
+							category="User">
+							<message>
+								Estoy en el if validando ObtenerPhone: +60 ....... No est&#225; en la lista de Phone: +54 ...... ,&#32;
+							</message>
+							<metainfo
+								codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.UserCode.cs"
+								codeline="91"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:10.742"
+							timeRelativeToTestModuleStartTime="03:08.150"
+							timeWallClock="12:09:25"
+							time="03:10.742"
+							level="Info"
+							category="User">
+							<message>
+								Estoy en el if validando ObtenerPhone: +33 ....... No est&#225; en la lista de Phone: +54 ...... , +60 ...... ,&#32;
+							</message>
+							<metainfo
+								codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.UserCode.cs"
+								codeline="91"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:03.422"
+							timeRelativeToTestModuleStartTime="04:00.829"
+							timeWallClock="12:10:18"
+							time="04:03.422"
+							level="Error"
+							category="Module">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

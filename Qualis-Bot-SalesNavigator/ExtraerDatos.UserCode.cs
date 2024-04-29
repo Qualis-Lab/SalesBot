@@ -140,5 +140,20 @@ public void ObtenerValoresEmail()
 			Report.Info("Excel guardado y cerrado correctamente");
 			
 		}
+
+        public void clickEnObtenerDatosONext()
+        { 
+                     
+            if(repo.ContAndFail_Chrome.ObtenerDatosButtonInfo.Exists()){
+            	Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ContAndFail_Chrome.ObtenerDatosButton' at Center.", repo.ContAndFail_Chrome.ObtenerDatosButtonInfo, new RecordItemIndex(0));
+            repo.ContAndFail_Chrome.ObtenerDatosButton.Click();
+            }
+            else	
+            {
+            Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ContAndFail_Chrome.NextButton' at Center.", repo.ContAndFail_Chrome.NextButtonInfo, new RecordItemIndex(4));
+                repo.ContAndFail_Chrome.NextButton.Click();
+            }
+            
+        }
 	}
 }

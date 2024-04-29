@@ -156,7 +156,7 @@ namespace Qualis_Bot_SalesNavigator
 							
 							if (puestoPersona.Contains(keyword)){
 								GuardarExcel(pais, industria, nombreEmpresa, nombrePersona, puestoPersona, linkPersona, "DatosFiltrados");
-								
+								EliminarDuplicados();
 							}
 							
 							break;

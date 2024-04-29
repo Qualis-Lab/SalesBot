@@ -155,7 +155,7 @@ M0UUmMYhLwW+47s2rE55zwtPtv8Aj7i94M/jmiim9xdAAC6iAowC7ZA7/KDVXV/+Psf7g/maKKcN
 			</helperscreenshot>
 		</mouseitem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="13000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -163,169 +163,23 @@ M0UUmMYhLwW+47s2rE55zwtPtv8Aj7i94M/jmiim9xdAAC6iAowC7ZA7/KDVXV/+Psf7g/maKKcN
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
+		<userrecorditem
+		classname="ExtraerDatos"
 		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="True"
-		searchpropertyid="80c583b8-14b4-47c5-b1f1-19a0882d7fe2"
-		sx="1443"
-		sy="-855"
-		warnoutofbounds="False">
+		isexternaltestmethod="False"
+		methodname="clickEnObtenerDatosONext"
+		namespace="Qualis_Bot_SalesNavigator"
+		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<info
-			id="5104c1b5-d0b6-40c0-a47f-4aa1b80b1a2f"
-			sourcename="Recorder">
-				<element
-				capabilities="accessible"
-				dontcache="False"
-				enabled="True"
-				flavor="msaa"
-				hasfocus="False"
-				index="0"
-				prefcap="text"
-				rect="1429,-868,25,25"
-				role="text"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="caption"
-					type="System.String">
-						add
-					</attribute>
-					<attribute
-					name="text"
-					type="System.String">
-						add
-					</attribute>
-					<attribute
-					name="accessibledefaultaction"
-					type="System.String">
-						hacer clic en principal
-					</attribute>
-					<attribute
-					name="accessiblename"
-					type="System.String">
-						add
-					</attribute>
-					<attribute
-					name="accessiblerole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						StaticText
-					</attribute>
-					<attribute
-					name="accessiblestate"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						None
-					</attribute>
-					<attribute
-					name="accessiblevalue"
-					type="System.String">
-					</attribute>
-				</element>
-				<path>
-					/form[@title='']/element[@controlid='87567552']/container[@accessiblename='SalesQL']/container[2]/container[5]/container[@accessiblerole='Grouping']/text[@accessiblename='add']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-			<helperscreenshot
-			guid="04fc2b98-6e8f-4211-b3a2-0fc08111eae8">
-				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
-YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACWAJYDASIA
-AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoqhLB
-LhixwCKlByPT2NLQBC0yFSF+YngDFPiXYgUnNPooAa3QcdxSsMqR14pByc8j2p1ACDpQTgE+lIOD
-jk570vWgCuxEvJMY9MnmpIpMtsO3gdVPFP2L/dH5UoVR0AH4UALTV6njvSk9hnn9KAMDFAC1Bf8A
-/Hhcf9cm/kanqC//AOPC4/65N/I01uDOPooorrOUKKKKACiiigDtiATkjpSbRjHP5mjcKNwrjOoX
-aMk88+9G0ccdPWk3CjcKAHUU3cKNwoAdTdo7cfTijcKNwoANo568+5pdoz3/ADpNwo3CgBQABgDA
-pabuFG4UAOqC/wD+PC4/65N/I1LuFQXzD7Bcf9cm/kaa3EzkaKKK6zmCiiigAooooA7bFGKWiuM6
-hMUYpaKAExRilooATFGKWigBMUYpaKAExRilooATFQXw/wBAuP8Ark38jViorpQ9rMp6MjD9KAON
-orZGjwEffk/Mf4Uv9jQf35PzH+FdHtImHs2YtFbX9jQf35PzH+FH9jQf35PzH+FHtIh7NmLRW1/Y
-0H9+T8x/hRR7SIezZu0UUVzm4UUUUAFFFFABRRVPUL/7F5f7rfvz/FjGMf40m7FRi5vlRcorH/tw
-/wDPqf8Avv8A+tR/bh/59T/33/8AWouaewqf00bFFY/9uH/n1P8A33/9armn3/23zP3WzZj+LOc5
-/wAKLoUqM4rma/FFymTf6l/900+mS/6p/wDdNMyI1T5adsp6/dpaAI9lGypKKAI9lFSUUALRRRQA
-UUUUAFFFFABWPr/W3/4F/StisfX+tv8A8C/pSZtQ/iff+Rl1K1u62q3BK7GbaB3ot/s+T9o83Hby
-8f1q7OYjp8aQRSPGqySndIFIC4z2PrXbKXKc5m1qaB1uP+A/1rPn8nf/AKP5mzH8eM5/CtDQOtx/
-wH+tY1/sm9L+HP5fmbFMl/1T/wC6afTJf9U/+6axMhV+7S0i/dpaACiiigAooooAWiomdy7hNuEH
-Oe9MRpHmQ7gAY8kY/wDr0AWKKKKACiiigArH1/rb/wDAv6VsVT1Cw+2+X+98vZn+HOc4/wAKT2Na
-MlGacvP8jn6t2sjyxzQBc7bWbaAOSTtqw2gllK/auox9z/69WdNhgW4dhGsNzEvlyoh+U5wQQPfA
-raVXmVrESjGL0dynLo378rDJLGDNsBPzALsznn34p3hwllnY9SFP8623YIjOxwFGSazNEtPs9osm
-/d5yI2MYxx/9esZNtouEkoST6/5mlTJf9U/+6afTJf8AVP8A7ppmQq/dpaRfu0tABRRRQAUUUUAM
-eIMxO5lyMHHegRAbNrMNo2/UVJRQA3acffbp7f4U6iigAooooAKKKKACq1zamV1lhkMM68CQDOR6
-EdxVmigClLZz3I2XV1uh7pGmzd9Tk8VdoooAKZL/AKp/900+mS/6p/8AdNACr92lpF+7S0AFFFFA
-BRRRQAtFLtPr+lG0+v6UAJRS7T6/pRtPr+lACUUu0+v6UbT6/pQAlFLtPr+lG0+v6UAJRS7T6/pR
-tPr+lACUUu0+v6UbT6/pQAlMl/1T/wC6ak2n1/SmSqfKfn+E0AC/dpaRfu0tABRRRQAUUUUAPooo
-oAKKKKACiiigAooooAKKKKACiiigApsv+pf/AHTTqbL/AKl/900ANX7tLSL92loAKKKKACiiigB9
-FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFNl/1L/7poooAav3aWiigAooooAKKKKAP/9k=
-			</helperscreenshot>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="True"
-		searchpropertyid="80c583b8-14b4-47c5-b1f1-19a0882d7fe2"
-		sx="1443"
-		sy="-855"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="4a50e875-3ff4-43bb-aa45-ebc9b67794e0"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="accessible"
-				dontcache="False"
-				enabled="True"
-				flavor="msaa"
-				hasfocus="False"
-				index="0"
-				prefcap="text"
-				rect="1186,226,25,25"
-				role="text"
-				snapElem=""
-				valid="False"
-				visible="True">
-					<attribute
-					name="accessiblerole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						None
-					</attribute>
-					<attribute
-					name="accessiblestate"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						None
-					</attribute>
-				</element>
-				<path>
-					/form[@processname='chrome']//text[@accessiblename='chevron_right']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</mouseitem>
+			<arguments
+			id="c76dec67-178a-4175-ae0a-90351cc65eee">
+			</arguments>
+		</userrecorditem>
 		<explicitdelayitem
-		duration="5000ms"
+		duration="7000ms"
 		enabled="True"
 		optional="False">
 			<comment>

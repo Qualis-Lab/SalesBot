@@ -655,190 +655,18 @@ LwAAAABJRU5ErkJggg==
 		searchtimeout="30000ms"
 		usecache="True">
 			<item
-			addcaps="text,accessible"
-			capname="text"
-			id="a97df680-f8f0-4dee-815e-c2c425117cb2"
-			name="AbrirWaalaxy"
-			refimgid="5e97730b-00f3-46a3-b391-257bcb87170e"
-			robustPath=""
-			searchtimeout="30000ms">
-				/form[@processname='chrome']/element[@controlid='301008320']/container[@accessiblename='React App']/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[2]/button[@accessiblename='Abrir Waalaxy']/text[@accessiblename='Abrir Waalaxy']
-			</item>
-			<item
-			addcaps="container,accessible"
-			capname="container"
-			id="d88bace6-94fe-4067-9b3a-e311abfb65ce"
-			name="Grouping"
-			refimgid="d6840d0f-c379-4494-bf5d-268472976ecb"
-			robustPath=""
-			searchtimeout="30000ms">
-				/form[@processname='chrome']/element[@controlid='87567552']/container[@accessiblename='SalesQL']/container[2]
-			</item>
-			<item
-			addcaps="container,accessible"
-			capname="container"
-			id="f5f2a3e8-a7cf-40f6-8b3a-3bef05a2007f"
-			name="Grouping1"
-			refimgid="c57bd9fd-4073-4937-8ff2-85c57a45859a"
-			robustPath=""
-			searchtimeout="30000ms">
-				/form[@processname='chrome']/element[@controlid='87567552']/container[@accessiblename='SalesQL']/container[3]
-			</item>
-			<item
-			capname="form"
-			id="392c212c-7165-4dfd-8339-1d244a49b282"
-			name="PadrePhone"
-			robustPath="/form[@title='']/element"
-			searchtimeout="30000ms">
-				/form[@processname='chrome']/container[@accessiblerole='Pane']/container[@accessiblerole='Pane']//container[@accessiblename='SalesQL']//form[@accessiblename='dialog']
-			</item>
-			<item
 			addcaps="button,accessible"
 			capname="button"
 			id="b74bdfe0-6def-4c1d-8faf-58e631b4e180"
-			name="SalesQLBrowserExtensionTieneAccesoA"
+			name="SalesQLBrowserExtensionButton"
 			refimgid="9e70ade8-8626-48a6-b42b-f78714264a62"
 			refpath="/form[@title>'ZAPADA EN RED HOUSE STUDIOS:']/container/container/container/container[2]/container[1]/toolbar[1]/container[3]/container[2]/button[@accessiblename>'SalesQL Browser Extension']"
 			robustPath=""
 			searchtimeout="30000ms">
 				/form[@processname='chrome']//button[@accessiblename&gt;'SalesQL Browser Extension']
 			</item>
-			<item
-			addcaps="container,accessible"
-			capname="container"
-			id="2b46c24c-4c12-45b9-b121-dedaf17d494b"
-			name="Grouping2"
-			refimgid="ba7aa39b-e41b-4f55-8362-6a94ae4e1a62"
-			refpath="/form[@title='Reunión | Microsoft Teams - Google Chrome']/element[@automationid='172792320']/container[@accessiblename='Reunión | Microsoft Teams']/container[@accessiblerole='Grouping']/container[1]/container[1]/container[3]/container[@accessiblerole='Grouping']/container[2]/container[1]/container[@accessiblerole='Grouping']/container[@accessiblename='Vista de contenido compartido']/container[2]/contextmenu[@accessiblerole='MenuPopup']/menuitem[@accessiblename='Contenido compartido por Jorge Alfonso Gonzalez Meza']/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']"
-			robustPath=""
-			searchtimeout="30000ms">
-				/form[@processname='chrome']//menuitem[@accessiblename&gt;'Contenido compartido por Jorge']/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']
-			</item>
-			<item
-			addcaps="text,accessible"
-			capname="text"
-			id="ad9c17f2-19d5-42f2-b344-822dc4447b4c"
-			name="Phones"
-			refimgid="dab282b3-1d9c-40bb-8cc7-2d1914056045"
-			refpath="/form[@title='']/element[@controlid='236664576']/container[@accessiblename='SalesQL']/container[2]/container[7]/container[2]/text[@accessiblename='Phones']"
-			robustPath=""
-			searchtimeout="30000ms">
-				/form[@processname='chrome']//text[@accessiblename='Phones']
-			</item>
-			<item
-			addcaps="text,accessible"
-			capname="text"
-			id="2107f25a-c824-4ef0-8395-33cab6d8a251"
-			name="Profile"
-			refimgid="dab282b3-1d9c-40bb-8cc7-2d1914056045"
-			robustPath=""
-			searchtimeout="30000ms">
-				/form[@processname='chrome']//button[@accessiblename&gt;'perm_contact_calendar Pro']/text[@accessiblename='Profile']
-			</item>
-			<item
-			addcaps="text,accessible"
-			capname="text"
-			id="13246829-bede-4085-b53a-139659abede9"
-			name="MgAtjhuEdu"
-			refimgid="3f301a17-c710-4c54-9410-43088061e61e"
-			refpath="/form[@title='']/container[@accessiblerole='Pane']/container[@accessiblerole='Pane']/container[2]/container[1]/container[@accessiblename='SalesQL']/container[2]/container[6]/container[@accessiblename='mg@jhu.edu']/text[@accessiblename='mg@jhu.edu']"
-			robustPath=""
-			searchtimeout="30000ms">
-				/form[@processname='chrome']//text[@accessiblename='mg@jhu.edu']
-			</item>
-			<item
-			addcaps="text,accessible"
-			capname="text"
-			id="e88fd105-1705-43b3-8aa5-e4ae4beab275"
-			name="Label"
-			refimgid="5a3396f0-5b77-4236-b979-d01e4c692009"
-			refpath="/form[@title='']/element[@controlid='154748816']/container[@accessiblename='SalesQL']/container[2]/container[@accessiblename='label 0']/container[@accessiblerole='Grouping']/text[@accessiblename='label']"
-			robustPath=""
-			searchtimeout="30000ms">
-				/form[@processname='chrome']//text[@accessiblename='label']
-			</item>
-			<item
-			addcaps="container,accessible"
-			capname="container"
-			id="b163b1cc-7c4b-4b30-af76-e5750465fc8c"
-			name="N1er_email"
-			refimgid="6700f4f6-594e-4dfb-8b65-c07dcf0f6c49"
-			robustPath=""
-			searchtimeout="30000ms">
-				/form[@processname='chrome']//container[@accessiblename~'@']
-			</item>
-			<item
-			addcaps="menuitem,uiautomation,uiautomationinvoke,uiautomationscrollitem,uiautomationtoggle"
-			capname="menuitem"
-			id="28648ab9-bfe4-430e-915d-523c2afd88d9"
-			name="SalesQLBrowserExtensionTieneAccesoA1"
-			refimgid="799f7f8d-81c6-4487-9b7c-f124d54470c7"
-			refpath="/form[@title='c# - Ranorex XPATH Issue - Stack Overflow - Google Chrome']/container[@iscontrolelement='True']/container[@iscontrolelement='True']/container[2]/container[1]/toolbar[@iscontrolelement='True']/container[3]/container[2]/menuitem[@name='SalesQL Browser ExtensionTiene acceso a este sitio']"
-			robustPath=""
-			searchtimeout="30000ms">
-				/form[@processname='chrome']//menuitem[@name&gt;'SalesQL Browser Extension']
-			</item>
 			<basepath>
 				/form[@processname='chrome']
-			</basepath>
-			<icon>
-				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
-jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKpSURBVDhPZdPJTxNxFAfwOUmCURDjgkGoIMjW
-TqFqCJZ2CiogIEQ9mYiJ0XjyD1BBr16kBSSVRYp7TDh6MCIWkDUmjJ64WVO6EZYW0LjM8Pv65tcR
-QV7yyfc3nfdemulU+L/m7RYp7LC45sotvrnyoyCMruWIZPGE7aJBb9taPruYHJYszojDAg2dWVgq
-pvwnZCe2IqfWq4/FS/sgJBXL1MCH6EzNRQjaihjPMjMLbDBrNcmbloRsZic1aY3rAlai5+wJEyOY
-tYramfOXmpx8WHxZb3h8tSx+0yoyP90MX6jCz+mPCMzGsPKDgUW9WJProEwWM5UrAmHKhCgJ5ucN
-nkp3LWYcIm01Ini+kg9e93zDsbsx7qJ7FcGFGNTpKigTRqgTJijjRqaMF7oE05OzsvlpPe7dKMPX
-kgJ8Hx5Ebcsyiu/ESHTdtd5VsNgU1PF8ThnLY8QnGPvqYOyrZSWdZzBZISIYXYPYvMSZm6NEy/h1
-YD5KgzlQRrNpOFtLCIW9NSjQXWmSmN8fhbFpCcbbi4RSO/PrJf481NFM3SFOyO+u9uX3VLO8nmpQ
-Yir0GZe7l5F/a3FdATnXHgNbeAP1Q7ruIJSRNFnI66x05nZVIreriit/0YiZyDIa2qPIvbnANdLC
-mcgKlKnjUIYPkFSoI6m0INUjHHFXSDnuU8h5eBp/0/HsEga+jPGvrC2bDH5C6+saGtwLlShDezh4
-98Vf7ayOCidhhztOaqDJelDBNNrZ1kW/0Nv9UId202AKFG8K1oZ2xV8krTKc9uTMNoec2V6OLKIl
-1+bg+aifnvj7JKZ4d1KSwR0yvEmb/w/akoxWu8vgkmBo1bkkZnWX0tB2XSINJ7q2DG8sWmQgfekt
-Njn9vo296k/D73fbfL8GElzKQIKkt+klCH8ARJYkm8QxdZEAAAAASUVORK5CYII=
-			</icon>
-		</appfolder>
-		<appfolder
-		addcaps="form,nativewindow"
-		capname="form"
-		id="dc0e2b21-8ce1-4533-9f6a-9a4c5f7457dd"
-		isrooted="True"
-		name="SalesQL"
-		searchtimeout="30000ms"
-		usecache="True">
-			<item
-			addcaps="button,accessible"
-			capname="button"
-			id="4fc075cf-db1e-445b-9f67-ec45e9c215dc"
-			name="WaalaxyProspeccionLinkedInAutomatiz"
-			refimgid="cb925525-b53a-4b5b-b19b-b5de8268bcea"
-			robustPath=""
-			searchtimeout="30000ms">
-				/form[@title~'| Sales']/container[@accessiblename&gt;'Fernando Izquierdo | Sales']/container[@accessiblerole='Pane']/container[@accessiblerole='Pane']/container[2]/container[1]/toolbar[@accessiblerole='ToolBar']/container[@accessiblerole='Pane']/button[@accessiblename&gt;'Waalaxy - Prospecci&#243;n LinkedIn']
-			</item>
-			<item
-			addcaps="button,accessible"
-			capname="button"
-			id="598eb009-a6f6-425a-9b4e-6f9cf8757888"
-			name="SalesQLBrowserExtensionTieneAccesoA"
-			refimgid="18dd336b-f81a-4b66-8175-13d4807f2f8a"
-			robustPath=""
-			searchtimeout="30000ms">
-				/form[@title~'| Sales']//container[@accessiblerole='Pane']/container[@accessiblerole='Pane']//toolbar[@accessiblerole='ToolBar']/container[@accessiblerole='Pane']/button[@accessiblename&gt;'SalesQL Browser Extension']
-			</item>
-			<item
-			addcaps="listitem,accessible"
-			capname="listitem"
-			id="1a5c7a62-a3e6-49aa-a093-12184531b7cf"
-			name="ListItem34FeedLinkedInGoogleCh"
-			refimgid="1f7db7d9-4dce-486e-a378-859a923c8c39"
-			refpath="/form[@title='']/list/listitem[@accessiblename>'(34) Feed | LinkedIn - Google']"
-			robustPath=""
-			searchtimeout="30000ms">
-				/form[@title~'| Sales']/?/?/listitem[@accessiblename&gt;'(34) Feed | LinkedIn - Google']
-			</item>
-			<basepath>
-				/form[@title~'| Sales']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
@@ -865,54 +693,13 @@ Njn9vo296k/D73fbfL8GElzKQIKkt+klCH8ARJYkm8QxdZEAAAAASUVORK5CYII=
 		searchtimeout="0ms"
 		usecache="False">
 			<item
-			addcaps="container,accessible"
-			capname="button"
-			id="0f96f12e-43d8-4ca4-bc8e-bcf0358d08e3"
-			name="Btn_Close"
-			refimgid="ca56ce60-c5ae-4cd7-be95-e0a34d4fbff0"
-			robustPath=""
-			searchtimeout="3000ms">
-				/form[@processname='chrome']//button[@accessiblename='close']
-			</item>
-			<item
-			addcaps="text,accessible"
-			capname="container"
-			id="d8afebda-fc25-4157-b19b-923391f88001"
-			name="WaitFor_DatosEmailPhone"
-			refimgid="310e8643-5fab-4d44-9911-fa7a2976ad9f"
-			robustPath=""
-			searchtimeout="6000ms">
-				/form[@processname='chrome']//container[@accessiblename='SalesQL' or @caption='SalesQL']//container[@accessiblename~'email' and @accessiblename~'[0-9]' or @accessiblename~'phone ' and @accessiblename~'[0-9]']
-			</item>
-			<item
-			addcaps="text,accessible"
-			capname="text"
-			id="488de95a-7d6e-4b18-8a34-234ccfc2ed3a"
-			name="Emails"
-			refimgid="0b5a7860-5abf-4e92-a2a3-2be985c4acdb"
-			refpath="/form[@title='']/element[@controlid='72824048']/container[@accessiblename='SalesQL']/container[2]/container[4]/container[2]/text[@accessiblename='Emails']"
-			robustPath=""
-			searchtimeout="30000ms">
-				/form[@processname='chrome']//text[@accessiblename='Emails']
-			</item>
-			<item
-			addcaps="text,accessible"
-			capname="container"
-			id="4c4e20ad-f2d4-4ae4-885b-dd11a724dc7d"
-			name="Phone"
-			refimgid="ff313fab-7ff9-439a-953c-28e0a06e8d29"
-			robustPath=""
-			searchtimeout="6000ms">
-				/form[@processname='chrome']//container[@accessiblename='SalesQL']//container[@accessiblename~'phone ' and @accessiblename~'[1-9]']
-			</item>
-			<item
 			addcaps="text,accessible"
 			capname="text"
 			id="1719f219-17d8-4d14-b691-985db7e00005"
 			name="ObtenerPhoneNew"
 			refimgid="b7d46f82-b94b-44c4-9ad6-bbb209115a48"
 			robustPath=""
-			searchtimeout="30000ms">
+			searchtimeout="10000ms">
 				/form[@processname='chrome']//container[@accessiblename='SalesQL']//text[@accessiblename~'\+' and @accessiblename~'[0-9]'][$index]
 			</item>
 			<item
@@ -922,72 +709,32 @@ Njn9vo296k/D73fbfL8GElzKQIKkt+klCH8ARJYkm8QxdZEAAAAASUVORK5CYII=
 			name="ObtenerEmailNew"
 			refimgid="8404cae7-e6a4-4c94-8fb9-384ad9b59f18"
 			robustPath=""
-			searchtimeout="30000ms">
+			searchtimeout="10000ms">
 				/form[@processname='chrome']//container[@accessiblename='SalesQL']//text[@accessiblename~'@' and @accessiblename~'.'][$index]
 			</item>
 			<item
 			addcaps="text,accessible"
 			capname="text"
 			id="5104c1b5-d0b6-40c0-a47f-4aa1b80b1a2f"
-			name="TextAdd"
+			name="ObtenerDatosButton"
 			refimgid="898349ec-1903-4006-a551-d629648474d1"
 			robustPath=""
-			searchtimeout="30000ms">
+			searchtimeout="10000ms">
 				/form[@processname='chrome']//container[@accessiblename='SalesQL']//text[@accessiblename='add']
 			</item>
 			<item
 			addcaps="text,accessible"
 			capname="text"
 			id="4a50e875-3ff4-43bb-aa45-ebc9b67794e0"
-			name="ChevronRight"
+			name="NextButton"
 			refimgid="1d723dad-71a5-4384-9e90-c2cb76edbdbd"
 			robustPath=""
-			searchtimeout="30000ms">
+			searchtimeout="10000ms">
 				/form[@processname='chrome']//container[@accessiblename='SalesQL']//text[@accessiblename='chevron_right']
 			</item>
 			<basepath>
 				/form[@processname='chrome']
 			</basepath>
-		</appfolder>
-		<appfolder
-		addcaps="host,nativewindow"
-		capname="host"
-		id="57d8bec6-8978-4106-8676-6eb27caad344"
-		isrooted="True"
-		name="DESKTOPJD9OLAE"
-		refimgid="9c732bc0-6ea2-4790-a05a-2f7d6cbb109e"
-		refpath=""
-		searchtimeout="30000ms"
-		usecache="True">
-			<item
-			addcaps="host,nativewindow"
-			capname="host"
-			id="3f21db3e-ade8-44d8-8dcb-a17b64855f64"
-			name="DESKTOPJD9OLAE"
-			refimgid="f78a3625-49b3-4a91-9838-11d394abab42"
-			refpath=""
-			robustPath=""
-			searchtimeout="30000ms">
-			</item>
-			<basepath>
-			</basepath>
-			<icon>
-				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
-dC5ORVQgdjMuMzE3g3eGAAACtUlEQVQ4T62S6zOUYRiH9w/qYzM1o5moMUyNShmHpISUNhIrHRxW
-DjmXpcah2Ky1TcsSa5ZQ0u62csxxMI4p6URGWFlXz6rGNPu1e+b98sx7Xc/v996v5L/N4OgcPYPT
-WPomaH8zSotpGENbP3UtvVQbutDUWVDVmCjVtlOsaeMPtjNd/VNcfwwyNVwuh4ulEFoMQfchQGHj
-5B0rPlkreN1eRKFsdBQYO8eIroAHz6GgCbLqQa6DqxoIV0JIoV20iU/mCndKDY6CFuMQ4WWgEHCG
-gBOrIKYSpOIsWMCn8n7inbHM0VvzZBfXOwr0rX2cL4H0OkjQQrSoIhU1zooK/nc38MpY4oj8Pe6x
-o6QXPnUUVBk6t1+OewJRKgh78Bu2d7f39kh8h/vVEVwiOki9p3MUqGvN2x2viA94QcCBBeCXu86J
-tG94xM/iFjOES7iFfeeaSVJoHQVlYj2+OWuEihpn8rfwzV7leOoXDsdN4yobwFlqxinkGXtP15KQ
-+9hRUFT5HK/07wTk2/DJ/oFn8mcO3ZzENfqtgI04BTeyJ0DHbj8NN7IqHAUKZRNzn6xMza8zPrfG
-yMwqA5M/6B1bobXzI7UvJijWWgjtCkWWpvxXkJLz8KBG/3pTqXtJYWWz2HM9afe0xOeokKWUII0v
-IEiWjd+lFI4Fx+HmL9u8lFAU+QeXSDQNFv7Opm2LNauNpZWfzH+1MikS2dN0iySmwWVae5aoaZvl
-gHfkTgp1nXkbjjXFsm7d4oNhFwuLG8wsWGl8NUjFU6NIped6porYDBUlugH2n4jYEZTXGrGJm6sG
-9AxPLDA7VE579zRNpnFqWkdQN/RTUt2NQt1BziMzmWVG9nlKdwRFmma5eMhT6sVfVo38biXX0suI
-TCok7EYegVGZ+EqTt/u7+8fg7BVhF8glEonkF6m1M1/+IilrAAAAAElFTkSuQmCC
-			</icon>
 		</appfolder>
 		<appfolder
 		addcaps="form,uiautomation,nativewindow,windowsapp"
@@ -1006,35 +753,6 @@ TCok7EYegVGZ+EqTt/u7+8fg7BVhF8glEonkF6m1M1/+IilrAAAAAElFTkSuQmCC
 jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABpSURBVDhPvY5RCsAgDEM9wo7g/S+xj33sWI7K
 GmLJRzthgWdJNMXWjj62kGEFO7I6rxuYyguilgXTFECHjRLn8a3N1ALGM5///8DBHRslzmfhBZ6N
 khciuFtMAXTcfBEWbCHDCjJM08cD1Co8sNecEm0AAAAASUVORK5CYII=
-			</icon>
-		</appfolder>
-		<appfolder
-		addcaps="form,nativewindow"
-		capname="form"
-		id="f680b6fa-5cf9-4d2a-b924-2834d6fd3e7d"
-		isrooted="True"
-		name="MultitaskingViewFrame"
-		refimgid="d2cec18e-6daf-47f8-a1e5-287215359ae0"
-		refpath="/form"
-		searchtimeout="30000ms"
-		usecache="True">
-			<basepath>
-				/form
-			</basepath>
-			<icon>
-				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
-AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
-CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
-aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
-qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
-U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
-SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
-HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
-X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
-l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
-T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
-yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
-QmCC
 			</icon>
 		</appfolder>
 		<basepath>

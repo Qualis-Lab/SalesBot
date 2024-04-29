@@ -79,12 +79,12 @@ namespace Qualis_Bot_SalesNavigator
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'InicioSalesNavigator.SomeSvgTag' at 15;4.", repo.InicioSalesNavigator.SomeSvgTagInfo, new RecordItemIndex(0));
-            repo.InicioSalesNavigator.SomeSvgTag.Click("15;4");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'InicioSalesNavigator.SomeSvgTag' at Center.", repo.InicioSalesNavigator.SomeSvgTagInfo, new RecordItemIndex(0));
+            repo.InicioSalesNavigator.SomeSvgTag.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'InicioSalesNavigator.VerPerfilDeLinkedIn' at 133;12.", repo.InicioSalesNavigator.VerPerfilDeLinkedInInfo, new RecordItemIndex(1));
-            repo.InicioSalesNavigator.VerPerfilDeLinkedIn.Click("133;12");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'InicioSalesNavigator.VerPerfilDeLinkedIn' at Center.", repo.InicioSalesNavigator.VerPerfilDeLinkedInInfo, new RecordItemIndex(1));
+            repo.InicioSalesNavigator.VerPerfilDeLinkedIn.Click();
             Delay.Milliseconds(0);
             
         }

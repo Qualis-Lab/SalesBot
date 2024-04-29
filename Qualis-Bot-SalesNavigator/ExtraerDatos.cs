@@ -103,27 +103,18 @@ namespace Qualis_Bot_SalesNavigator
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.SalesQLBrowserExtensionTieneAccesoA' at Center.", repo.Chrome.SalesQLBrowserExtensionTieneAccesoAInfo, new RecordItemIndex(0));
-            repo.Chrome.SalesQLBrowserExtensionTieneAccesoA.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.SalesQLBrowserExtensionButton' at Center.", repo.Chrome.SalesQLBrowserExtensionButtonInfo, new RecordItemIndex(0));
+            repo.Chrome.SalesQLBrowserExtensionButton.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 13s.", new RecordItemIndex(1));
+            Delay.Duration(13000, false);
             
-            try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ContAndFail_Chrome.TextAdd' at Center.", repo.ContAndFail_Chrome.TextAddInfo, new RecordItemIndex(2));
-                repo.ContAndFail_Chrome.TextAdd.Click();
-                Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
+            clickEnObtenerDatosONext();
+            Delay.Milliseconds(0);
             
-            try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ContAndFail_Chrome.ChevronRight' at Center.", repo.ContAndFail_Chrome.ChevronRightInfo, new RecordItemIndex(3));
-                repo.ContAndFail_Chrome.ChevronRight.Click();
-                Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(4));
-            Delay.Duration(5000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 7s.", new RecordItemIndex(3));
+            Delay.Duration(7000, false);
             
             ObtenerValoresEmail();
             Delay.Milliseconds(0);

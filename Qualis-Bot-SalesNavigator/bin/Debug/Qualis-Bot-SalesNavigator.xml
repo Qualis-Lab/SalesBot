@@ -1254,29 +1254,14 @@
             The Chrome folder.
             </summary>
         </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.SalesQL">
-            <summary>
-            The SalesQL folder.
-            </summary>
-        </member>
         <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.ContAndFail_Chrome">
             <summary>
             The ContAndFail_Chrome folder.
             </summary>
         </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.DESKTOPJD9OLAE">
-            <summary>
-            The DESKTOPJD9OLAE folder.
-            </summary>
-        </member>
         <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.Inicio">
             <summary>
             The Inicio folder.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.MultitaskingViewFrame">
-            <summary>
-            The MultitaskingViewFrame folder.
             </summary>
         </member>
         <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders">
@@ -1924,174 +1909,14 @@
             The Self item info.
             </summary>
         </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.AbrirWaalaxy">
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.SalesQLBrowserExtensionButton">
             <summary>
-            The AbrirWaalaxy item.
+            The SalesQLBrowserExtensionButton item.
             </summary>
         </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.AbrirWaalaxyInfo">
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.SalesQLBrowserExtensionButtonInfo">
             <summary>
-            The AbrirWaalaxy item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.Grouping">
-            <summary>
-            The Grouping item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.GroupingInfo">
-            <summary>
-            The Grouping item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.Grouping1">
-            <summary>
-            The Grouping1 item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.Grouping1Info">
-            <summary>
-            The Grouping1 item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.PadrePhone">
-            <summary>
-            The PadrePhone item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.PadrePhoneInfo">
-            <summary>
-            The PadrePhone item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.SalesQLBrowserExtensionTieneAccesoA">
-            <summary>
-            The SalesQLBrowserExtensionTieneAccesoA item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.SalesQLBrowserExtensionTieneAccesoAInfo">
-            <summary>
-            The SalesQLBrowserExtensionTieneAccesoA item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.Grouping2">
-            <summary>
-            The Grouping2 item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.Grouping2Info">
-            <summary>
-            The Grouping2 item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.Phones">
-            <summary>
-            The Phones item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.PhonesInfo">
-            <summary>
-            The Phones item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.Profile">
-            <summary>
-            The Profile item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.ProfileInfo">
-            <summary>
-            The Profile item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.MgAtjhuEdu">
-            <summary>
-            The MgAtjhuEdu item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.MgAtjhuEduInfo">
-            <summary>
-            The MgAtjhuEdu item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.Label">
-            <summary>
-            The Label item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.LabelInfo">
-            <summary>
-            The Label item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.N1er_email">
-            <summary>
-            The N1er_email item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.N1er_emailInfo">
-            <summary>
-            The N1er_email item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.SalesQLBrowserExtensionTieneAccesoA1">
-            <summary>
-            The SalesQLBrowserExtensionTieneAccesoA1 item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.SalesQLBrowserExtensionTieneAccesoA1Info">
-            <summary>
-            The SalesQLBrowserExtensionTieneAccesoA1 item info.
-            </summary>
-        </member>
-        <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder">
-            <summary>
-            The SalesQLAppFolder folder.
-            </summary>
-        </member>
-        <member name="M:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
-            <summary>
-            Creates a new SalesQL  folder.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder.Self">
-            <summary>
-            The Self item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder.SelfInfo">
-            <summary>
-            The Self item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder.WaalaxyProspeccionLinkedInAutomatiz">
-            <summary>
-            The WaalaxyProspeccionLinkedInAutomatiz item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder.WaalaxyProspeccionLinkedInAutomatizInfo">
-            <summary>
-            The WaalaxyProspeccionLinkedInAutomatiz item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder.SalesQLBrowserExtensionTieneAccesoA">
-            <summary>
-            The SalesQLBrowserExtensionTieneAccesoA item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder.SalesQLBrowserExtensionTieneAccesoAInfo">
-            <summary>
-            The SalesQLBrowserExtensionTieneAccesoA item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder.ListItem34FeedLinkedInGoogleCh">
-            <summary>
-            The ListItem34FeedLinkedInGoogleCh item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder.ListItem34FeedLinkedInGoogleChInfo">
-            <summary>
-            The ListItem34FeedLinkedInGoogleCh item info.
+            The SalesQLBrowserExtensionButton item info.
             </summary>
         </member>
         <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder">
@@ -2114,46 +1939,6 @@
             The Self item info.
             </summary>
         </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.Btn_Close">
-            <summary>
-            The Btn_Close item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.Btn_CloseInfo">
-            <summary>
-            The Btn_Close item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.WaitFor_DatosEmailPhone">
-            <summary>
-            The WaitFor_DatosEmailPhone item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.WaitFor_DatosEmailPhoneInfo">
-            <summary>
-            The WaitFor_DatosEmailPhone item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.Emails">
-            <summary>
-            The Emails item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.EmailsInfo">
-            <summary>
-            The Emails item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.Phone">
-            <summary>
-            The Phone item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.PhoneInfo">
-            <summary>
-            The Phone item info.
-            </summary>
-        </member>
         <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.ObtenerPhoneNew">
             <summary>
             The ObtenerPhoneNew item.
@@ -2174,54 +1959,24 @@
             The ObtenerEmailNew item info.
             </summary>
         </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.TextAdd">
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.ObtenerDatosButton">
             <summary>
-            The TextAdd item.
+            The ObtenerDatosButton item.
             </summary>
         </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.TextAddInfo">
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.ObtenerDatosButtonInfo">
             <summary>
-            The TextAdd item info.
+            The ObtenerDatosButton item info.
             </summary>
         </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.ChevronRight">
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.NextButton">
             <summary>
-            The ChevronRight item.
+            The NextButton item.
             </summary>
         </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.ChevronRightInfo">
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.NextButtonInfo">
             <summary>
-            The ChevronRight item info.
-            </summary>
-        </member>
-        <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.DESKTOPJD9OLAEAppFolder">
-            <summary>
-            The DESKTOPJD9OLAEAppFolder folder.
-            </summary>
-        </member>
-        <member name="M:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.DESKTOPJD9OLAEAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
-            <summary>
-            Creates a new DESKTOPJD9OLAE  folder.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.DESKTOPJD9OLAEAppFolder.Self">
-            <summary>
-            The Self item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.DESKTOPJD9OLAEAppFolder.SelfInfo">
-            <summary>
-            The Self item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.DESKTOPJD9OLAEAppFolder.DESKTOPJD9OLAE">
-            <summary>
-            The DESKTOPJD9OLAE item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.DESKTOPJD9OLAEAppFolder.DESKTOPJD9OLAEInfo">
-            <summary>
-            The DESKTOPJD9OLAE item info.
+            The NextButton item info.
             </summary>
         </member>
         <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioAppFolder">
@@ -2240,26 +1995,6 @@
             </summary>
         </member>
         <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioAppFolder.SelfInfo">
-            <summary>
-            The Self item info.
-            </summary>
-        </member>
-        <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.MultitaskingViewFrameAppFolder">
-            <summary>
-            The MultitaskingViewFrameAppFolder folder.
-            </summary>
-        </member>
-        <member name="M:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.MultitaskingViewFrameAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
-            <summary>
-            Creates a new MultitaskingViewFrame  folder.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.MultitaskingViewFrameAppFolder.Self">
-            <summary>
-            The Self item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.MultitaskingViewFrameAppFolder.SelfInfo">
             <summary>
             The Self item info.
             </summary>

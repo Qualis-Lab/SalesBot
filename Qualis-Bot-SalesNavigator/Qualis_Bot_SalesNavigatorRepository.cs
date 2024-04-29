@@ -32,11 +32,8 @@ namespace Qualis_Bot_SalesNavigator
         Qualis_Bot_SalesNavigatorRepositoryFolders.ContinueAndFailAppFolder _continueandfail;
         Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder _outputempresasxlsxexcel;
         Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder _chrome;
-        Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder _salesql;
         Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder _contandfail_chrome;
-        Qualis_Bot_SalesNavigatorRepositoryFolders.DESKTOPJD9OLAEAppFolder _desktopjd9olae;
         Qualis_Bot_SalesNavigatorRepositoryFolders.InicioAppFolder _inicio;
-        Qualis_Bot_SalesNavigatorRepositoryFolders.MultitaskingViewFrameAppFolder _multitaskingviewframe;
 
         /// <summary>
         /// Gets the singleton class instance representing the Qualis_Bot_SalesNavigatorRepository element repository.
@@ -58,11 +55,8 @@ namespace Qualis_Bot_SalesNavigator
             _continueandfail = new Qualis_Bot_SalesNavigatorRepositoryFolders.ContinueAndFailAppFolder(this);
             _outputempresasxlsxexcel = new Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder(this);
             _chrome = new Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder(this);
-            _salesql = new Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder(this);
             _contandfail_chrome = new Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder(this);
-            _desktopjd9olae = new Qualis_Bot_SalesNavigatorRepositoryFolders.DESKTOPJD9OLAEAppFolder(this);
             _inicio = new Qualis_Bot_SalesNavigatorRepositoryFolders.InicioAppFolder(this);
-            _multitaskingviewframe = new Qualis_Bot_SalesNavigatorRepositoryFolders.MultitaskingViewFrameAppFolder(this);
         }
 
 #region Variables
@@ -223,15 +217,6 @@ namespace Qualis_Bot_SalesNavigator
         }
 
         /// <summary>
-        /// The SalesQL folder.
-        /// </summary>
-        [RepositoryFolder("dc0e2b21-8ce1-4533-9f6a-9a4c5f7457dd")]
-        public virtual Qualis_Bot_SalesNavigatorRepositoryFolders.SalesQLAppFolder SalesQL
-        {
-            get { return _salesql; }
-        }
-
-        /// <summary>
         /// The ContAndFail_Chrome folder.
         /// </summary>
         [RepositoryFolder("29d6aa49-1a0a-40e2-9254-b03910dce2bf")]
@@ -241,30 +226,12 @@ namespace Qualis_Bot_SalesNavigator
         }
 
         /// <summary>
-        /// The DESKTOPJD9OLAE folder.
-        /// </summary>
-        [RepositoryFolder("57d8bec6-8978-4106-8676-6eb27caad344")]
-        public virtual Qualis_Bot_SalesNavigatorRepositoryFolders.DESKTOPJD9OLAEAppFolder DESKTOPJD9OLAE
-        {
-            get { return _desktopjd9olae; }
-        }
-
-        /// <summary>
         /// The Inicio folder.
         /// </summary>
         [RepositoryFolder("d8d97ac7-149e-4d30-aced-65122ba5e54c")]
         public virtual Qualis_Bot_SalesNavigatorRepositoryFolders.InicioAppFolder Inicio
         {
             get { return _inicio; }
-        }
-
-        /// <summary>
-        /// The MultitaskingViewFrame folder.
-        /// </summary>
-        [RepositoryFolder("f680b6fa-5cf9-4d2a-b924-2834d6fd3e7d")]
-        public virtual Qualis_Bot_SalesNavigatorRepositoryFolders.MultitaskingViewFrameAppFolder MultitaskingViewFrame
-        {
-            get { return _multitaskingviewframe; }
         }
     }
 
@@ -1831,18 +1798,7 @@ namespace Qualis_Bot_SalesNavigator
         [RepositoryFolder("6f3b421b-86e1-4ef2-bbc7-d7ddfe587996")]
         public partial class ChromeAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _abrirwaalaxyInfo;
-            RepoItemInfo _groupingInfo;
-            RepoItemInfo _grouping1Info;
-            RepoItemInfo _padrephoneInfo;
-            RepoItemInfo _salesqlbrowserextensiontieneaccesoaInfo;
-            RepoItemInfo _grouping2Info;
-            RepoItemInfo _phonesInfo;
-            RepoItemInfo _profileInfo;
-            RepoItemInfo _mgatjhueduInfo;
-            RepoItemInfo _labelInfo;
-            RepoItemInfo _n1er_emailInfo;
-            RepoItemInfo _salesqlbrowserextensiontieneaccesoa1Info;
+            RepoItemInfo _salesqlbrowserextensionbuttonInfo;
 
             /// <summary>
             /// Creates a new Chrome  folder.
@@ -1850,18 +1806,7 @@ namespace Qualis_Bot_SalesNavigator
             public ChromeAppFolder(RepoGenBaseFolder parentFolder) :
                     base("Chrome", "/form[@processname='chrome']", parentFolder, 30000, null, true, "6f3b421b-86e1-4ef2-bbc7-d7ddfe587996", "")
             {
-                _abrirwaalaxyInfo = new RepoItemInfo(this, "AbrirWaalaxy", "element[@controlid='301008320']/container[@accessiblename='React App']/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[2]/button[@accessiblename='Abrir Waalaxy']/text[@accessiblename='Abrir Waalaxy']", "", 30000, null, "a97df680-f8f0-4dee-815e-c2c425117cb2");
-                _groupingInfo = new RepoItemInfo(this, "Grouping", "element[@controlid='87567552']/container[@accessiblename='SalesQL']/container[2]", "", 30000, null, "d88bace6-94fe-4067-9b3a-e311abfb65ce");
-                _grouping1Info = new RepoItemInfo(this, "Grouping1", "element[@controlid='87567552']/container[@accessiblename='SalesQL']/container[3]", "", 30000, null, "f5f2a3e8-a7cf-40f6-8b3a-3bef05a2007f");
-                _padrephoneInfo = new RepoItemInfo(this, "PadrePhone", "container[@accessiblerole='Pane']/container[@accessiblerole='Pane']//container[@accessiblename='SalesQL']//form[@accessiblename='dialog']", "element", 30000, null, "392c212c-7165-4dfd-8339-1d244a49b282");
-                _salesqlbrowserextensiontieneaccesoaInfo = new RepoItemInfo(this, "SalesQLBrowserExtensionTieneAccesoA", ".//button[@accessiblename>'SalesQL Browser Extension']", "", 30000, null, "b74bdfe0-6def-4c1d-8faf-58e631b4e180");
-                _grouping2Info = new RepoItemInfo(this, "Grouping2", ".//menuitem[@accessiblename>'Contenido compartido por Jorge']/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']", "", 30000, null, "2b46c24c-4c12-45b9-b121-dedaf17d494b");
-                _phonesInfo = new RepoItemInfo(this, "Phones", ".//text[@accessiblename='Phones']", "", 30000, null, "ad9c17f2-19d5-42f2-b344-822dc4447b4c");
-                _profileInfo = new RepoItemInfo(this, "Profile", ".//button[@accessiblename>'perm_contact_calendar Pro']/text[@accessiblename='Profile']", "", 30000, null, "2107f25a-c824-4ef0-8395-33cab6d8a251");
-                _mgatjhueduInfo = new RepoItemInfo(this, "MgAtjhuEdu", ".//text[@accessiblename='mg@jhu.edu']", "", 30000, null, "13246829-bede-4085-b53a-139659abede9");
-                _labelInfo = new RepoItemInfo(this, "Label", ".//text[@accessiblename='label']", "", 30000, null, "e88fd105-1705-43b3-8aa5-e4ae4beab275");
-                _n1er_emailInfo = new RepoItemInfo(this, "N1er_email", ".//container[@accessiblename~'@']", "", 30000, null, "b163b1cc-7c4b-4b30-af76-e5750465fc8c");
-                _salesqlbrowserextensiontieneaccesoa1Info = new RepoItemInfo(this, "SalesQLBrowserExtensionTieneAccesoA1", ".//menuitem[@name>'SalesQL Browser Extension']", "", 30000, null, "28648ab9-bfe4-430e-915d-523c2afd88d9");
+                _salesqlbrowserextensionbuttonInfo = new RepoItemInfo(this, "SalesQLBrowserExtensionButton", ".//button[@accessiblename>'SalesQL Browser Extension']", "", 30000, null, "b74bdfe0-6def-4c1d-8faf-58e631b4e180");
             }
 
             /// <summary>
@@ -1889,408 +1834,26 @@ namespace Qualis_Bot_SalesNavigator
             }
 
             /// <summary>
-            /// The AbrirWaalaxy item.
-            /// </summary>
-            [RepositoryItem("a97df680-f8f0-4dee-815e-c2c425117cb2")]
-            public virtual Ranorex.Text AbrirWaalaxy
-            {
-                get
-                {
-                    return _abrirwaalaxyInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The AbrirWaalaxy item info.
-            /// </summary>
-            [RepositoryItemInfo("a97df680-f8f0-4dee-815e-c2c425117cb2")]
-            public virtual RepoItemInfo AbrirWaalaxyInfo
-            {
-                get
-                {
-                    return _abrirwaalaxyInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Grouping item.
-            /// </summary>
-            [RepositoryItem("d88bace6-94fe-4067-9b3a-e311abfb65ce")]
-            public virtual Ranorex.Container Grouping
-            {
-                get
-                {
-                    return _groupingInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Grouping item info.
-            /// </summary>
-            [RepositoryItemInfo("d88bace6-94fe-4067-9b3a-e311abfb65ce")]
-            public virtual RepoItemInfo GroupingInfo
-            {
-                get
-                {
-                    return _groupingInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Grouping1 item.
-            /// </summary>
-            [RepositoryItem("f5f2a3e8-a7cf-40f6-8b3a-3bef05a2007f")]
-            public virtual Ranorex.Container Grouping1
-            {
-                get
-                {
-                    return _grouping1Info.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Grouping1 item info.
-            /// </summary>
-            [RepositoryItemInfo("f5f2a3e8-a7cf-40f6-8b3a-3bef05a2007f")]
-            public virtual RepoItemInfo Grouping1Info
-            {
-                get
-                {
-                    return _grouping1Info;
-                }
-            }
-
-            /// <summary>
-            /// The PadrePhone item.
-            /// </summary>
-            [RepositoryItem("392c212c-7165-4dfd-8339-1d244a49b282")]
-            public virtual Ranorex.Form PadrePhone
-            {
-                get
-                {
-                    return _padrephoneInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The PadrePhone item info.
-            /// </summary>
-            [RepositoryItemInfo("392c212c-7165-4dfd-8339-1d244a49b282")]
-            public virtual RepoItemInfo PadrePhoneInfo
-            {
-                get
-                {
-                    return _padrephoneInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SalesQLBrowserExtensionTieneAccesoA item.
+            /// The SalesQLBrowserExtensionButton item.
             /// </summary>
             [RepositoryItem("b74bdfe0-6def-4c1d-8faf-58e631b4e180")]
-            public virtual Ranorex.Button SalesQLBrowserExtensionTieneAccesoA
+            public virtual Ranorex.Button SalesQLBrowserExtensionButton
             {
                 get
                 {
-                    return _salesqlbrowserextensiontieneaccesoaInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _salesqlbrowserextensionbuttonInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The SalesQLBrowserExtensionTieneAccesoA item info.
+            /// The SalesQLBrowserExtensionButton item info.
             /// </summary>
             [RepositoryItemInfo("b74bdfe0-6def-4c1d-8faf-58e631b4e180")]
-            public virtual RepoItemInfo SalesQLBrowserExtensionTieneAccesoAInfo
+            public virtual RepoItemInfo SalesQLBrowserExtensionButtonInfo
             {
                 get
                 {
-                    return _salesqlbrowserextensiontieneaccesoaInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Grouping2 item.
-            /// </summary>
-            [RepositoryItem("2b46c24c-4c12-45b9-b121-dedaf17d494b")]
-            public virtual Ranorex.Container Grouping2
-            {
-                get
-                {
-                    return _grouping2Info.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Grouping2 item info.
-            /// </summary>
-            [RepositoryItemInfo("2b46c24c-4c12-45b9-b121-dedaf17d494b")]
-            public virtual RepoItemInfo Grouping2Info
-            {
-                get
-                {
-                    return _grouping2Info;
-                }
-            }
-
-            /// <summary>
-            /// The Phones item.
-            /// </summary>
-            [RepositoryItem("ad9c17f2-19d5-42f2-b344-822dc4447b4c")]
-            public virtual Ranorex.Text Phones
-            {
-                get
-                {
-                    return _phonesInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Phones item info.
-            /// </summary>
-            [RepositoryItemInfo("ad9c17f2-19d5-42f2-b344-822dc4447b4c")]
-            public virtual RepoItemInfo PhonesInfo
-            {
-                get
-                {
-                    return _phonesInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Profile item.
-            /// </summary>
-            [RepositoryItem("2107f25a-c824-4ef0-8395-33cab6d8a251")]
-            public virtual Ranorex.Text Profile
-            {
-                get
-                {
-                    return _profileInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Profile item info.
-            /// </summary>
-            [RepositoryItemInfo("2107f25a-c824-4ef0-8395-33cab6d8a251")]
-            public virtual RepoItemInfo ProfileInfo
-            {
-                get
-                {
-                    return _profileInfo;
-                }
-            }
-
-            /// <summary>
-            /// The MgAtjhuEdu item.
-            /// </summary>
-            [RepositoryItem("13246829-bede-4085-b53a-139659abede9")]
-            public virtual Ranorex.Text MgAtjhuEdu
-            {
-                get
-                {
-                    return _mgatjhueduInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The MgAtjhuEdu item info.
-            /// </summary>
-            [RepositoryItemInfo("13246829-bede-4085-b53a-139659abede9")]
-            public virtual RepoItemInfo MgAtjhuEduInfo
-            {
-                get
-                {
-                    return _mgatjhueduInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Label item.
-            /// </summary>
-            [RepositoryItem("e88fd105-1705-43b3-8aa5-e4ae4beab275")]
-            public virtual Ranorex.Text Label
-            {
-                get
-                {
-                    return _labelInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Label item info.
-            /// </summary>
-            [RepositoryItemInfo("e88fd105-1705-43b3-8aa5-e4ae4beab275")]
-            public virtual RepoItemInfo LabelInfo
-            {
-                get
-                {
-                    return _labelInfo;
-                }
-            }
-
-            /// <summary>
-            /// The N1er_email item.
-            /// </summary>
-            [RepositoryItem("b163b1cc-7c4b-4b30-af76-e5750465fc8c")]
-            public virtual Ranorex.Container N1er_email
-            {
-                get
-                {
-                    return _n1er_emailInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The N1er_email item info.
-            /// </summary>
-            [RepositoryItemInfo("b163b1cc-7c4b-4b30-af76-e5750465fc8c")]
-            public virtual RepoItemInfo N1er_emailInfo
-            {
-                get
-                {
-                    return _n1er_emailInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SalesQLBrowserExtensionTieneAccesoA1 item.
-            /// </summary>
-            [RepositoryItem("28648ab9-bfe4-430e-915d-523c2afd88d9")]
-            public virtual Ranorex.MenuItem SalesQLBrowserExtensionTieneAccesoA1
-            {
-                get
-                {
-                    return _salesqlbrowserextensiontieneaccesoa1Info.CreateAdapter<Ranorex.MenuItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SalesQLBrowserExtensionTieneAccesoA1 item info.
-            /// </summary>
-            [RepositoryItemInfo("28648ab9-bfe4-430e-915d-523c2afd88d9")]
-            public virtual RepoItemInfo SalesQLBrowserExtensionTieneAccesoA1Info
-            {
-                get
-                {
-                    return _salesqlbrowserextensiontieneaccesoa1Info;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The SalesQLAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("dc0e2b21-8ce1-4533-9f6a-9a4c5f7457dd")]
-        public partial class SalesQLAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _waalaxyprospeccionlinkedinautomatizInfo;
-            RepoItemInfo _salesqlbrowserextensiontieneaccesoaInfo;
-            RepoItemInfo _listitem34feedlinkedingooglechInfo;
-
-            /// <summary>
-            /// Creates a new SalesQL  folder.
-            /// </summary>
-            public SalesQLAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("SalesQL", "/form[@title~'| Sales']", parentFolder, 30000, null, true, "dc0e2b21-8ce1-4533-9f6a-9a4c5f7457dd", "")
-            {
-                _waalaxyprospeccionlinkedinautomatizInfo = new RepoItemInfo(this, "WaalaxyProspeccionLinkedInAutomatiz", "container[@accessiblename>'Fernando Izquierdo | Sales']/container[@accessiblerole='Pane']/container[@accessiblerole='Pane']/container[2]/container[1]/toolbar[@accessiblerole='ToolBar']/container[@accessiblerole='Pane']/button[@accessiblename>'Waalaxy - Prospección LinkedIn']", "", 30000, null, "4fc075cf-db1e-445b-9f67-ec45e9c215dc");
-                _salesqlbrowserextensiontieneaccesoaInfo = new RepoItemInfo(this, "SalesQLBrowserExtensionTieneAccesoA", ".//container[@accessiblerole='Pane']/container[@accessiblerole='Pane']//toolbar[@accessiblerole='ToolBar']/container[@accessiblerole='Pane']/button[@accessiblename>'SalesQL Browser Extension']", "", 30000, null, "598eb009-a6f6-425a-9b4e-6f9cf8757888");
-                _listitem34feedlinkedingooglechInfo = new RepoItemInfo(this, "ListItem34FeedLinkedInGoogleCh", "?/?/listitem[@accessiblename>'(34) Feed | LinkedIn - Google']", "", 30000, null, "1a5c7a62-a3e6-49aa-a093-12184531b7cf");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("dc0e2b21-8ce1-4533-9f6a-9a4c5f7457dd")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("dc0e2b21-8ce1-4533-9f6a-9a4c5f7457dd")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The WaalaxyProspeccionLinkedInAutomatiz item.
-            /// </summary>
-            [RepositoryItem("4fc075cf-db1e-445b-9f67-ec45e9c215dc")]
-            public virtual Ranorex.Button WaalaxyProspeccionLinkedInAutomatiz
-            {
-                get
-                {
-                    return _waalaxyprospeccionlinkedinautomatizInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The WaalaxyProspeccionLinkedInAutomatiz item info.
-            /// </summary>
-            [RepositoryItemInfo("4fc075cf-db1e-445b-9f67-ec45e9c215dc")]
-            public virtual RepoItemInfo WaalaxyProspeccionLinkedInAutomatizInfo
-            {
-                get
-                {
-                    return _waalaxyprospeccionlinkedinautomatizInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SalesQLBrowserExtensionTieneAccesoA item.
-            /// </summary>
-            [RepositoryItem("598eb009-a6f6-425a-9b4e-6f9cf8757888")]
-            public virtual Ranorex.Button SalesQLBrowserExtensionTieneAccesoA
-            {
-                get
-                {
-                    return _salesqlbrowserextensiontieneaccesoaInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SalesQLBrowserExtensionTieneAccesoA item info.
-            /// </summary>
-            [RepositoryItemInfo("598eb009-a6f6-425a-9b4e-6f9cf8757888")]
-            public virtual RepoItemInfo SalesQLBrowserExtensionTieneAccesoAInfo
-            {
-                get
-                {
-                    return _salesqlbrowserextensiontieneaccesoaInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ListItem34FeedLinkedInGoogleCh item.
-            /// </summary>
-            [RepositoryItem("1a5c7a62-a3e6-49aa-a093-12184531b7cf")]
-            public virtual Ranorex.ListItem ListItem34FeedLinkedInGoogleCh
-            {
-                get
-                {
-                    return _listitem34feedlinkedingooglechInfo.CreateAdapter<Ranorex.ListItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ListItem34FeedLinkedInGoogleCh item info.
-            /// </summary>
-            [RepositoryItemInfo("1a5c7a62-a3e6-49aa-a093-12184531b7cf")]
-            public virtual RepoItemInfo ListItem34FeedLinkedInGoogleChInfo
-            {
-                get
-                {
-                    return _listitem34feedlinkedingooglechInfo;
+                    return _salesqlbrowserextensionbuttonInfo;
                 }
             }
         }
@@ -2301,14 +1864,10 @@ namespace Qualis_Bot_SalesNavigator
         [RepositoryFolder("29d6aa49-1a0a-40e2-9254-b03910dce2bf")]
         public partial class ContAndFail_ChromeAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _btn_closeInfo;
-            RepoItemInfo _waitfor_datosemailphoneInfo;
-            RepoItemInfo _emailsInfo;
-            RepoItemInfo _phoneInfo;
             RepoItemInfo _obtenerphonenewInfo;
             RepoItemInfo _obteneremailnewInfo;
-            RepoItemInfo _textaddInfo;
-            RepoItemInfo _chevronrightInfo;
+            RepoItemInfo _obtenerdatosbuttonInfo;
+            RepoItemInfo _nextbuttonInfo;
 
             /// <summary>
             /// Creates a new ContAndFail_Chrome  folder.
@@ -2316,14 +1875,10 @@ namespace Qualis_Bot_SalesNavigator
             public ContAndFail_ChromeAppFolder(RepoGenBaseFolder parentFolder) :
                     base("ContAndFail_Chrome", "/form[@processname='chrome']", parentFolder, 0, null, false, "29d6aa49-1a0a-40e2-9254-b03910dce2bf", "")
             {
-                _btn_closeInfo = new RepoItemInfo(this, "Btn_Close", ".//button[@accessiblename='close']", "", 3000, null, "0f96f12e-43d8-4ca4-bc8e-bcf0358d08e3");
-                _waitfor_datosemailphoneInfo = new RepoItemInfo(this, "WaitFor_DatosEmailPhone", ".//container[@accessiblename='SalesQL' or @caption='SalesQL']//container[@accessiblename~'email' and @accessiblename~'[0-9]' or @accessiblename~'phone ' and @accessiblename~'[0-9]']", "", 6000, null, "d8afebda-fc25-4157-b19b-923391f88001");
-                _emailsInfo = new RepoItemInfo(this, "Emails", ".//text[@accessiblename='Emails']", "", 30000, null, "488de95a-7d6e-4b18-8a34-234ccfc2ed3a");
-                _phoneInfo = new RepoItemInfo(this, "Phone", ".//container[@accessiblename='SalesQL']//container[@accessiblename~'phone ' and @accessiblename~'[1-9]']", "", 6000, null, "4c4e20ad-f2d4-4ae4-885b-dd11a724dc7d");
-                _obtenerphonenewInfo = new RepoItemInfo(this, "ObtenerPhoneNew", ".//container[@accessiblename='SalesQL']//text[@accessiblename~'\\+' and @accessiblename~'[0-9]'][$index]", "", 30000, null, "1719f219-17d8-4d14-b691-985db7e00005");
-                _obteneremailnewInfo = new RepoItemInfo(this, "ObtenerEmailNew", ".//container[@accessiblename='SalesQL']//text[@accessiblename~'@' and @accessiblename~'.'][$index]", "", 30000, null, "37fe0e26-1529-4081-b805-65ee7e919a9d");
-                _textaddInfo = new RepoItemInfo(this, "TextAdd", ".//container[@accessiblename='SalesQL']//text[@accessiblename='add']", "", 30000, null, "5104c1b5-d0b6-40c0-a47f-4aa1b80b1a2f");
-                _chevronrightInfo = new RepoItemInfo(this, "ChevronRight", ".//container[@accessiblename='SalesQL']//text[@accessiblename='chevron_right']", "", 30000, null, "4a50e875-3ff4-43bb-aa45-ebc9b67794e0");
+                _obtenerphonenewInfo = new RepoItemInfo(this, "ObtenerPhoneNew", ".//container[@accessiblename='SalesQL']//text[@accessiblename~'\\+' and @accessiblename~'[0-9]'][$index]", "", 10000, null, "1719f219-17d8-4d14-b691-985db7e00005");
+                _obteneremailnewInfo = new RepoItemInfo(this, "ObtenerEmailNew", ".//container[@accessiblename='SalesQL']//text[@accessiblename~'@' and @accessiblename~'.'][$index]", "", 10000, null, "37fe0e26-1529-4081-b805-65ee7e919a9d");
+                _obtenerdatosbuttonInfo = new RepoItemInfo(this, "ObtenerDatosButton", ".//container[@accessiblename='SalesQL']//text[@accessiblename='add']", "", 10000, null, "5104c1b5-d0b6-40c0-a47f-4aa1b80b1a2f");
+                _nextbuttonInfo = new RepoItemInfo(this, "NextButton", ".//container[@accessiblename='SalesQL']//text[@accessiblename='chevron_right']", "", 10000, null, "4a50e875-3ff4-43bb-aa45-ebc9b67794e0");
             }
 
             /// <summary>
@@ -2347,102 +1902,6 @@ namespace Qualis_Bot_SalesNavigator
                 get
                 {
                     return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Btn_Close item.
-            /// </summary>
-            [RepositoryItem("0f96f12e-43d8-4ca4-bc8e-bcf0358d08e3")]
-            public virtual Ranorex.Button Btn_Close
-            {
-                get
-                {
-                    return _btn_closeInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Btn_Close item info.
-            /// </summary>
-            [RepositoryItemInfo("0f96f12e-43d8-4ca4-bc8e-bcf0358d08e3")]
-            public virtual RepoItemInfo Btn_CloseInfo
-            {
-                get
-                {
-                    return _btn_closeInfo;
-                }
-            }
-
-            /// <summary>
-            /// The WaitFor_DatosEmailPhone item.
-            /// </summary>
-            [RepositoryItem("d8afebda-fc25-4157-b19b-923391f88001")]
-            public virtual Ranorex.Container WaitFor_DatosEmailPhone
-            {
-                get
-                {
-                    return _waitfor_datosemailphoneInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The WaitFor_DatosEmailPhone item info.
-            /// </summary>
-            [RepositoryItemInfo("d8afebda-fc25-4157-b19b-923391f88001")]
-            public virtual RepoItemInfo WaitFor_DatosEmailPhoneInfo
-            {
-                get
-                {
-                    return _waitfor_datosemailphoneInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Emails item.
-            /// </summary>
-            [RepositoryItem("488de95a-7d6e-4b18-8a34-234ccfc2ed3a")]
-            public virtual Ranorex.Text Emails
-            {
-                get
-                {
-                    return _emailsInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Emails item info.
-            /// </summary>
-            [RepositoryItemInfo("488de95a-7d6e-4b18-8a34-234ccfc2ed3a")]
-            public virtual RepoItemInfo EmailsInfo
-            {
-                get
-                {
-                    return _emailsInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Phone item.
-            /// </summary>
-            [RepositoryItem("4c4e20ad-f2d4-4ae4-885b-dd11a724dc7d")]
-            public virtual Ranorex.Container Phone
-            {
-                get
-                {
-                    return _phoneInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Phone item info.
-            /// </summary>
-            [RepositoryItemInfo("4c4e20ad-f2d4-4ae4-885b-dd11a724dc7d")]
-            public virtual RepoItemInfo PhoneInfo
-            {
-                get
-                {
-                    return _phoneInfo;
                 }
             }
 
@@ -2495,116 +1954,50 @@ namespace Qualis_Bot_SalesNavigator
             }
 
             /// <summary>
-            /// The TextAdd item.
+            /// The ObtenerDatosButton item.
             /// </summary>
             [RepositoryItem("5104c1b5-d0b6-40c0-a47f-4aa1b80b1a2f")]
-            public virtual Ranorex.Text TextAdd
+            public virtual Ranorex.Text ObtenerDatosButton
             {
                 get
                 {
-                    return _textaddInfo.CreateAdapter<Ranorex.Text>(true);
+                    return _obtenerdatosbuttonInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
             /// <summary>
-            /// The TextAdd item info.
+            /// The ObtenerDatosButton item info.
             /// </summary>
             [RepositoryItemInfo("5104c1b5-d0b6-40c0-a47f-4aa1b80b1a2f")]
-            public virtual RepoItemInfo TextAddInfo
+            public virtual RepoItemInfo ObtenerDatosButtonInfo
             {
                 get
                 {
-                    return _textaddInfo;
+                    return _obtenerdatosbuttonInfo;
                 }
             }
 
             /// <summary>
-            /// The ChevronRight item.
+            /// The NextButton item.
             /// </summary>
             [RepositoryItem("4a50e875-3ff4-43bb-aa45-ebc9b67794e0")]
-            public virtual Ranorex.Text ChevronRight
+            public virtual Ranorex.Text NextButton
             {
                 get
                 {
-                    return _chevronrightInfo.CreateAdapter<Ranorex.Text>(true);
+                    return _nextbuttonInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
             /// <summary>
-            /// The ChevronRight item info.
+            /// The NextButton item info.
             /// </summary>
             [RepositoryItemInfo("4a50e875-3ff4-43bb-aa45-ebc9b67794e0")]
-            public virtual RepoItemInfo ChevronRightInfo
+            public virtual RepoItemInfo NextButtonInfo
             {
                 get
                 {
-                    return _chevronrightInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The DESKTOPJD9OLAEAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("57d8bec6-8978-4106-8676-6eb27caad344")]
-        public partial class DESKTOPJD9OLAEAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _desktopjd9olaeInfo;
-
-            /// <summary>
-            /// Creates a new DESKTOPJD9OLAE  folder.
-            /// </summary>
-            public DESKTOPJD9OLAEAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("DESKTOPJD9OLAE", "", parentFolder, 30000, null, true, "57d8bec6-8978-4106-8676-6eb27caad344", "")
-            {
-                _desktopjd9olaeInfo = new RepoItemInfo(this, "DESKTOPJD9OLAE", "", "", 30000, null, "3f21db3e-ade8-44d8-8dcb-a17b64855f64");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("57d8bec6-8978-4106-8676-6eb27caad344")]
-            public virtual Ranorex.Host Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Host>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("57d8bec6-8978-4106-8676-6eb27caad344")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The DESKTOPJD9OLAE item.
-            /// </summary>
-            [RepositoryItem("3f21db3e-ade8-44d8-8dcb-a17b64855f64")]
-            public virtual Ranorex.Host DESKTOPJD9OLAE
-            {
-                get
-                {
-                    return _desktopjd9olaeInfo.CreateAdapter<Ranorex.Host>(true);
-                }
-            }
-
-            /// <summary>
-            /// The DESKTOPJD9OLAE item info.
-            /// </summary>
-            [RepositoryItemInfo("3f21db3e-ade8-44d8-8dcb-a17b64855f64")]
-            public virtual RepoItemInfo DESKTOPJD9OLAEInfo
-            {
-                get
-                {
-                    return _desktopjd9olaeInfo;
+                    return _nextbuttonInfo;
                 }
             }
         }
@@ -2640,46 +2033,6 @@ namespace Qualis_Bot_SalesNavigator
             /// The Self item info.
             /// </summary>
             [RepositoryItemInfo("d8d97ac7-149e-4d30-aced-65122ba5e54c")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The MultitaskingViewFrameAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("f680b6fa-5cf9-4d2a-b924-2834d6fd3e7d")]
-        public partial class MultitaskingViewFrameAppFolder : RepoGenBaseFolder
-        {
-
-            /// <summary>
-            /// Creates a new MultitaskingViewFrame  folder.
-            /// </summary>
-            public MultitaskingViewFrameAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("MultitaskingViewFrame", "/form", parentFolder, 30000, null, true, "f680b6fa-5cf9-4d2a-b924-2834d6fd3e7d", "")
-            {
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("f680b6fa-5cf9-4d2a-b924-2834d6fd3e7d")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("f680b6fa-5cf9-4d2a-b924-2834d6fd3e7d")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
