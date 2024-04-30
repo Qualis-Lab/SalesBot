@@ -68,5 +68,5 @@ C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\bin
 C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\bin\Debug\Qualis-Bot-SalesNavigator.pdb
 C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\bin\Debug\Ranorex.Core.Resolver.dll
 C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\obj\Debug\Qualis-Bot-SalesNavigator.csproj.CopyComplete
-C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\bin\Debug\Input Empresas.xlsx
-C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\bin\Debug\KeyboardInputEmpresa.xlsx
+C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\bin\Debug\InputEmpresas.xlsx
+C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\bin\Debug\InputKeyword.xlsx

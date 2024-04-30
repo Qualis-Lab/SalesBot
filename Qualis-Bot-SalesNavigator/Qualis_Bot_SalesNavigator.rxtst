@@ -282,7 +282,7 @@
 			</smartfoldernode>
 			<testcase
 			datarangeactive="True"
-			datasource="Input_Empresas"
+			datasource="InputEmpresas"
 			errorbehavior="ContinueNextIteration"
 			id="4aa8448c-ebf2-40c4-bf14-0ec99cc1a0fa"
 			maxrange="3"
@@ -341,12 +341,11 @@
 				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
-			datarangeactive="True"
-			datasource="KeyboardInputEmpresa"
+			datasource="InputKeyword"
 			errorbehavior="ContinueNextIteration"
 			id="51e0a822-81c9-485d-a639-c9f358f25d89"
-			maxrange="117"
-			minrange="117"
+			maxrange="0"
+			minrange="0"
 			name="CriteriosDeFiltros">
 				<parameters>
 					<param
@@ -945,11 +944,11 @@
 			</file>
 		</DataSource>
 		<DataSource
-		filename="Input Empresas.xlsx"
+		filename="InputEmpresas.xlsx"
 		id="87720ed9-8af0-4e65-9f70-f929af03dc83"
 		includefile="Checked"
 		lastknownrowcount="4"
-		name="Input_Empresas"
+		name="InputEmpresas"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="DatosEmpresa"
 		worksheetrange="Auto-Range">
@@ -968,11 +967,11 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="KeyboardInputEmpresa.xlsx"
+		filename="InputKeyword.xlsx"
 		id="0860cff3-b338-4069-9f71-97637931cc1e"
 		includefile="Checked"
-		lastknownrowcount="118"
-		name="KeyboardInputEmpresa"
+		lastknownrowcount="115"
+		name="InputKeyword"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="DatosCandidatos"
 		worksheetrange="Auto-Range">

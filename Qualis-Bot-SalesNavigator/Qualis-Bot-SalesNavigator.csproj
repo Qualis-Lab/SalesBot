@@ -507,25 +507,25 @@
       <id>eeb2bc19-d726-4788-9d11-0806e3751e85</id>
       <recordtableid>64abd961-30b3-4128-87fa-642fbb73ced9</recordtableid>
     </None>
-    <Content Include="Input Empresas.xlsx">
-      <Link>Input Empresas.xlsx</Link>
+    <Content Include="InputEmpresas.xlsx">
+      <Link>InputEmpresas.xlsx</Link>
       <BoundTo>7b80f0a4-594c-46a8-9e14-0fe899503dd7</BoundTo>
       <DependentUpon>Qualis_Bot_SalesNavigator.rxtst</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>0fcc9bca-e1c3-4138-a90f-44672358db9e</id>
+      <id>9aff0927-2733-45fc-872a-40e474d80d06</id>
+    </Content>
+    <Content Include="InputKeyword.xlsx">
+      <Link>InputKeyword.xlsx</Link>
+      <BoundTo>7b80f0a4-594c-46a8-9e14-0fe899503dd7</BoundTo>
+      <DependentUpon>Qualis_Bot_SalesNavigator.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>aa7c2aa3-11be-4dd7-9b57-5b37498e07da</id>
     </Content>
     <None Include="IrATodosLosEmpleados.rxrec">
       <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
       <id>8e5fcbe0-e1e1-40c8-aa05-081f90743681</id>
       <recordtableid>ad68b60c-8516-4ac6-9ac3-df35a24ef674</recordtableid>
     </None>
-    <Content Include="KeyboardInputEmpresa.xlsx">
-      <Link>KeyboardInputEmpresa.xlsx</Link>
-      <BoundTo>7b80f0a4-594c-46a8-9e14-0fe899503dd7</BoundTo>
-      <DependentUpon>Qualis_Bot_SalesNavigator.rxtst</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>d537e9eb-8fe8-410c-bf4d-0ec1d4815796</id>
-    </Content>
     <None Include="NoSeEncontroEmpresa.rxrec">
       <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
       <id>5852e14b-bce2-4f5a-bda6-be0a45f52b2e</id>
