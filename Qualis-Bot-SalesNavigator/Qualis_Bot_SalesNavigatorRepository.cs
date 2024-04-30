@@ -329,7 +329,6 @@ namespace Qualis_Bot_SalesNavigator
             RepoItemInfo _somesvgtagInfo;
             RepoItemInfo _verperfildelinkedinInfo;
             RepoItemInfo _spantagiconps32ckInfo;
-            RepoItemInfo _searchresultscontainerInfo;
 
             /// <summary>
             /// Creates a new InicioSalesNavigator  folder.
@@ -379,7 +378,6 @@ namespace Qualis_Bot_SalesNavigator
                 _somesvgtagInfo = new RepoItemInfo(this, "SomeSvgTag", ".//section[#'profile-card-section']/section[1]/div[2]/section/div[2]/button/span[1]/svg", "", 30000, null, "5f93e09e-66b3-4be6-a6e6-1d51e4762777");
                 _verperfildelinkedinInfo = new RepoItemInfo(this, "VerPerfilDeLinkedIn", ".//div[#'hue-web-menu-outlet']//div[@innertext='Ver perfil de LinkedIn']", "", 30000, null, "c0d27101-5bf5-4ac9-aab5-192a6a64cc0f");
                 _spantagiconps32ckInfo = new RepoItemInfo(this, "SpanTagIconPs32ck", ".//section[#'profile-card-section']/section[1]/div[2]/section/div[2]/button/span[1]", "", 30000, null, "6d462923-60f8-44f2-a0d1-a6c1e7e8da60");
-                _searchresultscontainerInfo = new RepoItemInfo(this, "SearchResultsContainer", ".//div[#'search-results-container']", "", 30000, null, "8824ab66-2860-4f6d-b81b-bd80ebe1b481");
             }
 
             /// <summary>
@@ -1391,30 +1389,6 @@ namespace Qualis_Bot_SalesNavigator
             }
 
             /// <summary>
-            /// The SearchResultsContainer item.
-            /// </summary>
-            [RepositoryItem("8824ab66-2860-4f6d-b81b-bd80ebe1b481")]
-            public virtual Ranorex.DivTag SearchResultsContainer
-            {
-                get
-                {
-                    return _searchresultscontainerInfo.CreateAdapter<Ranorex.DivTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SearchResultsContainer item info.
-            /// </summary>
-            [RepositoryItemInfo("8824ab66-2860-4f6d-b81b-bd80ebe1b481")]
-            public virtual RepoItemInfo SearchResultsContainerInfo
-            {
-                get
-                {
-                    return _searchresultscontainerInfo;
-                }
-            }
-
-            /// <summary>
             /// The DatosAObtener folder.
             /// </summary>
             [RepositoryFolder("5675ae67-f850-438a-9e38-e379467d2f4c")]
@@ -1487,6 +1461,7 @@ namespace Qualis_Bot_SalesNavigator
             RepoItemInfo _pais_nombreempresaInfo;
             RepoItemInfo _buttonsiguienteInfo;
             RepoItemInfo _li_existunresultadoInfo;
+            RepoItemInfo _searchresultscontainerInfo;
 
             /// <summary>
             /// Creates a new ContinueAndFail  folder.
@@ -1497,6 +1472,7 @@ namespace Qualis_Bot_SalesNavigator
                 _pais_nombreempresaInfo = new RepoItemInfo(this, "pais_nombreEmpresa", ".//main[#'content-main']/div[1]//ul/li[1]/div/div/div[@innertext=$pais+'_'+$nombreEmpresa]", "", 6000, null, "507a91d0-758d-405c-936c-6c3e49d887ef");
                 _buttonsiguienteInfo = new RepoItemInfo(this, "ButtonSiguiente", ".//div[#'search-results-container']//button[@enabled='True']/span[@innertext='Siguiente']", "", 3000, null, "fa8ea255-1990-4c7d-9be0-7bc8903b0275");
                 _li_existunresultadoInfo = new RepoItemInfo(this, "Li_ExistUnResultado", ".//div[#'search-results-container']//li[1]//span[@data-anonymize='person-name']", "", 3000, null, "278cab3a-5aca-4ab2-a8fc-8d33b34ad213");
+                _searchresultscontainerInfo = new RepoItemInfo(this, "SearchResultsContainer", ".//div[#'search-results-container']", "", 5000, null, "8824ab66-2860-4f6d-b81b-bd80ebe1b481");
             }
 
             /// <summary>
@@ -1592,6 +1568,30 @@ namespace Qualis_Bot_SalesNavigator
                 get
                 {
                     return _li_existunresultadoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SearchResultsContainer item.
+            /// </summary>
+            [RepositoryItem("8824ab66-2860-4f6d-b81b-bd80ebe1b481")]
+            public virtual Ranorex.DivTag SearchResultsContainer
+            {
+                get
+                {
+                    return _searchresultscontainerInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SearchResultsContainer item info.
+            /// </summary>
+            [RepositoryItemInfo("8824ab66-2860-4f6d-b81b-bd80ebe1b481")]
+            public virtual RepoItemInfo SearchResultsContainerInfo
+            {
+                get
+                {
+                    return _searchresultscontainerInfo;
                 }
             }
         }

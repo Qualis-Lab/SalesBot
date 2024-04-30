@@ -1719,16 +1719,6 @@
             The SpanTagIconPs32ck item info.
             </summary>
         </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.SearchResultsContainer">
-            <summary>
-            The SearchResultsContainer item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.SearchResultsContainerInfo">
-            <summary>
-            The SearchResultsContainer item info.
-            </summary>
-        </member>
         <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.DatosAObtener">
             <summary>
             The DatosAObtener folder.
@@ -1807,6 +1797,16 @@
         <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContinueAndFailAppFolder.Li_ExistUnResultadoInfo">
             <summary>
             The Li_ExistUnResultado item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContinueAndFailAppFolder.SearchResultsContainer">
+            <summary>
+            The SearchResultsContainer item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContinueAndFailAppFolder.SearchResultsContainerInfo">
+            <summary>
+            The SearchResultsContainer item info.
             </summary>
         </member>
         <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.OutputEmpresasXlsxExcelAppFolder">

@@ -489,17 +489,6 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/dom[@domain='www.linkedin.com']//section[#'profile-card-section']/section[1]/div[2]/section/div[2]/button/span[1]
 			</item>
-			<item
-			addcaps="unknown,webelement,divtag"
-			capname="divtag"
-			id="8824ab66-2860-4f6d-b81b-bd80ebe1b481"
-			name="SearchResultsContainer"
-			refimgid="2513e594-513c-44be-bb0a-4c994ed2e812"
-			refpath="/dom[@domain='www.linkedin.com']//div[#'search-results-container']"
-			robustPath=""
-			searchtimeout="30000ms">
-				/dom[@domain='www.linkedin.com']//div[#'search-results-container']
-			</item>
 			<basepath>
 				/dom[@domain='www.linkedin.com']
 			</basepath>
@@ -555,6 +544,17 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			robustPath=""
 			searchtimeout="3000ms">
 				/dom[@domain='www.linkedin.com']//div[#'search-results-container']//li[1]//span[@data-anonymize='person-name']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="8824ab66-2860-4f6d-b81b-bd80ebe1b481"
+			name="SearchResultsContainer"
+			refimgid="2513e594-513c-44be-bb0a-4c994ed2e812"
+			refpath="/dom[@domain='www.linkedin.com']//div[#'search-results-container']"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@domain='www.linkedin.com']//div[#'search-results-container']
 			</item>
 			<basepath>
 				/dom[@domain='www.linkedin.com']

@@ -4,12 +4,7 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="BusquedaDeDatos2.cs" />
-    <Element value="BusquedaDeDatos.cs" />
     <Element value="Qualis_Bot_SalesNavigator.rxtst" />
-    <Element value="EntrarPerfilLinkedIn.rxrec" />
-    <Element value="EliminarDuplicados.cs" />
-    <Element value="xlsWorker.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

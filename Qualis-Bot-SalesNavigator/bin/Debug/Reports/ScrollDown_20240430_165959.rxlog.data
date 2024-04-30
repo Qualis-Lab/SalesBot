@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="11.59s"
+		durationms="11586"
+		type="root"
+		rid="cfb1c73113355ef"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Juan Cruz Diana"
+		rxversion="11.1.2.0"
+		host="DESKTOP-6E7CPKS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="3286x1080"
+		timestamp="30/4/2024 17:00:03"
+		timestampiso="2024-04-30T20:00:03"
+		endtime="30/4/2024 17:00:15"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ScrollDown">
+		<detail>
+			ScrollDown
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.831"
+			timeRelativeToTestModuleStartTime="00:05.831"
+			timeWallClock="17:00:09"
+			time="00:05.831"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ContinueAndFail.SearchResultsContainer' at 0;0.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//div[#'search-results-container']"
+				itempath=".//div[#'search-results-container']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.ContinueAndFail.SearchResultsContainer"
+				id="8824ab6628604f6db81bbd80ebe1b481"
+				timeout="5000"
+				codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ScrollDown.cs"
+				codeline="83"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.086"
+			timeRelativeToTestModuleStartTime="00:11.086"
+			timeWallClock="17:00:14"
+			time="00:11.086"
+			level="Warn"
+			category="Module">
+			<message>
+				(Optional Action) Failed to find item 'Qualis_Bot_SalesNavigatorRepository.ContinueAndFail.SearchResultsContainer'.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ScrollDown.cs"
+				codeline="86"
+				loglvl="Warn"
+				id="8824ab6628604f6db81bbd80ebe1b481"
+				path="/dom[@domain='www.linkedin.com']//div[#'search-results-container']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.ContinueAndFail.SearchResultsContainer">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.086"
+			timeRelativeToTestModuleStartTime="00:11.086"
+			timeWallClock="17:00:14"
+			time="00:11.086"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{End}'.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ScrollDown.cs"
+				codeline="88"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.276"
+			timeRelativeToTestModuleStartTime="00:11.276"
+			timeWallClock="17:00:14"
+			time="00:11.276"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ScrollDown.cs"
+				codeline="92"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -79,9 +79,11 @@ namespace Qualis_Bot_SalesNavigator
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'InicioSalesNavigator.SearchResultsContainer' at 0;0.", repo.InicioSalesNavigator.SearchResultsContainerInfo, new RecordItemIndex(0));
-            repo.InicioSalesNavigator.SearchResultsContainer.Click("0;0");
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ContinueAndFail.SearchResultsContainer' at 0;0.", repo.ContinueAndFail.SearchResultsContainerInfo, new RecordItemIndex(0));
+                repo.ContinueAndFail.SearchResultsContainer.Click("0;0");
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{End}'.", new RecordItemIndex(1));
             Keyboard.Press("{End}");
