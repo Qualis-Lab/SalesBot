@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="20.46s"
+		durationms="20457"
+		type="root"
+		rid="18c6e1925075822e"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Juan Cruz Diana"
+		rxversion="11.1.2.0"
+		host="DESKTOP-6E7CPKS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="1366x768"
+		timestamp="7/5/2024 23:39:16"
+		timestampiso="2024-05-08T02:39:16"
+		endtime="7/5/2024 23:39:36"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="IngresarNombreEmpresa">
+		<detail>
+			IngresarNombreEmpresa
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.310"
+			timeRelativeToTestModuleStartTime="00:05.310"
+			timeWallClock="23:39:21"
+			time="00:05.310"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>nombreEmpresa
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.330"
+			timeRelativeToTestModuleStartTime="00:05.330"
+			timeWallClock="23:39:21"
+			time="00:05.330"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'InicioSalesNavigator.GlobalTypeaheadSearchInput' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']//input[#'global-typeahead-search-input']"
+				itempath=".//input[#'global-typeahead-search-input']"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.GlobalTypeaheadSearchInput"
+				id="89f6dd158a1449469797ff1dc94873d1"
+				timeout="60000"
+				codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\IngresarNombreEmpresa.cs"
+				codeline="93"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.454"
+			timeRelativeToTestModuleStartTime="00:20.454"
+			timeWallClock="23:39:36"
+			time="00:20.454"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

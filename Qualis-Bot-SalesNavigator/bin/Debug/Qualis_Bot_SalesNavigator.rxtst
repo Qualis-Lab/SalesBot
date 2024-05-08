@@ -281,11 +281,12 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testcase
+			datarangeactive="True"
 			datasource="InputEmpresas"
 			errorbehavior="ContinueNextIteration"
 			id="4aa8448c-ebf2-40c4-bf14-0ec99cc1a0fa"
-			maxrange="3"
-			minrange="3"
+			maxrange="2"
+			minrange="2"
 			name="1°Step_SalesNavigator">
 				<description>
 					<![CDATA[<p>Version 4.0</p><p><br></p><p>Juan Cruz Diana</p>]]>
@@ -314,7 +315,6 @@
 				</parameters>
 			</testcase>
 			<testmodule
-			enabled="False"
 			id="515c3be0-2619-47a4-a111-f6c73ad4352d"
 			name="FiltroPorUbicacion"
 			ref="9dc64434-3d03-4cc1-a085-3236066587ec"
@@ -340,7 +340,6 @@
 				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
-			datarangeactive="True"
 			datasource="InputKeyword"
 			errorbehavior="ContinueNextIteration"
 			id="51e0a822-81c9-485d-a639-c9f358f25d89"
@@ -605,13 +604,6 @@
 			id="da06e631-eb8e-4890-a623-73bc5b00e041"
 			name="Qualis_Bot_SalesNavigator"
 			reportlevel="Info;20">
-				<parameters>
-					<param
-					mask="False"
-					name="pathArchivoOutput"
-					value="C:\TEMP\OutputEmpresas.xlsx">
-					</param>
-				</parameters>
 			</testcase>
 			<testmodule
 			id="e6751c6b-1792-496e-803d-9d789d6db210"
@@ -947,7 +939,7 @@
 		filename="InputEmpresas.xlsx"
 		id="87720ed9-8af0-4e65-9f70-f929af03dc83"
 		includefile="Checked"
-		lastknownrowcount="5"
+		lastknownrowcount="4"
 		name="InputEmpresas"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="DatosEmpresa"
@@ -970,7 +962,7 @@
 		filename="InputKeyword.xlsx"
 		id="0860cff3-b338-4069-9f71-97637931cc1e"
 		includefile="Checked"
-		lastknownrowcount="115"
+		lastknownrowcount="74"
 		name="InputKeyword"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="DatosCandidatos"
@@ -987,7 +979,7 @@
 		filename="C:\TEMP\OutputEmpresas.xlsx"
 		id="ac8ba090-df6e-4a7d-9a33-39d0c80b9c45"
 		includefile="Unchecked"
-		lastknownrowcount="6"
+		lastknownrowcount="10"
 		name="OutputEmpresas"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="DatosFiltrados"

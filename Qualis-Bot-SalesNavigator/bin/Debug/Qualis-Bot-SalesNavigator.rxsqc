@@ -1,0 +1,7 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Qualis_Bot_SalesNavigator",
+    "RunConfig": "TestRun"
+  }
+]

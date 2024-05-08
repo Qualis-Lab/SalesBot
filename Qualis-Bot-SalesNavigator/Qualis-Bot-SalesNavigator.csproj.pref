@@ -5,6 +5,9 @@
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="Qualis_Bot_SalesNavigator.rxtst" />
+    <Element value="xlsWorker.cs" />
+    <Element value="IngresarNombreEmpresa.rxrec" />
+    <Element value="ValidarEmpresaIndustriaCM.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

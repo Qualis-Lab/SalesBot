@@ -167,6 +167,18 @@
       <UserCode>true</UserCode>
       <id>dca41340-b260-4d79-9d7b-364664e9fec8</id>
     </Compile>
+    <Compile Include="DarAConectar.cs">
+      <BoundTo>0622dd4b-a77b-4fa8-b174-d546cab00678</BoundTo>
+      <DependentUpon>DarAConectar.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fba44a2e-85d9-4722-9529-22cdf2c624d2</id>
+    </Compile>
+    <Compile Include="DarAConectar.UserCode.cs">
+      <BoundTo>0622dd4b-a77b-4fa8-b174-d546cab00678</BoundTo>
+      <DependentUpon>DarAConectar.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>da7a0119-0626-4f0b-a53c-415ce2fb981b</id>
+    </Compile>
     <Compile Include="EntrarPerfilLinkedIn.cs">
       <BoundTo>0cc7b664-3993-4ee4-9463-643efe50e413</BoundTo>
       <DependentUpon>EntrarPerfilLinkedIn.rxrec</DependentUpon>
@@ -496,6 +508,11 @@
       <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
       <id>90305847-7de1-427b-bb78-bf8d39a8ae6d</id>
       <recordtableid>b0b79668-4661-4b70-9ddd-d4059024b65d</recordtableid>
+    </None>
+    <None Include="DarAConectar.rxrec">
+      <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>
+      <id>0622dd4b-a77b-4fa8-b174-d546cab00678</id>
+      <recordtableid>e34e857a-f5d9-4599-a98f-ba16a8101e76</recordtableid>
     </None>
     <None Include="EntrarPerfilLinkedIn.rxrec">
       <BoundTo>a64d14ba-046f-4b17-9dea-ba676e89a38f</BoundTo>

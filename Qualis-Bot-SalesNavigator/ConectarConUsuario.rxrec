@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="fe693004-f9af-4647-bf19-c281d31feaf0"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ConectarConUsuario"
+	namespace="Qualis_Bot_SalesNavigator">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="8000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="48;6"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="731351c2-aeb2-46a5-8d3d-d288275a075f"
+		sx="217"
+		sy="487"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9496e5a6-60b6-424d-b701-58e35756066b"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="169,481,65,20"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						artdeco-button__text
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Conectar
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						artdeco-button__text
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.linkedin.com']//div[#'profile-content']//main/section[1]/div[2]/div[3]/div/button[1]/span[@innertext='Conectar']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="d81d482e-70c1-4371-95ec-595597c1b7a7">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="48;6"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="731351c2-aeb2-46a5-8d3d-d288275a075f"
+		sx="217"
+		sy="487"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="22ff15e6-3f36-474e-b941-9e594ab4339b"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, svgtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="svgtag"
+				rect="915,139,24,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						artdeco-button__icon&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						artdeco-button__icon
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						svg
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-hidden"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-supported-dps"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-test-icon"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="height"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="viewBox"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="width"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="xmlns"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='www.linkedin.com']//div[#'artdeco-modal-outlet']//svg
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="d96fb5c3-d3a8-4a95-889f-66e3feaf5d83"
+	name="Qualis_Bot_SalesNavigatorRepository"
+	relativepath="Qualis_Bot_SalesNavigatorRepository.rxrep">
+		<codegen
+		classname="Qualis_Bot_SalesNavigatorRepository"
+		namespace="Qualis_Bot_SalesNavigator">
+		</codegen>
+		<rootfolder
+		id="881b03a7-de86-41df-bc6e-b74240262674"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ConectarConUsuario.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
