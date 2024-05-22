@@ -42,9 +42,11 @@ public void ObtenerValoresEmail()
 
     index = index1.ToString();
     
-    while(repo.ContAndFail_Chrome.ObtenerEmailNewInfo.Exists())
+    Report.Info("Buscando Emails y Telefonos");
+    
+                while(repo.ContAndFail_Dom.ObtenerEmailNewInfo.Exists())
     {
-        ObtenerEmail = repo.ContAndFail_Chrome.ObtenerEmailNew.Element.GetAttributeValue("caption").ToString();
+        ObtenerEmail = repo.ContAndFail_Dom.ObtenerEmailNew.Element.GetAttributeValue("innertext").ToString().Trim();
         if(!Email.Contains(ObtenerEmail))
         {
             Report.Info("Estoy en el if validando ObtenerEmail: " + ObtenerEmail + ". No está en la lista de Email: " + Email);
@@ -55,7 +57,6 @@ public void ObtenerValoresEmail()
         index = index1.ToString();
         Report.Info("index= " + index);
         
-        // Verifica si index es igual a 4 y sale del bucle si es así
         if(index == "4")
         {
             break;
@@ -84,9 +85,9 @@ public void ObtenerValoresEmail()
 			
 			index = index1.ToString();
 			
-			while(repo.ContAndFail_Chrome.ObtenerPhoneNewInfo.Exists()){
+			while(repo.ContAndFail_Dom.ObtenerPhoneNewInfo.Exists()){
 				
-				ObtenerPhone = repo.ContAndFail_Chrome.ObtenerPhoneNew.Element.GetAttributeValue("caption").ToString();				
+				ObtenerPhone = repo.ContAndFail_Dom.ObtenerPhoneNew.Element.GetAttributeValue("innertext").ToString().Trim();
 				if(!Phone.Contains(ObtenerPhone)){
 					 Report.Info("Estoy en el if validando ObtenerPhone: " + ObtenerPhone + ". No está en la lista de Phone: " + Phone);
 					Phone = Phone + ObtenerPhone + " , ";
@@ -143,16 +144,16 @@ public void ObtenerValoresEmail()
 
         public void clickEnObtenerDatosONext()
         { 
-                     
-            if(repo.ContAndFail_Chrome.ObtenerDatosButtonInfo.Exists()){
-            	Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ContAndFail_Chrome.ObtenerDatosButton' at Center.", repo.ContAndFail_Chrome.ObtenerDatosButtonInfo, new RecordItemIndex(0));
-            repo.ContAndFail_Chrome.ObtenerDatosButton.Click();
-            }
-            else	
-            {
-            Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ContAndFail_Chrome.NextButton' at Center.", repo.ContAndFail_Chrome.NextButtonInfo, new RecordItemIndex(4));
-                repo.ContAndFail_Chrome.NextButton.Click();
-            }
+            repo.ContAndFail_Dom.ObtenerDatosButton.Click();  
+//            if(repo.ContAndFail_Chrome.ObtenerDatosButton1Info.Exists()){
+//            	Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ContAndFail_Chrome.ObtenerDatosButton' at Center.", repo.ContAndFail_Chrome.ObtenerDatosButton1Info, new RecordItemIndex(0));
+//           
+//            }
+//            else	
+//            {
+//            Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ContAndFail_Chrome.NextButton' at Center.", repo.ContAndFail_Chrome.NextButtonInfo, new RecordItemIndex(4));
+//                repo.ContAndFail_Chrome.NextButton.Click();
+//            }
             
         }
 	}

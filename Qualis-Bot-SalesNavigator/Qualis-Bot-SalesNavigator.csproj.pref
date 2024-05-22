@@ -5,9 +5,8 @@
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="Qualis_Bot_SalesNavigator.rxtst" />
-    <Element value="xlsWorker.cs" />
-    <Element value="IngresarNombreEmpresa.rxrec" />
-    <Element value="ValidarEmpresaIndustriaCM.cs" />
+    <Element value="OpenBrowser.rxrec" />
+    <Element value="ExtraerDatos.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
@@ -15,12 +14,12 @@
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
+      <Element value="Qualis_Bot_SalesNavigator.ExtraerDatos.clickEnObtenerDatosONext()" />
       <Element value="Qualis_Bot_SalesNavigator.ExtraerDatos.clickEnObtenerDatosONext(String ObtenerDatosButton)" />
       <Element value="Qualis_Bot_SalesNavigator.ExtraerDatos.clickEnObtenerDatosONext()" />
       <Element value="Qualis_Bot_SalesNavigator.BorrarCargoActual.IfCargoActual()" />
       <Element value="Qualis_Bot_SalesNavigator.CrearCantPageCSV.CrearCSV()" />
       <Element value="Qualis_Bot_SalesNavigator.XlsWorker.getExelInstance()" />
-      <Element value="Qualis_Bot_SalesNavigator.ObtenerNumeroDeIteraciones.CrearCSV()" />
     </Array>
   </Properties>
 </Properties>

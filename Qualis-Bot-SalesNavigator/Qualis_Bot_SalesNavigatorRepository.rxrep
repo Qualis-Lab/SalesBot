@@ -489,6 +489,48 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/dom[@domain='www.linkedin.com']//section[#'profile-card-section']/section[1]/div[2]/section/div[2]/button/span[1]
 			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="0a0212db-c083-4e55-a7d8-706213d1246e"
+			name="PTagEn"
+			refimgid="dd4015ec-1254-426e-962c-727205b2ad82"
+			refpath="/dom[@domain='www.linkedin.com']//section[#'profile-card-section']/section[3]/div/div/div[2]/p[@innertext=' en ']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//section[#'profile-card-section']//p[@innertext=' en ']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="055e3260-e034-4ea5-b2ce-01e0f003c29f"
+			name="BotonSalesQl"
+			refimgid="f8808e1e-336f-4ec8-9268-4da124f67cf5"
+			refpath="/dom[@domain='www.linkedin.com']/body/div[17]/div[1]/div/div"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']/body/div[17]/div[1]/div/div
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="871dbc14-ebfb-4ba8-8f50-28efb79583ed"
+			name="DivTag2LN3K0i5H6NjoBfDGCxD3KFEQEYogu1"
+			refimgid="f2985f05-6ac0-4f53-9e27-1ee65cd4a4b2"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'hue-web-menu-outlet']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="b6d6eba8-5798-4712-a62b-2f8aaf2bbc9a"
+			name="DivTagAlejandroGaliziaAtaonCo"
+			refimgid="8051feb3-9413-43c9-91d7-6f5e203dc6ac"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']/body//div[@innertext~'@' and @innertext~'.'][$index]
+			</item>
 			<basepath>
 				/dom[@domain='www.linkedin.com']
 			</basepath>
@@ -665,6 +707,17 @@ LwAAAABJRU5ErkJggg==
 			searchtimeout="30000ms">
 				/form[@processname='chrome']//button[@accessiblename&gt;'SalesQL Browser Extension']
 			</item>
+			<item
+			addcaps="container,uiautomation,uiautomationscrollitem"
+			capname="container"
+			id="6c11df71-d0f0-42dd-b510-f09c2e6f4382"
+			name="Pane"
+			refimgid="1b730c17-5650-484f-ac60-9d95a838bfc2"
+			refpath="/form[@title='𝐀𝐥𝐞𝐣𝐚𝐧𝐝𝐫𝐨 𝐂𝐇𝐎𝐂𝐎𝐍𝐓𝐀 𝐌𝐎𝐑𝐀𝐋𝐄𝐒 | Sales Navigator - Google Chrome']/container[@iscontrolelement='True']/container[@iscontrolelement='True']/container[2]/container[1]/toolbar[@iscontrolelement='True']/container[3]"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@processname='chrome']//toolbar/container[3]
+			</item>
 			<basepath>
 				/form[@processname='chrome']
 			</basepath>
@@ -692,46 +745,6 @@ Njn9vo296k/D73fbfL8GElzKQIKkt+klCH8ARJYkm8QxdZEAAAAASUVORK5CYII=
 		name="ContAndFail_Chrome"
 		searchtimeout="0ms"
 		usecache="False">
-			<item
-			addcaps="text,accessible"
-			capname="text"
-			id="1719f219-17d8-4d14-b691-985db7e00005"
-			name="ObtenerPhoneNew"
-			refimgid="b7d46f82-b94b-44c4-9ad6-bbb209115a48"
-			robustPath=""
-			searchtimeout="10000ms">
-				/form[@processname='chrome']//container[@accessiblename='SalesQL']//text[@accessiblename~'\+' and @accessiblename~'[0-9]'][$index]
-			</item>
-			<item
-			addcaps="text,accessible"
-			capname="text"
-			id="37fe0e26-1529-4081-b805-65ee7e919a9d"
-			name="ObtenerEmailNew"
-			refimgid="8404cae7-e6a4-4c94-8fb9-384ad9b59f18"
-			robustPath=""
-			searchtimeout="10000ms">
-				/form[@processname='chrome']//container[@accessiblename='SalesQL']//text[@accessiblename~'@' and @accessiblename~'.'][$index]
-			</item>
-			<item
-			addcaps="text,accessible"
-			capname="text"
-			id="5104c1b5-d0b6-40c0-a47f-4aa1b80b1a2f"
-			name="ObtenerDatosButton"
-			refimgid="898349ec-1903-4006-a551-d629648474d1"
-			robustPath=""
-			searchtimeout="10000ms">
-				/form[@processname='chrome']//container[@accessiblename='SalesQL']//text[@accessiblename='add']
-			</item>
-			<item
-			addcaps="text,accessible"
-			capname="text"
-			id="4a50e875-3ff4-43bb-aa45-ebc9b67794e0"
-			name="NextButton"
-			refimgid="1d723dad-71a5-4384-9e90-c2cb76edbdbd"
-			robustPath=""
-			searchtimeout="10000ms">
-				/form[@processname='chrome']//container[@accessiblename='SalesQL']//text[@accessiblename='chevron_right']
-			</item>
 			<basepath>
 				/form[@processname='chrome']
 			</basepath>
@@ -754,6 +767,43 @@ jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABpSURBVDhPvY5RCsAgDEM9wo7g/S+xj33sWI7K
 GmLJRzthgWdJNMXWjj62kGEFO7I6rxuYyguilgXTFECHjRLn8a3N1ALGM5///8DBHRslzmfhBZ6N
 khciuFtMAXTcfBEWbCHDCjJM08cD1Co8sNecEm0AAAAASUVORK5CYII=
 			</icon>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="a03ed302-5a83-45ab-939c-d1cd5eec8a69"
+		isrooted="True"
+		name="ContAndFail_Dom"
+		searchtimeout="0ms"
+		usecache="False">
+			<item
+			capname="divtag"
+			id="03ef6d1f-aabe-4904-85ad-50efe0d1bce0"
+			name="ObtenerEmailNew"
+			robustPath="/element/element"
+			searchtimeout="15000ms">
+				/dom[@domain='www.linkedin.com']//div[@class='_2Wc8s8CHxzsL74_-mQxi _8axW_aM-BfGUscUSplKe' and @innertext~'@' and @innertext~'.'][$index]
+			</item>
+			<item
+			capname="divtag"
+			id="b66886a0-5cc6-43dd-9b80-0e65e5481ee0"
+			name="ObtenerPhoneNew"
+			robustPath="/element/element"
+			searchtimeout="15000ms">
+				/dom[@domain='www.linkedin.com']//div[@class='_2Wc8s8CHxzsL74_-mQxi _8axW_aM-BfGUscUSplKe' and @innertext~'\+' and @innertext~'[0-9]'][$index]
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="divtag"
+			id="95029ecf-a555-458e-9f8f-0e28a98c2b1f"
+			name="ObtenerDatosButton"
+			refimgid="97899ec0-61c6-48d9-830f-9cdc7d5cbba1"
+			robustPath=""
+			searchtimeout="12000ms">
+				/dom[@domain='www.linkedin.com']//div[@innertext~'Reveal Info &amp; Add']
+			</item>
+			<basepath>
+				/dom[@domain='www.linkedin.com']
+			</basepath>
 		</appfolder>
 		<basepath>
 		</basepath>

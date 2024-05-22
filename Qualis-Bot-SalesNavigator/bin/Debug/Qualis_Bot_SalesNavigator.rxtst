@@ -285,8 +285,8 @@
 			datasource="InputEmpresas"
 			errorbehavior="ContinueNextIteration"
 			id="4aa8448c-ebf2-40c4-bf14-0ec99cc1a0fa"
-			maxrange="2"
-			minrange="2"
+			maxrange="10"
+			minrange="10"
 			name="1°Step_SalesNavigator">
 				<description>
 					<![CDATA[<p>Version 4.0</p><p><br></p><p>Juan Cruz Diana</p>]]>
@@ -315,6 +315,7 @@
 				</parameters>
 			</testcase>
 			<testmodule
+			enabled="False"
 			id="515c3be0-2619-47a4-a111-f6c73ad4352d"
 			name="FiltroPorUbicacion"
 			ref="9dc64434-3d03-4cc1-a085-3236066587ec"
@@ -487,24 +488,9 @@
 			name="teardown">
 			</teardown>
 			<testmodule
-			id="8de1c146-aa0a-42ad-82e2-9048f312477e"
-			name="EntrarPerfilLinkedIn"
-			ref="deeb8d1a-551c-4fcd-b435-6980fa3146e8"
-			type="Recording">
-				<description>
-					<![CDATA[Ingresamos en el link del perfil, obtenido en el filtro del OutputEmpresa.xlsx]]>
-				</description>
-			</testmodule>
-			<testmodule
 			id="9e502036-7f0e-4113-8014-1f2b7e01d9e0"
 			name="ScrollDown"
 			ref="0fd79404-8e39-4bcf-b19f-73c07c3d9239"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="b947c62b-dc66-42a5-b379-7fde19405cf8"
-			name="CloseBrowser"
-			ref="7666c5fa-d022-4de7-9a74-5052e2f702ee"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -663,8 +649,8 @@
 			datasource="OutputEmpresas"
 			errorbehavior="ContinueNextIteration"
 			id="f667b1c9-ecd3-4dc0-be01-a6b8f5d2cd5c"
-			maxrange="3"
-			minrange="3"
+			maxrange="6"
+			minrange="6"
 			name="2°Step_SalesQL"
 			retrycount="1">
 				<description>
@@ -674,6 +660,11 @@
 					<param
 					mask="False"
 					name="index"
+					value="">
+					</param>
+					<param
+					mask="False"
+					name="NewParameter"
 					value="">
 					</param>
 				</parameters>
@@ -892,10 +883,6 @@
 							</testmodule>
 						</setup>
 						<testmodule
-						id="8de1c146-aa0a-42ad-82e2-9048f312477e"
-						name="EntrarPerfilLinkedIn">
-						</testmodule>
-						<testmodule
 						id="e6751c6b-1792-496e-803d-9d789d6db210"
 						name="ExtraerDatos">
 						</testmodule>
@@ -904,10 +891,6 @@
 						name="teardown">
 							<testmodule
 							id="c849cc34-9ddb-4758-9ea6-9480e099b505"
-							name="CloseBrowser">
-							</testmodule>
-							<testmodule
-							id="b947c62b-dc66-42a5-b379-7fde19405cf8"
 							name="CloseBrowser">
 							</testmodule>
 						</teardown>
@@ -939,7 +922,7 @@
 		filename="InputEmpresas.xlsx"
 		id="87720ed9-8af0-4e65-9f70-f929af03dc83"
 		includefile="Checked"
-		lastknownrowcount="4"
+		lastknownrowcount="11"
 		name="InputEmpresas"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="DatosEmpresa"
@@ -979,7 +962,7 @@
 		filename="C:\TEMP\OutputEmpresas.xlsx"
 		id="ac8ba090-df6e-4a7d-9a33-39d0c80b9c45"
 		includefile="Unchecked"
-		lastknownrowcount="10"
+		lastknownrowcount="153"
 		name="OutputEmpresas"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="DatosFiltrados"
@@ -1019,22 +1002,10 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="3f7a6ec0-2780-4cdb-9454-280223ef2d8d">
-			</testcontainer>
-			<testcontainer
-			id="499e6b14-00bf-4761-a003-8d17fbdfc08f">
-			</testcontainer>
-			<testcontainer
-			id="4aa8448c-ebf2-40c4-bf14-0ec99cc1a0fa">
-			</testcontainer>
-			<testcontainer
-			id="51e0a822-81c9-485d-a639-c9f358f25d89">
-			</testcontainer>
-			<testcontainer
-			id="737d8f5f-4f5e-4834-a377-feaa91903c62">
-			</testcontainer>
-			<testcontainer
 			id="da06e631-eb8e-4890-a623-73bc5b00e041">
+			</testcontainer>
+			<testcontainer
+			id="f667b1c9-ecd3-4dc0-be01-a6b8f5d2cd5c">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

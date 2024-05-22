@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="57.95s"
+		durationms="57945"
+		type="root"
+		rid="2e3f7ee70e87875"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Juan Cruz Diana"
+		rxversion="11.1.2.0"
+		host="DESKTOP-6E7CPKS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="1366x768"
+		timestamp="21/5/2024 10:39:24"
+		timestampiso="2024-05-21T13:39:24"
+		endtime="21/5/2024 10:40:22"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ExtraerDatos">
+		<detail>
+			ExtraerDatos
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.823"
+			timeRelativeToTestModuleStartTime="00:09.823"
+			timeWallClock="10:39:34"
+			time="00:09.823"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Linkedin, index
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.888"
+			timeRelativeToTestModuleStartTime="00:09.888"
+			timeWallClock="10:39:34"
+			time="00:09.888"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'InicioSalesNavigator.BotonSalesQl' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']/body/div[17]/div[1]/div/div"
+				itempath="body/div[17]/div[1]/div/div"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.BotonSalesQl"
+				id="055e3260e0344ea5b2ce01e0f003c29f"
+				timeout="60000"
+				codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+				codeline="106"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.880"
+			timeRelativeToTestModuleStartTime="00:11.880"
+			timeWallClock="10:39:36"
+			time="00:11.880"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+				codeline="110"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.882"
+			timeRelativeToTestModuleStartTime="00:13.882"
+			timeWallClock="10:39:38"
+			time="00:13.882"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'ContAndFail_Chrome.ObtenerDatosButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='chrome']/body/div[17]/div[2]/div/div[2]/div[2]/div[2]/div/div/button"
+				itempath="body/div[17]/div[2]/div/div[2]/div[2]/div[2]/div/div/button"
+				fullname="Qualis_Bot_SalesNavigatorRepository.ContAndFail_Chrome.ObtenerDatosButton"
+				id="95029ecfa555458e9f8f0e28a98c2b1f"
+				timeout="5000"
+				codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+				codeline="117"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.696"
+			timeRelativeToTestModuleStartTime="00:19.696"
+			timeWallClock="10:39:44"
+			time="00:19.696"
+			level="Warn"
+			category="Module">
+			<message>
+				(Optional Action) Failed to find item 'Qualis_Bot_SalesNavigatorRepository.ContAndFail_Chrome.ObtenerDatosButton'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+				codeline="120"
+				loglvl="Warn"
+				id="95029ecfa555458e9f8f0e28a98c2b1f"
+				path="/form[@processname='chrome']/body/div[17]/div[2]/div/div[2]/div[2]/div[2]/div/div/button"
+				fullname="Qualis_Bot_SalesNavigatorRepository.ContAndFail_Chrome.ObtenerDatosButton">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.696"
+			timeRelativeToTestModuleStartTime="00:19.696"
+			timeWallClock="10:39:44"
+			time="00:19.696"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 7s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+				codeline="122"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.859"
+			timeRelativeToTestModuleStartTime="00:37.859"
+			timeWallClock="10:40:02"
+			time="00:37.859"
+			level="Info"
+			category="User">
+			<message>
+				No se encontraron correos electrónicos.
+			</message>
+			<metainfo
+				codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.UserCode.cs"
+				codeline="72"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:57.941"
+			timeRelativeToTestModuleStartTime="00:57.941"
+			timeWallClock="10:40:22"
+			time="00:57.941"
+			level="Info"
+			category="User">
+			<message>
+				No posee ningun Phone
+			</message>
+			<metainfo
+				codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.UserCode.cs"
+				codeline="106"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

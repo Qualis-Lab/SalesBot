@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="38.31s"
+		durationms="38305"
+		type="root"
+		rid="2cc1ecd7973de568"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Juan Cruz Diana"
+		rxversion="11.1.2.0"
+		host="DESKTOP-6E7CPKS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-AR"
+		screenresolution="1366x768"
+		timestamp="20/5/2024 16:53:53"
+		timestampiso="2024-05-20T19:53:53"
+		endtime="20/5/2024 16:54:32"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ExtraerDatos">
+		<detail>
+			ExtraerDatos
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.526"
+			timeRelativeToTestModuleStartTime="00:09.526"
+			timeWallClock="16:54:03"
+			time="00:09.526"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Linkedin, index
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.579"
+			timeRelativeToTestModuleStartTime="00:09.579"
+			timeWallClock="16:54:03"
+			time="00:09.579"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'InicioSalesNavigator.DivTag2Xt3yDFHzUBZtjVELB' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']/body/div[17]/div[1]/div/div"
+				itempath="body/div[17]/div[1]/div/div"
+				fullname="Qualis_Bot_SalesNavigatorRepository.InicioSalesNavigator.DivTag2Xt3yDFHzUBZtjVELB"
+				id="055e3260e0344ea5b2ce01e0f003c29f"
+				timeout="60000"
+				codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+				codeline="106"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.601"
+			timeRelativeToTestModuleStartTime="00:11.601"
+			timeWallClock="16:54:05"
+			time="00:11.601"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 13s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\Juan Cruz Diana\Documents\GitHub\SalesBot\Qualis-Bot-SalesNavigator\ExtraerDatos.cs"
+				codeline="110"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.299"
+			timeRelativeToTestModuleStartTime="00:38.299"
+			timeWallClock="16:54:32"
+			time="00:38.299"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

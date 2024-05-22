@@ -123,6 +123,45 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="T:Qualis_Bot_SalesNavigator.DarAConectar">
+             <summary>
+            The DarAConectar recording.
+             </summary>
+        </member>
+        <member name="F:Qualis_Bot_SalesNavigator.DarAConectar.repo">
+            <summary>
+            Holds an instance of the Qualis_Bot_SalesNavigatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.DarAConectar.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.DarAConectar.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.DarAConectar.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Qualis_Bot_SalesNavigator.DarAConectar.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.DarAConectar.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.DarAConectar.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:Qualis_Bot_SalesNavigator.EntrarPerfilLinkedIn">
              <summary>
             The EntrarPerfilLinkedIn recording.
@@ -1264,6 +1303,11 @@
             The Inicio folder.
             </summary>
         </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepository.ContAndFail_Dom">
+            <summary>
+            The ContAndFail_Dom folder.
+            </summary>
+        </member>
         <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders">
             <summary>
             Inner folder classes.
@@ -1719,6 +1763,46 @@
             The SpanTagIconPs32ck item info.
             </summary>
         </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.PTagEn">
+            <summary>
+            The PTagEn item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.PTagEnInfo">
+            <summary>
+            The PTagEn item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.BotonSalesQl">
+            <summary>
+            The BotonSalesQl item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.BotonSalesQlInfo">
+            <summary>
+            The BotonSalesQl item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.DivTag2LN3K0i5H6NjoBfDGCxD3KFEQEYogu1">
+            <summary>
+            The DivTag2LN3K0i5H6NjoBfDGCxD3KFEQEYogu1 item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.DivTag2LN3K0i5H6NjoBfDGCxD3KFEQEYogu1Info">
+            <summary>
+            The DivTag2LN3K0i5H6NjoBfDGCxD3KFEQEYogu1 item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.DivTagAlejandroGaliziaAtaonCo">
+            <summary>
+            The DivTagAlejandroGaliziaAtaonCo item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.DivTagAlejandroGaliziaAtaonCoInfo">
+            <summary>
+            The DivTagAlejandroGaliziaAtaonCo item info.
+            </summary>
+        </member>
         <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioSalesNavigatorAppFolder.DatosAObtener">
             <summary>
             The DatosAObtener folder.
@@ -1919,6 +2003,16 @@
             The SalesQLBrowserExtensionButton item info.
             </summary>
         </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.Pane">
+            <summary>
+            The Pane item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ChromeAppFolder.PaneInfo">
+            <summary>
+            The Pane item info.
+            </summary>
+        </member>
         <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder">
             <summary>
             The ContAndFail_ChromeAppFolder folder.
@@ -1939,46 +2033,6 @@
             The Self item info.
             </summary>
         </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.ObtenerPhoneNew">
-            <summary>
-            The ObtenerPhoneNew item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.ObtenerPhoneNewInfo">
-            <summary>
-            The ObtenerPhoneNew item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.ObtenerEmailNew">
-            <summary>
-            The ObtenerEmailNew item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.ObtenerEmailNewInfo">
-            <summary>
-            The ObtenerEmailNew item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.ObtenerDatosButton">
-            <summary>
-            The ObtenerDatosButton item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.ObtenerDatosButtonInfo">
-            <summary>
-            The ObtenerDatosButton item info.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.NextButton">
-            <summary>
-            The NextButton item.
-            </summary>
-        </member>
-        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_ChromeAppFolder.NextButtonInfo">
-            <summary>
-            The NextButton item info.
-            </summary>
-        </member>
         <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioAppFolder">
             <summary>
             The InicioAppFolder folder.
@@ -1997,6 +2051,56 @@
         <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.InicioAppFolder.SelfInfo">
             <summary>
             The Self item info.
+            </summary>
+        </member>
+        <member name="T:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_DomAppFolder">
+            <summary>
+            The ContAndFail_DomAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_DomAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ContAndFail_Dom  folder.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_DomAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_DomAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_DomAppFolder.ObtenerEmailNew">
+            <summary>
+            The ObtenerEmailNew item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_DomAppFolder.ObtenerEmailNewInfo">
+            <summary>
+            The ObtenerEmailNew item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_DomAppFolder.ObtenerPhoneNew">
+            <summary>
+            The ObtenerPhoneNew item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_DomAppFolder.ObtenerPhoneNewInfo">
+            <summary>
+            The ObtenerPhoneNew item info.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_DomAppFolder.ObtenerDatosButton">
+            <summary>
+            The ObtenerDatosButton item.
+            </summary>
+        </member>
+        <member name="P:Qualis_Bot_SalesNavigator.Qualis_Bot_SalesNavigatorRepositoryFolders.ContAndFail_DomAppFolder.ObtenerDatosButtonInfo">
+            <summary>
+            The ObtenerDatosButton item info.
             </summary>
         </member>
         <member name="T:Qualis_Bot_SalesNavigator.IngresarNombreEmpresa">

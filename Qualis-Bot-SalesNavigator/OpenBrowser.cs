@@ -96,6 +96,9 @@ namespace Qualis_Bot_SalesNavigator
             Host.Current.OpenBrowser(Url, "Chrome", "", false, false, false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(1));
+            Delay.Duration(3000, false);
+            
         }
 
 #region Image Feature Data

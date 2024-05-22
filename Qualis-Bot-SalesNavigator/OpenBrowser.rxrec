@@ -55,6 +55,15 @@ mode="Desktop">
 				https://www.linkedin.com/sales/home
 			</url>
 		</openwebsiterecorditem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="d96fb5c3-d3a8-4a95-889f-66e3feaf5d83"
